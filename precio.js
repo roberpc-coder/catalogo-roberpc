@@ -4,14 +4,19 @@ function calcularPrecio(nombre, plataforma, tamaño) {
   let t = parseFloat((tamaño || "").toLowerCase().replace("gb", "").trim());
 
   const preciosEspeciales = {
-    "EA SPORTS FC 26": 3000,
+    "Ea Sports Fc 26": 3000,
     "Battlefield 3 Zolemu": 250,
     "Battlefield 4 Zolemu": 250,
-    "World of Warcraft Cataclysm": 150,
-    "World of Warcraft Wrath of the Lich King": 150,
-    "World of Warcraft Pandaria": 200,
+    "World Of Warcraft Cataclysm": 150,
+    "World Of Warcraft Wrath Of The Lich King": 250,
+    "World Of Warcraft Mists Of Pandaria": 200,
     "Among Us": 100,
-    "World of Warcraft Legion": 250,
+    "World Of Warcraft Legion": 250,
+    "Albion Online": 150,
+    Dayz: 250,
+    "Polygon Storm": 150,
+    "Starcraft Remastered": 250,
+    "Persona 3 Reload Demo Unlocker": 250,
   };
   if (preciosEspeciales[nombre]) return preciosEspeciales[nombre];
 
