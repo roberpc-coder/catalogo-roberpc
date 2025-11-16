@@ -1,4 +1,3 @@
-// precio.js
 function calcularPrecio(nombre, plataforma, tamaño) {
   nombre = nombre.trim();
   plataforma = plataforma.toLowerCase();

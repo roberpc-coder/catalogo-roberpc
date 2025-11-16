@@ -86,7 +86,6 @@ body {
   min-width: 150px;
 }
 
-/* 🧱 Columnas controladas */
 .catalog-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -102,7 +101,6 @@ body {
   }
 }
 
-/* 🎮 Tarjetas */
 .game-card {
   background-color: #1e1e1e;
   border-radius: 8px;
@@ -155,7 +153,6 @@ body {
   display: block;
 }
 
-/* 📡 Estados */
 .loading,
 .error {
   text-align: center;
@@ -167,7 +164,6 @@ body {
   color: #ff5252;
 }
 
-/* 📱 Ajustes móviles */
 @media (max-width: 768px) {
   .title-search-container {
     flex-direction: column;
@@ -229,9 +225,6 @@ body {
   }
 }
 
-/* ==================================== */
-/* ESTILOS NUEVOS PARA EL CARGA POR LOTES */
-/* ==================================== */
 .games-counter {
   display: block;
   text-align: center;
@@ -288,7 +281,6 @@ body {
   }
 }
 
-/* Estilos para el botón de estrenos */
 .estrenos-btn {
   background-color: #e91e63;
   color: white;
@@ -311,19 +303,16 @@ body {
 
 @media (min-width: 768px) {
   .search-section {
-    justify-content: center; /* centra buscador + select + estrenos */
-    gap: 20px; /* espacio entre ellos */
-    margin-right: 100px; /* deja hueco a la derecha para el carrito flotante */
+    justify-content: center;
+    gap: 20px;
+    margin-right: 100px;
   }
 
   .estrenos-btn {
-    margin-right: 0; /* ya no necesita empujarse sola */
+    margin-right: 0;
   }
 }
 
-/* ========================= */
-/* 🛒 ESTILOS DEL CARRITO */
-/* ========================= */
 .cart-container {
   background: #1e1e1e;
   margin: 20px auto;
@@ -354,11 +343,10 @@ body {
   font-size: 14px;
 }
 
-/* Botón eliminar ❌ */
 .remove-btn {
-  background-color: #222; /* fondo oscuro */
+  background-color: #222;
   border: none;
-  color: #ff5252; /* X roja */
+  color: #ff5252;
   cursor: pointer;
   font-size: 16px;
   border-radius: 4px;
@@ -386,7 +374,6 @@ body {
   gap: 10px;
 }
 
-/* Botón WhatsApp */
 .whatsapp-btn {
   display: block;
   width: 100%;
@@ -410,7 +397,6 @@ body {
   transform: scale(0.98);
 }
 
-/* Botón Vaciar carrito */
 .clear-cart-btn {
   width: 100%;
   background-color: #d32f2f;
@@ -443,7 +429,6 @@ body {
   }
 }
 
-/* 🛒 Carrito flotante estilo gamer */
 .cart-btn {
   position: fixed;
   top: 20px;
@@ -455,8 +440,8 @@ body {
   width: 56px;
   height: 56px;
   border-radius: 8px;
-  background-color: #1e1e1e; /* fondo oscuro */
-  border: 2px solid #e53935; /* borde rojo gamer */
+  background-color: #1e1e1e;
+  border: 2px solid #e53935;
   text-decoration: none;
   box-shadow: 0 0 12px rgba(229, 57, 53, 0.6);
 }
@@ -477,7 +462,6 @@ body {
   color: #ff1744;
 }
 
-/* 🔢 Contador en la esquina del ícono */
 .cart-count {
   position: absolute;
   top: -6px;
@@ -514,7 +498,6 @@ body {
   }
 }
 
-/* 🎮 Botones del catálogo (unificados para index y estrenos) */
 .details-btn {
   background-color: #4caf50;
   color: white;
@@ -551,9 +534,6 @@ body {
   cursor: not-allowed;
 }
 
-/* ========================= */
-/* 🎮 Estilos de página de detalles */
-/* ========================= */
 .details-container {
   max-width: 900px;
   margin: 40px auto;
@@ -639,52 +619,50 @@ body {
 }
 
 .details-description p {
-  white-space: pre-line; /* respeta saltos de línea del CSV */
+  white-space: pre-line;
 }
 
 .details-info .btn-group {
   display: flex;
-  justify-content: center; /* centra solo el botón en detalles */
+  justify-content: center;
   margin-top: 15px;
 }
 
 .btn-group {
   display: flex;
-  justify-content: center; /* centra horizontalmente */
-  align-items: center; /* mantiene alineación vertical */
-  gap: 10px; /* espacio entre los botones */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   margin-top: 10px;
-  flex-wrap: wrap; /* permite que bajen si no caben en pantallas pequeñas */
+  flex-wrap: wrap;
 }
 
 .details-btn,
 .add-cart-btn {
-  flex: 1; /* que ocupen espacio proporcional */
-  max-width: 120px; /* límite para que no se estiren demasiado */
-  padding: 6px 10px; /* tamaño cómodo */
-  font-size: 0.85rem; /* texto proporcional */
-  box-sizing: border-box; /* asegura que padding cuente dentro del ancho */
+  flex: 1;
+  max-width: 120px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  box-sizing: border-box;
 }
 
-/* Título principal responsivo */
 .title-section h1 {
-  font-size: clamp(1.2rem, 5vw, 2rem); /* escala según ancho de pantalla */
+  font-size: clamp(1.2rem, 5vw, 2rem);
   margin: 0;
   line-height: 1.2;
   word-break: break-word;
-  text-align: center; /* centrado por defecto */
+  text-align: center;
 }
 
-/* En pantallas pequeñas */
 @media (max-width: 768px) {
   .title-search-container {
-    flex-direction: column; /* apila título y buscador */
-    align-items: flex-start; /* alinea a la izquierda */
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .title-section h1 {
     text-align: left;
-    font-size: 1.2rem; /* fuerza tamaño más pequeño en móvil */
+    font-size: 1.2rem;
   }
 
   .search-section {
@@ -699,15 +677,15 @@ body {
   align-items: center;
   gap: 6px;
   margin-top: 10px;
-  flex-wrap: nowrap; /* siempre en línea */
+  flex-wrap: nowrap;
 }
 
 .btn-group button {
-  flex: 1 1 0; /* se reparten el espacio */
-  min-width: 0; /* evita desbordes */
-  font-size: clamp(0.6rem, 2vw, 0.9rem); /* texto escala según pantalla */
+  flex: 1 1 0;
+  min-width: 0;
+  font-size: clamp(0.6rem, 2vw, 0.9rem);
   padding: 6px 8px;
-  white-space: normal; /* permite salto de línea */
-  overflow-wrap: break-word; /* parte palabras largas */
-  text-align: center; /* centra el texto */
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-align: center;
 }

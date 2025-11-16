@@ -19,14 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("cart", JSON.stringify(cart));
   }
 
-  // === Contador del carrito ===
   function updateCartCount() {
     const cart = getCart();
     const cartCount = document.querySelector(".cart-count");
     if (!cartCount) return;
     cartCount.textContent = String(cart.length);
 
-    // Animación
     cartCount.classList.add("bump");
     setTimeout(() => {
       cartCount.classList.remove("bump");
@@ -37,10 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
     updateCartCount();
   }
 
-  // Mostrar indicador de carga
   catalogContainer.innerHTML = '<div class="loading">Cargando juegos...</div>';
 
-  // Cargar el archivo CSV
   Papa.parse("games.csv", {
     download: true,
     header: true,
@@ -52,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       filteredGames = [...gamesData];
 
-      // Restaurar filtro después de cargar juegos
       const filtro = localStorage.getItem("filtroPlataforma");
       if (filtro && platformSelect) {
         platformSelect.value = filtro;
@@ -92,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
     catalogContainer.appendChild(fragment);
     currentIndex = endIndex;
 
-    // 👇 Restaurar scroll solo una vez, después del primer render
     if (!window.scrollRestored) {
       const pos = localStorage.getItem("scrollPos");
       if (pos) {
@@ -200,11 +194,9 @@ document.addEventListener("DOMContentLoaded", function () {
     catalogContainer.innerHTML = "";
     renderGames();
 
-    // 👇 Reinicia scroll arriba solo en cambio de filtro/búsqueda
     window.scrollTo(0, 0);
   }
 
-  // Event listeners
   searchInput.addEventListener("input", () => {
     filterGames();
   });
@@ -213,14 +205,12 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("filtroPlataforma", platformSelect.value);
   });
 
-  // Delegación de eventos para botones
   catalogContainer.addEventListener("click", (e) => {
     if (e.target.classList.contains("details-btn")) {
       const gameId = e.target.getAttribute("data-id");
       window.location.href = `detalles.html?id=${gameId}`;
     }
 
-    // 👉 Clic en portada
     if (e.target.classList.contains("game-cover")) {
       const card = e.target.closest(".game-card");
       const gameId = card.querySelector(".details-btn").getAttribute("data-id");
@@ -255,29 +245,24 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Escuchar cambios en localStorage (cuando se borra desde carrito.html)
   window.addEventListener("storage", () => {
     currentIndex = 0;
     catalogContainer.innerHTML = "";
     renderGames();
     updateCartCount();
 
-    // 👇 Forzar inicio arriba y limpiar posición guardada
     window.scrollTo(0, 0);
     localStorage.removeItem("scrollPos");
     window.scrollRestored = false;
   });
 
-  // Inicializar contador al cargar
   initCartCount();
 
-  // Guardar scroll antes de salir de la página
   window.addEventListener("beforeunload", () => {
     localStorage.setItem("scrollPos", window.scrollY);
   });
 });
 
-// Animación de imágenes al cargarse
 document.addEventListener("DOMContentLoaded", function () {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {

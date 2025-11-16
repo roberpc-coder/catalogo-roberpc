@@ -1,4 +1,3 @@
-// detalles.js
 document.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
   const gameId = params.get("id");
@@ -73,7 +72,6 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       `;
 
-      // Botón agregar al carrito
       const addBtn = document.getElementById("addToCartBtn");
       let cart = JSON.parse(localStorage.getItem("cart")) || [];
       const isInCart = cart.some((item) => item.id === game.id);

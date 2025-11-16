@@ -90,7 +90,6 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = `detalles.html?id=${gameId}`;
     }
 
-    // 👉 Clic en portada
     if (e.target.classList.contains("game-cover")) {
       const card = e.target.closest(".game-card");
       const gameId = card.querySelector(".details-btn").getAttribute("data-id");
