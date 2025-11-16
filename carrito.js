@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!cart || cart.length === 0) {
       cartContainer.innerHTML = "<li>Tu carrito está vacío.</li>";
-      totalContainer.textContent = "Total: 0 Gb | 0 ";
+      totalContainer.textContent = "Total: 0 Gb | 0 CUP";
       return;
     }
 
@@ -52,12 +52,12 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!isNaN(p)) total += p;
 
       const gb = parseFloat(game.Tamaño);
-      if (!isNaN(gb)) totalGB = Math.round((totalGB + gb) * 100) / 100;
+      if (!isNaN(gb)) totalGB = Math.round((totalGB + gb) * 100) / 100; // ✅ evita residuos
     });
 
     totalContainer.textContent = `Total: ${Math.round(
       totalGB
-    )} Gb | ${total} Cup`;
+    )} Gb | ${total} Cup`; // ✅ limpio
   }
 
   function vaciarCarrito() {
@@ -80,16 +80,16 @@ document.addEventListener("DOMContentLoaded", () => {
         const precio = parseFloat(g.Precio);
         const gb = parseFloat(g.Tamaño);
         if (!isNaN(precio)) total += precio;
-        if (!isNaN(gb)) totalGB = Math.round((totalGB + gb) * 100) / 100;
+        if (!isNaN(gb)) totalGB = Math.round((totalGB + gb) * 100) / 100; // ✅ evita residuos
 
         const tamaño = g.Tamaño?.replace(/GB|gb/g, "Gb");
         const plataforma = g.Plataforma ?? g.plataforma ?? "Sin plataforma";
         message += `- ${g.Nombre} [${plataforma}] (${tamaño}) - ${precio} Cup\n`;
       });
 
-      message += `\nTotal: ${Math.round(totalGB)} Gb | ${total} Cup`;
+      message += `\nTotal: ${Math.round(totalGB)} Gb | ${total} Cup`; // ✅ limpio
 
-      const url = `https:
+      const url = `https://wa.me/5358024782?text=${encodeURIComponent(
         message
       )}`;
       window.open(url, "_blank");
