@@ -17,6 +17,7 @@ function calcularPrecio(nombre, plataforma, tamaño) {
     "Polygon Storm": 150,
     "Starcraft Remastered": 250,
     "Persona 3 Reload Demo Unlocker": 250,
+    "2KCuba25": 250,
   };
   if (preciosEspeciales[nombre]) return preciosEspeciales[nombre];
 
