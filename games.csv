@@ -2016,7 +2016,7 @@ Almacenamiento: 35 Gigas de espacio disponible","2017",""
 •Sistema Operativo: Windows 10 Home 64 Bit
 •Procesador: Intel Core i7-8700K | AMD Ryzen 5 3600
 •Memoria: 16 Gigas de RAM
-•Gráficos: Nvidia GeForce GTX 1060 (6Gigas) | AMD Radeon RX 580 (8Gigas) | Intel Arc A380 (6Gigas) | Intel Arc 140V","2025","true"
+•Gráficos: Nvidia GeForce GTX 1060 (6Gigas) | AMD Radeon RX 580 (8Gigas) | Intel Arc A380 (6Gigas) | Intel Arc 140V","2025",""
 "Evergate","1.9 Gb","PC","portadas/Evergate.webp","Acción, Aventura, Indie","•Sistema Operativo: Windows 7
 •Procesador: Intel Core 2 Duo E4500 de 2.2 GHz o AMD Athlon 64 X2 5600+ @ 2.8 GHz
 •Memoria: 4 Gigas de RAM
@@ -2863,6 +2863,13 @@ Almacenamiento: 35 Gigas de espacio disponible","2017",""
 •8 GB de RAM
 •NVIDIA GeForce GT 1030 or AMD Radeon R9 360
 ","2025",""
+"Hi-Fi Rush","15.1 Gb","PC","portadas/Hi-Fi Rush.webp","Acción","•Requiere un procesador y un sistema operativo de 64 bits
+•Sistema Operativo: Windows 10 64-bit
+•Procesador: Intel Core i5-6500, Ryzen 3 1200
+•Memoria: 8 Gigas de RAM
+•Gráficos: GTX 1050, RX 560
+•DirectX: Versión 12
+•Almacenamiento: 20 Gigas de espacio disponible","2025","true"
 "High On Life","44.0 Gb","PC","portadas/High On Life.webp","Acción, Aventura","•Sistema Operativo: Windows 10 64-bit
 •Procesador: Intel(R) Core(TM) i5-4430K CPU @ 3.00GHz (4 CPUs)
 •Memoria: 8 GB RAM
@@ -3634,6 +3641,11 @@ Almacenamiento: 25 Gigas de espacio disponible ","2021",""
 •Sistema Operativo: 
 •GeForce GT 430 (1024 MB)/ Radeon HD 6850 (1024 MB)
 ","2016",""
+"Marvel Cosmic Invasion","0.4 Gb","PC","portadas/Marvel Cosmic Invasion.webp","Acción, Aventura, Casual, Indie","•Sistema Operativo: Windows 10
+•Procesador: Intel Core 2 Duo E6550 o Athlon 64 X2 6400+
+•Memoria: 4 Gigas de RAM
+•Gráficos: NVIDIA GeForce GT 320, 1 Gigas o AMD Radeon HD 6570, 1 Gigas o Intel HD Graphics
+•Almacenamiento: 1 Gigas de espacio disponible","2025","true"
 "Marvel Spider Man Remastered","56.0 Gb","PC","portadas/Marvel Spider Man Remastered.webp","Acción, Aventura, Casual","•Requiere un procesador y un sistema operativo de 64 bits
 •Sistema Operativo: Windows 10 64-bit
 •Procesador: Intel Core i3-4160, 3.6 GHz o AMD equivalente
@@ -5695,7 +5707,7 @@ AMD Radeon RX Vega 11 o Intel HD
 "The Outer Worlds 2","78.9 Gb","PC","portadas/The Outer Worlds 2.webp","Acción, Aventura, Rol","•Sistema Operativo: Windows 10
 •Procesador: AMD Ryzen 5 2600 | Intel i5-8400
 •Memoria: 16 Gigas de RAM
-•Gráficos: AMD RX 5700 | Nvidia GTX 1070 | Intel Arc A580","2025","true"
+•Gráficos: AMD RX 5700 | Nvidia GTX 1070 | Intel Arc A580","2025",""
 "The Outer Worlds Spacers Choice Edition","50.5 Gb","PC","portadas/The Outer Worlds Spacers Choice Edition.webp","Disparos, Role-playing (RPG), Aventura","","2023",""
 "The Pioneers Surviving Desolation","2.3 Gb","PC","portadas/The Pioneers Surviving Desolation.webp","Rol, Simulacion, Estrategia","•Sistema Operativo: Windows 7, 64-bit
 •Intel i5 4th generation / AMD FX-8300
