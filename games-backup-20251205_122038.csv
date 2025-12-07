@@ -744,7 +744,6 @@ Almacenamiento: 36 Gigas de espacio disponible ","2025",""
 •AMD Radeon RX 550 4GB / Nvidia GTX 750
 ","2024",""
 "Bob Esponja The Cosmic Shake","5.4 Gb","Nintendo Switch","portadas/Bob Esponja The Cosmic Shake.webp","3D, Para Toda La Familia, Plataformas","","2023",""
-"Bob Esponja Titanes de las marea","7.9 Gb","PC","portadas/Bob Esponja Titanes de las marea.webp","Avebtura","","2025","true"
 "Borderlands 2","11.0 Gb","PC","portadas/Borderlands 2.webp","","","",""
 "Borderlands 3 Designers Cut","118.8 Gb","PC","portadas/Borderlands 3 Designers Cut.webp","Disparos","","2020",""
 "Borderlands Edición Juego Del Año","13.7 Gb","Nintendo Switch","portadas/Borderlands Edición Juego Del Año.webp","Violentos, Sangriento","","2025",""
@@ -1142,7 +1141,6 @@ Almacenamiento: 36 Gigas de espacio disponible ","2025",""
 •Memoria: 
 •6 GB de RAM
 •Gráficos: Nvidia GTX 750TI or equivalent, integrated graphics not supported","2024",""
-"Constance","1.1 Gb","PC","portadas/Constance.webp","2D","","2025","true"
 "Constantine","1.9 Gb","PC","portadas/Constantine.webp","Aventura, Rol","•Sistema Operativo: Windows 10
 •Procesador: 
 •Intel Core i3 equivalent
@@ -1987,7 +1985,7 @@ Almacenamiento: 35 Gigas de espacio disponible","2017",""
 •Memoria: 8 Gigas de RAM
 •Gráficos: Tarjeta con capacidad para DX11 + 4 Gigas de VRAM
 •DirectX: Versión 11
-•Almacenamiento: 20 Gigas de espacio disponible","2025",""
+•Almacenamiento: 20 Gigas de espacio disponible","2025","true"
 "Eternal Strands","7.5 Gb","PC","portadas/Eternal Strands.webp","Acción, Aventura","•Sistema Operativo: 64-bit Windows 10 (version 2004 or newer)
 •Procesador: 
 •4 core CPU @ 2.5 GHz (AMD Ryzen 5, Intel core i3/i5)
@@ -4989,7 +4987,7 @@ ATI RADEON 3870 or higher performance)","2012",""
 •Memoria: 8 Gigas de RAM
 •Gráficos: AMD HD 7870 | Nvidia GTX 750TI
 •DirectX: Versión 11
-•Almacenamiento: 20 Gigas de espacio disponible","2025",""
+•Almacenamiento: 20 Gigas de espacio disponible","2025","true"
 "Saints Row Doc Ketchums Murder Circus","39.5 Gb","PC","portadas/Saints Row Doc Ketchums Murder Circus.webp","Disparos","","2023",""
 "Saints Row IV","9.0 Gb","PC","portadas/Saints Row IV.webp","Disparos, Aventura","","2013",""
 "Saints Row The Thirds","7.1 Gb","Nintendo Switch","portadas/Saints Row The Thirds.webp","Disparos, Carreras, Aventura","","2012",""
