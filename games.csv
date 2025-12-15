@@ -4193,7 +4193,7 @@ Sonido: Compatible con DirectX DirectX®: 9.0c","2022",""
 •Procesador: (AMD) Phenom II X4 965 o equivalente |  (Intel) Corei3-2120 o equivalente
 •Memoria: 8 Gigas de RAM
 •Gráficos: (AMD) Radeon HD 5870 o equivalente | (Nvidia) GeForce GT 640 o equivalente
-•DirectX: Versión 11","2025","true"
+•DirectX: Versión 11","2025",""
 "Need For Speed Most Wanted","2.0 Gb","PC","portadas/Need For Speed Most Wanted.webp","Acción, Aventura, Carreras","•Sistema Operativo: Windows Vista (Service Pack 2 and all available windows updates) 32-bit
 •Procesador: 
 •2 GHz Dual Core (Core 2 Duo 2.4 GHZ or Althon X2 2.7 GHz)
@@ -4629,6 +4629,13 @@ ATI RADEON 3870 or higher performance)","2012",""
 •Graphics:  NVIDIA GeForce GTX 650 Ti, 2 GB; AMD Radeon HD 7850, 2 GB
 •DirectX:  Version 12
 •Storage:  30 GB available space","2024",""
+"Persona 5 Royal","40.1 Gb","PC","portadas/Persona 5 Royal.webp","Rol","•Requiere un procesador y un sistema operativo de 64 bits
+•Sistema Operativo: Windows 10
+•Procesador: Intel Core i7-4790, 3.4 GHz | AMD Ryzen 5 1500X, 3.5 GHz
+•Memoria: 8 Gigas de RAM
+•Gráficos: Nvidia GeForce GTX 650 Ti, 2 Gigas | AMD Radeon R7 360, 2 Gigas
+•DirectX: Versión 11
+•Almacenamiento: 41 Gigas de espacio disponible","2022","true"
 "Persona 5 Strikers","23.3 Gb","PC","portadas/Persona 5 Strikers.webp","Acción, Aventura","•Sistema Operativo: 8.1, 64bits
 •Procesador: Intel Core i5-2300 / AMD FX-6350
 •Memoria: 6 GB RAM
@@ -6283,6 +6290,13 @@ DirectX: Versión 11
 Almacenamiento: 45 Gigas de espacio disponible ","2016",""
 "Xenoblade Chronicles 3","18.8 Gb","Nintendo Switch","portadas/Xenoblade Chronicles 3.webp","Violentos, Sangriento, Realistas","","2022",""
 "Yakuza 0","25.3 Gb","PC","portadas/Yakuza 0.webp","Role-playing (RPG), Simulator, Hack and slash/Beat 'em up, Aventura","","2015",""
+"Yakuza 0 Directors Cut","73.4 Gb","PC","portadas/Yakuza 0 Directors Cut.webp","Acción, Aventura, Rol","•Requiere un procesador y un sistema operativo de 64 bits
+•Sistema Operativo: Windows 11
+•Procesador: Intel Core i3-8100, 3.6 GHz o AMD Ryzen 3 2300X, 3.5 GHz
+•Memoria: 8 Gigas de RAM
+•Gráficos: NVIDIA GeForce GTX960, 4 Gigas o AMD Radeon RX460,4Gigas o Intel Arc A380, 6 Gigas
+•DirectX: Versión 12
+•Almacenamiento: 95 Gigas de espacio disponible","2025",""
 "Yakuza 3 Remastered","20.6 Gb","PC","portadas/Yakuza 3 Remastered.webp","Role-playing (RPG), Hack and slash/Beat 'em up, Aventura","","2018",""
 "Yakuza 4 Remastered","29.1 Gb","PC","portadas/Yakuza 4 Remastered.webp","Role-playing (RPG), Simulator, Sport, Hack and slash/Beat 'em up, Aventura","","2019",""
 "Yakuza 5 Remastered","25.1 Gb","PC","portadas/Yakuza 5 Remastered.webp","Aventura","","2019",""
