@@ -4,7 +4,7 @@ function calcularPrecio(nombre, plataforma, tamaño) {
   let t = parseFloat((tamaño || "").toLowerCase().replace("gb", "").trim());
 
   const preciosEspeciales = {
-    "Ea Sports Fc 26": 3000,
+    "Ea Sports Fc 26": 2000,
     "Battlefield 3 Zolemu": 250,
     "Battlefield 4 Zolemu": 250,
     "World Of Warcraft Cataclysm": 150,
@@ -27,10 +27,10 @@ function calcularPrecio(nombre, plataforma, tamaño) {
 
   if (!isNaN(t)) {
     if (t <= 4.9) return 50;
-    if (t <= 14.9) return 60;
-    if (t <= 39.9) return 70;
-    if (t <= 69.9) return 90;
-    if (t <= 99.9) return 100;
+    if (t <= 14.9) return 80;
+    if (t <= 39.9) return 100;
+    if (t <= 69.9) return 120;
+    if (t <= 99.9) return 150;
     if (t >= 100) return 200;
   }
   return "N/D";
