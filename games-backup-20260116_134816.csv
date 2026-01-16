@@ -1488,14 +1488,6 @@ Almacenamiento: 36 Gigas de espacio disponible ","2025",""
 •Gráficos: NVIDIA GeForce 6800 or better (7300, 7600 GS, and 8500 are below minimum system requirements), ATI X1600 Pro or better (X1300, X1300 Pro and HD2400 are below minimum system requirements), 256MB Video Card and Shader Model 3.0 required
 •DirectX: Version 9.0c
 •Almacenamiento: 10 GB available space","2020",""
-"Dead Space Remake","33 Gb","PC","portadas/Dead Space Remake.webp","Acción, Aventura","•Requiere un procesador y un sistema operativo de 64 bits
-•Sistema Operativo: Window 10 64-bit +
-•Procesador: Ryzen 5 2600x, Core i5 8600
-•Memoria: 16 Gigas de RAM
-•Gráficos: AMD RX 5700, GTX 1070
-•DirectX: Versión 12
-•Almacenamiento: 50 Gigas de espacio disponible
-•Notas adicionales: 50 Gigas SATA SSD","2023","true"
 "Deadpool The Video Game","4.1 Gb","PC","portadas/Deadpool The Video Game.webp","Acción, Aventura, Cooperativos","•Sistema Operativo: Windows 7 / 8 / 10
 •Procesador: 
 •Intel Core 2 Quad Q6600 (2.4 GHz) or AMD equivalent
@@ -6226,7 +6218,7 @@ Intel® Iris® Xe Graphics or AMD® Radeon™ Vega 8","2022",""
 •DirectX:  Version 12
 •Network:  Broadband Internet connection
 •Storage:  100 GB available space
-•Additional Notes:  We recommend you install the game on SSD drive for better experience.","2025",""
+•Additional Notes:  We recommend you install the game on SSD drive for better experience.","2025","true"
 "Wild Hearts Karakuri Edition","45.3 Gb","PC","portadas/Wild Hearts Karakuri Edition.webp","No disponible","","2023",""
 "Wild West Dynasty","4.3 Gb","PC","portadas/Wild West Dynasty.webp","Aventura, Rol, Simulacion","•Sistema Operativo: Windows 10 (x64)
 •Intel Core i5-8400, AMD Ryzen 5 3600

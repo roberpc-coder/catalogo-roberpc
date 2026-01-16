@@ -4,7 +4,7 @@ function calcularPrecio(nombre, plataforma, tamaño) {
   let t = parseFloat((tamaño || "").toLowerCase().replace("gb", "").trim());
 
   const preciosEspeciales = {
-    "Ea Sports Fc 26": 2000,
+    "Ea Sports Fc 26": 3000,
     "Battlefield 3 Zolemu": 250,
     "Battlefield 4 Zolemu": 250,
     "World Of Warcraft Cataclysm": 150,
@@ -22,7 +22,7 @@ function calcularPrecio(nombre, plataforma, tamaño) {
   if (preciosEspeciales[nombre]) return preciosEspeciales[nombre];
 
   if (plataforma.includes("nintendo switch")) return 100;
-  if (plataforma.includes("pc online")) return 500;
+  if (plataforma.includes("pc online")) return 1000;
   if (plataforma.includes("emulados en pc")) return 100;
 
   if (!isNaN(t)) {
