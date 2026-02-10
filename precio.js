@@ -4,7 +4,6 @@ function calcularPrecio(nombre, plataforma, tamaño) {
   let t = parseFloat((tamaño || "").toLowerCase().replace("gb", "").trim());
 
   const preciosEspeciales = {
-    "Ea Sports Fc 26": 3000,
     "Battlefield 3 Zolemu": 250,
     "Battlefield 4 Zolemu": 250,
     "World Of Warcraft Cataclysm": 150,
@@ -12,18 +11,21 @@ function calcularPrecio(nombre, plataforma, tamaño) {
     "World Of Warcraft Mists Of Pandaria": 200,
     "Among Us": 100,
     "World Of Warcraft Legion": 250,
-    "Albion Online": 150,
-    Dayz: 250,
-    "Polygon Storm": 150,
+    "Albion Online": 250,
+    "Polygon Storm": 250,
     "Starcraft Remastered": 250,
-    "Persona 3 Reload Demo Unlocker": 250,
     "2KCuba25": 250,
+    "Rust Pirata Ruso": 500,
+    "World Of Warcraft Dragon Flight": 500,
+    "World Of Warcraft The War Within": 500,
+    Bloodstrike: 500,
   };
   if (preciosEspeciales[nombre]) return preciosEspeciales[nombre];
 
   if (plataforma.includes("nintendo switch")) return 100;
   if (plataforma.includes("pc online")) return 1000;
   if (plataforma.includes("emulados en pc")) return 100;
+  if (plataforma.includes("activacion en pc")) return 3000;
 
   if (!isNaN(t)) {
     if (t <= 4.9) return 50;

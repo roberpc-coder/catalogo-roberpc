@@ -340,6 +340,7 @@ plataformas = [
     "PS5",
     "Xbox One",
     "Xbox Series X/S",
+    "Activacion en pc",
 ]
 combo_plataforma = ttk.Combobox(root, values=plataformas, width=28)
 combo_plataforma.grid(row=2, column=1, sticky="w", padx=10)

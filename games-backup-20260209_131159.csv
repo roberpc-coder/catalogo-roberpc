@@ -698,6 +698,7 @@ DirectX: Versión 10 ","2018",""
 •8 GB de RAM
 •GeForce GTX 970, Radeon RX 480
 ","2014",""
+"BlackMythWukong","140 Gb","Activacion en pc","portadas/BlackMythWukong.webp","","","",""
 "Blasphemous 2","2.9 Gb","PC","portadas/Blasphemous 2.webp","Acción, Aventura, Indie","•Sistema Operativo: Windows 10
 •Intel Core 2 Duo E8400 or AMD Phenom II X2 550
 •4 GB de RAM
@@ -1142,7 +1143,7 @@ Almacenamiento: 36 Gigas de espacio disponible ","2025",""
 •Memoria: 
 •6 GB de RAM
 •Gráficos: Nvidia GTX 750TI or equivalent, integrated graphics not supported","2024",""
-"Constance","1.1 Gb","PC","portadas/Constance.webp","2D","","2025","true"
+"Constance","1.1 Gb","PC","portadas/Constance.webp","2D","","2025",""
 "Constantine","1.9 Gb","PC","portadas/Constantine.webp","Aventura, Rol","•Sistema Operativo: Windows 10
 •Procesador: 
 •Intel Core i3 equivalent
@@ -1488,6 +1489,14 @@ Almacenamiento: 36 Gigas de espacio disponible ","2025",""
 •Gráficos: NVIDIA GeForce 6800 or better (7300, 7600 GS, and 8500 are below minimum system requirements), ATI X1600 Pro or better (X1300, X1300 Pro and HD2400 are below minimum system requirements), 256MB Video Card and Shader Model 3.0 required
 •DirectX: Version 9.0c
 •Almacenamiento: 10 GB available space","2020",""
+"Dead Space Remake","33 Gb","PC","portadas/Dead Space Remake.webp","Acción, Aventura","•Requiere un procesador y un sistema operativo de 64 bits
+•Sistema Operativo: Window 10 64-bit +
+•Procesador: Ryzen 5 2600x, Core i5 8600
+•Memoria: 16 Gigas de RAM
+•Gráficos: AMD RX 5700, GTX 1070
+•DirectX: Versión 12
+•Almacenamiento: 50 Gigas de espacio disponible
+•Notas adicionales: 50 Gigas SATA SSD","2023","true"
 "Deadpool The Video Game","4.1 Gb","PC","portadas/Deadpool The Video Game.webp","Acción, Aventura, Cooperativos","•Sistema Operativo: Windows 7 / 8 / 10
 •Procesador: 
 •Intel Core 2 Quad Q6600 (2.4 GHz) or AMD equivalent
@@ -1867,11 +1876,11 @@ Almacenamiento: 35 Gigas de espacio disponible","2017",""
 •NVIDIA GeForce GTX 1060 (VRAM 6GB) or better, AMD Radeon RX 590 (VRAM 8GB) or better","2025",""
 "Ea Sports Fc 24","29.7 Gb","Nintendo Switch","portadas/Ea Sports Fc 24.webp","Simulator, Deportes","","2023",""
 "Ea Sports Fc 25 Ultimate Edition","28.9 Gb","Nintendo Switch","portadas/Ea Sports Fc 25 Ultimate Edition.webp","Simulator, Deportes","","2024",""
-"Ea Sports Fc 26","55 Gb","PC","portadas/Ea Sports Fc 26.webp","Deportes","•SO: Windows 10/11 - 64-Bit (Latest Update)
-•Procesador: AMD Ryzen 5 1600 or Intel Core i5 6600k
-•Memoria: 8 GB de RAM
-•Gráficos: AMD RX 570 or Nvidia GTX 1050 Ti
-•DirectX: Versión 12","2025","true"
+"Ea Sports Fc 26","55 Gb","Activacion en pc","portadas/Ea Sports Fc 26.webp","Deportes","••SO: Windows 10/11 - 64-Bit (Latest Update)
+••Procesador: AMD Ryzen 5 1600 or Intel Core i5 6600k
+••Memoria: 8 GB de RAM
+••Gráficos: AMD RX 570 or Nvidia GTX 1050 Ti
+••DirectX: Versión 12","2025","true"
 "Echoes Of The Backrooms","8.7 Gb","PC","portadas/Echoes Of The Backrooms.webp","Aventura, Indie","•Sistema Operativo: Windows 10,Windows 11
 •Procesador: 
 •Intel Core  i5-12400F
@@ -5234,7 +5243,7 @@ ATI RADEON 3870 or higher performance)","2012",""
 •Disco Duro: 6.7 GB de espacio libre ","2013",""
 "Sonic Colors Ultimate","4.6 Gb","Nintendo Switch","portadas/Sonic Colors Ultimate.webp","Plataformas, Aventura","","2021",""
 "Sonic Colors Ultimate","4.6 Gb","Emulados en PC","portadas/Sonic Colors Ultimate.webp","Plataformas, Aventura","","2021",""
-"sonic colors ultimate","15 Gb","PC","portadas/sonic colors ultimate.webp","avebtura","","2025",""
+"sonic colors ultimate","15 Gb","PC","portadas/sonic colors ultimate.webp","aventura","","2025","true"
 "Sonic Forces","6.6 Gb","Nintendo Switch","portadas/Sonic Forces.webp","Plataformas, Estrategia, Aventura","","2017",""
 "Sonic Frontiers","10.5 Gb","Nintendo Switch","portadas/Sonic Frontiers.webp","Plataformas, Aventura","","2022",""
 "Sonic Unleashed","8.5 Gb","PC","portadas/Sonic Unleashed.webp","Acción, Aventura, Plataformas","•Sistema Operativo: Windows 10 (versión 1909)
@@ -6218,7 +6227,7 @@ Intel® Iris® Xe Graphics or AMD® Radeon™ Vega 8","2022",""
 •DirectX:  Version 12
 •Network:  Broadband Internet connection
 •Storage:  100 GB available space
-•Additional Notes:  We recommend you install the game on SSD drive for better experience.","2025","true"
+•Additional Notes:  We recommend you install the game on SSD drive for better experience.","2025",""
 "Wild Hearts Karakuri Edition","45.3 Gb","PC","portadas/Wild Hearts Karakuri Edition.webp","No disponible","","2023",""
 "Wild West Dynasty","4.3 Gb","PC","portadas/Wild West Dynasty.webp","Aventura, Rol, Simulacion","•Sistema Operativo: Windows 10 (x64)
 •Intel Core i5-8400, AMD Ryzen 5 3600
