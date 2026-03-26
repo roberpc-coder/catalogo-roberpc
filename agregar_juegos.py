@@ -333,6 +333,7 @@ entry_tamaño.grid(row=1, column=1, sticky="w", padx=10)
 tk.Label(root, text="🎯 Plataforma:").grid(row=2, column=0, sticky="w", padx=10, pady=5)
 plataformas = [
     "PC",
+    "PC Crack HYPERVISOR",
     "PC Online",
     "Emulados en PC",
     "Nintendo Switch",
