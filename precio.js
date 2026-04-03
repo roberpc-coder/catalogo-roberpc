@@ -25,7 +25,6 @@ function calcularPrecio(nombre, plataforma, tamaño) {
   if (plataforma.includes("nintendo switch")) return 100;
   if (plataforma.includes("pc online")) return 1000;
   if (plataforma.includes("emulados en pc")) return 100;
-  if (plataforma.includes("activacion en pc")) return 3000;
   if (plataforma.includes("pc crack hypervisor")) return 500;
 
   if (!isNaN(t)) {
