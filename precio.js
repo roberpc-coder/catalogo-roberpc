@@ -23,17 +23,16 @@ function calcularPrecio(nombre, plataforma, tamaño) {
   if (preciosEspeciales[nombre]) return preciosEspeciales[nombre];
 
   if (plataforma.includes("nintendo switch")) return 100;
-  if (plataforma.includes("pc online")) return 1000;
-  if (plataforma.includes("emulados en pc")) return 100;
-  if (plataforma.includes("pc crack hypervisor")) return 500;
+  if (plataforma.includes("pc online")) return 500;
+  if (plataforma.includes("emulados en pc")) return 200;
 
   if (!isNaN(t)) {
     if (t <= 4.9) return 50;
-    if (t <= 14.9) return 80;
-    if (t <= 39.9) return 100;
-    if (t <= 69.9) return 120;
-    if (t <= 99.9) return 150;
-    if (t >= 100) return 200;
+    if (t <= 14.9) return 100;
+    if (t <= 39.9) return 150;
+    if (t <= 69.9) return 200;
+    if (t <= 99.9) return 250;
+    if (t >= 100) return 300;
   }
   return "N/D";
 }
