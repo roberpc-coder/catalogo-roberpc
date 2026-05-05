@@ -25,20 +25,44 @@ document.addEventListener("DOMContentLoaded", () => {
     let totalGB = 0;
 
     if (!cart || cart.length === 0) {
-      cartContainer.innerHTML = "<li>Tu carrito está vacío.</li>";
-      totalContainer.textContent = "Total: 0 Gb | 0 ";
+      cartContainer.innerHTML =
+        "<li style='color: #888; padding: 10px;'>Tu carrito está vacío.</li>";
+      totalContainer.innerHTML =
+        "Total: 0 Gb | <span style='color: #ff4444;'>0 Cup</span>";
       return;
     }
 
     cart.forEach((game, index) => {
+      // ESTA PARTE ES LA CLAVE: Lee el formato nuevo (n, pr) O el viejo (Nombre, Precio)
+      const nombre = game.n || game.Nombre || "Juego";
+      const plataforma = game.p || game.Plataforma || "PC";
+      const tamañoRaw = game.t || game.Tamaño || "0 Gb";
+      const precioRaw = game.pr || game.Precio || 0;
+
+      const tamañoStr = tamañoRaw.toString().toLowerCase().replace("gb", "Gb");
+
       const li = document.createElement("li");
-      const plataforma = game.Plataforma ?? game.plataforma ?? "Sin plataforma";
-      const tamaño = game.Tamaño?.replace(/GB|gb/g, "Gb");
-      li.textContent = `${game.Nombre} [${plataforma}] (${tamaño}) - ${game.Precio} Cup`;
+      li.style.display = "flex";
+      li.style.justifyContent = "space-between";
+      li.style.alignItems = "center";
+      li.style.padding = "10px 0";
+      li.style.borderBottom = "1px solid #333";
+
+      li.innerHTML = `
+        <span>
+          <strong style="color: #4caf50;">${nombre}</strong>
+          <small style="color: #888; margin-left: 5px;">[${plataforma}]</small>
+          <br>
+          <span style="color: #ccc; font-size: 0.9em;">${tamañoStr} - ${precioRaw} Cup</span>
+        </span>
+      `;
 
       const removeBtn = document.createElement("button");
-      removeBtn.className = "remove-btn";
-      removeBtn.textContent = "❌";
+      removeBtn.innerHTML = "❌";
+      removeBtn.style.background = "none";
+      removeBtn.style.border = "none";
+      removeBtn.style.cursor = "pointer";
+      removeBtn.style.fontSize = "1.2rem";
       removeBtn.onclick = () => {
         cart.splice(index, 1);
         setCart(cart);
@@ -48,16 +72,15 @@ document.addEventListener("DOMContentLoaded", () => {
       li.appendChild(removeBtn);
       cartContainer.appendChild(li);
 
-      const p = parseFloat(game.Precio);
+      const p = parseFloat(precioRaw);
       if (!isNaN(p)) total += p;
 
-      const gb = parseFloat(game.Tamaño);
+      const gb = parseFloat(tamañoStr);
       if (!isNaN(gb)) totalGB = Math.round((totalGB + gb) * 100) / 100;
     });
 
-    totalContainer.textContent = `Total: ${Math.round(
-      totalGB
-    )} Gb | ${total} Cup`;
+    // TOTAL EN ROJO resaltado
+    totalContainer.innerHTML = `Total: <span style="color: #4caf50;">${Math.round(totalGB)} Gb</span> | <span style="color: #ff4444; font-weight: bold; font-size: 1.2em;">${total} Cup</span>`;
   }
 
   function vaciarCarrito() {
@@ -72,25 +95,29 @@ document.addEventListener("DOMContentLoaded", () => {
       cart = getCart();
       if (!cart || cart.length === 0) return;
 
-      let message = "🛒 Lista de juegos:\n\n";
+      let message = "🛒 *NUEVO PEDIDO - ROBER® PC*\n\n";
       let total = 0;
       let totalGB = 0;
 
-      cart.forEach((g) => {
-        const precio = parseFloat(g.Precio);
-        const gb = parseFloat(g.Tamaño);
-        if (!isNaN(precio)) total += precio;
-        if (!isNaN(gb)) totalGB = Math.round((totalGB + gb) * 100) / 100;
+      cart.forEach((g, index) => {
+        const nombre = g.n || g.Nombre || "Juego";
+        const plataforma = g.p || g.Plataforma || "PC";
+        const precio = parseFloat(g.pr || g.Precio || 0);
+        const tamaño = (g.t || g.Tamaño || "0")
+          .toString()
+          .toLowerCase()
+          .replace("gb", "Gb");
 
-        const tamaño = g.Tamaño?.replace(/GB|gb/g, "Gb");
-        const plataforma = g.Plataforma ?? g.plataforma ?? "Sin plataforma";
-        message += `- ${g.Nombre} [${plataforma}] (${tamaño}) - ${precio} Cup\n`;
+        total += precio;
+        const gb = parseFloat(tamaño);
+        if (!isNaN(gb)) totalGB += gb;
+
+        message += `*${index + 1}.* ${nombre} [${plataforma}] (${tamaño}) - ${precio} Cup\n`;
       });
 
-      message += `\nTotal: ${Math.round(totalGB)} Gb | ${total} Cup`;
-      const url = `https://wa.me/5358024782?text=${encodeURIComponent(
-        message
-      )}`;
+      message += `\n💰 *Total:* ${total} Cup\n📦 *Espacio:* ${Math.round(totalGB)} Gb`;
+
+      const url = `https://wa.me/5358024782?text=${encodeURIComponent(message)}`;
       window.open(url, "_blank");
     });
   }

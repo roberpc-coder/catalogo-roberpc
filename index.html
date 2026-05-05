@@ -19,26 +19,27 @@
           <h1>Catálogo ROBER®PC</h1>
         </div>
         <div class="search-section">
+          <!-- Buscador principal -->
           <input
             type="text"
             id="searchInput"
-            placeholder="Buscar juegos..."
+            placeholder="Buscar..."
             aria-label="Buscar juegos"
           />
-          <select id="platformSelect">
-            <option value="all">Todas las plataformas</option>
+
+          <!-- Selector de plataforma más pequeño -->
+          <select id="platformSelect" style="max-width: 120px">
+            <option value="all">Todo</option>
             <option value="PC">PC</option>
-            <option value="PC Crack HYPERVISOR">PC Crack HYPERVISOR</option>
-            <option value="PC Online">PC Online</option>
-            <option value="Activacion en pc">Activacion en pc</option>
-            <option value="Emulados en PC">Emulados en PC</option>
-            <option value="Nintendo Switch">Nintendo Switch</option>
-            <option value="PS4">PS4</option>
+            <option value="PC Online">Online</option>
+            <option value="Nintendo Switch">Switch</option>
             <option value="PS5">PS5</option>
           </select>
-          <a href="estrenos.html" class="estrenos-btn">
-            <i class="fas fa-star"></i> Estrenos
-          </a>
+
+          <!-- Botón Estrenos sin icono y más corto -->
+          <a href="estrenos.html" class="estrenos-btn">Estrenos</a>
+
+          <!-- El carrito se mantiene -->
           <a href="carrito.html" class="cart-btn">
             <i class="fas fa-shopping-cart"></i>
             <span class="cart-count">0</span>
@@ -49,8 +50,6 @@
 
     <div class="catalog-container" id="gameCatalog"></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <script src="precio.js"></script>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
