@@ -5,27 +5,34 @@ document.addEventListener("DOMContentLoaded", function () {
   catalogContainer.innerHTML =
     '<div class="loading">Cargando estrenos de ROBER® PC...</div>';
 
+  // --- 1. CARGA INICIAL ---
   fetch("games.json")
     .then((response) => {
       if (!response.ok) throw new Error("No se pudo cargar el catálogo");
       return response.json();
     })
     .then((data) => {
+      // Filtrar por estrenos (e: true)
       estrenosData = data.filter(
         (game) => game.e === "true" || game.e === "True" || game.e === true,
       );
 
+      // Limitar a los 12 más recientes
       if (estrenosData.length > 12) {
         estrenosData = estrenosData.slice(0, 12);
       }
 
       renderEstrenos();
       updateCartCount();
+
+      // Activar el escuchador de cambios en tiempo real
+      initStorageListener();
     })
     .catch((error) => {
       catalogContainer.innerHTML = `<div class="error">Error: ${error.message}</div>`;
     });
 
+  // --- 2. RENDERIZADO ---
   function renderEstrenos() {
     if (estrenosData.length === 0) {
       catalogContainer.innerHTML =
@@ -43,7 +50,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
       const isInCart = cart.some((item) => item.id === game.id);
 
-      // DISEÑO CORREGIDO: Colores diferentes y botones equilibrados
       card.innerHTML = `
         <img src="portadas/${game.img}" alt="${game.n}" class="game-cover" loading="lazy"
              onclick="window.location.href='detalles.html?id=${game.id}'"
@@ -55,14 +61,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 <span style="color: #ff4444; font-weight: bold;">💰 ${game.pr} Cup</span>
             </p>
             <div class="btn-group" style="display: flex; gap: 5px; width: 100%;">
-                <!-- TRAILER EN ROJO -->
                 <button class="details-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #ff4444; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"
                         onclick="verTrailer('${game.n.replace(/'/g, "\\'")}')">Trailer</button>
 
-                <!-- CARRITO EN AZUL OSCURO/GRIS PARA DIFERENCIAR -->
                 <button class="add-cart-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #4caf50; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"
                     data-id="${game.id}"
-                    ${isInCart ? 'disabled style="background-color:#555; flex: 1; padding: 8px 2px;"' : ""}>
+                    ${isInCart ? 'disabled style="background-color:#555; flex: 1; padding: 8px 2px; cursor: default;"' : ""}>
                     ${isInCart ? "Ya pedido" : "Pedir"}
                 </button>
             </div>
@@ -73,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
     catalogContainer.appendChild(fragment);
   }
 
+  // --- 3. TRAILER ---
   window.verTrailer = function (nombreJuego) {
     const busqueda = encodeURIComponent(nombreJuego + " trailer oficial");
     window.open(
@@ -81,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   };
 
+  // --- 4. ACCIÓN DE PEDIR ---
   catalogContainer.addEventListener("click", (e) => {
     if (e.target.classList.contains("add-cart-btn")) {
       const gameId = e.target.getAttribute("data-id");
@@ -94,17 +100,44 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!cart.some((j) => j.id === game.id)) {
       cart.push({ id: game.id, n: game.n, p: game.p, t: game.t, pr: game.pr });
       localStorage.setItem("cart", JSON.stringify(cart));
+
+      // Avisar a otras pestañas
+      window.dispatchEvent(new Event("storage"));
+
       updateCartCount();
 
       button.textContent = "Ya pedido";
       button.style.backgroundColor = "#555";
       button.disabled = true;
+      button.style.cursor = "default";
     }
   }
 
+  // --- 5. ACTUALIZACIÓN DEL CONTADOR Y BOTONES ---
   function updateCartCount() {
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     const countSpan = document.querySelector(".cart-count");
     if (countSpan) countSpan.textContent = cart.length;
+
+    // Reactivar botones si se eliminaron del carrito
+    const buttons = document.querySelectorAll(".add-cart-btn");
+    buttons.forEach((button) => {
+      const gameId = button.getAttribute("data-id");
+      const isInCart = cart.some((item) => item.id === gameId);
+
+      if (!isInCart && button.disabled) {
+        button.textContent = "Pedir";
+        button.style.backgroundColor = "#4caf50";
+        button.disabled = false;
+        button.style.cursor = "pointer";
+      }
+    });
+  }
+
+  // --- 6. ESCUCHAR CAMBIOS EXTERNOS ---
+  function initStorageListener() {
+    window.addEventListener("storage", () => {
+      updateCartCount();
+    });
   }
 });

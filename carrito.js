@@ -14,12 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function setCart(nextCart) {
     localStorage.setItem("cart", JSON.stringify(nextCart));
+    // ESTA LÍNEA es la que le avisa al Index y Estrenos que pusimos o quitamos algo
     window.dispatchEvent(new Event("storage"));
   }
 
-  let cart = getCart();
-
+  // --- FUNCIÓN CLAVE PARA DIBUJAR EL CARRITO ---
   function updateCartView() {
+    let cart = getCart(); // Siempre leemos lo más fresco del localStorage
     cartContainer.innerHTML = "";
     let total = 0;
     let totalGB = 0;
@@ -33,7 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     cart.forEach((game, index) => {
-      // ESTA PARTE ES LA CLAVE: Lee el formato nuevo (n, pr) O el viejo (Nombre, Precio)
       const nombre = game.n || game.Nombre || "Juego";
       const plataforma = game.p || game.Plataforma || "PC";
       const tamañoRaw = game.t || game.Tamaño || "0 Gb";
@@ -64,8 +64,9 @@ document.addEventListener("DOMContentLoaded", () => {
       removeBtn.style.cursor = "pointer";
       removeBtn.style.fontSize = "1.2rem";
       removeBtn.onclick = () => {
-        cart.splice(index, 1);
-        setCart(cart);
+        let currentCart = getCart();
+        currentCart.splice(index, 1);
+        setCart(currentCart);
         updateCartView();
       };
 
@@ -79,27 +80,26 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!isNaN(gb)) totalGB = Math.round((totalGB + gb) * 100) / 100;
     });
 
-    // TOTAL EN ROJO resaltado
     totalContainer.innerHTML = `Total: <span style="color: #4caf50;">${Math.round(totalGB)} Gb</span> | <span style="color: #ff4444; font-weight: bold; font-size: 1.2em;">${total} Cup</span>`;
   }
 
   function vaciarCarrito() {
     localStorage.removeItem("cart");
-    cart = [];
-    updateCartView();
     window.dispatchEvent(new Event("storage"));
+    updateCartView();
   }
 
+  // --- ENVÍO A WHATSAPP ---
   if (sendBtn) {
     sendBtn.addEventListener("click", () => {
-      cart = getCart();
-      if (!cart || cart.length === 0) return;
+      const currentCart = getCart();
+      if (!currentCart || currentCart.length === 0) return;
 
       let message = "🛒 *NUEVO PEDIDO - ROBER® PC*\n\n";
       let total = 0;
       let totalGB = 0;
 
-      cart.forEach((g, index) => {
+      currentCart.forEach((g, index) => {
         const nombre = g.n || g.Nombre || "Juego";
         const plataforma = g.p || g.Plataforma || "PC";
         const precio = parseFloat(g.pr || g.Precio || 0);
@@ -122,6 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // --- BOTÓN VACIAR ---
   if (clearBtn) {
     clearBtn.addEventListener("click", () => {
       if (confirm("¿Seguro que quieres vaciar todo el carrito?")) {
@@ -130,5 +131,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // --- SINCRONIZACIÓN: Si añado juegos en el catálogo, el carrito se actualiza solo ---
+  window.addEventListener("storage", () => {
+    updateCartView();
+  });
+
+  // Carga inicial
   updateCartView();
 });

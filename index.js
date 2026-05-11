@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let gamesData = [];
   let filteredData = [];
   let currentIndex = 0;
-  const itemsPerPage = 12; // Lotes de 12 como prefieres
+  const itemsPerPage = 12;
   let isLoading = false;
 
   const catalogContainer = document.getElementById("gameCatalog");
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (nextBatch.length === 0 && currentIndex === 0) {
       catalogContainer.innerHTML =
         '<div class="error">No se encontraron resultados.</div>';
-      isLoading = false; // Liberar para futuros filtros
+      isLoading = false;
       return;
     }
 
@@ -91,24 +91,21 @@ document.addEventListener("DOMContentLoaded", function () {
     catalogContainer.appendChild(fragment);
     currentIndex += nextBatch.length;
 
-    // El "freno" técnico: No permitimos otra carga hasta después de un pequeño respiro
     setTimeout(() => {
       isLoading = false;
     }, 100);
   }
 
-  // --- 3. DETECTOR DE SCROLL MEJORADO ---
+  // --- 3. DETECTOR DE SCROLL ---
   function initScrollListener() {
     window.addEventListener("scroll", () => {
       if (isLoading) return;
-
-      // Calculamos cuánto falta para el final
       const scrollPos = window.innerHeight + window.scrollY;
-      const threshold = document.body.offsetHeight - 250; // Reducido a 250px para internet lento
+      const threshold = document.body.offsetHeight - 250;
 
       if (scrollPos >= threshold) {
         if (currentIndex < filteredData.length) {
-          isLoading = true; // Bloquea múltiples disparos
+          isLoading = true;
           renderNextBatch();
         }
       }
@@ -149,6 +146,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!cart.some((item) => item.id === game.id)) {
       cart.push({ id: game.id, n: game.n, p: game.p, t: game.t, pr: game.pr });
       localStorage.setItem("cart", JSON.stringify(cart));
+
+      // Lanzamos evento manual para que otras pestañas se enteren
+      window.dispatchEvent(new Event("storage"));
+
       updateCartCount();
 
       button.textContent = "Ya pedido";
@@ -161,8 +162,30 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateCartCount() {
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     const countSpan = document.querySelector(".cart-count");
-    if (countSpan) countSpan.textContent = cart.length;
+    if (countSpan) {
+      countSpan.textContent = cart.length;
+    }
+
+    // ESTO REACTIVA LOS BOTONES SI SE BORRÓ ALGO
+    const buttons = document.querySelectorAll(".add-cart-btn");
+    buttons.forEach((btn) => {
+      const id = btn.dataset.id;
+      const exists = cart.some((item) => item.id === id);
+      if (!exists && btn.disabled) {
+        btn.textContent = "Pedir";
+        btn.disabled = false;
+        btn.style.backgroundColor = "#4caf50";
+        btn.style.cursor = "pointer";
+      }
+    });
   }
+
+  // --- 6. SINCRONIZACIÓN EN TIEMPO REAL (CRUCIAL) ---
+  window.addEventListener("storage", () => {
+    // Cuando cambies algo en Estrenos o en el Carrito,
+    // el Index se actualizará solo
+    updateCartCount();
+  });
 
   window.verTrailer = function (nombreJuego) {
     const busqueda = encodeURIComponent(nombreJuego + " trailer oficial");

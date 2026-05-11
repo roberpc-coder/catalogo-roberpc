@@ -3,6 +3,32 @@ document.addEventListener("DOMContentLoaded", () => {
   const gameId = params.get("id");
   const detailsContainer = document.getElementById("gameDetails");
 
+  // --- FUNCIÓN: ACTUALIZAR CONTADOR Y BOTÓN ---
+  function updateUI() {
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    // 1. Actualizar el numerito del contador (si existe en el header de esta página)
+    const countSpan = document.querySelector(".cart-count");
+    if (countSpan) countSpan.textContent = cart.length;
+
+    // 2. Actualizar el estado del botón de pedir
+    const addBtn = document.getElementById("addToCartBtn");
+    if (addBtn && gameId) {
+      const isInCart = cart.some((item) => item.id === gameId);
+      if (isInCart) {
+        addBtn.textContent = "Ya pedido";
+        addBtn.disabled = true;
+        addBtn.style.backgroundColor = "#555";
+        addBtn.style.cursor = "default";
+      } else {
+        addBtn.textContent = "Pedir";
+        addBtn.disabled = false;
+        addBtn.style.backgroundColor = "#4caf50";
+        addBtn.style.cursor = "pointer";
+      }
+    }
+  }
+
   // --- FUNCIÓN: VER TRAILER ---
   window.verTrailer = function (nombreJuego) {
     const busqueda = encodeURIComponent(nombreJuego + " trailer oficial");
@@ -103,19 +129,12 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       `;
 
+      // Inicializar el estado de los botones y contador apenas cargue la info
+      updateUI();
+
       const addBtn = document.getElementById("addToCartBtn");
-      let cart = JSON.parse(localStorage.getItem("cart")) || [];
-      const isInCart = cart.some((item) => item.id === game.id);
-
-      // Estado cuando el juego ya está en el carrito
-      if (isInCart) {
-        addBtn.textContent = "Ya pedido";
-        addBtn.disabled = true;
-        addBtn.style.backgroundColor = "#555";
-      }
-
       addBtn.addEventListener("click", () => {
-        cart = JSON.parse(localStorage.getItem("cart")) || [];
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
         if (!cart.some((item) => item.id === game.id)) {
           cart.push({
             id: game.id,
@@ -126,14 +145,19 @@ document.addEventListener("DOMContentLoaded", () => {
           });
 
           localStorage.setItem("cart", JSON.stringify(cart));
+
+          // Avisar a las otras pestañas
           window.dispatchEvent(new Event("storage"));
-          addBtn.textContent = "Ya pedido";
-          addBtn.disabled = true;
-          addBtn.style.backgroundColor = "#555";
+
+          // Actualizar esta misma página inmediatamente
+          updateUI();
         }
       });
     })
     .catch((error) => {
       detailsContainer.innerHTML = `<p class="error">Error al cargar detalles: ${error.message}</p>`;
     });
+
+  // --- SINCRONIZACIÓN EN TIEMPO REAL ---
+  window.addEventListener("storage", updateUI);
 });
