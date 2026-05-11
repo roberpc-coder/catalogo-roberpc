@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       catalogContainer.innerHTML = `<div class="error">Error: ${error.message}</div>`;
     });
 
-  // --- 2. RENDERIZADO POR LOTES (ESTRICTO) ---
+  // --- 2. RENDERIZADO POR LOTES (OPTIMIZADO) ---
   function renderNextBatch(reset = false) {
     if (reset) {
       catalogContainer.innerHTML = "";
@@ -59,6 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
     nextBatch.forEach((game) => {
       const card = document.createElement("div");
       card.className = "game-card";
+      // Añadimos una altura mínima para que el scroll no "salte" antes de cargar la foto
+      card.style.minHeight = "320px";
 
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
       const isInCart = cart.some((item) => item.id === game.id);
@@ -91,25 +93,30 @@ document.addEventListener("DOMContentLoaded", function () {
     catalogContainer.appendChild(fragment);
     currentIndex += nextBatch.length;
 
+    // Pausa de seguridad para que el navegador asimile el nuevo contenido
     setTimeout(() => {
       isLoading = false;
-    }, 100);
+    }, 300);
   }
 
-  // --- 3. DETECTOR DE SCROLL ---
+  // --- 3. DETECTOR DE SCROLL REFORZADO ---
   function initScrollListener() {
-    window.addEventListener("scroll", () => {
-      if (isLoading) return;
-      const scrollPos = window.innerHeight + window.scrollY;
-      const threshold = document.body.offsetHeight - 250;
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (isLoading || currentIndex >= filteredData.length) return;
 
-      if (scrollPos >= threshold) {
-        if (currentIndex < filteredData.length) {
+        const scrollPos = window.innerHeight + window.scrollY;
+        // Umbral reducido a 100px para que no cargue antes de tiempo
+        const threshold = document.documentElement.scrollHeight - 100;
+
+        if (scrollPos >= threshold) {
           isLoading = true;
           renderNextBatch();
         }
-      }
-    });
+      },
+      { passive: true },
+    );
   }
 
   // --- 4. FILTRADO ---
@@ -146,10 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!cart.some((item) => item.id === game.id)) {
       cart.push({ id: game.id, n: game.n, p: game.p, t: game.t, pr: game.pr });
       localStorage.setItem("cart", JSON.stringify(cart));
-
-      // Lanzamos evento manual para que otras pestañas se enteren
       window.dispatchEvent(new Event("storage"));
-
       updateCartCount();
 
       button.textContent = "Ya pedido";
@@ -162,11 +166,8 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateCartCount() {
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
     const countSpan = document.querySelector(".cart-count");
-    if (countSpan) {
-      countSpan.textContent = cart.length;
-    }
+    if (countSpan) countSpan.textContent = cart.length;
 
-    // ESTO REACTIVA LOS BOTONES SI SE BORRÓ ALGO
     const buttons = document.querySelectorAll(".add-cart-btn");
     buttons.forEach((btn) => {
       const id = btn.dataset.id;
@@ -180,12 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // --- 6. SINCRONIZACIÓN EN TIEMPO REAL (CRUCIAL) ---
-  window.addEventListener("storage", () => {
-    // Cuando cambies algo en Estrenos o en el Carrito,
-    // el Index se actualizará solo
-    updateCartCount();
-  });
+  window.addEventListener("storage", updateCartCount);
 
   window.verTrailer = function (nombreJuego) {
     const busqueda = encodeURIComponent(nombreJuego + " trailer oficial");
@@ -194,11 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "_blank",
     );
   };
-});
 
-// Este evento es "santo remedio" para celulares
-window.addEventListener("pageshow", (event) => {
-  // No importa si la página es nueva o viene de "atrás",
-  // forzamos la actualización del contador y los botones.
-  updateCartCount();
+  // Sincronización para celulares (Back-Forward Cache)
+  window.addEventListener("pageshow", updateCartCount);
 });
