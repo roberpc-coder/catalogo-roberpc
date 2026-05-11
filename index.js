@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let gamesData = [];
   let filteredData = [];
   let currentIndex = 0;
-  const itemsPerPage = 12;
+  const itemsPerPage = 12; // Lotes de 12 como prefieres
   let isLoading = false;
 
   const catalogContainer = document.getElementById("gameCatalog");
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       catalogContainer.innerHTML = `<div class="error">Error: ${error.message}</div>`;
     });
 
-  // --- 2. RENDERIZADO POR LOTES ---
+  // --- 2. RENDERIZADO POR LOTES (ESTRICTO) ---
   function renderNextBatch(reset = false) {
     if (reset) {
       catalogContainer.innerHTML = "";
@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (nextBatch.length === 0 && currentIndex === 0) {
       catalogContainer.innerHTML =
         '<div class="error">No se encontraron resultados.</div>';
+      isLoading = false; // Liberar para futuros filtros
       return;
     }
 
@@ -62,7 +63,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
       const isInCart = cart.some((item) => item.id === game.id);
 
-      // DISEÑO ACTUALIZADO: Colores unificados con Estrenos
       card.innerHTML = `
         <img src="portadas/${game.img}" alt="${game.n}" class="game-cover" loading="lazy"
              onclick="window.location.href='detalles.html?id=${game.id}'"
@@ -74,15 +74,13 @@ document.addEventListener("DOMContentLoaded", function () {
             <span style="color: #ff4444; font-weight: bold;">💰 ${game.pr} Cup</span>
           </div>
           <div class="btn-group" style="display: flex; gap: 5px; width: 100%;">
-            <!-- TRAILER ROJO -->
             <button class="details-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #ff4444; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"
                     onclick="verTrailer('${game.n.replace(/'/g, "\\'")}')">Trailer</button>
 
-            <!-- CARRITO AZUL/GRIS -->
             <button class="add-cart-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #4caf50; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"
                     data-id="${game.id}"
-                    ${isInCart ? 'disabled style="background-color:#555; flex: 1; padding: 8px 2px;"' : ""}>
-              ${isInCart ? "En carrito" : "Comprar"}
+                    ${isInCart ? 'disabled style="background-color:#555; flex: 1; padding: 8px 2px; cursor: default;"' : ""}>
+              ${isInCart ? "Ya pedido" : "Pedir"}
             </button>
           </div>
         </div>
@@ -92,22 +90,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
     catalogContainer.appendChild(fragment);
     currentIndex += nextBatch.length;
-    isLoading = false;
+
+    // El "freno" técnico: No permitimos otra carga hasta después de un pequeño respiro
+    setTimeout(() => {
+      isLoading = false;
+    }, 100);
   }
 
-  // --- 3. SCROLL INFINITO ---
+  // --- 3. DETECTOR DE SCROLL MEJORADO ---
   function initScrollListener() {
     window.addEventListener("scroll", () => {
       if (isLoading) return;
+
+      // Calculamos cuánto falta para el final
       const scrollPos = window.innerHeight + window.scrollY;
-      const threshold = document.body.offsetHeight - 800;
+      const threshold = document.body.offsetHeight - 250; // Reducido a 250px para internet lento
 
       if (scrollPos >= threshold) {
         if (currentIndex < filteredData.length) {
-          isLoading = true;
-          setTimeout(() => {
-            renderNextBatch();
-          }, 250);
+          isLoading = true; // Bloquea múltiples disparos
+          renderNextBatch();
         }
       }
     });
@@ -149,9 +151,10 @@ document.addEventListener("DOMContentLoaded", function () {
       localStorage.setItem("cart", JSON.stringify(cart));
       updateCartCount();
 
-      button.textContent = "En carrito";
+      button.textContent = "Ya pedido";
       button.style.backgroundColor = "#555";
       button.disabled = true;
+      button.style.cursor = "default";
     }
   }
 
@@ -161,7 +164,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (countSpan) countSpan.textContent = cart.length;
   }
 
-  // --- FUNCIÓN PARA YOUTUBE ---
   window.verTrailer = function (nombreJuego) {
     const busqueda = encodeURIComponent(nombreJuego + " trailer oficial");
     window.open(

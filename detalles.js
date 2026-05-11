@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", () => {
       detailsContainer.innerHTML = `
         <div class="details-container">
           <div class="details-header">
-            <!-- Contenedor nuevo para que la foto no se estire en PC -->
             <div class="details-cover-wrapper">
               <img src="${coverPath}" alt="${game.n}" class="details-cover"
                    onerror="this.src='imagenes/placeholder.jpg'">
@@ -69,14 +68,11 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
 
               <div class="btn-group" style="margin-top: 25px; display: flex; gap: 10px; flex-wrap: wrap;">
-                <button id="addToCartBtn" class="add-cart-btn" style="background-color: #4caf50; color: white; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer;">
-                    Comprar
-                </button>
                 <button onclick="verTrailer('${game.n.replace(/'/g, "\\'")}')" class="details-btn" style="background-color: #ff4444; color: white; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer;">
                     Trailer
                 </button>
-                <button onclick="window.location.href='index.html'" class="details-btn" style="background-color: #444; color: white; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer;">
-                    Volver
+                <button id="addToCartBtn" class="add-cart-btn" style="background-color: #4caf50; color: white; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer;">
+                    Pedir
                 </button>
               </div>
             </div>
@@ -106,12 +102,14 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         </div>
       `;
+
       const addBtn = document.getElementById("addToCartBtn");
       let cart = JSON.parse(localStorage.getItem("cart")) || [];
       const isInCart = cart.some((item) => item.id === game.id);
 
+      // Estado cuando el juego ya está en el carrito
       if (isInCart) {
-        addBtn.textContent = "En carrito";
+        addBtn.textContent = "Ya pedido";
         addBtn.disabled = true;
         addBtn.style.backgroundColor = "#555";
       }
@@ -129,7 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           localStorage.setItem("cart", JSON.stringify(cart));
           window.dispatchEvent(new Event("storage"));
-          addBtn.textContent = "En carrito";
+          addBtn.textContent = "Ya pedido";
           addBtn.disabled = true;
           addBtn.style.backgroundColor = "#555";
         }

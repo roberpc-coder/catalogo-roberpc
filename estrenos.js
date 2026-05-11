@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <button class="add-cart-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #4caf50; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"
                     data-id="${game.id}"
                     ${isInCart ? 'disabled style="background-color:#555; flex: 1; padding: 8px 2px;"' : ""}>
-                    ${isInCart ? "En carrito" : "Comprar"}
+                    ${isInCart ? "Ya pedido" : "Pedir"}
                 </button>
             </div>
         </div>`;
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
       localStorage.setItem("cart", JSON.stringify(cart));
       updateCartCount();
 
-      button.textContent = "En carrito";
+      button.textContent = "Ya pedido";
       button.style.backgroundColor = "#555";
       button.disabled = true;
     }
