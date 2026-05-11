@@ -492,6 +492,18 @@
     "e": ""
   },
   {
+    "id": "01596",
+    "n": "Albion Online",
+    "t": "2.0 Gb",
+    "p": "PC Online",
+    "img": "01596.webp",
+    "g": "Massively Multiplayer, Rol, Free To Play",
+    "r": "•Sistema Operativo: Windows 10 or 11 (64-bit)\n•Procesador: Intel/AMD CPU with SSE2\n•Memoria: 4 GB RAM\n•Gráficos: Graphics card with DirectX 10 support or better\n•DirectX: Version 10\n•Almacenamiento: 2 GB available space",
+    "pr": 200,
+    "a": "2018",
+    "e": ""
+  },
+  {
     "id": "00027",
     "n": "Alice Madness Returns",
     "t": "7.5 Gb",
@@ -741,6 +753,18 @@
     "r": "•Sistema Operativo: Windows\n•Procesador: Intel Core™ i5 or AMD Ryzen™ 5\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce 1060TI or AMD Radeon RX 560\n•DirectX: Version 11\n•Almacenamiento: 11 GB available space",
     "pr": 100,
     "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01595",
+    "n": "Apex Legends",
+    "t": "75.0 Gb",
+    "p": "PC Online",
+    "img": "01595.webp",
+    "g": "Acción, Aventura, Free To Play",
+    "r": "•Sistema Operativo: 64-bit Windows 10\n•Procesador: AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent\n•Memoria: 6 GB RAM\n•Gráficos: AMD Radeon™ HD 7790 (2 GB), NVIDIA GeForce® GTX 950\n•DirectX: Version 12\n•Almacenamiento: 75 GB available space",
+    "pr": 1000,
+    "a": "2020",
     "e": ""
   },
   {
@@ -1572,6 +1596,18 @@
     "e": ""
   },
   {
+    "id": "01600",
+    "n": "Battlefield 6 REDSEC",
+    "t": "55.0 Gb",
+    "p": "PC Online",
+    "img": "01600.webp",
+    "g": "Action",
+    "r": "•OS:  Windows 10\n•Processor:  Intel Core i5-8400, AMD Ryzen 5 2600\n•Memory:  16 GB RAM\n•Graphics:  Nvidia RTX 2060, AMD Radeon RX 5600 XT 6GB, Intel Arc A380\n•DirectX:  Version 12\n•Storage:  55 GB available space\n•Additional Notes:  TPM 2.0 Enabled UEFI SECURE BOOT Enabled HVCI Capable VBS Capable",
+    "pr": 1000,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "00172",
     "n": "Battlefield Bad Company 2",
     "t": "7.1 Gb",
@@ -1869,6 +1905,18 @@
     "r": "•Sistema Operativo: Windows XP / Windows Vista / Windows 7\n•Procesador: 1.8 GHz Processor\n•Memoria: 512 MB RAM\n•Gráficos: 3D graphics card compatible with DirectX 7 (compatible with DirectX 9 recommended)\n•DirectX: Version 7.0\n•Almacenamiento: 2 GB available space",
     "pr": 50,
     "a": "2013",
+    "e": ""
+  },
+  {
+    "id": "01597",
+    "n": "Blood Strike",
+    "t": "30.0 Gb",
+    "p": "PC Online",
+    "img": "01597.webp",
+    "g": "Acción, Aventura, Massively Multiplayer, Estrategia, Free To Play",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel i3-540、AMD Athlon 200GE\n•Memoria: 4 GB RAM\n•Gráficos: Intel HD 4000、AMD Radeon R5 220\n•DirectX: Version 11\n•Almacenamiento: 30 GB available space",
+    "pr": 500,
+    "a": "2025",
     "e": ""
   },
   {
@@ -2445,6 +2493,18 @@
     "r": "•Sistema Operativo: Windows 10 64 Bit (latest update)\n•Procesador: Intel Core i3-4340 or AMD FX-6300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 960 or AMD Radeon RX 470\n•DirectX: Version 12\n•Almacenamiento: 36 GB available space",
     "pr": 200,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01593",
+    "n": "Call Of Duty Warzone",
+    "t": "166.5 Gb",
+    "p": "PC Online",
+    "img": "01593.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows® 10 64 Bit (latest update)\n•Procesador: AMD Ryzen™ 5 1400 or Intel® Core™ i5-6600\n•Memoria: 8 GB RAM\n•Gráficos: AMD Radeon™ RX 470, NVIDIA® GeForce® GTX 970 / 1060 or Intel® Arc™ A580\n•DirectX: Version 12",
+    "pr": 1000,
+    "a": "2022",
     "e": ""
   },
   {
@@ -4473,6 +4533,18 @@
     "r": "•Sistema Operativo: Windows 10 64-Bit\n•Procesador: AMD Ryzen 5 2500X | Intel Core i5-8400\n•Memoria: 8 Gigas de RAM\n•Gráficos: AMD Radeon R9 280 | Nvidia GTX 960\n•DirectX: Versión 11\n•Almacenamiento: 16 Gigas de espacio disponible",
     "pr": 50,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01594",
+    "n": "Dota 2",
+    "t": "60.0 Gb",
+    "p": "PC Online",
+    "img": "01594.webp",
+    "g": "Acción, Estrategia, Free To Play",
+    "r": "•Sistema Operativo: Windows 7 or newer\n•Procesador: Dual core from Intel or AMD at 2.8 GHz\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600\n•DirectX: Version 11\n•Almacenamiento: 60 GB available space\n•Sistema Operativo: und Card:  DirectX Compatible",
+    "pr": 1000,
+    "a": "2013",
     "e": ""
   },
   {
@@ -12756,6 +12828,18 @@
     "e": ""
   },
   {
+    "id": "01601",
+    "n": "PUBG: BATTLEGROUNDS",
+    "t": "40.0 Gb",
+    "p": "PC Online",
+    "img": "01601.webp",
+    "g": "Acción, Aventura, Multijugador masivo",
+    "r": "•Sistema Operativo: Windows 10 (64-bit)\n•Procesador: Intel Core i5-4430 / AMD FX-6300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB\n•DirectX: Versión 11\n•Almacenamiento: 40 GB de espacio disponible",
+    "pr": 500,
+    "a": "2017",
+    "e": ""
+  },
+  {
     "id": "00903",
     "n": "Pulsar Lost Colony",
     "t": "2.8 Gb",
@@ -17136,6 +17220,18 @@
     "e": ""
   },
   {
+    "id": "01599",
+    "n": "Tom Clancys Rainbow Six Siege",
+    "t": "65.0 Gb",
+    "p": "PC Online",
+    "img": "01599.webp",
+    "g": "Acción, Free To Play",
+    "r": "•Sistema Operativo: Windows 10, Windows 11 (64-bit versions)\n•Procesador: AMD Ryzen 3 3100 / Intel i3-8100\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GTX 1650 4GB / AMD RX 5500XT 4GB / Intel ARC A380 6GB\n•DirectX: Version 12\n•Almacenamiento: 65 GB available space\n•Sistema Operativo: und Card:  DirectX® 9.0c compatible sound card with latest drivers",
+    "pr": 1000,
+    "a": "2015",
+    "e": ""
+  },
+  {
     "id": "01194",
     "n": "Tomb Raider Game Of The Year",
     "t": "17.0 Gb",
@@ -18192,6 +18288,18 @@
     "e": ""
   },
   {
+    "id": "01598",
+    "n": "War Thunder",
+    "t": "70.0 Gb",
+    "p": "PC Online",
+    "img": "01598.webp",
+    "g": "Acción, Massively Multiplayer, Simulación, Free To Play",
+    "r": "•Sistema Operativo: Windows 10 (64bit)\n•Procesador: Dual-Core 2.2 GHz\n•Memoria: 4 GB RAM\n•Gráficos: DirectX 11 level video card: AMD Radeon 77XX / NVIDIA GeForce GTX 660. The minimum supported resolution for the game is 720p.\n•DirectX: Version 11\n•Almacenamiento: 70 GB available space",
+    "pr": 1000,
+    "a": "2013",
+    "e": ""
+  },
+  {
     "id": "01272",
     "n": "Warcraft II Battle.net Edition",
     "t": "0.7 Gb",
@@ -18705,6 +18813,78 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-1135G7\n•Memoria: 8 GB RAM\n•Gráficos: GPU Intel Iris Xe\n•Almacenamiento: 2 GB available space",
     "pr": 50,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01588",
+    "n": "Wow Cataclysm",
+    "t": "14.1 Gb",
+    "p": "PC Online",
+    "img": "01588.webp",
+    "g": "MMORPG, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i5-3450 / AMD FX 8300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 760 / AMD Radeon RX 560\n•DirectX: Version 12\n•Almacenamiento: 15 GB available space",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01590",
+    "n": "Wow Dragon Flight",
+    "t": "109.2 Gb",
+    "p": "PC Online",
+    "img": "01590.webp",
+    "g": "MMORPG, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i5-3450 / AMD FX 8300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 970 / AMD Radeon RX 570\n•DirectX: Version 12\n•Almacenamiento: 120 GB available space",
+    "pr": 300,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01591",
+    "n": "Wow Legion",
+    "t": "50.4 Gb",
+    "p": "PC Online",
+    "img": "01591.webp",
+    "g": "MMORPG, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 7/8/10\n•Procesador: Intel Core i5-3330 / AMD FX-6300\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce GTX 750 Ti / AMD Radeon R7 260X\n•DirectX: Version 11\n•Almacenamiento: 55 GB available space",
+    "pr": 200,
+    "a": "2016",
+    "e": ""
+  },
+  {
+    "id": "01589",
+    "n": "Wow Pandaria",
+    "t": "25.2 Gb",
+    "p": "PC Online",
+    "img": "01589.webp",
+    "g": "MMORPG, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i5-3450 / AMD FX 8300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 760 / AMD Radeon RX 560\n•DirectX: Version 12\n•Almacenamiento: 30 GB available space",
+    "pr": 150,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01587",
+    "n": "Wow The War Within",
+    "t": "102.0 Gb",
+    "p": "PC Online",
+    "img": "01587.webp",
+    "g": "MMORPG, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i7-7600K / AMD Ryzen 5 2600X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1070 / AMD Radeon RX 5500 XT\n•DirectX: Version 12\n•Almacenamiento: 128 GB available space",
+    "pr": 300,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01592",
+    "n": "Wow Wrath Of The Lich King",
+    "t": "21.7 Gb",
+    "p": "PC Online",
+    "img": "01592.webp",
+    "g": "MMORPG, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i5-3450 / AMD FX 8300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 760 / AMD Radeon RX 560\n•DirectX: Version 12\n•Almacenamiento: 25 GB available space",
+    "pr": 150,
+    "a": "2022",
     "e": ""
   },
   {
