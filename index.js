@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       catalogContainer.innerHTML = `<div class="error">Error: ${error.message}</div>`;
     });
 
-  // --- 3. RENDERIZADO (TU DISEÑO EXACTO) ---
+  // --- 3. RENDERIZADO (DISEÑO ROBER PC) ---
   function renderNextBatch(reset = false) {
     if (reset) {
       catalogContainer.innerHTML = "";
@@ -89,50 +89,41 @@ document.addEventListener("DOMContentLoaded", function () {
       fragment.appendChild(card);
     });
 
-    // Siempre insertamos ANTES del loader
     const loader = document.getElementById("loadingIndicator");
     if (!loader) {
       showLoadingIndicator();
     }
     catalogContainer.appendChild(fragment);
-
-    // El loader siempre va al final
     catalogContainer.appendChild(document.getElementById("loadingIndicator"));
 
     currentIndex += nextBatch.length;
   }
 
-  // --- 4. SENSOR DE SCROLL (CORREGIDO) ---
+  // --- 4. SENSOR DE SCROLL OPTIMIZADO ---
   function setupScrollListener() {
     showLoadingIndicator();
     const loader = document.getElementById("loadingIndicator");
 
     const observer = new IntersectionObserver(
       (entries) => {
-        // Si el sensor es visible y no estamos cargando...
         if (
           entries[0].isIntersecting &&
           !isLoading &&
           currentIndex < filteredData.length
         ) {
           isLoading = true;
-
-          // Hacemos visible el texto de carga
           loader.style.opacity = "1";
 
           setTimeout(() => {
             renderNextBatch();
-
             setTimeout(() => {
-              loader.style.opacity = "0"; // Lo ocultamos pero sigue ahí para el sensor
+              loader.style.opacity = "0";
               isLoading = false;
             }, 100);
           }, 500);
         }
       },
-      {
-        rootMargin: "400px", // Carga antes de llegar para internet lento
-      },
+      { rootMargin: "400px" },
     );
 
     observer.observe(loader);
@@ -143,7 +134,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!loader) {
       loader = document.createElement("div");
       loader.id = "loadingIndicator";
-      // Importante: opacity 0 en vez de display none para que el sensor funcione
       loader.style.cssText =
         "text-align:center; padding:20px; color:#4caf50; font-weight:bold; width:100%; opacity:0; transition:opacity 0.3s;";
       loader.innerHTML = "Cargando más estrenos...";
@@ -171,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
     applyFilters();
   });
 
-  // --- 6. CARRITO Y SINCRONIZACIÓN ---
+  // --- 6. CARRITO Y SINCRONIZACIÓN (FUNCIÓN CORREGIDA) ---
   catalogContainer.addEventListener("click", (e) => {
     if (e.target.classList.contains("add-cart-btn")) {
       const gameId = e.target.dataset.id;
@@ -203,8 +193,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const buttons = document.querySelectorAll(".add-cart-btn");
     buttons.forEach((btn) => {
-      const exists = cart.some((item) => item.id === btn.dataset.id);
-      if (!exists && btn.disabled) {
+      const gameId = btn.dataset.id;
+      const exists = cart.some((item) => item.id === gameId);
+
+      if (exists) {
+        // Bloquear si ya está en el carrito
+        btn.textContent = "Ya pedido";
+        btn.disabled = true;
+        btn.style.backgroundColor = "#555";
+        btn.style.cursor = "default";
+      } else {
+        // Activar si no está (o si fue eliminado)
         btn.textContent = "Pedir";
         btn.disabled = false;
         btn.style.backgroundColor = "#4caf50";

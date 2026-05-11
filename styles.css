@@ -1088,3 +1088,49 @@ body {
 }
 
 /* Cambio de seguridad */
+
+/* Efecto Skeleton para las portadas */
+.img-container {
+  background-color: #1a1a1a; /* Color oscuro de fondo */
+  position: relative;
+  overflow: hidden;
+  min-height: 300px; /* Ajusta según tus portadas */
+  border-radius: 8px;
+}
+
+.game-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in;
+}
+
+/* Animación de brillo mientras carga */
+.img-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* El botón de Pedir cuando ya está en el carrito */
+.add-cart-btn.in-cart {
+  background-color: #444 !important;
+  cursor: default;
+}
