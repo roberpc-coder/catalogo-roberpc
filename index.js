@@ -1,33 +1,29 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // --- 1. VARIABLES ---
   let gamesData = [];
   let filteredData = [];
   let currentIndex = 0;
   const itemsPerPage = 12;
   let isLoading = false;
+  let observer; // Guardamos el sensor aquí para reiniciarlo
 
   const catalogContainer = document.getElementById("gameCatalog");
   const searchInput = document.getElementById("searchInput");
   const platformSelect = document.getElementById("platformSelect");
 
-  // --- 2. CARGA INICIAL ---
+  // --- 1. CARGA INICIAL ---
   fetch("games.json")
     .then((res) => res.json())
     .then((data) => {
       gamesData = data;
       filteredData = [...gamesData];
-
       const savedFilter = localStorage.getItem("filtroPlataforma");
-      if (savedFilter) {
-        platformSelect.value = savedFilter;
-      }
+      if (savedFilter) platformSelect.value = savedFilter;
 
       applyFilters();
-      setupScrollListener();
     })
     .catch((err) => console.error("Error ROBER PC:", err));
 
-  // --- 3. RENDERIZADO ---
+  // --- 2. RENDERIZADO ---
   function renderNextBatch(reset = false) {
     if (reset) {
       catalogContainer.innerHTML = "";
@@ -39,7 +35,12 @@ document.addEventListener("DOMContentLoaded", function () {
       currentIndex,
       currentIndex + itemsPerPage,
     );
-    if (nextBatch.length === 0) return;
+    if (nextBatch.length === 0) {
+      if (currentIndex === 0)
+        catalogContainer.innerHTML =
+          '<div style="color:white;text-align:center;">No hay resultados</div>';
+      return;
+    }
 
     const fragment = document.createDocumentFragment();
     const cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -60,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <span style="color: #ff4444; font-weight: bold;">💰 ${game.pr} Cup</span>
           </div>
           <div class="btn-group" style="display: flex; gap: 5px; width: 100%;">
-            <button class="details-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #ff4444; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"
+            <button class="details-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #ff4444; color: white; border: none; border-radius: 4px; font-weight: bold;"
                     onclick="verTrailer('${game.n.replace(/'/g, "\\'")}')">Trailer</button>
             <button class="add-cart-btn" data-id="${game.id}"
                     style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: ${isInCart ? "#555" : "#4caf50"}; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: ${isInCart ? "default" : "pointer"};"
@@ -76,65 +77,61 @@ document.addEventListener("DOMContentLoaded", function () {
     catalogContainer.appendChild(fragment);
     currentIndex += nextBatch.length;
 
-    const loader =
-      document.getElementById("loadingIndicator") || createLoader();
-    catalogContainer.appendChild(loader);
+    // IMPORTANTE: Siempre recrear el loader al final
+    setupScrollListener();
   }
 
-  // --- 4. SCROLL CASERO ---
+  // --- 3. SENSOR REFORZADO (SE RECONECTA SOLO) ---
   function setupScrollListener() {
-    window.onscroll = function () {
-      if (isLoading) return;
-      if (
-        window.innerHeight + window.scrollY >=
-        document.body.offsetHeight - 800
-      ) {
-        if (currentIndex < filteredData.length) {
-          isLoading = true;
-          const loader = document.getElementById("loadingIndicator");
-          if (loader) loader.style.opacity = "1";
+    // Si ya existe un loader, lo quitamos para poner uno nuevo al final
+    const oldLoader = document.getElementById("loadingIndicator");
+    if (oldLoader) oldLoader.remove();
 
+    const loader = document.createElement("div");
+    loader.id = "loadingIndicator";
+    loader.style.cssText =
+      "text-align:center; padding:20px; color:#4caf50; font-weight:bold; width:100%; opacity:0; transition:opacity 0.3s; width:100%;";
+    loader.innerHTML = "Cargando más estrenos...";
+    catalogContainer.appendChild(loader);
+
+    // Si ya había un observer, lo desconectamos
+    if (observer) observer.disconnect();
+
+    observer = new IntersectionObserver(
+      (entries) => {
+        if (
+          entries[0].isIntersecting &&
+          !isLoading &&
+          currentIndex < filteredData.length
+        ) {
+          isLoading = true;
+          loader.style.opacity = "1";
           setTimeout(() => {
             renderNextBatch();
-            if (loader) loader.style.opacity = "0";
             isLoading = false;
-          }, 300);
+          }, 150);
         }
-      }
-    };
+      },
+      { rootMargin: "600px" },
+    );
+
+    observer.observe(loader);
   }
 
-  // --- 5. FILTRADO (ARREGLO PARA QUE NO SE MAREE) ---
+  // --- 4. FILTRADO ---
   function applyFilters() {
     const term = (searchInput.value || "").toLowerCase().trim();
     const plat = platformSelect.value;
 
     filteredData = gamesData.filter((game) => {
-      const matchSearch = game.n.toLowerCase().includes(term);
-      const matchPlat = plat === "all" || game.p === plat;
-      return matchSearch && matchPlat;
+      return (
+        game.n.toLowerCase().includes(term) &&
+        (plat === "all" || game.p === plat)
+      );
     });
 
     renderNextBatch(true);
-
-    // CARGA EXTRA: Si hay juegos y la página es corta, carga 12 más
-    // para que el scroll casero tenga espacio para funcionar.
-    if (
-      filteredData.length > currentIndex &&
-      document.body.offsetHeight <= window.innerHeight + 200
-    ) {
-      renderNextBatch();
-    }
     updateCartCount();
-  }
-
-  function createLoader() {
-    const loader = document.createElement("div");
-    loader.id = "loadingIndicator";
-    loader.style.cssText =
-      "text-align:center; padding:20px; color:#4caf50; font-weight:bold; width:100%; opacity:0; transition:opacity 0.3s;";
-    loader.innerHTML = "Cargando más estrenos...";
-    return loader;
   }
 
   function updateCartCount() {
@@ -151,7 +148,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // --- EVENTOS ---
   searchInput.addEventListener("input", applyFilters);
   platformSelect.addEventListener("change", () => {
     localStorage.setItem("filtroPlataforma", platformSelect.value);
