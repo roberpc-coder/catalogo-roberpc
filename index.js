@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
       catalogContainer.innerHTML = `<div class="error">Error: ${error.message}</div>`;
     });
 
-  // --- 3. RENDERIZADO (DISEÑO NUEVO + FRENO ANTIGUO) ---
+  // --- 3. RENDERIZADO (TU DISEÑO EXACTO) ---
   function renderNextBatch(reset = false) {
     if (reset) {
       catalogContainer.innerHTML = "";
@@ -59,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
     nextBatch.forEach((game) => {
       const card = document.createElement("div");
       card.className = "game-card";
-      // Reservamos espacio para evitar que la página "salte" al cargar
       card.style.minHeight = "350px";
 
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -90,46 +89,53 @@ document.addEventListener("DOMContentLoaded", function () {
       fragment.appendChild(card);
     });
 
-    // Insertar los juegos ANTES del cargador para evitar el salto de línea
+    // Siempre insertamos ANTES del loader
     const loader = document.getElementById("loadingIndicator");
-    if (loader) {
-      catalogContainer.insertBefore(fragment, loader);
-    } else {
-      catalogContainer.appendChild(fragment);
+    if (!loader) {
+      showLoadingIndicator();
     }
+    catalogContainer.appendChild(fragment);
+
+    // El loader siempre va al final
+    catalogContainer.appendChild(document.getElementById("loadingIndicator"));
 
     currentIndex += nextBatch.length;
   }
 
-  // --- 4. SENSOR DE SCROLL (ESTABILIZADO) ---
+  // --- 4. SENSOR DE SCROLL (CORREGIDO) ---
   function setupScrollListener() {
-    window.addEventListener(
-      "scroll",
-      () => {
-        const scrollTotal = document.documentElement.scrollHeight;
-        const scrollActual = window.innerHeight + window.scrollY;
+    showLoadingIndicator();
+    const loader = document.getElementById("loadingIndicator");
 
-        // Freno de 600px antes del final para que nunca se vea vacío
-        if (!isLoading && scrollActual >= scrollTotal - 600) {
-          if (currentIndex < filteredData.length) {
-            isLoading = true;
-            showLoadingIndicator();
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // Si el sensor es visible y no estamos cargando...
+        if (
+          entries[0].isIntersecting &&
+          !isLoading &&
+          currentIndex < filteredData.length
+        ) {
+          isLoading = true;
 
-            // Retraso de 500ms para suavidad total (como el código viejo)
+          // Hacemos visible el texto de carga
+          loader.style.opacity = "1";
+
+          setTimeout(() => {
+            renderNextBatch();
+
             setTimeout(() => {
-              renderNextBatch();
-
-              // Micro-retraso para que el navegador asimile los juegos antes de quitar el aviso
-              setTimeout(() => {
-                hideLoadingIndicator();
-                isLoading = false;
-              }, 100);
-            }, 500);
-          }
+              loader.style.opacity = "0"; // Lo ocultamos pero sigue ahí para el sensor
+              isLoading = false;
+            }, 100);
+          }, 500);
         }
       },
-      { passive: true },
+      {
+        rootMargin: "400px", // Carga antes de llegar para internet lento
+      },
     );
+
+    observer.observe(loader);
   }
 
   function showLoadingIndicator() {
@@ -137,16 +143,12 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!loader) {
       loader = document.createElement("div");
       loader.id = "loadingIndicator";
-      loader.innerHTML =
-        '<p style="text-align:center; padding:20px; color:#4caf50; font-weight:bold; width:100%;">Cargando más estrenos...</p>';
+      // Importante: opacity 0 en vez de display none para que el sensor funcione
+      loader.style.cssText =
+        "text-align:center; padding:20px; color:#4caf50; font-weight:bold; width:100%; opacity:0; transition:opacity 0.3s;";
+      loader.innerHTML = "Cargando más estrenos...";
       catalogContainer.appendChild(loader);
     }
-    loader.style.display = "block";
-  }
-
-  function hideLoadingIndicator() {
-    const loader = document.getElementById("loadingIndicator");
-    if (loader) loader.style.display = "none";
   }
 
   // --- 5. FILTRADO ---
