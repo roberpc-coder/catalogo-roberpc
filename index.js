@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // --- 1. VARIABLES DE ESTADO ---
+  // --- 1. VARIABLES ---
   let gamesData = [];
   let filteredData = [];
   let currentIndex = 0;
@@ -10,33 +10,24 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("searchInput");
   const platformSelect = document.getElementById("platformSelect");
 
-  // --- 2. CARGA INICIAL (JSON) ---
+  // --- 2. CARGA INICIAL ---
   fetch("games.json")
-    .then((response) => {
-      if (!response.ok) throw new Error("No se pudo cargar el JSON");
-      return response.json();
-    })
+    .then((res) => res.json())
     .then((data) => {
       gamesData = data;
       filteredData = [...gamesData];
 
-      // Recuperar filtro guardado
       const savedFilter = localStorage.getItem("filtroPlataforma");
       if (savedFilter) {
         platformSelect.value = savedFilter;
-        applyFilters();
-      } else {
-        renderNextBatch(true);
       }
 
-      updateCartCount();
+      applyFilters();
       setupScrollListener();
     })
-    .catch((error) => {
-      catalogContainer.innerHTML = `<div class="error">Error: ${error.message}</div>`;
-    });
+    .catch((err) => console.error("Error ROBER PC:", err));
 
-  // --- 3. RENDERIZADO (DISEÑO ROBER PC) ---
+  // --- 3. RENDERIZADO ---
   function renderNextBatch(reset = false) {
     if (reset) {
       catalogContainer.innerHTML = "";
@@ -44,26 +35,20 @@ document.addEventListener("DOMContentLoaded", function () {
       window.scrollTo(0, 0);
     }
 
-    const fragment = document.createDocumentFragment();
     const nextBatch = filteredData.slice(
       currentIndex,
       currentIndex + itemsPerPage,
     );
+    if (nextBatch.length === 0) return;
 
-    if (nextBatch.length === 0 && currentIndex === 0) {
-      catalogContainer.innerHTML =
-        '<div class="error">No se encontraron resultados.</div>';
-      return;
-    }
+    const fragment = document.createDocumentFragment();
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
 
     nextBatch.forEach((game) => {
+      const isInCart = cart.some((item) => item.id === game.id);
       const card = document.createElement("div");
       card.className = "game-card";
       card.style.minHeight = "350px";
-
-      const cart = JSON.parse(localStorage.getItem("cart")) || [];
-      const isInCart = cart.some((item) => item.id === game.id);
-
       card.innerHTML = `
         <img src="portadas/${game.img}" alt="${game.n}" class="game-cover" loading="lazy"
              onclick="window.location.href='detalles.html?id=${game.id}'"
@@ -77,10 +62,9 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="btn-group" style="display: flex; gap: 5px; width: 100%;">
             <button class="details-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #ff4444; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"
                     onclick="verTrailer('${game.n.replace(/'/g, "\\'")}')">Trailer</button>
-
-            <button class="add-cart-btn" style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: #4caf50; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;"
-                    data-id="${game.id}"
-                    ${isInCart ? 'disabled style="background-color:#555; flex: 1; padding: 8px 2px; cursor: default;"' : ""}>
+            <button class="add-cart-btn" data-id="${game.id}"
+                    style="flex: 1; padding: 8px 2px; font-size: 0.8rem; background-color: ${isInCart ? "#555" : "#4caf50"}; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: ${isInCart ? "default" : "pointer"};"
+                    ${isInCart ? "disabled" : ""}>
               ${isInCart ? "Ya pedido" : "Pedir"}
             </button>
           </div>
@@ -89,101 +73,68 @@ document.addEventListener("DOMContentLoaded", function () {
       fragment.appendChild(card);
     });
 
-    const loader = document.getElementById("loadingIndicator");
-    if (!loader) {
-      showLoadingIndicator();
-    }
     catalogContainer.appendChild(fragment);
-    catalogContainer.appendChild(document.getElementById("loadingIndicator"));
-
     currentIndex += nextBatch.length;
+
+    const loader =
+      document.getElementById("loadingIndicator") || createLoader();
+    catalogContainer.appendChild(loader);
   }
 
-  // --- 4. SENSOR DE SCROLL OPTIMIZADO ---
+  // --- 4. SCROLL CASERO ---
   function setupScrollListener() {
-    showLoadingIndicator();
-    const loader = document.getElementById("loadingIndicator");
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (
-          entries[0].isIntersecting &&
-          !isLoading &&
-          currentIndex < filteredData.length
-        ) {
+    window.onscroll = function () {
+      if (isLoading) return;
+      if (
+        window.innerHeight + window.scrollY >=
+        document.body.offsetHeight - 800
+      ) {
+        if (currentIndex < filteredData.length) {
           isLoading = true;
-          loader.style.opacity = "1";
+          const loader = document.getElementById("loadingIndicator");
+          if (loader) loader.style.opacity = "1";
 
           setTimeout(() => {
             renderNextBatch();
-            setTimeout(() => {
-              loader.style.opacity = "0";
-              isLoading = false;
-            }, 100);
-          }, 500);
+            if (loader) loader.style.opacity = "0";
+            isLoading = false;
+          }, 300);
         }
-      },
-      { rootMargin: "400px" },
-    );
-
-    observer.observe(loader);
+      }
+    };
   }
 
-  function showLoadingIndicator() {
-    let loader = document.getElementById("loadingIndicator");
-    if (!loader) {
-      loader = document.createElement("div");
-      loader.id = "loadingIndicator";
-      loader.style.cssText =
-        "text-align:center; padding:20px; color:#4caf50; font-weight:bold; width:100%; opacity:0; transition:opacity 0.3s;";
-      loader.innerHTML = "Cargando más estrenos...";
-      catalogContainer.appendChild(loader);
-    }
-  }
-
-  // --- 5. FILTRADO ---
+  // --- 5. FILTRADO (ARREGLO PARA QUE NO SE MAREE) ---
   function applyFilters() {
-    const term = (searchInput.value || "").toLowerCase();
+    const term = (searchInput.value || "").toLowerCase().trim();
     const plat = platformSelect.value;
 
     filteredData = gamesData.filter((game) => {
-      const matchesSearch = game.n.toLowerCase().includes(term);
-      const matchesPlatform = plat === "all" || game.p === plat;
-      return matchesSearch && matchesPlatform;
+      const matchSearch = game.n.toLowerCase().includes(term);
+      const matchPlat = plat === "all" || game.p === plat;
+      return matchSearch && matchPlat;
     });
 
     renderNextBatch(true);
+
+    // CARGA EXTRA: Si hay juegos y la página es corta, carga 12 más
+    // para que el scroll casero tenga espacio para funcionar.
+    if (
+      filteredData.length > currentIndex &&
+      document.body.offsetHeight <= window.innerHeight + 200
+    ) {
+      renderNextBatch();
+    }
+    updateCartCount();
   }
 
-  searchInput.addEventListener("input", applyFilters);
-  platformSelect.addEventListener("change", () => {
-    localStorage.setItem("filtroPlataforma", platformSelect.value);
-    applyFilters();
-  });
-
-  // --- 6. CARRITO Y SINCRONIZACIÓN (FUNCIÓN CORREGIDA) ---
-  catalogContainer.addEventListener("click", (e) => {
-    if (e.target.classList.contains("add-cart-btn")) {
-      const gameId = e.target.dataset.id;
-      const game = gamesData.find((g) => g.id === gameId);
-      if (game) addToCart(game, e.target);
-    }
-  });
-
-  function addToCart(game, button) {
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-    if (!cart.some((item) => item.id === game.id)) {
-      cart.push({ id: game.id, n: game.n, p: game.p, t: game.t, pr: game.pr });
-      localStorage.setItem("cart", JSON.stringify(cart));
-
-      window.dispatchEvent(new Event("storage"));
-      updateCartCount();
-
-      button.textContent = "Ya pedido";
-      button.style.backgroundColor = "#555";
-      button.disabled = true;
-      button.style.cursor = "default";
-    }
+  function createLoader() {
+    const loader = document.createElement("div");
+    loader.id = "loadingIndicator";
+    loader.style.cssText =
+      "text-align:center; padding:20px; color:#4caf50; font-weight:bold; width:100%; opacity:0; transition:opacity 0.3s;";
+    loader.innerHTML = "Cargando más estrenos...";
+    return loader;
   }
 
   function updateCartCount() {
@@ -191,35 +142,49 @@ document.addEventListener("DOMContentLoaded", function () {
     const countSpan = document.querySelector(".cart-count");
     if (countSpan) countSpan.textContent = cart.length;
 
-    const buttons = document.querySelectorAll(".add-cart-btn");
-    buttons.forEach((btn) => {
-      const gameId = btn.dataset.id;
-      const exists = cart.some((item) => item.id === gameId);
-
-      if (exists) {
-        // Bloquear si ya está en el carrito
-        btn.textContent = "Ya pedido";
-        btn.disabled = true;
-        btn.style.backgroundColor = "#555";
-        btn.style.cursor = "default";
-      } else {
-        // Activar si no está (o si fue eliminado)
-        btn.textContent = "Pedir";
-        btn.disabled = false;
-        btn.style.backgroundColor = "#4caf50";
-        btn.style.cursor = "pointer";
-      }
+    document.querySelectorAll(".add-cart-btn").forEach((btn) => {
+      const exists = cart.some((item) => item.id === btn.dataset.id);
+      btn.textContent = exists ? "Ya pedido" : "Pedir";
+      btn.disabled = exists;
+      btn.style.backgroundColor = exists ? "#555" : "#4caf50";
+      btn.style.cursor = exists ? "default" : "pointer";
     });
   }
 
+  // --- EVENTOS ---
+  searchInput.addEventListener("input", applyFilters);
+  platformSelect.addEventListener("change", () => {
+    localStorage.setItem("filtroPlataforma", platformSelect.value);
+    applyFilters();
+  });
+
+  catalogContainer.addEventListener("click", (e) => {
+    if (e.target.classList.contains("add-cart-btn")) {
+      const gameId = e.target.dataset.id;
+      const game = gamesData.find((g) => g.id === gameId);
+      if (game) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        if (!cart.some((item) => item.id === game.id)) {
+          cart.push({
+            id: game.id,
+            n: game.n,
+            p: game.p,
+            t: game.t,
+            pr: game.pr,
+          });
+          localStorage.setItem("cart", JSON.stringify(cart));
+          window.dispatchEvent(new Event("storage"));
+          updateCartCount();
+        }
+      }
+    }
+  });
+
   window.addEventListener("storage", updateCartCount);
   window.addEventListener("pageshow", updateCartCount);
-
-  window.verTrailer = function (nombreJuego) {
-    const busqueda = encodeURIComponent(nombreJuego + " trailer oficial");
+  window.verTrailer = (n) =>
     window.open(
-      `https://www.youtube.com/results?search_query=${busqueda}`,
+      `https://www.youtube.com/results?search_query=${encodeURIComponent(n + " trailer oficial")}`,
       "_blank",
     );
-  };
 });
