@@ -141,3 +141,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+// Este evento es "santo remedio" para celulares
+window.addEventListener("pageshow", (event) => {
+  // No importa si la página es nueva o viene de "atrás",
+  // forzamos la actualización del contador y los botones.
+  updateCartCount();
+});
