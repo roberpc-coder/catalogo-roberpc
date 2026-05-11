@@ -18,7 +18,7 @@
     "p": "PC",
     "img": "00663.webp",
     "g": "Deporte, Simulación",
-    "r": "•PROCESADOR: Pentium 4 2.4 Ghz Single Core processor or equivalent (2.8 Ghz for Vista)\n•MEMORIA OPERATIVA: 512 MB or more (1 GB for Vista)\n•SISTEMA OPERATIVO: Windows XP, Vista or 7\n•TARJETA DE VIDEO: Video card with 128 MB or more memory and one of the following chipsets is required ATI Radeon X1300 or better/ NVIDIA GeForce 6600 or better with Shader Model 3.0 support\n•PIXEL SHADERS: 3.0\n•VERTEX SHADERS: 3.0",
+    "r": "•SISTEMA OPERATIVO: Windows XP, Vista or 7\n•PROCESADOR: Pentium 4 2.4 Ghz\n•MEMORIA OPERATIVA: 512 MB\n•TARJETA DE VIDEO: 128 MB with Shader Model 3.0",
     "pr": 50,
     "a": "2021",
     "e": ""
@@ -141,7 +141,7 @@
     "r": "•Procesador: Intel core i3-2100T @ 2.5GHz/AMD FX 6100, or better\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 650Ti 2GB, AMD Radeon HD 7750 2GB\n•Almacenamiento: 25 GB available space",
     "pr": 100,
     "a": "2020",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01325",
@@ -165,7 +165,7 @@
     "r": "•Procesador: Intel Core i3-7100\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce GTX 750Ti(2GB)\n•DirectX: Version 11\n•Almacenamiento: 50 GB available space",
     "pr": 150,
     "a": "2019",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00083",
@@ -201,7 +201,7 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: 2.0 Ghz\n•Memoria: 2 GB RAM\n•Gráficos: 1Gb Video Memory, capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable)\n•Almacenamiento: 1 GB available space",
     "pr": 50,
     "a": "2022",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00015",
@@ -378,7 +378,7 @@
     "p": "PC",
     "img": "00689.webp",
     "g": "RPG, ROL",
-    "r": "•Requiere un procesador y un sistema operativo de 64 bits\n•SO: Windows 10 64-bit\n•Procesador: Intel Core i5-8400 / AMD Ryzen 5 1600\n•Memoria: 12 GB de RAM\n•Gráficos: NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB\n•DirectX: Versión 11\n•Almacenamiento: 30 GB de espacio disponible\n•Tarjeta de sonido: Windows Compatible Audio Device\n•Notas adicionales: HDD Supported, SSD Recommended.",
+    "r": "•SO: Windows 10 64-bit\n•Procesador: Intel Core i5-8400 / AMD Ryzen 5 1600\n•Memoria: 12 GB de RAM\n•Gráficos: NVIDIA GeForce GTX 1060 6GB / AMD Radeon RX 580 8GB\n•DirectX: Versión 11\n•Almacenamiento: 30 GB de espacio disponible",
     "pr": 100,
     "a": "2025",
     "e": ""
@@ -615,11 +615,11 @@
     "id": "00694",
     "n": "Among Us",
     "t": "0.4 Gb",
-    "p": "PC Online",
+    "p": "PC",
     "img": "00694.webp",
     "g": "Multijugador, Cooperativo en línea, Deducción social, Indie",
     "r": "•Requiere un procesador y un sistema operativo de 64 bits\n•Sistema Operativo: Windows 7, 8, 10\n•Procesador: Intel Pentium E2180 @ 2.00GHz / AMD Turion 64 X2 Mobile TL-64\n•Memoria: 1 Gigas de RAM\n•Gráficos: GeForce 7600 GT / Radeon HD 7310G\n•DirectX: Versión 10\n•Almacenamiento: 250 Megas de espacio disponible",
-    "pr": 1000,
+    "pr": 50,
     "a": "2018",
     "e": ""
   },
@@ -657,7 +657,7 @@
     "r": "•Sistema Operativo: Windows 10 (64 bit only)\n•Procesador: Intel 7th Gen: Intel Core i7-7700 or AMD Ryzen 5 1600\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660 (6GB) or AMD Radeon RX-5600 XT (6GB)\n•DirectX: Version 12\n•Almacenamiento: 117 GB available space",
     "pr": 200,
     "a": "2025",
-    "e": ""
+    "e": "true"
   },
   {
     "id": "00946",
@@ -925,7 +925,7 @@
   },
   {
     "id": "00049",
-    "n": "Assassin's  Creed II  ",
+    "n": "Assassin's  Creed II",
     "t": "3.9 Gb",
     "p": "PC",
     "img": "00049.webp",
@@ -1320,6 +1320,18 @@
     "e": ""
   },
   {
+    "id": "01549",
+    "n": "Av Director Life",
+    "t": "2.3 Gb",
+    "p": "PC",
+    "img": "01549.webp",
+    "g": "Casual, Indie, Simulación",
+    "r": "•Sistema Operativo: Windows 8\n•Procesador: Intel Core i5 7th gen\n•Memoria: 6 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060\n•DirectX: Version 12\n•Almacenamiento: 6 GB available space",
+    "pr": 50,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "01503",
     "n": "Avatar Frontiers Of Pandora [HV]",
     "t": "81.2 Gb",
@@ -1526,12 +1538,12 @@
   {
     "id": "00104",
     "n": "Battlefield 3",
-    "t": "35.5 Gb",
+    "t": "13.5 Gb",
     "p": "PC",
     "img": "00104.webp",
     "g": "Acción",
     "r": "•Sistema Operativo: Windows 7 64-bit\n•Procesador: 2 GHz Dual Core (Core 2 Duo 2.4 GHz or Althon X2 2.7 GHz)\n•Memoria: 2 GB RAM\n•Gráficos: Graphics card (AMD): DirectX 10.1 compatible with 512 MB RAM (ATI Radeon 3000, 4000, 5000 or 6000 series, with ATI Radeon 3870 or higher performance) Graphics card (NVIDIA): DirectX 10.0 compatible with 512 MB RAM (NVIDIA GeForce 8, 9, 200, 300, 400 or 500 series with NVIDIA GeForce 8800 GT or higher performance)\n•DirectX: Version 10\n•Almacenamiento: 20 GB available space\n•Sistema Operativo: und Card:  DirectX Compatible",
-    "pr": 150,
+    "pr": 100,
     "a": "2020",
     "e": ""
   },
@@ -1657,7 +1669,7 @@
   },
   {
     "id": "01074",
-    "n": "Beyond Good and Evil 20th Anniversary Edition",
+    "n": "Beyond Good and Evil 20th Anniversary Edition [HV]",
     "t": "11.4 Gb",
     "p": "PC",
     "img": "01074.webp",
@@ -1665,7 +1677,7 @@
     "r": "•Sistema Operativo: Windows 10 (64 bit only)\n•Procesador: Intel Core i5-4460, AMD Ryzen3 1200\n•Memoria: 8 Gigas de RAM\n•Gráficos: NVIDIA GeForce GTX 960 (4 Gigas VRAM) o AMD Radeon RX 5500 XT (4 Gigas VRAM)\n•DirectX: Versión 11\n•Almacenamiento: 20 Gigas de espacio disponible",
     "pr": 100,
     "a": "2024",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00113",
@@ -1797,7 +1809,7 @@
     "r": "•SO: Windows 10 64-bit\n•Procesador: Intel Core i5-8400 | AMD Ryzen 5 1600\n•Memoria: 16 Gigas de RAM\n•Gráficos: NVIDIA GeForce GTX 1060 6GB | AMD Radeon RX 580 8GB\n•DirectX: Versión 11\n•Almacenamiento: 130 Gigas de espacio disponible",
     "pr": 300,
     "a": "2024",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01326",
@@ -2484,6 +2496,30 @@
     "e": ""
   },
   {
+    "id": "01581",
+    "n": "Capcom Fighting",
+    "t": "3.4 Gb",
+    "p": "PC",
+    "img": "01581.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows 10 (64-bit)\n•Procesador: Intel Core i3 4160 or AMD FX-4350\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce GTX 660 or AMD Radeon HD 7850\n•DirectX: Version 11\n•Almacenamiento: 4 GB available space",
+    "pr": 50,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01550",
+    "n": "Capcom Fighting 2",
+    "t": "3.4 Gb",
+    "p": "PC",
+    "img": "01550.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows10 (64-BIT Required) / Windows11 (64-BIT Required)\n•Procesador: IntelⓇ Core™ i5-4460, AMD FX-8300\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA®: GeForce® GTX 760 with 2GB Video RAM, AMD: Radeon™ R9 290x with 4GB Video RAM\n•DirectX: Version 11\n•Almacenamiento: 4 GB available space\n•Sistema Operativo: und Card:  DirectSound (DirectX® 9.0c or later)",
+    "pr": 50,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "00135",
     "n": "Captain Tsubasa Rise of New Champions",
     "t": "13.3 Gb",
@@ -2592,8 +2628,20 @@
     "e": ""
   },
   {
+    "id": "01551",
+    "n": "Castlevania Advance Collection",
+    "t": "0.4 Gb",
+    "p": "PC",
+    "img": "01551.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows 10 - 64bit\n•Procesador: Intel Core i3-4160\n•Memoria: 4 GB RAM\n•DirectX: Version 9.0\n•Almacenamiento: 500 MB available space\n•Sistema Operativo: und Card:  DirectX 9 compatible",
+    "pr": 50,
+    "a": "2021",
+    "e": ""
+  },
+  {
     "id": "01354",
-    "n": "Castlevania Anniversary",
+    "n": "Castlevania Anniversary Collection",
     "t": "0.8 Gb",
     "p": "PC",
     "img": "01354.webp",
@@ -3252,13 +3300,13 @@
     "e": ""
   },
   {
-    "id": "00776",
-    "n": "Crown of Greed",
+    "id": "01553",
+    "n": "Crown Of Greed",
     "t": "3.5 Gb",
     "p": "PC",
-    "img": "00776.webp",
-    "g": "Indie, RPG, Simulation, Strategy",
-    "r": "•SO: Windows 10 64-bit\n•Procesador:Intel Core i5 or AMD equivalent\n•Memoria: 8 GB de RAM\n•Gráficos: Nvidia Geforce GTX 1060 or Radeon RX 580\n•DirectX: Versión 11\n•Almacenamiento: 10 GB available space",
+    "img": "01553.webp",
+    "g": "Indie, Rol, Simulación, Estrategia",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5 or AMD equivalent\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia Geforce GTX 1060 or Radeon RX 580\n•DirectX: Version 11\n•Almacenamiento: 10 GB available space",
     "pr": 50,
     "a": "2026",
     "e": ""
@@ -3337,7 +3385,7 @@
   },
   {
     "id": "00205",
-    "n": "Crysis Remastered ",
+    "n": "Crysis Remastered",
     "t": "21.8 Gb",
     "p": "PC",
     "img": "00205.webp",
@@ -3346,6 +3394,18 @@
     "pr": 150,
     "a": "2021",
     "e": ""
+  },
+  {
+    "id": "01554",
+    "n": "Cthulhu The Cosmic Abyss",
+    "t": "12.4 Gb",
+    "p": "PC",
+    "img": "01554.webp",
+    "g": "Aventura",
+    "r": "•Sistema Operativo: Windows 10 - 11\n•Procesador: Intel Core i7-8700K or AMD Ryzen 5 1600X\n•Memoria: 12 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060, 6 GB or AMD Radeon RX 590, 8 GB or Intel Arc A580, 8 GB\n•DirectX: Version 12\n•Almacenamiento: 16 GB available space",
+    "pr": 100,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00721",
@@ -4620,6 +4680,18 @@
     "e": ""
   },
   {
+    "id": "00231",
+    "n": "Drill Core the Machine World",
+    "t": "3.1 Gb",
+    "p": "PC",
+    "img": "00231.webp",
+    "g": "Indie, Strategy",
+    "r": "•Sistema Operativo: Windows 10 de 64 bits\n•Procesador (CPU): Intel Core i5-2400 o AMD FX-8350\n•Memoria RAM: 6 GB\n•Tarjeta Gráfica (GPU): Nvidia GeForce GT 710 (1 GB) o AMD Radeon R7 240 (1 GB)",
+    "pr": 100,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "00772",
     "n": "Drive Rally",
     "t": "1.1 Gb",
@@ -4833,7 +4905,7 @@
     "r": "•Sistema Operativo: Windows 10/11 - 64-Bit (Latest Update).\n•Procesador: AMD Ryzen 5 1600 or Intel Core i5 6600k\n•Memoria: 8 GB RAM\n•Gráficos: AMD RX 570 or Nvidia GTX 1050 Ti\n•DirectX: Version 12\n•Almacenamiento: 100 GB available space\n•Sistema Operativo: und Card:  DirectX: 12 Compatible video card or equivalent (feature level 12_0)",
     "pr": 200,
     "a": "2025",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01548",
@@ -4848,12 +4920,12 @@
     "e": ""
   },
   {
-    "id": "00231",
+    "id": "01555",
     "n": "Eastern Era",
     "t": "7.2 Gb",
     "p": "PC",
-    "img": "00231.webp",
-    "g": "Adventure, Indie, RPG, Simulation, Strategy",
+    "img": "01555.webp",
+    "g": "Aventura, Indie, Rol, Simulación, Estrategia",
     "r": "•Sistema Operativo: Windows 7 64 bit\n•Procesador: AMD A10 7850K, Intel i3-2000\n•Memoria: 8 GB RAM\n•Gráficos: Geforce RTX 2060 , Radeon RX 5600 XT",
     "pr": 100,
     "a": "2026",
@@ -5169,6 +5241,18 @@
     "r": "•Sistema Operativo: 7\n•Procesador: Intel Core 2 Duo E4500 @ 2.2GHz or AMD Athlon 64 X2 5600+ @ 2.8 GHz\n•Memoria: 4 GB RAM\n•Gráficos: GeForce 240 GT or Radeon HD 6570 1024 MB (1 gig)\n•DirectX: Version 9.0c\n•Almacenamiento: 3 GB available space",
     "pr": 50,
     "a": "2020",
+    "e": ""
+  },
+  {
+    "id": "01582",
+    "n": "Eversiege Untold Ages",
+    "t": "10.4 Gb",
+    "p": "PC",
+    "img": "01582.webp",
+    "g": "Estrategia, Indie",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5-8400 or AMD Ryzen 5 2600\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060 or AMD Radeon RX 580\n•DirectX: Version 11\n•Almacenamiento: 12 GB available space",
+    "pr": 100,
+    "a": "2024",
     "e": ""
   },
   {
@@ -5542,6 +5626,18 @@
     "pr": 100,
     "a": "2016",
     "e": ""
+  },
+  {
+    "id": "00139",
+    "n": "Far Far West",
+    "t": "4.6 Gb",
+    "p": "PC",
+    "img": "00139.webp",
+    "g": "Action, Adventure, Indie, Early Access",
+    "r": "•OS:   Windows 10 (64-BIT Required)\n•Processor:  Intel Core i5-7600K or AMD Ryzen 5 1600\n•Memory:  8 GB RAM\n•Graphics:  Nvidia GeForce GTX 1660 or AMD Radeon RX 590\n•DirectX:  Version 12\n•Storage:  10 GB available space\n•Additional Notes:  SSD Recommended",
+    "pr": 100,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00339",
@@ -6276,6 +6372,18 @@
     "e": ""
   },
   {
+    "id": "01586",
+    "n": "Forza Horizon 6",
+    "t": "160 Gb",
+    "p": "PC",
+    "img": "01586.webp",
+    "g": "Racing, Open World, Simulation",
+    "r": "•OS: Windows 10/11\n•Processor: Intel Core i5-8400 / AMD Ryzen 5 1600\n•Memory: 16 GB RAM\n•Graphics: NVIDIA GeForce GTX 1650 / AMD Radeon RX 6500 XT\n•DirectX: Version 12\n•Storage: 160 GB available space\n•Additional Notes: The game must be installed on a SSD",
+    "pr": 500,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00397",
     "n": "Forza Motorsport 7",
     "t": "100.3 Gb",
@@ -6538,6 +6646,18 @@
     "pr": 150,
     "a": "2022",
     "e": ""
+  },
+  {
+    "id": "01094",
+    "n": "Global Rescue",
+    "t": "2.1 Gb",
+    "p": "PC",
+    "img": "01094.webp",
+    "g": "Simulation, Strategy, Early Access",
+    "r": "•OS:  Win 10 / 11 (64Bit)\n•Processor:  AMD / Intel quad-core processor running at 3.5 GHz\n•Memory:  16 GB RAM\n•Graphics: ATI/AMD Radeon HD 7870 and NVIDIA GeForce GTX 1050 Ti\n•Storage:  10 GB available space",
+    "pr": 150,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00406",
@@ -7466,7 +7586,7 @@
   {
     "id": "00495",
     "n": "Hitman Absolution Professional Edition",
-    "t": "16.9 Gb",
+    "t": "21.5 Gb",
     "p": "PC",
     "img": "00495.webp",
     "g": "Acción",
@@ -7617,6 +7737,30 @@
     "r": "•Sistema Operativo: Windows 7/10 (64 Bit)\n•Procesador: Intel Core i5\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GTX 1660\n•DirectX: Version 11\n•Almacenamiento: 34 GB available space\n•Sistema Operativo: und Card:  Integrated",
     "pr": 100,
     "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "01556",
+    "n": "Homura Hime",
+    "t": "12.3 Gb",
+    "p": "PC",
+    "img": "01556.webp",
+    "g": "Acción, Indie",
+    "r": "•Sistema Operativo: Windows 7/10 (64 Bit)\n•Procesador: Intel Core i5\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GTX 1660\n•DirectX: Version 11\n•Almacenamiento: 34 GB available space",
+    "pr": 100,
+    "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "01583",
+    "n": "Honecome",
+    "t": "4.6 Gb",
+    "p": "PC",
+    "img": "01583.webp",
+    "g": "Simulación, Casual",
+    "r": "•Sistema Operativo: Windows 10/11 64-bit\n•Procesador: Intel Core i5-8400\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060\n•DirectX: Version 11\n•Almacenamiento: 10 GB available space",
+    "pr": 50,
+    "a": "2023",
     "e": ""
   },
   {
@@ -7788,6 +7932,18 @@
     "e": ""
   },
   {
+    "id": "01557",
+    "n": "I Am Jesus Christ",
+    "t": "8.8 Gb",
+    "p": "PC",
+    "img": "01557.webp",
+    "g": "Acción, Aventura, Casual, Indie, Simulación",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-7500 / AMD Ryzen 5 1500X\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space",
+    "pr": 100,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00444",
     "n": "I Am Your Beast",
     "t": "1.4 Gb",
@@ -7918,6 +8074,18 @@
     "pr": 50,
     "a": "2016",
     "e": ""
+  },
+  {
+    "id": "00776",
+    "n": "Invincible VS",
+    "t": "9.5 Gb",
+    "p": "PC",
+    "img": "00776.webp",
+    "g": "Acción, Aventura",
+    "r": "•SO: Windows 10\n•Procesador: Intel Core i5-9700F | Ryzen 5 2600\n•Memoria: 16 Gigas de RAM\n•Gráficos: GeForce RTX 2070 (VRAM 8GB) | Radeon RX 7800 (VRAM 8GB)\n•DirectX: Versión 12\n•Almacenamiento: 15 Gigas de espacio disponible",
+    "pr": 50,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00760",
@@ -8496,13 +8664,13 @@
     "e": ""
   },
   {
-    "id": "00139",
+    "id": "01558",
     "n": "Last Man Sitting",
     "t": "6.1 Gb",
     "p": "PC",
-    "img": "00139.webp",
+    "img": "01558.webp",
     "g": "Acción",
-    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Corei5-8500 / AMD Ryzen5 2600X\n•Memoria: 2 GB RAM\n•Gráficos: Direct X9 compatible video card 512Mb RAM\n•DirectX: Version 12\n•Almacenamiento: 7 GB available space",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Corei5-8500 / AMD Ryzen5 2600X\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 970 / AMD Radeon R9 380\n•DirectX: Version 12\n•Almacenamiento: 7 GB available space",
     "pr": 100,
     "a": "2026",
     "e": ""
@@ -9672,6 +9840,18 @@
     "e": ""
   },
   {
+    "id": "01584",
+    "n": "Mega Man X Legacy Collection 1+2",
+    "t": "4.5 Gb",
+    "p": "PC",
+    "img": "01584.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows 7, 8, 8.1, 10 (64-bit)\n•Procesador: Intel Core i3 2100 or AMD Phenom II X4 945\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce GTX 460 or AMD Radeon HD 6870\n•DirectX: Version 11\n•Almacenamiento: 7 GB available space",
+    "pr": 50,
+    "a": "2018",
+    "e": ""
+  },
+  {
     "id": "00434",
     "n": "Mega Man Zero/zx Legacy Collection",
     "t": "3.8 Gb",
@@ -10260,6 +10440,18 @@
     "e": ""
   },
   {
+    "id": "01559",
+    "n": "Moomintroll Winters Warmth",
+    "t": "3.0 Gb",
+    "p": "PC",
+    "img": "01559.webp",
+    "g": "Adventure, Indie, RPG",
+    "r": "•OS:  Windows 10\n•Processor:  Intel Core i5-3570K or AMD equivalent\n•Memory:  8 GB RAM\n•Graphics:  NVIDIA GeForce GTX 780\n•DirectX:  Version 11",
+    "pr": 50,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00620",
     "n": "Morbid The Lords Of Ire",
     "t": "12.2 Gb",
@@ -10533,6 +10725,18 @@
     "r": "•Sistema Operativo: XP/Vista/Windows 7\n•Procesador: 2.1Ghz or higher\n•Memoria: 1.2 GB\n•Gráficos: Card:  128 MB+\n•Sistema Operativo: und:  DirectX Compatible Sound Card\n•DirectX: ®:  9.0c",
     "pr": 50,
     "a": "2011",
+    "e": ""
+  },
+  {
+    "id": "01560",
+    "n": "Mouse Pi For Hire",
+    "t": "8.6 Gb",
+    "p": "PC",
+    "img": "01560.webp",
+    "g": "Acción, Indie",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5 9500 / Ryzen 3400\n•Memoria: 12 GB RAM\n•Gráficos: GeForce GTX 1060 / Intel Xe 2 Graphics / Radeon RX 580\n•DirectX: Version 11\n•Almacenamiento: 11 GB available space",
+    "pr": 100,
+    "a": "2026",
     "e": ""
   },
   {
@@ -11013,7 +11217,7 @@
     "r": "•OS: Windows 10 (64 bits)\n•Procesador: Ryzen 5 2600 o Intel Core i5-8600\n•Memoria RAM: 8 GB\n•Gráficos: AMD Radeon RX 570 o NVIDIA GeForce GTX 1050 Ti\n•DirectX: Versión 12\n•Almacenamiento: 50 GB disponibles",
     "pr": 150,
     "a": "2024",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01491",
@@ -11425,7 +11629,7 @@
   },
   {
     "id": "01493",
-    "n": "Norse Oath Of Blood Special",
+    "n": "Norse Oath of Blood Special Edition",
     "t": "43.2 Gb",
     "p": "PC",
     "img": "01493.webp",
@@ -11724,6 +11928,18 @@
     "e": ""
   },
   {
+    "id": "01561",
+    "n": "Outbreak Island",
+    "t": "15.5 Gb",
+    "p": "PC",
+    "img": "01561.webp",
+    "g": "Acción, Aventura, Indie, Rol, Simulación, Early Access",
+    "r": "•Sistema Operativo: Windows® 10 / (64-bit only)\n•Procesador: Intel i5-8400 / AMD Ryzen 3300X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 2060 / AMD Radeon RX 5700\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space\n•Sistema Operativo: und Card:  DirectX-compatible (5.1 surround sound recommended)",
+    "pr": 150,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "00843",
     "n": "Outcast A New Beginning",
     "t": "33.6 Gb",
@@ -11853,6 +12069,18 @@
     "r": "•Sistema Operativo: Windows 10 or later (64-Bit)\n•Procesador: i5-3570K 3.4 GHz 4 Core\n•Memoria: 16 GB RAM\n•Gráficos: GeForce GTX 1050 (2GB)\n•DirectX: Version 11\n•Almacenamiento: 40 GB available space",
     "pr": 150,
     "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01562",
+    "n": "Paragnosia Museum",
+    "t": "2.4 Gb",
+    "p": "PC",
+    "img": "01562.webp",
+    "g": "Aventura, Casual, Indie, Simulación",
+    "r": "•Sistema Operativo: Windows 7 (SP1+), Windows 10 and Windows 11\n•Procesador: x86, x64 architecture with SSE2 instruction set support.\n•Memoria: 4 GB RAM\n•Gráficos: DX10, DX11, DX12 capable.\n•DirectX: Version 11\n•Almacenamiento: 4 GB available space",
+    "pr": 50,
+    "a": "2026",
     "e": ""
   },
   {
@@ -12900,6 +13128,18 @@
     "e": ""
   },
   {
+    "id": "01563",
+    "n": "Replaced",
+    "t": "3.5 Gb",
+    "p": "PC",
+    "img": "01563.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel® Core™ i5-8400 Processor\n•Memoria: 16 GB RAM\n•Gráficos: GeForce GTX 1060 (6GB) or equivalent\n•Almacenamiento: 8 GB available space",
+    "pr": 50,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "00933",
     "n": "Republic Of Pirates",
     "t": "5.0 Gb",
@@ -13065,7 +13305,7 @@
     "r": "•Sistema Operativo: Windows 11\n•Procesador: Intel corei5-8500 | AMD Ryzen 5 3500\n•Memoria: 16 Gigas de RAM\n•Gráficos: GeForce GTX 1660 6 Gigas |  Radeon RX 5500 XT 8 Gigas\n•DirectX: Versión 12",
     "pr": 250,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00994",
@@ -13836,6 +14076,18 @@
     "e": ""
   },
   {
+    "id": "01585",
+    "n": "Seth",
+    "t": "10.9 Gb",
+    "p": "PC",
+    "img": "01585.webp",
+    "g": "Acción, Aventura",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GTX 1050\n•DirectX: Version 11\n•Almacenamiento: 15 GB available space",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "00966",
     "n": "Shadow Of The Tomb Raider",
     "t": "51.5 Gb",
@@ -13869,6 +14121,18 @@
     "r": "•Sistema Operativo: Windows 10 64bit\n•Procesador: Intel Core i5-3470 or AMD Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 770, 4 GB or AMD Radeon R9 380, 4 GB\n•DirectX: Version 11\n•Almacenamiento: 30 GB available space",
     "pr": 150,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01564",
+    "n": "Shifting To The Backrooms",
+    "t": "6.8 Gb",
+    "p": "PC",
+    "img": "01564.webp",
+    "g": "Indie",
+    "r": "•Sistema Operativo: Windows 10 / 11 - 64 bit\n•Procesador: Intel Core i3 / AMD Ryzen 3\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1050 Ti / Radeon RX 570\n•DirectX: Version 12\n•Almacenamiento: 8 GB available space",
+    "pr": 100,
+    "a": "2026",
     "e": ""
   },
   {
@@ -14074,6 +14338,30 @@
     "pr": 100,
     "a": "2023",
     "e": ""
+  },
+  {
+    "id": "01565",
+    "n": "Slay The Spire",
+    "t": "1.2 Gb",
+    "p": "PC",
+    "img": "01565.webp",
+    "g": "Indie, Estrategia",
+    "r": "•Sistema Operativo: Windows XP, Vista, 7, 8/8.1, 10\n•Procesador: 2.0 Ghz\n•Memoria: 2 GB RAM\n•Gráficos: 1Gb Video Memory, capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable)\n•Almacenamiento: 1 GB available space",
+    "pr": 50,
+    "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01552",
+    "n": "Slay the Spire 2",
+    "t": "1.2 Gb",
+    "p": "PC",
+    "img": "01552.webp",
+    "g": "Indie, Strategy, Early Access",
+    "r": "•OS:  Windows 10 (64-bit)\n•Processor:  Dual-core 2.0 GHz\n•Memory:  4 GB RAM\n•Graphics:  DirectX 12 or Vulkan compatible, 1 GB VRAM\n•Storage:  4 GB available space",
+    "pr": 50,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "01005",
@@ -14376,6 +14664,18 @@
     "e": ""
   },
   {
+    "id": "01574",
+    "n": "Songs Of Conquest Rise Eternal",
+    "t": "2.1 Gb",
+    "p": "PC",
+    "img": "01574.webp",
+    "g": "Aventura, Rol, Estrategia",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-4460 or AMD Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 960 or AMD Radeon R9 280\n•DirectX: Version 11\n•Almacenamiento: 4 GB available space",
+    "pr": 50,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "01048",
     "n": "Songs Of Steel Hispania",
     "t": "2.0 Gb",
@@ -14457,6 +14757,18 @@
     "r": "•Sistema Operativo: 64-bit Windows 10\n•Procesador: INTEL CORE I5-8400 or AMD RYZEN 3 3300X\n•Memoria: 12 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060 3GB or AMD Radeon RX 570 4GB\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space",
     "pr": 100,
     "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01566",
+    "n": "Soul Hackers 2",
+    "t": "9.8 Gb",
+    "p": "PC",
+    "img": "01566.webp",
+    "g": "Rol",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-3470 or AMD Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTS 450, 1 GB or AMD Radeon HD 5770, 1 GB\n•DirectX: Version 11\n•Almacenamiento: 22 GB available space",
+    "pr": 100,
+    "a": "2022",
     "e": ""
   },
   {
@@ -14604,6 +14916,18 @@
     "e": ""
   },
   {
+    "id": "01575",
+    "n": "Spider Man Shattered Dimensions",
+    "t": "4.7 Gb",
+    "p": "PC",
+    "img": "01575.webp",
+    "g": "Acción, Aventura",
+    "r": "•Sistema Operativo: Windows XP / Vista / 7\n•Procesador: Intel Core 2 Duo 2.6 GHz or AMD Athlon 64 X2 3800+\n•Memoria: 2 GB RAM\n•Gráficos: NVIDIA GeForce 7800 256 MB or ATI Radeon X1800 256 MB\n•DirectX: Version 9.0c\n•Almacenamiento: 8 GB available space",
+    "pr": 50,
+    "a": "2010",
+    "e": ""
+  },
+  {
     "id": "01087",
     "n": "Spiderman 3",
     "t": "4.1 Gb",
@@ -14685,6 +15009,18 @@
     "r": "•Sistema Operativo: Windows® 10 / 11 64-bit\n•Procesador: AMD A8-7600 / Intel® Core™ i3-3210\n•Memoria: 8 GB RAM\n•Gráficos: AMD Radeon™ RX 460 / Intel® Arc™ A380 / NVIDIA® GeForce® GTX 750 Ti\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space",
     "pr": 150,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01567",
+    "n": "Star Trek Infection",
+    "t": "19.9 Gb",
+    "p": "PC",
+    "img": "01567.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "•Sistema Operativo: Requires a 64-bit processor and operating system\n•Procesador: Windows 10/11\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce RTX 3060 8GB VRAM\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space",
+    "pr": 150,
+    "a": "2026",
     "e": ""
   },
   {
@@ -14808,6 +15144,18 @@
     "e": ""
   },
   {
+    "id": "01576",
+    "n": "Starbound Unstable Nightly",
+    "t": "1.8 Gb",
+    "p": "PC",
+    "img": "01576.webp",
+    "g": "Acción, Aventura, Casual, Indie, Rol",
+    "r": "•Sistema Operativo: Windows XP or later\n•Procesador: Core 2 Duo\n•Memoria: 2 GB RAM\n•Gráficos: 256 MB graphics memory and directx 9.0c compatible gpu\n•DirectX: Version 9.0c\n•Almacenamiento: 3 GB available space",
+    "pr": 50,
+    "a": "2016",
+    "e": ""
+  },
+  {
     "id": "01025",
     "n": "Starcom Unknown Space",
     "t": "2.3 Gb",
@@ -14870,12 +15218,12 @@
   {
     "id": "01027",
     "n": "Starfield",
-    "t": "103.3 Gb",
+    "t": "97.5 Gb",
     "p": "PC",
     "img": "01027.webp",
     "g": "Rol",
     "r": "•Sistema Operativo: Windows 10 version 21H1 (10.0.19043)\n•Procesador: AMD Ryzen 5 2600X, Intel Core i7-6800K\n•Memoria: 16 GB RAM\n•Gráficos: AMD Radeon RX 5700, NVIDIA GeForce 1070 Ti\n•DirectX: Version 12\n•Almacenamiento: 125 GB available space",
-    "pr": 300,
+    "pr": 250,
     "a": "2023",
     "e": ""
   },
@@ -14965,15 +15313,15 @@
   },
   {
     "id": "01532",
-    "n": "Stellar Blade [HV]",
+    "n": "Stellar Blade",
     "t": "55.1 Gb",
     "p": "PC",
     "img": "01532.webp",
     "g": "Acción, Aventura, Rol",
-    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel® Core™ i5-7600k Processor / AMD Ryzen™ 5 1600X Processor\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060 6GB or AMD Radeon RX 580 8GB\n•DirectX: Version 12\n•Almacenamiento: 75 GB available space",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel® Core™ i5-7600k Processor / AMD Ryzen™ 5 1600X Processor\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060 6GB or AMD Radeon RX 580 8GB\n•DirectX: Version 12\n•Almacenamiento: 62 GB available space",
     "pr": 200,
     "a": "2025",
-    "e": ""
+    "e": "true"
   },
   {
     "id": "01029",
@@ -15132,6 +15480,18 @@
     "e": ""
   },
   {
+    "id": "01568",
+    "n": "Subliminal",
+    "t": "17.8 Gb",
+    "p": "PC",
+    "img": "01568.webp",
+    "g": "Aventura, Indie, Rol, Simulación, Estrategia",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel i5 10th Gen\n•Memoria: 6 GB RAM\n•Gráficos: Nvidia GTX 1060\n•DirectX: Version 12\n•Almacenamiento: 20 GB available space\n•Sistema Operativo: und Card:  N/A",
+    "pr": 150,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "01071",
     "n": "Subnautica",
     "t": "11.3 Gb",
@@ -15216,16 +15576,16 @@
     "e": ""
   },
   {
-    "id": "01094",
-    "n": "super robot wars y",
-    "t": "17.4 Gb",
+    "id": "01569",
+    "n": "Super Robot Wars Y",
+    "t": "17.5 Gb",
     "p": "PC",
-    "img": "01094.webp",
-    "g": "Rol, Simuladores, Estrategia",
-    "r": "•Sistema Operativo: Windows 10 | Windows 11\n•Procesador: Intel Core i3-8100 | AMD Ryzen 3 3100\n•Memoria: 8 Gigas de RAM\n•Gráficos: Nvidia GeForce GTX 650 Ti [1 Gigas] | AMD Radeon HD 7770 [2 Gigas] | Intel Arc A310 [4 Gigas]\n•DirectX: Versión 12\n•Almacenamiento: 17 Gigas de espacio disponible",
+    "img": "01569.webp",
+    "g": "Rol, Simulación, Estrategia",
+    "r": "•Sistema Operativo: Windows 10 / Windows 11\n•Procesador: Intel Core i3-8100 / AMD Ryzen 3 3100\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GeForce GTX 650 Ti [1 GB] / AMD Radeon HD 7770 [2 GB] / Intel Arc A310 [4 GB]\n•DirectX: Version 12\n•Almacenamiento: 17 GB available space",
     "pr": 150,
     "a": "2025",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01447",
@@ -15264,6 +15624,18 @@
     "e": ""
   },
   {
+    "id": "01573",
+    "n": "Swat 4",
+    "t": "1.5 Gb",
+    "p": "PC",
+    "img": "01573.webp",
+    "g": "Acción, Disparos",
+    "r": "•Sistema Operativo: Windows XP / Vista / 7 / 8 / 10\n•Procesador: 1.8 GHz\n•Memoria: 512 MB RAM\n•Gráficos: DirectX 9.0c compatible device\n•Almacenamiento: 2 GB available space",
+    "pr": 50,
+    "a": "2005",
+    "e": ""
+  },
+  {
     "id": "01039",
     "n": "Sworn",
     "t": "2.7 Gb",
@@ -15285,6 +15657,18 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-9 Gen / AMD Ryzen 3 4100 4 cores 3.8 GHz\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1080 Ti / AMD Radeon RX580 8GB\n•DirectX: Version 11\n•Almacenamiento: 25 GB available space",
     "pr": 100,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01577",
+    "n": "Syndicate",
+    "t": "6.6 Gb",
+    "p": "PC",
+    "img": "01577.webp",
+    "g": "Acción, Disparos",
+    "r": "•Sistema Operativo: Windows XP / Vista / 7\n•Procesador: Intel Core 2 Duo E4600 2.4 GHz or Athlon 64 X2 Dual Core 4600+\n•Memoria: 2 GB RAM\n•Gráficos: NVIDIA GeForce 8800 GT or ATI Radeon HD 4650\n•DirectX: Version 9.0c\n•Almacenamiento: 10 GB available space",
+    "pr": 100,
+    "a": "2012",
     "e": ""
   },
   {
@@ -15864,6 +16248,18 @@
     "e": ""
   },
   {
+    "id": "01570",
+    "n": "The Floor Above",
+    "t": "6.9 Gb",
+    "p": "PC",
+    "img": "01570.webp",
+    "g": "Aventura, Casual, Simulación, Free To Play",
+    "r": "•Sistema Operativo: Windows 10 (64-bit) or later\n•Procesador: Intel Core i5-8400 / AMD Ryzen 5 2600\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660 / AMD Radeon RX 590, 6 GB VRAM\n•DirectX: Version 11\n•Almacenamiento: 12 GB available space\n•Sistema Operativo: und Card:  DirectX compatible",
+    "pr": 100,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "01073",
     "n": "The Forest",
     "t": "1.9 Gb",
@@ -16162,6 +16558,18 @@
     "pr": 50,
     "a": "2022",
     "e": ""
+  },
+  {
+    "id": "01571",
+    "n": "The Occultist",
+    "t": "15.1 Gb",
+    "p": "PC",
+    "img": "01571.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "•Sistema Operativo: Windows 11\n•Procesador: Intel i5-11600K or AMD Ryzen 5 5600X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce 2070 (8GB) or AMD Radeon RX 5700 XT (8GB)\n•DirectX: Version 12\n•Almacenamiento: 40 GB available space",
+    "pr": 150,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "01156",
@@ -17220,6 +17628,18 @@
     "e": ""
   },
   {
+    "id": "01578",
+    "n": "Tropico 2",
+    "t": "1.3 Gb",
+    "p": "PC",
+    "img": "01578.webp",
+    "g": "Estrategia, Simulación",
+    "r": "•Sistema Operativo: Windows XP / Vista / 7\n•Procesador: 1.0 GHz Processor\n•Memoria: 256 MB RAM\n•Gráficos: 32 MB Graphics Card\n•DirectX: Version 9.0c\n•Almacenamiento: 2 GB available space",
+    "pr": 50,
+    "a": "2003",
+    "e": ""
+  },
+  {
     "id": "01233",
     "n": "Tropico 3",
     "t": "3.0 Gb",
@@ -17421,6 +17841,18 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel i3-2100\n•Memoria: 4 GB RAM\n•Gráficos: GTX 750 / Radeon HD 7850\n•DirectX: Version 11\n•Almacenamiento: 8 GB",
     "pr": 100,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01572",
+    "n": "Under The Disco Lights 80s Bar Simulator",
+    "t": "2.2 Gb",
+    "p": "PC",
+    "img": "01572.webp",
+    "g": "Casual, Indie, Simulación",
+    "r": "•Sistema Operativo: Windows  10 / 11 (64-bit)\n•Procesador: Intel Core i5-8400 or AMD Ryzen 5 2600\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GTX 1050 Ti or AMD Radeon RX 570\n•DirectX: Version 11\n•Almacenamiento: 10 GB available space\n•Sistema Operativo: und Card:  DirectX compatible",
+    "pr": 50,
+    "a": "2026",
     "e": ""
   },
   {
@@ -17882,7 +18314,7 @@
   {
     "id": "01280",
     "n": "Warhammer 40 000 Space Marine 2",
-    "t": "65.3 Gb",
+    "t": "41.2 Gb",
     "p": "PC",
     "img": "01280.webp",
     "g": "Disparos, Acción",
@@ -18021,6 +18453,18 @@
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel i5-8400 / Ryzen 5 2600\n•Memoria: 16 GB RAM\n•Gráficos: GTX 1060 / RX 580\n•DirectX: Version 12\n•Almacenamiento: 50 GB",
     "pr": 200,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01579",
+    "n": "Weird",
+    "t": "12.5 Gb",
+    "p": "PC",
+    "img": "01579.webp",
+    "g": "Acción, Indie, Rol",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-4460 or AMD Phenom II X4 965\n•Memoria: 6 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470\n•DirectX: Version 11\n•Almacenamiento: 16 GB available space",
+    "pr": 100,
+    "a": "2022",
     "e": ""
   },
   {
@@ -18336,6 +18780,18 @@
     "e": ""
   },
   {
+    "id": "01580",
+    "n": "X Men Origins Wolverine",
+    "t": "4.9 Gb",
+    "p": "PC",
+    "img": "01580.webp",
+    "g": "Acción, Aventura",
+    "r": "•Sistema Operativo: Windows XP / Vista\n•Procesador: Intel Pentium 4 3.0 GHz or AMD Athlon 64 3000+\n•Memoria: 1 GB RAM\n•Gráficos: NVIDIA GeForce 7800 GT or ATI Radeon X1800\n•DirectX: Version 9.0c\n•Almacenamiento: 8 GB available space",
+    "pr": 50,
+    "a": "2009",
+    "e": ""
+  },
+  {
     "id": "01350",
     "n": "Xcom 2 War Of The Chosen",
     "t": "65.2 Gb",
@@ -18522,7 +18978,7 @@
     "p": "PC",
     "img": "01321.webp",
     "g": "Acción",
-    "r": "•Sistema Operativo: Microsoft® Windows® Vista (Service Pack 2) or Windows® 7 or Windows® 8. Windows® XP is NOT supported.\n•Procesador: Dual-core CPU with SSE3 (Intel® Pentium® D 3GHz / AMD Athlon™ 64 X2 4200) or better\n•Memoria: 2 GB RAM\n•Gráficos: Microsoft® DirectX® 10.0 compatible graphics card with 512 MB of memory (ATI Radeon™ HD 5870) or better\n•DirectX: Version 11\n•Almacenamiento: 15 GB available space\n•Sistema Operativo: und Card:  Microsoft® DirectX® 10.0 compatible sound card or better",
+    "r": "•Sistema Operativo: Windows® 7 or Windows® 8.\n•Procesador: Dual-core CPU with SSE3 (Intel® Pentium® D 3GHz / AMD Athlon™ 64 X2 4200) or better\n•Memoria: 2 GB RAM\n•Gráficos: Microsoft® DirectX® 10.0 compatible graphics card with 512 MB\n•DirectX: Version 11\n•Almacenamiento: 15 GB available space",
     "pr": 100,
     "a": "2015",
     "e": ""
