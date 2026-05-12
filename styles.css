@@ -135,70 +135,6 @@ body {
   }
 }
 
-.game-card {
-  background-color: #1e1e1e;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
-
-  /* --- CAMBIO AQUÍ --- */
-  height: auto; /* En móviles que el contenido mande sobre la altura */
-  min-height: 0; /* Quitamos el mínimo para que no sobre espacio abajo */
-}
-
-/* Solo aplicamos la altura larga cuando estemos en PC o Tablets */
-@media (min-width: 769px) {
-  .game-card {
-    min-height: 480px; /* Aquí sí obligamos a que sean largas y parejas */
-  }
-}
-
-.game-cover {
-  width: 100%;
-  aspect-ratio: 2 / 3; /* Mantiene la proporción 600x900 siempre */
-  object-fit: cover;
-  background-color: #333;
-}
-
-.game-cover {
-  width: 100%;
-
-  aspect-ratio: 5 / 7;
-
-  object-fit: contain;
-
-  background-color: #333;
-
-  border-radius: 6px;
-}
-
-.game-info {
-  padding: 15px;
-
-  flex-grow: 1;
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: flex-start;
-}
-
-.game-size {
-  font-size: 0.9rem;
-
-  color: #aaaaaa;
-
-  margin-bottom: 12px;
-
-  text-align: center;
-
-  display: block;
-}
-
 .loading,
 .error {
   text-align: center;
@@ -361,41 +297,49 @@ body {
   }
 }
 
+/* BOTÓN ESTRENOS DEFINITIVO */
 .estrenos-btn {
-  background-color: #e91e63;
-
+  background-color: #cc0000; /* EL ROJO BONITO QUE QUERÍAS COMO BASE */
   color: white;
-
   border: none;
-
-  padding: 12px 20px;
-
-  border-radius: 6px;
-
+  padding: 8px 16px;
+  border-radius: 4px;
   cursor: pointer;
-
   font-weight: bold;
-
-  font-size: 16px;
-
-  transition: background-color 0.3s;
-
+  font-size: 14px;
+  transition: all 0.3s ease;
   text-decoration: none;
-
   display: inline-flex;
-
   align-items: center;
-
+  justify-content: center;
   gap: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+/* EL HOVER: CAMBIA A UN ROJO MÁS OSCURO */
 .estrenos-btn:hover {
-  background-color: #c2185b;
+  background-color: #a30000; /* Rojo más oscuro para que se note el cambio */
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* EFECTO PARA EL ICONO DE FUEGO */
+.estrenos-btn i {
+  color: #ffca28;
+  text-shadow: 0 0 8px rgba(255, 165, 0, 0.7);
+  font-size: 1.1rem;
+}
+
+.estrenos-btn:hover i {
+  color: #fff176;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 768px) {
   .estrenos-btn {
     margin-right: 0;
+    height: 40px;
+    box-sizing: border-box;
   }
 }
 
@@ -1133,4 +1077,134 @@ body {
 .add-cart-btn.in-cart {
   background-color: #444 !important;
   cursor: default;
+}
+
+/* EFECTO HOVER ROBER PC */
+.game-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+  border: 1px solid transparent; /* Para que no salte al aparecer el borde */
+}
+
+.game-card:hover {
+  /* 1. Zoom suave (sin levantarse, solo crece) */
+  transform: scale(1.05);
+
+  /* 2. Resplandor verde neon */
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.8);
+
+  /* 3. Borde verde para resaltar */
+  border-color: #4caf50;
+
+  /* Para que la tarjeta se ponga por encima de las demás al crecer */
+  z-index: 10;
+}
+
+/* Brillo extra en la imagen al pasar el mouse */
+.game-card:hover .game-cover {
+  filter: brightness(1.1);
+}
+
+/* Tarjeta estilo Premium Dark */
+.game-card {
+  background: #1a1a1a; /* Fondo casi negro */
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #333; /* Borde sutil gris */
+  transition: all 0.3s ease;
+}
+
+/* El Hover que nos gustó */
+.game-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(76, 175, 80, 0.5); /* Resplandor verde suave */
+  border-color: #4caf50;
+  z-index: 10;
+}
+
+/* BOTONES ESTILO LIMPIO (Los dos en oscuro) */
+.btn-group button {
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Botón Trailer (Gris oscuro) */
+.details-btn {
+  background-color: #333 !important;
+  color: #eee !important;
+}
+
+.details-btn:hover {
+  background-color: #444 !important;
+}
+
+/* Botón Pedir (Verde pero más elegante) */
+.add-cart-btn {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.add-cart-btn:hover {
+  background-color: #45a049 !important;
+  filter: brightness(1.2);
+}
+
+/* Botón cuando ya está pedido (Gris muy oscuro) */
+.add-cart-btn:disabled {
+  background-color: #222 !important;
+  color: #666 !important;
+  cursor: default;
+}
+
+/* --- CORRECCIÓN PARA MÓVILES (TEXTO Y CONTENEDORES) --- */
+
+/* 1. Ajuste general de la tarjeta para que no se desborde */
+.game-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 2. Ajuste de títulos: que no crezcan de más y usen puntos suspensivos si es necesario */
+.game-title {
+  font-size: 0.95rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Máximo 2 líneas de texto */
+  -webkit-box-orient: vertical;
+}
+
+/* 3. Ajuste para pantallas pequeñas (Celulares) */
+@media (max-width: 480px) {
+  .game-info {
+    padding: 8px 4px !important;
+  }
+
+  .game-title {
+    font-size: 0.85rem !important; /* Letra más pequeña en cel */
+    height: 2.6em !important;
+  }
+
+  .game-meta {
+    font-size: 0.75rem !important; /* Iconos y precio más pequeños */
+    gap: 4px !important;
+    flex-wrap: wrap; /* Si no caben, se ponen uno debajo del otro */
+  }
+
+  .btn-group {
+    gap: 3px !important;
+  }
+
+  .details-btn,
+  .add-cart-btn {
+    padding: 6px 2px !important; /* Botones menos altos */
+    font-size: 0.7rem !important; /* Letra de botones más pequeña */
+  }
 }
