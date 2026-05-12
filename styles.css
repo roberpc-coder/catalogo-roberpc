@@ -1045,8 +1045,15 @@ body {
 .game-cover {
   display: block;
   width: 100%;
-  height: auto;
-  transition: opacity 0.3s ease-in;
+  /* CAMBIO CLAVE: Reservamos el espacio 600x900 */
+  aspect-ratio: 2 / 3;
+  /* Evitamos que la imagen se estire feo */
+  object-fit: cover;
+  /* Color de fondo mientras carga la imagen */
+  background-color: #2a2a2a;
+  transition:
+    opacity 0.3s ease-in,
+    filter 0.3s ease;
 }
 
 /* Animación de brillo mientras carga */
@@ -1207,4 +1214,33 @@ body {
     padding: 6px 2px !important; /* Botones menos altos */
     font-size: 0.7rem !important; /* Letra de botones más pequeña */
   }
+}
+
+/* EFECTO SHIMMER (TIPO NETFLIX) */
+.game-cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background-color: #2a2a2a; /* Fondo base oscuro */
+
+  /* Esto crea el brillo que pasa de lado a lado */
+  background-image: linear-gradient(90deg, #2a2a2a 25%, #333 50%, #2a2a2a 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Cuando la imagen carga, quitamos la animación para que no consuma recursos */
+.game-cover.loaded {
+  background-image: none;
+  animation: none;
 }
