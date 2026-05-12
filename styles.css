@@ -1244,3 +1244,63 @@ body {
   background-image: none;
   animation: none;
 }
+
+/* --- ESTÉTICA GAMER FINAL PARA BOTONES ROBER PC --- */
+
+/* Botón Trailer: Gris metálico con borde iluminado */
+.details-btn {
+  background: linear-gradient(180deg, #3a3a3a 0%, #222222 100%) !important;
+  color: #ffffff !important;
+  border: 1px solid #555 !important;
+  border-radius: 6px !important;
+  padding: 8px 0 !important;
+  font-weight: bold !important;
+  font-size: 0.8rem !important;
+  text-transform: uppercase !important; /* Estilo más pro */
+  letter-spacing: 0.5px !important;
+  flex: 1 !important;
+  transition: all 0.3s ease !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+}
+
+.details-btn:hover {
+  border-color: #888 !important;
+  background: linear-gradient(180deg, #444 0%, #2a2a2a 100%) !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Botón Pedir: Verde Neón con letras negras y brillo */
+.add-cart-btn {
+  background: #2ed573 !important; /* El verde de tu foto */
+  color: #000000 !important; /* LETRAS NEGRAS */
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 8px 0 !important;
+  font-weight: 900 !important; /* Más gruesa la letra */
+  font-size: 0.8rem !important;
+  text-transform: uppercase !important;
+  flex: 1 !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 0 #21a357 !important; /* Sombra sólida abajo para dar relieve */
+}
+
+.add-cart-btn:hover {
+  background: #2fff84 !important; /* Brilla más al pasar el mouse */
+  transform: translateY(-2px) !important; /* Se levanta un poquito */
+  box-shadow: 0 4px 12px rgba(46, 213, 115, 0.5) !important;
+}
+
+.add-cart-btn:active {
+  transform: translateY(0px) !important;
+  box-shadow: 0 1px 0 #21a357 !important;
+}
+
+/* Botón cuando ya está en el carrito */
+.add-cart-btn.in-cart,
+.add-cart-btn:disabled {
+  background: #444 !important;
+  color: #888 !important;
+  box-shadow: none !important;
+  transform: none !important;
+  cursor: default !important;
+}
