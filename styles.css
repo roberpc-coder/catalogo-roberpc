@@ -298,47 +298,71 @@ body {
 }
 
 /* BOTÓN ESTRENOS DEFINITIVO */
+
 .estrenos-btn {
   background-color: #cc0000; /* EL ROJO BONITO QUE QUERÍAS COMO BASE */
+
   color: white;
+
   border: none;
+
   padding: 8px 16px;
+
   border-radius: 4px;
+
   cursor: pointer;
+
   font-weight: bold;
+
   font-size: 14px;
+
   transition: all 0.3s ease;
+
   text-decoration: none;
+
   display: inline-flex;
+
   align-items: center;
+
   justify-content: center;
+
   gap: 8px;
+
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* EL HOVER: CAMBIA A UN ROJO MÁS OSCURO */
+
 .estrenos-btn:hover {
   background-color: #a30000; /* Rojo más oscuro para que se note el cambio */
+
   transform: scale(1.05);
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* EFECTO PARA EL ICONO DE FUEGO */
+
 .estrenos-btn i {
   color: #ffca28;
+
   text-shadow: 0 0 8px rgba(255, 165, 0, 0.7);
+
   font-size: 1.1rem;
 }
 
 .estrenos-btn:hover i {
   color: #fff176;
+
   text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 768px) {
   .estrenos-btn {
     margin-right: 0;
+
     height: 40px;
+
     box-sizing: border-box;
   }
 }
@@ -628,30 +652,6 @@ body {
   }
 }
 
-.details-btn {
-  background-color: #4caf50;
-
-  color: white;
-
-  border: none;
-
-  border-radius: 4px;
-
-  cursor: pointer;
-
-  font-weight: bold;
-
-  transition: background-color 0.3s;
-
-  padding: 6px 8px;
-
-  font-size: 0.85rem;
-}
-
-.details-btn:hover {
-  background-color: #45a049;
-}
-
 .add-cart-btn {
   background-color: #e53935;
 
@@ -823,19 +823,6 @@ body {
   flex-wrap: wrap;
 }
 
-.details-btn,
-.add-cart-btn {
-  flex: 1;
-
-  max-width: 120px;
-
-  padding: 6px 10px;
-
-  font-size: 0.85rem;
-
-  box-sizing: border-box;
-}
-
 .title-section h1 {
   font-size: clamp(1.2rem, 5vw, 2rem);
 
@@ -978,172 +965,179 @@ body {
 
 .game-title {
   display: -webkit-box;
+
   -webkit-line-clamp: 2;
+
   -webkit-box-orient: vertical;
+
   overflow: hidden;
+
   text-overflow: ellipsis;
 
   /* Añade esta línea para quitar el aviso de error */
+
   line-clamp: 2;
 
   height: 2.4em;
+
   line-height: 1.2em;
+
   margin: 5px 0;
+
   text-align: center;
+
   font-size: 0.95rem;
+
   font-weight: bold;
 }
 
 /* --- SECCIÓN DE BÚSQUEDA CORREGIDA --- */
+
 .search-section {
   display: flex;
+
   flex-wrap: wrap;
+
   gap: 10px;
+
   justify-content: flex-end; /* Lo pega a la derecha en PC */
+
   align-items: center;
+
   flex: 1;
+
   margin: 15px 0;
 
   /* Margen derecho para no chocar con el carrito en PC */
+
   /* Si quieres más espacio, aumenta el 50px; si quieres menos, bájalo */
+
   margin-right: 70px;
 }
 
 /* Estilo para los cuadros (input y select) */
+
 .search-section input,
 .search-section select {
   flex: 1;
+
   min-width: 150px;
+
   max-width: 400px;
+
   padding: 10px;
+
   border-radius: 6px;
+
   border: 1px solid #444;
+
   background-color: #1e1e1e;
+
   color: white;
+
   font-size: 0.9rem;
 }
 
 /* --- AJUSTE AUTOMÁTICO PARA MÓVILES --- */
+
 @media (max-width: 600px) {
   .search-section {
     justify-content: center; /* Centra todo en el celular */
+
     margin-right: 0; /* Quita el margen en el celular para aprovechar el ancho */
   }
 }
 
-/* Cambio de seguridad */
-
-/* Efecto Skeleton para las portadas */
-.img-container {
-  background-color: #1a1a1a; /* Color oscuro de fondo */
-  position: relative;
-  overflow: hidden;
-  min-height: 300px; /* Ajusta según tus portadas */
-  border-radius: 8px;
-}
-
-.game-cover {
-  display: block;
-  width: 100%;
-  /* CAMBIO CLAVE: Reservamos el espacio 600x900 */
-  aspect-ratio: 2 / 3;
-  /* Evitamos que la imagen se estire feo */
-  object-fit: cover;
-  /* Color de fondo mientras carga la imagen */
-  background-color: #2a2a2a;
-  transition:
-    opacity 0.3s ease-in,
-    filter 0.3s ease;
-}
-
-/* Animación de brillo mientras carga */
-.img-container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translateX(-100%);
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.05),
-    transparent
-  );
-  animation: shimmer 1.5s infinite;
-}
-
-@keyframes shimmer {
-  100% {
-    transform: translateX(100%);
-  }
-}
-
 /* El botón de Pedir cuando ya está en el carrito */
+
 .add-cart-btn.in-cart {
   background-color: #444 !important;
+
   cursor: default;
 }
 
 /* EFECTO HOVER ROBER PC */
+
 .game-card {
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
     border-color 0.3s ease;
+
   border: 1px solid transparent; /* Para que no salte al aparecer el borde */
 }
 
 .game-card:hover {
   /* 1. Zoom suave (sin levantarse, solo crece) */
+
   transform: scale(1.05);
 
   /* 2. Resplandor verde neon */
+
   box-shadow: 0 0 20px rgba(76, 175, 80, 0.8);
 
   /* 3. Borde verde para resaltar */
+
   border-color: #4caf50;
 
   /* Para que la tarjeta se ponga por encima de las demás al crecer */
+
   z-index: 10;
 }
 
 /* Brillo extra en la imagen al pasar el mouse */
+
 .game-card:hover .game-cover {
   filter: brightness(1.1);
 }
 
 /* Tarjeta estilo Premium Dark */
+
 .game-card {
   background: #1a1a1a; /* Fondo casi negro */
+
   border-radius: 8px;
+
   overflow: hidden;
+
   border: 1px solid #333; /* Borde sutil gris */
+
   transition: all 0.3s ease;
 }
 
 /* El Hover que nos gustó */
+
 .game-card:hover {
   transform: scale(1.05);
+
   box-shadow: 0 0 25px rgba(76, 175, 80, 0.5); /* Resplandor verde suave */
+
   border-color: #4caf50;
+
   z-index: 10;
 }
 
 /* BOTONES ESTILO LIMPIO (Los dos en oscuro) */
+
 .btn-group button {
   border: none;
+
   border-radius: 4px;
+
   font-weight: bold;
+
   padding: 8px;
+
   cursor: pointer;
+
   transition: background 0.3s ease;
 }
 
 /* Botón Trailer (Gris oscuro) */
+
 .details-btn {
   background-color: #333 !important;
+
   color: #eee !important;
 }
 
@@ -1152,43 +1146,59 @@ body {
 }
 
 /* Botón Pedir (Verde pero más elegante) */
+
 .add-cart-btn {
   background-color: #4caf50 !important;
+
   color: white !important;
 }
 
 .add-cart-btn:hover {
   background-color: #45a049 !important;
+
   filter: brightness(1.2);
 }
 
 /* Botón cuando ya está pedido (Gris muy oscuro) */
+
 .add-cart-btn:disabled {
   background-color: #222 !important;
+
   color: #666 !important;
+
   cursor: default;
 }
 
 /* --- CORRECCIÓN PARA MÓVILES (TEXTO Y CONTENEDORES) --- */
 
 /* 1. Ajuste general de la tarjeta para que no se desborde */
+
 .game-card {
   overflow: hidden;
+
   display: flex;
+
   flex-direction: column;
 }
 
 /* 2. Ajuste de títulos: que no crezcan de más y usen puntos suspensivos si es necesario */
+
 .game-title {
   font-size: 0.95rem;
+
   overflow: hidden;
+
   text-overflow: ellipsis;
+
   display: -webkit-box;
+
   -webkit-line-clamp: 2; /* Máximo 2 líneas de texto */
+
   -webkit-box-orient: vertical;
 }
 
 /* 3. Ajuste para pantallas pequeñas (Celulares) */
+
 @media (max-width: 480px) {
   .game-info {
     padding: 8px 4px !important;
@@ -1196,12 +1206,15 @@ body {
 
   .game-title {
     font-size: 0.85rem !important; /* Letra más pequeña en cel */
+
     height: 2.6em !important;
   }
 
   .game-meta {
     font-size: 0.75rem !important; /* Iconos y precio más pequeños */
+
     gap: 4px !important;
+
     flex-wrap: wrap; /* Si no caben, se ponen uno debajo del otro */
   }
 
@@ -1212,95 +1225,138 @@ body {
   .details-btn,
   .add-cart-btn {
     padding: 6px 2px !important; /* Botones menos altos */
+
     font-size: 0.7rem !important; /* Letra de botones más pequeña */
   }
 }
 
-/* EFECTO SHIMMER (TIPO NETFLIX) */
+/* La imagen con el brillo */
+
 .game-cover {
   display: block;
-  width: 100%;
-  aspect-ratio: 2 / 3;
-  object-fit: cover;
-  background-color: #2a2a2a; /* Fondo base oscuro */
 
-  /* Esto crea el brillo que pasa de lado a lado */
-  background-image: linear-gradient(90deg, #2a2a2a 25%, #333 50%, #2a2a2a 75%);
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+  background-image: linear-gradient(90deg, #1a1a1a 25%, #333 50%, #1a1a1a 75%);
+
   background-size: 200% 100%;
+
   animation: shimmer 1.5s infinite linear;
+}
+
+/* LA CLAVE: Cuando cargue, quitamos la animación y el fondo */
+
+.game-cover.loaded {
+  animation: none !important;
+
+  background-image: none !important;
+
+  background-color: transparent !important;
 }
 
 @keyframes shimmer {
   0% {
     background-position: -200% 0;
   }
+
   100% {
     background-position: 200% 0;
   }
 }
 
-/* Cuando la imagen carga, quitamos la animación para que no consuma recursos */
-.game-cover.loaded {
-  background-image: none;
-  animation: none;
-}
-
 /* --- ESTÉTICA GAMER FINAL PARA BOTONES ROBER PC --- */
 
 /* Botón Trailer: Gris metálico con borde iluminado */
+
 .details-btn {
   background: linear-gradient(180deg, #3a3a3a 0%, #222222 100%) !important;
+
   color: #ffffff !important;
+
   border: 1px solid #555 !important;
+
   border-radius: 6px !important;
+
   padding: 8px 0 !important;
+
   font-weight: bold !important;
+
   font-size: 0.8rem !important;
+
   text-transform: uppercase !important; /* Estilo más pro */
+
   letter-spacing: 0.5px !important;
+
   flex: 1 !important;
+
   transition: all 0.3s ease !important;
+
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
 }
 
 .details-btn:hover {
   border-color: #888 !important;
+
   background: linear-gradient(180deg, #444 0%, #2a2a2a 100%) !important;
+
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Botón Pedir: Verde Neón con letras negras y brillo */
+
 .add-cart-btn {
   background: #2ed573 !important; /* El verde de tu foto */
+
   color: #000000 !important; /* LETRAS NEGRAS */
+
   border: none !important;
+
   border-radius: 6px !important;
+
   padding: 8px 0 !important;
+
   font-weight: 900 !important; /* Más gruesa la letra */
+
   font-size: 0.8rem !important;
+
   text-transform: uppercase !important;
+
   flex: 1 !important;
+
   transition: all 0.3s ease !important;
+
   box-shadow: 0 2px 0 #21a357 !important; /* Sombra sólida abajo para dar relieve */
 }
 
 .add-cart-btn:hover {
   background: #2fff84 !important; /* Brilla más al pasar el mouse */
+
   transform: translateY(-2px) !important; /* Se levanta un poquito */
+
   box-shadow: 0 4px 12px rgba(46, 213, 115, 0.5) !important;
 }
 
 .add-cart-btn:active {
   transform: translateY(0px) !important;
+
   box-shadow: 0 1px 0 #21a357 !important;
 }
 
 /* Botón cuando ya está en el carrito */
+
 .add-cart-btn.in-cart,
 .add-cart-btn:disabled {
   background: #444 !important;
+
   color: #888 !important;
+
   box-shadow: none !important;
+
   transform: none !important;
+
   cursor: default !important;
 }
