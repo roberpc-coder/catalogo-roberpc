@@ -12613,7 +12613,7 @@
   },
   {
     "id": "01522",
-    "n": "Pragmata [HV]",
+    "n": "Pragmata",
     "t": "34.7 Gb",
     "p": "PC",
     "img": "01522.webp",
@@ -12621,7 +12621,7 @@
     "r": "•Sistema Operativo: Windows 11 (64 bit)\n•Procesador: Intel Core i5-8500 / AMD Ryzen 5 3500\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660 6 GB / Radeon RX 5500 XT 8 GB\n•DirectX: Version 12\n•Almacenamiento: 40 GB available space",
     "pr": 150,
     "a": "2026",
-    "e": ""
+    "e": "true"
   },
   {
     "id": "01427",
