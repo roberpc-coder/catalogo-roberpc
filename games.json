@@ -3072,6 +3072,18 @@
     "e": ""
   },
   {
+    "id": "01607",
+    "n": "Clair Obscur Expedition 33",
+    "t": "66.6 Gb",
+    "p": "PS5",
+    "img": "01607.webp",
+    "g": "RPG por turnos, fantasía oscura",
+    "r": "",
+    "pr": "N/D",
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "00126",
     "n": "CLeM",
     "t": "1.2 Gb",
@@ -5376,18 +5388,6 @@
     "e": ""
   },
   {
-    "id": "01634",
-    "n": "Días De Cosecha",
-    "t": "0.8 Gb",
-    "p": "PS5",
-    "img": "01634.webp",
-    "g": "Simulación agrícola, indie",
-    "r": "",
-    "pr": "N/D",
-    "a": "2024",
-    "e": ""
-  },
-  {
     "id": "01606",
     "n": "Ea Sports Fc 26",
     "t": "167.6 Gb",
@@ -5852,18 +5852,6 @@
     "g": "Simuladores, Estrategia",
     "r": "•SO *: Windows 7 64-bit\n•PROCESADOR: AMD or Intel, 3.3 GHz (AMD FX 8300, Intel i5 3000)\n•MEMORIA: 8 GB de RAM\n•GRÁFICOS: AMD/NVIDIA dedicated GPU, 2GB dedicated VRAM (Radeon RX 560, Geforce GTX 1050)\n•DIRECTX: Versión 11\n•ALMACENAMIENTO: 1 GB de espacio disponible",
     "pr": 50,
-    "a": "2025",
-    "e": ""
-  },
-  {
-    "id": "01607",
-    "n": "Clair Obscur Expedition 33",
-    "t": "66.6 Gb",
-    "p": "PS5",
-    "img": "01607.webp",
-    "g": "RPG por turnos, fantasía oscura",
-    "r": "",
-    "pr": "N/D",
     "a": "2025",
     "e": ""
   },
@@ -8025,6 +8013,18 @@
     "r": "•Windows 95/98/2000 / Me / XP\n•266 MHz Intel Pentium II o procesador AMD K6-2\n•64 MB de RAM\n•el espacio libre en disco duro de 500 MB\n•DirectX 8.0\n•8 MB de tarjeta de vídeo con DirectX 8.0 controlador compatible\n•el modo acelerado 3D requiere: tarjeta de vídeo compatible con Direct3D con 8 MB\n•Tarjeta de sonido compatible",
     "pr": 50,
     "a": "2001",
+    "e": ""
+  },
+  {
+    "id": "01634",
+    "n": "Harvest Day",
+    "t": "0.8 Gb",
+    "p": "PS5",
+    "img": "01634.webp",
+    "g": "Simulación agrícola, indie",
+    "r": "",
+    "pr": "N/D",
+    "a": "2024",
     "e": ""
   },
   {
@@ -11445,7 +11445,7 @@
     "r": "•OS:  Windows 10\n•Processor:  Intel Core i5-3570K or AMD equivalent\n•Memory:  8 GB RAM\n•Graphics:  NVIDIA GeForce GTX 780\n•DirectX:  Version 11",
     "pr": 50,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00620",
@@ -16930,6 +16930,18 @@
     "pr": 100,
     "a": "2018",
     "e": ""
+  },
+  {
+    "id": "01735",
+    "n": "Subnautica 2",
+    "t": "14.6 Gb",
+    "p": "PC",
+    "img": "01735.webp",
+    "g": "Acción, Aventura, Acceso anticipado",
+    "r": "•Sistema Operativo: Windows 10 | 11\n•Procesador: Intel Core i5-8400 | AMD Ryzen 5 2600\n•Memoria: 12 Gigas de RAM\n•Gráficos: GeForce GTX 1660 6 Gigas | RX 5500 XT 6 Gigas\n•DirectX: Versión 12\n•Almacenamiento: 50 Gigas de espacio disponible",
+    "pr": 100,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "01035",
