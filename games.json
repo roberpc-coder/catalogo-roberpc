@@ -5857,7 +5857,7 @@
   },
   {
     "id": "01607",
-    "n": "Expedition 33",
+    "n": "Clair Obscur Expedition 33",
     "t": "66.6 Gb",
     "p": "PS5",
     "img": "01607.webp",
@@ -10922,12 +10922,12 @@
   {
     "id": "00687",
     "n": "Metal Gear Solid Master Collection Vol.1",
-    "t": "23.1 Gb",
+    "t": "42.4 Gb",
     "p": "PC",
     "img": "00687.webp",
     "g": "Accion",
     "r": "•Requiere un procesador y un sistema operativo de 64 bits\n•SO: Windows 10(64-bit OS required)\n•Procesador: Intel(R) Core(TM) i7-3770\n•Memoria: 8 GB de RAM\n•Gráficos: NVIDIA GeForce GTX 760 / Intel(R) HD Graphics 4000\n•DirectX: Versión 11\n•Almacenamiento: 9 GB de espacio disponible\n•Tarjeta de sonido: DirectX 11 compatible sound card\n•Notas adicionales: Xinput Controller required",
-    "pr": 150,
+    "pr": 200,
     "a": "2023",
     "e": ""
   },
@@ -18013,7 +18013,7 @@
   },
   {
     "id": "01692",
-    "n": "The Last Of Us Part II",
+    "n": "The Last Of Us Parte II Remastered",
     "t": "81.6 Gb",
     "p": "PS5",
     "img": "01692.webp",
@@ -18781,7 +18781,7 @@
   },
   {
     "id": "01694",
-    "n": "Tomb Raider Iiii",
+    "n": "Tomb Raider I.II.III Remastered",
     "t": "3.8 Gb",
     "p": "PS5",
     "img": "01694.webp",
@@ -19477,7 +19477,7 @@
   },
   {
     "id": "01609",
-    "n": "Uncharted Legacy Of Thieves",
+    "n": "Uncharted 4 Legacy of Thieves Collection",
     "t": "78.8 Gb",
     "p": "PS5",
     "img": "01609.webp",
