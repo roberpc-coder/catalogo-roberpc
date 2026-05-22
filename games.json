@@ -115,7 +115,7 @@
     "img": "01703.webp",
     "g": "Acción-aventura, sigilo",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -213,6 +213,18 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: 2.0 Ghz\n•Memoria: 2 GB RAM\n•Gráficos: 1Gb Video Memory, capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable)\n•Almacenamiento: 1 GB available space",
     "pr": 50,
     "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01737",
+    "n": "Adorable Adventures",
+    "t": "3.2 Gb",
+    "p": "PC",
+    "img": "01737.webp",
+    "g": "Aventura, Casual, Indie",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-6600 or AMD Ryzen 5 1400\n•Memoria: 12 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060, 6 GB or AMD Radeon RX 580, 8 GB\n•DirectX: Version 12\n•Almacenamiento: 10 GB available space",
+    "pr": 50,
+    "a": "2026",
     "e": ""
   },
   {
@@ -463,7 +475,7 @@
     "img": "01704.webp",
     "g": "Acción-aventura, survival horror",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2021",
     "e": ""
   },
@@ -535,7 +547,7 @@
     "img": "01611.webp",
     "g": "Plataformas",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -823,7 +835,7 @@
     "img": "01612.webp",
     "g": "Arcade, minijuegos",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -1255,7 +1267,7 @@
     "img": "01602.webp",
     "g": "Plataforma, acción-aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -1351,7 +1363,7 @@
     "img": "01613.webp",
     "g": "Shooter en primera persona",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -1435,7 +1447,7 @@
     "img": "01603.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -1471,7 +1483,7 @@
     "img": "01614.webp",
     "g": "Conducción/arcade",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -1759,7 +1771,7 @@
     "img": "01615.webp",
     "g": "Ritmo, VR",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -1951,7 +1963,7 @@
     "img": "01604.webp",
     "g": "RPG de acción (Soulslike)",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -1999,7 +2011,7 @@
     "img": "01616.webp",
     "g": "Metroidvania, acción-plataformas",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -2023,7 +2035,7 @@
     "img": "01617.webp",
     "g": "RPG de acción, Soulslike, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -2035,7 +2047,7 @@
     "img": "01618.webp",
     "g": "Deportes, estrategia por turnos",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -2203,7 +2215,7 @@
     "img": "01619.webp",
     "g": "Rol, aventura con combates por turnos",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -2311,7 +2323,7 @@
     "img": "01620.webp",
     "g": "Aventura, exploración",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2020",
     "e": ""
   },
@@ -2743,7 +2755,7 @@
     "img": "01621.webp",
     "g": "Carreras arcade, party co-op",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -2952,6 +2964,18 @@
     "e": ""
   },
   {
+    "id": "01738",
+    "n": "Celeste",
+    "t": "0.7 Gb",
+    "p": "PC",
+    "img": "01738.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "•Sistema Operativo: Windows 7 or newer\n•Procesador: Intel Core i3 M380\n•Memoria: 2 GB RAM\n•Gráficos: Intel HD 4000\n•DirectX: Version 10\n•Almacenamiento: 1200 MB available space",
+    "pr": 50,
+    "a": "2018",
+    "e": ""
+  },
+  {
     "id": "00141",
     "n": "Chef Life A Restaurant Simulator",
     "t": "2.3 Gb",
@@ -3079,7 +3103,7 @@
     "img": "01607.webp",
     "g": "RPG por turnos, fantasía oscura",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2025",
     "e": ""
   },
@@ -3391,7 +3415,7 @@
     "img": "01605.webp",
     "g": "Acción-aventura, shooter en tercera persona",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2021",
     "e": ""
   },
@@ -3511,7 +3535,7 @@
     "img": "01622.webp",
     "g": "Shooter arcade casual",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -3540,6 +3564,18 @@
     "e": ""
   },
   {
+    "id": "01736",
+    "n": "Crimson Desert",
+    "t": "135 Gb",
+    "p": "PS5",
+    "img": "01736.webp",
+    "g": "Acción, Aventura",
+    "r": "•Tener la Consola Liberada",
+    "pr": 1500,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "01506",
     "n": "Crimson Desert [HV]",
     "t": "69.3 Gb",
@@ -3548,6 +3584,18 @@
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Ryzen 5 2600X / i5-8500\n•Memoria: 16 GB RAM\n•Gráficos: RX 5500 XT / GTX 1060\n•DirectX: Version 12\n•Almacenamiento: 150 GB available space\n•Sistema Operativo: und Card:  Windows Compatible Audio Device",
     "pr": 200,
+    "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "01739",
+    "n": "Crimson Oath",
+    "t": "11.4 Gb",
+    "p": "PC",
+    "img": "01739.webp",
+    "g": "Acción, Aventura, Indie, Rol",
+    "r": "•Sistema Operativo: Windows10 64bit\n•Procesador: Intel Core i5-8400/AMD Ryzen 5 1600\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660 6GB/AMD Radeon RX 580 8GB\n•DirectX: Version 12\n•Almacenamiento: 9 GB available space\n•Sistema Operativo: und Card:  N/A",
+    "pr": 100,
     "a": "2026",
     "e": ""
   },
@@ -3583,7 +3631,7 @@
     "img": "01699.webp",
     "g": "Survival horror, aventura de acción",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2025",
     "e": ""
   },
@@ -3705,7 +3753,7 @@
     "r": "•Sistema Operativo: Windows 10 - 11\n•Procesador: Intel Core i7-8700K or AMD Ryzen 5 1600X\n•Memoria: 12 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060, 6 GB or AMD Radeon RX 590, 8 GB or Intel Arc A580, 8 GB\n•DirectX: Version 12\n•Almacenamiento: 16 GB available space",
     "pr": 100,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00721",
@@ -3751,7 +3799,7 @@
     "img": "01623.webp",
     "g": "Shooter arcade twin-stick",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -3775,7 +3823,7 @@
     "img": "01705.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -3871,7 +3919,7 @@
     "img": "01624.webp",
     "g": "RPG roguelike, estrategia",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -4087,7 +4135,7 @@
     "img": "01706.webp",
     "g": "Roguelike, metroidvania, acción-plataformas",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -4111,7 +4159,7 @@
     "img": "01625.webp",
     "g": "Acción, survival horror, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -4219,7 +4267,7 @@
     "img": "01707.webp",
     "g": "Survival horror, acción-aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -4291,7 +4339,7 @@
     "img": "01627.webp",
     "g": "Shooter cooperativo, exploración",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -4315,7 +4363,7 @@
     "img": "01628.webp",
     "g": "Lucha, anime",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -4363,7 +4411,7 @@
     "img": "01626.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2020",
     "e": ""
   },
@@ -4375,7 +4423,7 @@
     "img": "01629.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2020",
     "e": ""
   },
@@ -4747,7 +4795,7 @@
     "img": "01630.webp",
     "g": "Plataformas 3D",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "1999",
     "e": ""
   },
@@ -4819,7 +4867,7 @@
     "img": "01631.webp",
     "g": "RPG de acción, ciencia ficción",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -5107,7 +5155,7 @@
     "img": "01708.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -5155,7 +5203,7 @@
     "img": "01632.webp",
     "g": "Carreras arcade, kart",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -5323,7 +5371,7 @@
     "img": "01633.webp",
     "g": "RPG de acción, hack and slash",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -5395,7 +5443,7 @@
     "img": "01606.webp",
     "g": "Deportes, fútbol",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2025",
     "e": ""
   },
@@ -5431,7 +5479,7 @@
     "img": "01635.webp",
     "g": "Deportes, fútbol americano",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2025",
     "e": ""
   },
@@ -5635,7 +5683,7 @@
     "img": "01709.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -5767,7 +5815,7 @@
     "img": "01636.webp",
     "g": "Puzle, aventura narrativa",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -5827,7 +5875,7 @@
     "img": "01710.webp",
     "g": "Shooter en tercera persona, acción",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -5926,6 +5974,18 @@
     "pr": 150,
     "a": "2022",
     "e": ""
+  },
+  {
+    "id": "01740",
+    "n": "F1 Manager 2023 [HV]",
+    "t": "20.1 Gb",
+    "p": "PC",
+    "img": "01740.webp",
+    "g": "Simulación, Estrategia",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5-4590 or AMD FX-8370\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GeForce GTX 960 or AMD R9 280x (3GB VRAM)\n•Almacenamiento: 30 GB available space",
+    "pr": 150,
+    "a": "2023",
+    "e": "true"
   },
   {
     "id": "00322",
@@ -6189,7 +6249,7 @@
     "r": "•OS:   Windows 10 (64-BIT Required)\n•Processor:  Intel Core i5-7600K or AMD Ryzen 5 1600\n•Memory:  8 GB RAM\n•Graphics:  Nvidia GeForce GTX 1660 or AMD Radeon RX 590\n•DirectX:  Version 12\n•Storage:  10 GB available space\n•Additional Notes:  SSD Recommended",
     "pr": 50,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00339",
@@ -6237,6 +6297,18 @@
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel i5-7400 / AMD Ryzen 5 2400\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA Geforce GTX 1050 / Radeon RX560\n•DirectX: Version 12\n•Almacenamiento: 10 GB available space",
     "pr": 100,
     "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01741",
+    "n": "Farmers Dynasty 2",
+    "t": "12.0 Gb",
+    "p": "PC",
+    "img": "01741.webp",
+    "g": "Aventura, Casual, Rol, Simulación, Early Access",
+    "r": "•Sistema Operativo: Windows 10 (x64)\n•Procesador: Intel Core i5-4570 or AMD Ryzen 3 1300x\n•Memoria: 6 GB RAM\n•Gráficos: NVIDIA GeForce GT 1030, 2GB, AMD Radeon R7 360, 2GB\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space",
+    "pr": 100,
+    "a": "2026",
     "e": ""
   },
   {
@@ -7051,7 +7123,7 @@
     "img": "01637.webp",
     "g": "Acción, hack and slash, boss rush",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -7075,7 +7147,7 @@
     "img": "01639.webp",
     "g": "RPG isométrico, narrativa",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -7087,7 +7159,7 @@
     "img": "01640.webp",
     "g": "Acción cooperativa, hack and slash",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -7219,20 +7291,8 @@
     "img": "01610.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2025",
-    "e": ""
-  },
-  {
-    "id": "01641",
-    "n": "Sniper Ghost Warrior Contracts 2",
-    "t": "14.5 Gb",
-    "p": "PS5",
-    "img": "01641.webp",
-    "g": "Shooter táctico, sigilo",
-    "r": "",
-    "pr": "N/D",
-    "a": "2021",
     "e": ""
   },
   {
@@ -7255,7 +7315,7 @@
     "img": "01642.webp",
     "g": "Acción en primera persona, parkour ciberpunk",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -7281,7 +7341,7 @@
     "r": "•OS:  Win 10 / 11 (64Bit)\n•Processor:  AMD / Intel quad-core processor running at 3.5 GHz\n•Memory:  16 GB RAM\n•Graphics: ATI/AMD Radeon HD 7870 and NVIDIA GeForce GTX 1050 Ti\n•Storage:  10 GB available space",
     "pr": 50,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00406",
@@ -7303,7 +7363,7 @@
     "img": "01643.webp",
     "g": "Simulación humorística, sandbox",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2014",
     "e": ""
   },
@@ -7399,7 +7459,7 @@
     "img": "01644.webp",
     "g": "Acción-aventura, mitología nórdica",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -7471,7 +7531,7 @@
     "img": "01646.webp",
     "g": "Acción, mundo abierto retro",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "1997",
     "e": ""
   },
@@ -7483,7 +7543,7 @@
     "img": "01645.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2013",
     "e": ""
   },
@@ -7495,7 +7555,7 @@
     "img": "01647.webp",
     "g": "Shooter retro, fantasía oscura",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -7831,7 +7891,7 @@
     "img": "01638.webp",
     "g": "Aventura, terror ligero",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -8023,7 +8083,7 @@
     "img": "01634.webp",
     "g": "Simulación agrícola, indie",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -8179,7 +8239,7 @@
     "img": "01711.webp",
     "g": "Sigilo, terror ligero",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -8193,6 +8253,18 @@
     "r": "•Sistema Operativo: Windows 7\n•Procesador: Intel Core 2 Duo E4500 @ 2.2GHz or AMD Athlon 64 X2 5600+ @ 2.8 GHz\n•Memoria: 4 GB RAM\n•Gráficos: GeForce 240 GT or Radeon HD 6570 – 1024 MB (1 gig)\n•DirectX: Version 9.0c\n•Almacenamiento: 1350 MB available space",
     "pr": 50,
     "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01743",
+    "n": "Heroes Of Might And Magic Olden Era",
+    "t": "2.4 Gb",
+    "p": "PC",
+    "img": "01743.webp",
+    "g": "Rol, Estrategia, Early Access",
+    "r": "•Sistema Operativo: Windows® 10 (64-bit)\n•Procesador: Intel® Core™ i3-10300 (quad-core) / AMD® Ryzen™ 3 3100 (quad-core)\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA® GeForce® GTX 1650 (4 GB) / AMD® Radeon™ RX 5500 XT (4 GB) / Intel® Arc™ A580 (8 GB)\n•DirectX: Version 11\n•Almacenamiento: 8 GB available space",
+    "pr": 50,
+    "a": "2026",
     "e": ""
   },
   {
@@ -8395,7 +8467,7 @@
     "img": "01712.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -8539,7 +8611,7 @@
     "img": "01648.webp",
     "g": "Terror psicológico, aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -8563,7 +8635,7 @@
     "img": "01649.webp",
     "g": "Carreras arcade",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -8640,6 +8712,18 @@
     "e": ""
   },
   {
+    "id": "01744",
+    "n": "Huaxia Warring States",
+    "t": "11.8 Gb",
+    "p": "PC",
+    "img": "01744.webp",
+    "g": "Acción, Aventura, Indie, Rol, Simulación, Estrategia, Early Access",
+    "r": "•Sistema Operativo: Windows® 10 (64-bit)\n•Procesador: Intel® Core™ i5-4670 (quad-core) / AMD® FX-Series™ FX-4350 (quad-core)\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA® GeForce® GTX 1060 (6 GB) / AMD® Radeon™ RX-580 (8 GB)\n•DirectX: Version 11\n•Almacenamiento: 30 GB available space",
+    "pr": 100,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "01349",
     "n": "Human Fall Flat",
     "t": "1.5 Gb",
@@ -8676,6 +8760,18 @@
     "e": ""
   },
   {
+    "id": "01742",
+    "n": "Hypnos",
+    "t": "18.6 Gb",
+    "p": "PC",
+    "img": "01742.webp",
+    "g": "Aventura, Indie, Early Access",
+    "r": "•Sistema Operativo: Windows 11\n•Procesador: AMD Ryzen 7 5008X 8-Core Processor\n•Gráficos: Nvidia GeForce RTX 3060 Ti\n•DirectX: Version 12\n•Almacenamiento: 20 GB available space",
+    "pr": 150,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "01391",
     "n": "Hytale",
     "t": "3.4 Gb",
@@ -8697,7 +8793,7 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-7500 / AMD Ryzen 5 1500X\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space",
     "pr": 100,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00444",
@@ -8743,7 +8839,7 @@
     "img": "01650.webp",
     "g": "Acción indie, aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -8820,18 +8916,6 @@
     "e": ""
   },
   {
-    "id": "01651",
-    "n": "Undisputed",
-    "t": "13.0 Gb",
-    "p": "PS5",
-    "img": "01651.webp",
-    "g": "Deportes, boxeo",
-    "r": "",
-    "pr": "N/D",
-    "a": "2025",
-    "e": ""
-  },
-  {
     "id": "01332",
     "n": "Injustice 2 Legendary Edition",
     "t": "39.3 Gb",
@@ -8863,8 +8947,20 @@
     "img": "01652.webp",
     "g": "Deportes, minijuegos",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01745",
+    "n": "Into The Radius 2",
+    "t": "16.4 Gb",
+    "p": "PC",
+    "img": "01745.webp",
+    "g": "Acción, Aventura, Indie, Simulación",
+    "r": "•Procesador: Intel i5-7600k | Ryzen 5-3600\n•Memoria: 16 GB RAM\n•Gráficos: Nvidia RTX 2060",
+    "pr": 150,
+    "a": "2026",
     "e": ""
   },
   {
@@ -9031,7 +9127,7 @@
     "img": "01653.webp",
     "g": "Plataformas 3D",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "1995",
     "e": ""
   },
@@ -9055,7 +9151,7 @@
     "img": "01654.webp",
     "g": "Acción-aventura retro",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "1993",
     "e": ""
   },
@@ -9235,7 +9331,7 @@
     "img": "01700.webp",
     "g": "Acción-aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2021",
     "e": ""
   },
@@ -9480,6 +9576,18 @@
     "e": ""
   },
   {
+    "id": "01746",
+    "n": "Labyrinth Rpg",
+    "t": "7.2 Gb",
+    "p": "PC",
+    "img": "01746.webp",
+    "g": "Indie, Rol, Early Access",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-8400 / AMD Ryzen 5 2600\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GTX 1060 6GB / AMD RX 580\n•DirectX: Version 11\n•Almacenamiento: 12 GB available space",
+    "pr": 100,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "00566",
     "n": "Last Epoch",
     "t": "23.1 Gb",
@@ -9600,6 +9708,18 @@
     "e": ""
   },
   {
+    "id": "01758",
+    "n": "Lego Batman Legacy of the Dark Knight [HV]",
+    "t": "28.5 Gb",
+    "p": "PC",
+    "img": "01758.webp",
+    "g": "Action, Adventure",
+    "r": "•OS:  Windows 11\n•Processor:  Intel Core i5-10600K or AMD Ryzen 5 1600\n•Memory:  16 GB RAM\n•Graphics:  NVIDIA GeForce GTX 960, 4 GB or AMD Radeon RX 6400, 4 GB or Intel Arc A580, 8 GB\n•Storage:  50 GB available space",
+    "pr": 150,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00767",
     "n": "Lego Dc Super Villains Shazam",
     "t": "18.7 Gb",
@@ -9631,7 +9751,7 @@
     "img": "01713.webp",
     "g": "Acción-aventura, plataformas",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -9763,7 +9883,7 @@
     "img": "01701.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -9847,7 +9967,7 @@
     "img": "01655.webp",
     "g": "RPG de acción, samuráis",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -9967,7 +10087,7 @@
     "img": "01714.webp",
     "g": "Deportes arcade",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -10003,7 +10123,7 @@
     "img": "01715.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -10114,6 +10234,18 @@
     "pr": 50,
     "a": "2008",
     "e": ""
+  },
+  {
+    "id": "01747",
+    "n": "Lost Judgment [HV]",
+    "t": "33.1 Gb",
+    "p": "PC",
+    "img": "01747.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "•Sistema Operativo: Window 10 1903 (OS Build 18362) or Later\n•Procesador: Intel Core i5-3470, 3.2 GHz or AMD Ryzen 3 1200, 3.1 GHz\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 960, 2 GB or AMD Radeon RX 460, 2 GB\n•DirectX: Version 12\n•Almacenamiento: 60 GB available space",
+    "pr": 150,
+    "a": "2022",
+    "e": "true"
   },
   {
     "id": "00533",
@@ -10231,7 +10363,7 @@
     "img": "01656.webp",
     "g": "Terror psicológico",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -10315,7 +10447,7 @@
     "img": "01608.webp",
     "g": "Acción-aventura, narrativa",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2025",
     "e": ""
   },
@@ -10651,7 +10783,7 @@
     "img": "01657.webp",
     "g": "Beat ‘em up, acción",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -10915,7 +11047,7 @@
     "img": "01658.webp",
     "g": "Acción sigilo",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "1998",
     "e": ""
   },
@@ -11167,7 +11299,7 @@
     "img": "01716.webp",
     "g": "Sandbox, supervivencia",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2011",
     "e": ""
   },
@@ -11287,7 +11419,7 @@
     "img": "01659.webp",
     "g": "Plataformas, aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2018",
     "e": ""
   },
@@ -11299,7 +11431,7 @@
     "img": "01660.webp",
     "g": "Carreras, motocross",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2021",
     "e": ""
   },
@@ -11311,7 +11443,7 @@
     "img": "01683.webp",
     "g": "Carreras, motocross",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -11407,7 +11539,7 @@
     "img": "01661.webp",
     "g": "Carreras arcade, camiones monstruo",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -11479,7 +11611,7 @@
     "img": "01662.webp",
     "g": "Lucha",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -11635,7 +11767,7 @@
     "img": "01663.webp",
     "g": "Carreras, simulación deportiva",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -12055,7 +12187,7 @@
     "img": "01664.webp",
     "g": "Shooter en primera persona",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2021",
     "e": ""
   },
@@ -12247,7 +12379,7 @@
     "img": "01665.webp",
     "g": "Carreras, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -12331,7 +12463,7 @@
     "img": "01666.webp",
     "g": "Shooter arcade",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -12439,7 +12571,7 @@
     "img": "01667.webp",
     "g": "Lucha, plataformas",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -12463,7 +12595,7 @@
     "img": "01717.webp",
     "g": "Carreras arcade, kart",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -12835,7 +12967,7 @@
     "img": "01668.webp",
     "g": "Simulación de camiones",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -12871,7 +13003,7 @@
     "img": "01718.webp",
     "g": "JRPG, aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -13075,7 +13207,7 @@
     "img": "01719.webp",
     "g": "Aventura, exploración espacial",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2019",
     "e": ""
   },
@@ -13104,6 +13236,18 @@
     "e": ""
   },
   {
+    "id": "01748",
+    "n": "Outlive 25",
+    "t": "2.6 Gb",
+    "p": "PC",
+    "img": "01748.webp",
+    "g": "Acción, Simulación, Estrategia",
+    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i3-530 / AMD A6-3650+\n•Memoria: 8 GB RAM\n•Gráficos: Integrated graphics card\n•Almacenamiento: 5 GB available space",
+    "pr": 50,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "00847",
     "n": "Overcooked 2 Night Of The Hangry Horde",
     "t": "4.4 Gb",
@@ -13123,8 +13267,20 @@
     "img": "01669.webp",
     "g": "Lucha, mechas",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2020",
+    "e": ""
+  },
+  {
+    "id": "01749",
+    "n": "Oxygen Not Included",
+    "t": "4.1 Gb",
+    "p": "PC",
+    "img": "01749.webp",
+    "g": "Indie, Simulación",
+    "r": "•Sistema Operativo: Windows 10 version 21H1 or later\n•Procesador: Dual Core 2 GHz\n•Memoria: 8 GB RAM\n•Gráficos: Intel HD 4600 (AMD or NVIDIA equivalent)\n•DirectX: Version 11\n•Almacenamiento: 3 GB available space",
+    "pr": 50,
+    "a": "2019",
     "e": ""
   },
   {
@@ -13231,7 +13387,7 @@
     "img": "01670.webp",
     "g": "Carreras arcade, infantil",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -13428,6 +13584,18 @@
     "e": ""
   },
   {
+    "id": "01750",
+    "n": "Phoenix Wright Ace Attorney Trilogy",
+    "t": "2.6 Gb",
+    "p": "PC",
+    "img": "01750.webp",
+    "g": "Aventura",
+    "r": "•Sistema Operativo: WINDOWS® 10（64bit）,11\n•Procesador: Intel® Core™ i3-4160\n•Memoria: 4 GB RAM\n•Gráficos: Intel® HD Graphics 4400\n•DirectX: Version 11\n•Almacenamiento: 3 GB available space",
+    "pr": 50,
+    "a": "2019",
+    "e": ""
+  },
+  {
     "id": "00858",
     "n": "Pinball M",
     "t": "7.2 Gb",
@@ -13591,7 +13759,7 @@
     "img": "01671.webp",
     "g": "Survival horror, psicológico",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -13627,7 +13795,7 @@
     "img": "01672.webp",
     "g": "Estrategia, simulación económica",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2020",
     "e": ""
   },
@@ -13699,7 +13867,7 @@
     "img": "01673.webp",
     "g": "Simulación, casual",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -13724,6 +13892,18 @@
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 11 (64 bit)\n•Procesador: Intel Core i5-8500 / AMD Ryzen 5 3500\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660 6 GB / Radeon RX 5500 XT 8 GB\n•DirectX: Version 12\n•Almacenamiento: 40 GB available space",
     "pr": 150,
+    "a": "2026",
+    "e": "true"
+  },
+  {
+    "id": "01759",
+    "n": "Pragmata",
+    "t": "60 Gb",
+    "p": "PS5",
+    "img": "01759.webp",
+    "g": "Acción, Aventura",
+    "r": "•Tener la Consola Liberada",
+    "pr": 200,
     "a": "2026",
     "e": "true"
   },
@@ -13759,7 +13939,7 @@
     "img": "01674.webp",
     "g": "Metroidvania, acción-aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -14215,7 +14395,7 @@
     "img": "01675.webp",
     "g": "Simulación agrícola",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -14431,7 +14611,7 @@
     "img": "01720.webp",
     "g": "Survival horror",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2020",
     "e": ""
   },
@@ -14467,7 +14647,7 @@
     "img": "01702.webp",
     "g": "Survival horror, acción-aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2023",
     "e": ""
   },
@@ -14515,7 +14695,7 @@
     "img": "01721.webp",
     "g": "Survival horror",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2017",
     "e": ""
   },
@@ -14659,7 +14839,7 @@
     "img": "01722.webp",
     "g": "Roguelike, shooter en tercera persona",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2021",
     "e": ""
   },
@@ -15295,7 +15475,7 @@
     "img": "01723.webp",
     "g": "Aventura narrativa, acción indie",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -15403,7 +15583,7 @@
     "img": "01724.webp",
     "g": "Shooter en primera persona, acción",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -15559,7 +15739,7 @@
     "img": "01725.webp",
     "g": "Survival horror, terror psicológico",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -15619,7 +15799,7 @@
     "img": "01676.webp",
     "g": "Terror psicológico",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -15655,7 +15835,7 @@
     "img": "01677.webp",
     "g": "Shooter cooperativo, survival horror",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -15667,7 +15847,7 @@
     "img": "01678.webp",
     "g": "Hack and slash, acción retro",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -15705,7 +15885,7 @@
     "r": "•OS:  Windows 10 (64-bit)\n•Processor:  Dual-core 2.0 GHz\n•Memory:  4 GB RAM\n•Graphics:  DirectX 12 or Vulkan compatible, 1 GB VRAM\n•Storage:  4 GB available space",
     "pr": 50,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01005",
@@ -15775,7 +15955,7 @@
     "img": "01726.webp",
     "g": "Supervivencia, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -15909,6 +16089,18 @@
     "r": "•Sistema Operativo: Windows 7\n•Procesador: Intel Core i5 4460 / AMD FX 6350\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 760 or AMD Radeon HD 7870 (2GB VRAM)\n•DirectX: Version 10\n•Almacenamiento: 20 GB available space",
     "pr": 100,
     "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01641",
+    "n": "Sniper Ghost Warrior Contracts 2",
+    "t": "14.5 Gb",
+    "p": "PS5",
+    "img": "01641.webp",
+    "g": "Shooter táctico, sigilo",
+    "r": "",
+    "pr": 1500,
+    "a": "2021",
     "e": ""
   },
   {
@@ -16243,7 +16435,7 @@
     "img": "01679.webp",
     "g": "Estrategia, simulación espacial",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -16411,7 +16603,7 @@
     "img": "01680.webp",
     "g": "Aventura, acción",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -16483,7 +16675,7 @@
     "img": "01727.webp",
     "g": "Acción-aventura, Soulslike",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2019",
     "e": ""
   },
@@ -16711,7 +16903,7 @@
     "img": "01728.webp",
     "g": "RPG de acción",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -16819,7 +17011,7 @@
     "img": "01729.webp",
     "g": "Aventura, exploración",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -16879,7 +17071,7 @@
     "img": "01681.webp",
     "g": "Carreras arcade",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -17047,7 +17239,7 @@
     "img": "01682.webp",
     "g": "Carreras retro, arcade",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -17131,7 +17323,7 @@
     "img": "01684.webp",
     "g": "Ritmo, musical",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -17287,7 +17479,7 @@
     "img": "01685.webp",
     "g": "Sandbox, destrucción, simulación",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -17316,6 +17508,18 @@
     "e": ""
   },
   {
+    "id": "01751",
+    "n": "Teenage Mutant Ninja Turtles Empire City",
+    "t": "2.3 Gb",
+    "p": "PC",
+    "img": "01751.webp",
+    "g": "Acción, Aventura",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5-4590 / AMD FX 8350\n•Memoria: 6 GB RAM\n•Almacenamiento: 6 GB available space",
+    "pr": 50,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "01695",
     "n": "Teenage Mutant Ninja Turtles Shredders Revenge",
     "t": "9.3 Gb",
@@ -17323,7 +17527,7 @@
     "img": "01695.webp",
     "g": "Beat ‘em up retro",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -17335,7 +17539,7 @@
     "img": "01686.webp",
     "g": "Beat ‘em up, acción",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -17383,7 +17587,7 @@
     "img": "01730.webp",
     "g": "Lucha",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -17484,6 +17688,18 @@
     "e": ""
   },
   {
+    "id": "01752",
+    "n": "Tetris Forever",
+    "t": "5.1 Gb",
+    "p": "PC",
+    "img": "01752.webp",
+    "g": "Casual",
+    "r": "•Sistema Operativo: Windows 10 or newer\n•Procesador: Intel i3 @ 3.0GHz or AMD equivalent.\n•Memoria: 8 GB RAM\n•Gráficos: ATI Radeon HD 4800 Series, Nvidia GeForce 8800GT or greater",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "01119",
     "n": "The Alters",
     "t": "47.6 Gb",
@@ -17527,7 +17743,7 @@
     "img": "01687.webp",
     "g": "RPG de acción, shooter isométrico",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2021",
     "e": ""
   },
@@ -17599,7 +17815,7 @@
     "img": "01688.webp",
     "g": "JRPG",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -17625,6 +17841,18 @@
     "r": "•Sistema Operativo: Windows 7 (64-bit OS required)\n•Procesador: Quad-core Intel or AMD, 2.5 GHz or faster\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce 550 GTX 2GB / AMD Radeon 7870 HD 2GB\n•Almacenamiento: 5 GB available space\n•Sistema Operativo: und Card:  DirectX®-compatible",
     "pr": 100,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01753",
+    "n": "The Coma 3 Bloodlines",
+    "t": "4.2 Gb",
+    "p": "PC",
+    "img": "01753.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "•Sistema Operativo: Windows XP (64Bit)\n•Procesador: Core2Duo\n•Memoria: 3 GB RAM\n•Gráficos: Any with hardware 3D acceleration\n•DirectX: Version 7.0\n•Almacenamiento: 10 GB available space\n•Sistema Operativo: und Card:  Soundblaster / equivalent",
+    "pr": 50,
+    "a": "2026",
     "e": ""
   },
   {
@@ -17887,7 +18115,7 @@
     "img": "01689.webp",
     "g": "Shooter sobre raíles, terror",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -17935,7 +18163,7 @@
     "img": "01690.webp",
     "g": "Lucha, beat ‘em up retro",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -17983,7 +18211,7 @@
     "img": "01731.webp",
     "g": "Metroidvania, acción oscura",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -18019,7 +18247,7 @@
     "img": "01732.webp",
     "g": "Acción-aventura, survival",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -18031,7 +18259,7 @@
     "img": "01692.webp",
     "g": "Acción-aventura, survival",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2020",
     "e": ""
   },
@@ -18055,7 +18283,7 @@
     "img": "01691.webp",
     "g": "Survival, acción roguelike",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -18177,7 +18405,7 @@
     "r": "•Sistema Operativo: Windows 11\n•Procesador: Intel i5-11600K or AMD Ryzen 5 5600X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce 2070 (8GB) or AMD Radeon RX 5700 XT (8GB)\n•DirectX: Version 12\n•Almacenamiento: 40 GB available space",
     "pr": 150,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01156",
@@ -18211,7 +18439,7 @@
     "img": "01693.webp",
     "g": "Survival horror, roguelike",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2021",
     "e": ""
   },
@@ -18672,6 +18900,18 @@
     "e": ""
   },
   {
+    "id": "01757",
+    "n": "TMNT the Cowabunga Collection",
+    "t": "8.4 Gb",
+    "p": "PC",
+    "img": "01757.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows 10 de 64 bits\n•Procesador: 3 GHz CPU\n•Memoria: 4 Gigas de RAM\n•Gráficos: 1 Giga | Tarjeta grafica compatible con DirectX 11.0\n•DirectX: Versión 11\n•Almacenamiento: 12 Gigas de espacio disponible",
+    "pr": 100,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "01186",
     "n": "Tom Clancy's Ghost Recon Future Soldier",
     "t": "12.0 Gb",
@@ -18799,7 +19039,7 @@
     "img": "01694.webp",
     "g": "Plataformas, acción-aventura",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -18972,6 +19212,18 @@
     "e": ""
   },
   {
+    "id": "00598",
+    "n": "Total War: MEDIEVAL II",
+    "t": "7.3 Gb",
+    "p": "PC",
+    "img": "00598.webp",
+    "g": "Estrategia",
+    "r": "•Sistemas Operativos: Windows XP | 7 | 8.1\n•Procesador: Celeron Pentium 4 a 1.5 GHz o AMD equivalente\n•Memoria: 512 Megas de RAM\n•Disco Duro: 11 Gigas de espacio libre\n•DirectX: Versión 9.0c\n•Gráficos: Tarjeta de vídeo de aceleración por hardware de 128 Megas compatible con Shader 1\n•Resolución de pantalla:  mínima de 1024 x 768\n•NOTA:: puede que algunas tarjetas gráficas no sean compatibles con las funciones de aceleración 3D utilizadas en Medieval II: Total War. Consulte al fabricante del hardware sobre la compatibilidad 100% con DirectX® 9.0c",
+    "pr": 100,
+    "a": "2006",
+    "e": ""
+  },
+  {
     "id": "01209",
     "n": "Total War: Napoleon",
     "t": "15.2 Gb",
@@ -19077,18 +19329,6 @@
     "r": "•Sistema Operativo: Windows 7 64-bit\n•Procesador: Intel i3/Ryzen 3 series\n•Memoria: 6 GB RAM\n•Gráficos: Nvidia GTX 900/AMD RX 400 series | Intel Iris Xe Graphics\n•DirectX: Version 11\n•Almacenamiento: 120 GB available space",
     "pr": 200,
     "a": "2022",
-    "e": ""
-  },
-  {
-    "id": "00598",
-    "n": "Total War: MEDIEVAL II",
-    "t": "7.3 Gb",
-    "p": "PC",
-    "img": "00598.webp",
-    "g": "Estrategia",
-    "r": "•Sistemas Operativos: Windows XP | 7 | 8.1\n•Procesador: Celeron Pentium 4 a 1.5 GHz o AMD equivalente\n•Memoria: 512 Megas de RAM\n•Disco Duro: 11 Gigas de espacio libre\n•DirectX: Versión 9.0c\n•Gráficos: Tarjeta de vídeo de aceleración por hardware de 128 Megas compatible con Shader 1\n•Resolución de pantalla:  mínima de 1024 x 768\n•NOTA:: puede que algunas tarjetas gráficas no sean compatibles con las funciones de aceleración 3D utilizadas en Medieval II: Total War. Consulte al fabricante del hardware sobre la compatibilidad 100% con DirectX® 9.0c",
-    "pr": 100,
-    "a": "2006",
     "e": ""
   },
   {
@@ -19404,6 +19644,18 @@
     "e": ""
   },
   {
+    "id": "01754",
+    "n": "Ufo 50",
+    "t": "0.4 Gb",
+    "p": "PC",
+    "img": "01754.webp",
+    "g": "Acción, Aventura, Indie, Rol, Estrategia",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i3-3220 CPU @ 3.30GHz\n•Memoria: 8 GB RAM\n•Gráficos: Intel HD Graphics\n•DirectX: Version 11\n•Almacenamiento: 500 MB available space",
+    "pr": 50,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "01696",
     "n": "Ufo Robot Grendizer The Feast Of The Wolves",
     "t": "4.1 Gb",
@@ -19411,7 +19663,7 @@
     "img": "01696.webp",
     "g": "Acción-aventura, mechas",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -19495,7 +19747,7 @@
     "img": "01609.webp",
     "g": "Acción-aventura, plataformas 3D",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -19519,7 +19771,7 @@
     "img": "01697.webp",
     "g": "Acción superhéroes, indie",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -19569,6 +19821,18 @@
     "r": "•Sistema Operativo: Windows 7/8/10\n•Procesador: Intel i5-2500\n•Memoria: 8 GB RAM\n•Gráficos: GTX 960 / Radeon R9 280\n•DirectX: Version 11\n•Almacenamiento: 45 GB",
     "pr": 150,
     "a": "2018",
+    "e": ""
+  },
+  {
+    "id": "01651",
+    "n": "Undisputed",
+    "t": "13.0 Gb",
+    "p": "PS5",
+    "img": "01651.webp",
+    "g": "Deportes, boxeo",
+    "r": "",
+    "pr": 1500,
+    "a": "2025",
     "e": ""
   },
   {
@@ -19867,7 +20131,7 @@
     "img": "01698.webp",
     "g": "Shooter en primera persona, VR",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -20143,7 +20407,7 @@
     "img": "01733.webp",
     "g": "Simulación de caza, mundo abierto",
     "r": "",
-    "pr": "N/D",
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -20196,6 +20460,18 @@
     "e": ""
   },
   {
+    "id": "01755",
+    "n": "Werewolf The Inner Beast",
+    "t": "11.5 Gb",
+    "p": "PC",
+    "img": "01755.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows 10 64 bit ( v.22H2 )\n•Procesador: Core i5 6600\n•Memoria: 16 GB RAM\n•Gráficos: Geforce 1660 6GB\n•DirectX: Version 12\n•Almacenamiento: 12 GB available space",
+    "pr": 100,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "01291",
     "n": "What Remains Of Edith Finch",
     "t": "2.4 Gb",
@@ -20241,6 +20517,18 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel i3-2100\n•Memoria: 4 GB RAM\n•Gráficos: GTX 750 / Radeon HD 7850\n•DirectX: Version 11\n•Almacenamiento: 6 GB",
     "pr": 50,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01756",
+    "n": "Windrose",
+    "t": "8.9 Gb",
+    "p": "PC",
+    "img": "01756.webp",
+    "g": "Acción, Aventura, Rol, Early Access",
+    "r": "•Sistema Operativo: Windows® 10 (64-bit)\n•Procesador: Intel® Core™ i7-8700K / AMD® Ryzen™ 7 2700X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA® GTX™ 1080 Ti / AMD® Radeon™ RX 6800\n•DirectX: Version 12\n•Almacenamiento: 30 GB available space",
+    "pr": 100,
+    "a": "2026",
     "e": ""
   },
   {
