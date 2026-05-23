@@ -717,7 +717,7 @@
     "r": "•Sistema Operativo: Windows 10 (64 bit only)\n•Procesador: Intel 7th Gen: Intel Core i7-7700 or AMD Ryzen 5 1600\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660 (6GB) or AMD Radeon RX-5600 XT (6GB)\n•DirectX: Version 12\n•Almacenamiento: 117 GB available space",
     "pr": 200,
     "a": "2025",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00946",
@@ -9709,7 +9709,7 @@
   },
   {
     "id": "01758",
-    "n": "Lego Batman Legacy of the Dark Knight [HV]",
+    "n": "Lego Batman Legacy of the Dark Knight",
     "t": "28.5 Gb",
     "p": "PC",
     "img": "01758.webp",
@@ -10453,7 +10453,7 @@
   },
   {
     "id": "01513",
-    "n": "Mafia The Old Country [HV]",
+    "n": "Mafia The Old Country",
     "t": "46.0 Gb",
     "p": "PC",
     "img": "01513.webp",
@@ -10461,7 +10461,7 @@
     "r": "•Sistema Operativo: Windows 10 / 11\n•Procesador: AMD Ryzen 7 2700X / Intel Core i7-9700K\n•Memoria: 16 GB RAM\n•Gráficos: AMD Radeon RX 5700 XT / NVIDIA RTX 2070\n•DirectX: Version 12\n•Almacenamiento: 55 GB available space",
     "pr": 200,
     "a": "2025",
-    "e": ""
+    "e": "true"
   },
   {
     "id": "00545",
@@ -13903,7 +13903,7 @@
     "img": "01759.webp",
     "g": "Acción, Aventura",
     "r": "•Tener la Consola Liberada",
-    "pr": 200,
+    "pr": 1500,
     "a": "2026",
     "e": "true"
   },
@@ -14738,12 +14738,12 @@
   {
     "id": "01734",
     "n": "Resident Evil Requiem",
-    "t": "",
+    "t": "122.0 Gb",
     "p": "PS5",
     "img": "01734.webp",
     "g": "Acción, Aventura, terror",
     "r": "",
-    "pr": "N/D",
+    "pr": 1500,
     "a": "2026",
     "e": "true"
   },
@@ -17509,7 +17509,7 @@
   },
   {
     "id": "01751",
-    "n": "Teenage Mutant Ninja Turtles Empire City",
+    "n": "TMNT Turtles Empire City",
     "t": "2.3 Gb",
     "p": "PC",
     "img": "01751.webp",
@@ -17521,7 +17521,7 @@
   },
   {
     "id": "01695",
-    "n": "Teenage Mutant Ninja Turtles Shredders Revenge",
+    "n": "TMNT Turtles Shredders Revenge",
     "t": "9.3 Gb",
     "p": "PS5",
     "img": "01695.webp",
@@ -17533,7 +17533,7 @@
   },
   {
     "id": "01686",
-    "n": "Teenage Mutant Ninja Turtles The Last Mutation",
+    "n": "TMNT Turtles The Last Mutation",
     "t": "2.9 Gb",
     "p": "PS5",
     "img": "01686.webp",
