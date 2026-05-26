@@ -504,6 +504,18 @@
     "e": ""
   },
   {
+    "id": "01821",
+    "n": "Alan Wake Remastered",
+    "t": "13.0 Gb",
+    "p": "N Switch",
+    "img": "01821.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 150,
+    "a": "2021",
+    "e": ""
+  },
+  {
     "id": "01396",
     "n": "Alaska Gold Fever",
     "t": "8.7 Gb",
@@ -708,6 +720,18 @@
     "e": ""
   },
   {
+    "id": "01822",
+    "n": "Animal Crossing New Horizons",
+    "t": "10.2 Gb",
+    "p": "N Switch",
+    "img": "01822.webp",
+    "g": "Simulación, Social, Life",
+    "r": "",
+    "pr": 150,
+    "a": "2020",
+    "e": ""
+  },
+  {
     "id": "01542",
     "n": "Anno 117 Pax Romana [HV]",
     "t": "43.4 Gb",
@@ -765,6 +789,18 @@
     "r": "•Sistema Operativo: Windows 10 or newer\n•Procesador: 2.5 GHz or faster\n•Memoria: 4 GB RAM\n•Gráficos: Nvidia GTX 970 or equivalent\n•DirectX: Version 10\n•Almacenamiento: 6 GB available space",
     "pr": 100,
     "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01823",
+    "n": "Another Metroid 2 Remake",
+    "t": "0.1 Gb",
+    "p": "N Switch",
+    "img": "01823.webp",
+    "g": "Acción, Metroidvania, Fan Remake",
+    "r": "",
+    "pr": 100,
+    "a": "",
     "e": ""
   },
   {
@@ -854,12 +890,12 @@
   {
     "id": "00042",
     "n": "Ark Survival Evolved",
-    "t": "6.5 Gb",
+    "t": "53.5 Gb",
     "p": "PC",
     "img": "00042.webp",
     "g": "Acción, Aventura, Indie, Massively Multiplayer, Rol",
     "r": "•Procesador: Intel Core i5-2400/AMD FX-8320 or better\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better\n•DirectX: Version 10\n•Almacenamiento: 60 GB available space",
-    "pr": 100,
+    "pr": 200,
     "a": "2017",
     "e": ""
   },
@@ -1188,6 +1224,42 @@
     "e": ""
   },
   {
+    "id": "01824",
+    "n": "Assassin’s Creed IV Black Flag",
+    "t": "12.2 Gb",
+    "p": "N Switch",
+    "img": "01824.webp",
+    "g": "Acción, Aventura, Open World",
+    "r": "",
+    "pr": 150,
+    "a": "2013",
+    "e": ""
+  },
+  {
+    "id": "01825",
+    "n": "Assassin’s Creed Rogue",
+    "t": "7.2 Gb",
+    "p": "N Switch",
+    "img": "01825.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2014",
+    "e": ""
+  },
+  {
+    "id": "01826",
+    "n": "Assassin’s Creed the Ezio Collection",
+    "t": "11.0 Gb",
+    "p": "N Switch",
+    "img": "01826.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 150,
+    "a": "2016",
+    "e": ""
+  },
+  {
     "id": "00063",
     "n": "Assetto Corsa",
     "t": "9.0 Gb",
@@ -1512,6 +1584,18 @@
     "e": ""
   },
   {
+    "id": "01760",
+    "n": "Baldo the Guardian Owls",
+    "t": "1.6 Gb",
+    "p": "N Switch",
+    "img": "01760.webp",
+    "g": "Acción, Aventura, Indie, Rol",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
     "id": "00699",
     "n": "Baldur s Gate II Enhanced Edition",
     "t": "2.7 Gb",
@@ -1603,6 +1687,18 @@
     "img": "00101.webp",
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Win 7 SP1, Win 8.1 (64-bit Operating System Required)\n•Procesador: Intel Core i5-750, 2.67 GHz | AMD Phenom II X4 965, 3.4 GHz\n•Memoria: 6 GB RAM\n•Gráficos: Graphics: NVIDIA GeForce GTX 660 (2 GB Memory Minimum)  | AMD Radeon HD 7870 (2 GB Memory Minimum)\n•DirectX: Version 11\n•Almacenamiento: 45 GB available space",
+    "pr": 150,
+    "a": "2015",
+    "e": ""
+  },
+  {
+    "id": "01761",
+    "n": "Batman Arkham Knight",
+    "t": "27.3 Gb",
+    "p": "N Switch",
+    "img": "01761.webp",
+    "g": "Acción, Aventura",
+    "r": "",
     "pr": 150,
     "a": "2015",
     "e": ""
@@ -1761,6 +1857,18 @@
     "r": "•Sistema Operativo: Microsoft Windows 7 / 8 (8.1)/ 10\n•Procesador: Core i3 3220\n•Memoria: 4 GB RAM\n•Gráficos: Radeon HD6950 / GeForce  GTX 570 (VRAM 768MB)\n•DirectX: Version 9.0c\n•Almacenamiento: 20 GB available space",
     "pr": 100,
     "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01827",
+    "n": "Bayonetta 3",
+    "t": "25.7 Gb",
+    "p": "N Switch",
+    "img": "01827.webp",
+    "g": "Acción, Hack and Slash",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
     "e": ""
   },
   {
@@ -1944,6 +2052,18 @@
     "e": ""
   },
   {
+    "id": "01828",
+    "n": "Bioshock Remastered",
+    "t": "12.5 Gb",
+    "p": "N Switch",
+    "img": "01828.webp",
+    "g": "Acción, FPS, Story Rich",
+    "r": "",
+    "pr": 150,
+    "a": "2016",
+    "e": ""
+  },
+  {
     "id": "00703",
     "n": "Biped 2",
     "t": "7.7 Gb",
@@ -1988,6 +2108,18 @@
     "g": "Acción, Aventura, Indie",
     "r": "•Sistema Operativo: Windows 7 64-bit\n•Procesador: Intel Core2 Duo E8400 or AMD Phenom II x2 550\n•Memoria: 4 GB RAM\n•Gráficos: GeForce GTX 260 or Radeon HD 4850\n•Almacenamiento: 4 GB available space",
     "pr": 50,
+    "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01762",
+    "n": "Blasphemous",
+    "t": "1.2 Gb",
+    "p": "N Switch",
+    "img": "01762.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "",
+    "pr": 100,
     "a": "2019",
     "e": ""
   },
@@ -2148,6 +2280,18 @@
     "e": ""
   },
   {
+    "id": "01829",
+    "n": "Bob Esponja the Cosmic Shake",
+    "t": "5.4 Gb",
+    "p": "N Switch",
+    "img": "01829.webp",
+    "g": "Plataformas, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "00778",
     "n": "Bob Esponja Titanes de las Marea",
     "t": "8.0 Gb",
@@ -2157,6 +2301,18 @@
     "r": "•Requiere un procesador y un sistema operativo de 64 bits\n•SO: Windows 10\n•Procesador: Ryzen 3 1300X / Core i5-3570k\n•Memoria: 8 GB de RAM\n•Gráficos: GeForce GTX 1050 Ti / Radeon RX 470\n•DirectX: Versión 11\n•Almacenamiento: 11 GB de espacio disponible",
     "pr": 100,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01830",
+    "n": "Borderlands",
+    "t": "13.7 Gb",
+    "p": "N Switch",
+    "img": "01830.webp",
+    "g": "Acción, FPS, Rol",
+    "r": "",
+    "pr": 150,
+    "a": "2009",
     "e": ""
   },
   {
@@ -2263,6 +2419,18 @@
     "img": "00120.webp",
     "g": "Acción, Indie",
     "r": "•Sistema Operativo: Windows 10 64 bit（1903）\n•Procesador: INTEL E3-1230v2 / AMD FX-8350\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GTX960(4G)\n•DirectX: Version 11\n•Almacenamiento: 13 GB available space",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01763",
+    "n": "Bright Memory Infinite",
+    "t": "1.8 Gb",
+    "p": "N Switch",
+    "img": "01763.webp",
+    "g": "Acción, Indie",
+    "r": "",
     "pr": 100,
     "a": "2021",
     "e": ""
@@ -2376,6 +2544,18 @@
     "e": ""
   },
   {
+    "id": "01764",
+    "n": "Burnout Paradise Remastered",
+    "t": "4.0 Gb",
+    "p": "N Switch",
+    "img": "01764.webp",
+    "g": "Acción, Aventura, Carreras",
+    "r": "",
+    "pr": 100,
+    "a": "2020",
+    "e": ""
+  },
+  {
     "id": "00181",
     "n": "Burnout Paradise the Ultimate Box",
     "t": "3.1 Gb",
@@ -2409,6 +2589,18 @@
     "r": "•Sistema Operativo: Windows 10 or more\n•Procesador: i3 or more\n•Memoria: 8 GB RAM\n•Gráficos: GTX 770 or more\n•Almacenamiento: 15 GB available space",
     "pr": 100,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01832",
+    "n": "Cabela’s the Hunt Championship Edition",
+    "t": "1.4 Gb",
+    "p": "N Switch",
+    "img": "01832.webp",
+    "g": "Deportes, Simulación",
+    "r": "",
+    "pr": 100,
+    "a": "2018",
     "e": ""
   },
   {
@@ -2550,7 +2742,7 @@
     "p": "PC",
     "img": "00161.webp",
     "g": "Acción",
-    "r": "•Sistema Operativo: Windows Vista SP2 or Windows 7.   Windows XP is not supported\n•Procesador: Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz\n•Memoria: 2 GB for 32-bit OS or 4 GB for 64-bit OS\n•Gráficos: Nvidia GeForce 8800GT 512 MB or ATI Radeon HD 3870 512 MB\n•DirectX: Version 9.0c\n•Sistema Operativo: und:  DirectX 11.0c compatible",
+    "r": "•Sistema Operativo: Windows Vista SP2 or Windows 7.   Windows XP is not supported\n•Procesador: Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz\n•Memoria: 2 GB for 32-bit OS or 4 GB for 64-bit OS\n•Gráficos: Nvidia GeForce 8800GT 512 MB or ATI Radeon HD 3870 512 MB\n•DirectX: Version 9.0c",
     "pr": 150,
     "a": "2012",
     "e": ""
@@ -2949,6 +3141,18 @@
     "r": "•Sistema Operativo: Windows XP con Service Pack 3\n•Procesador: 2,4 GHz Intel Core 2 Duo o AMD equivalente Processeor\n•Memoria: 1 Giga de RAM\n•Gráficos: Direct X9 tarjeta de vídeo compatible con 512 Megas de RAM\n•DirectX: Versión 9.0c\n•Disco Duro: 2 Gigas de espacio disponible",
     "pr": 50,
     "a": "2014",
+    "e": ""
+  },
+  {
+    "id": "01765",
+    "n": "Cat Quest II",
+    "t": "1.0 Gb",
+    "p": "N Switch",
+    "img": "01765.webp",
+    "g": "Acción, Aventura, Indie, Rol",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
     "e": ""
   },
   {
@@ -3384,6 +3588,18 @@
     "e": ""
   },
   {
+    "id": "01766",
+    "n": "Contra Anniversary Collection",
+    "t": "1.0 Gb",
+    "p": "N Switch",
+    "img": "01766.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
+    "e": ""
+  },
+  {
     "id": "00155",
     "n": "Contra Operation Galuga",
     "t": "6.4 Gb",
@@ -3516,6 +3732,18 @@
     "e": ""
   },
   {
+    "id": "01833",
+    "n": "Crash Bandicoot 4 It’s About Time",
+    "t": "9.4 Gb",
+    "p": "N Switch",
+    "img": "01833.webp",
+    "g": "Plataformas, Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2020",
+    "e": ""
+  },
+  {
     "id": "00202",
     "n": "Crash Bandicoot N Sane Trilogy",
     "t": "25.3 Gb",
@@ -3528,6 +3756,30 @@
     "e": ""
   },
   {
+    "id": "01834",
+    "n": "Crash Bandicoot N. Sane Trilogy",
+    "t": "5.3 Gb",
+    "p": "N Switch",
+    "img": "01834.webp",
+    "g": "Plataformas, Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01835",
+    "n": "Crash Team Racing Nitro-fueled",
+    "t": "9.3 Gb",
+    "p": "N Switch",
+    "img": "01835.webp",
+    "g": "Carreras, Arcade",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
+    "e": ""
+  },
+  {
     "id": "01622",
     "n": "Crazy Chicken Shooter",
     "t": "0.1 Gb",
@@ -3537,6 +3789,18 @@
     "r": "",
     "pr": 500,
     "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01767",
+    "n": "Crazy Chicken Xtreme",
+    "t": "1.0 Gb",
+    "p": "N Switch",
+    "img": "01767.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2022",
     "e": ""
   },
   {
@@ -3597,6 +3861,18 @@
     "r": "•Sistema Operativo: Windows10 64bit\n•Procesador: Intel Core i5-8400/AMD Ryzen 5 1600\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660 6GB/AMD Radeon RX 580 8GB\n•DirectX: Version 12\n•Almacenamiento: 9 GB available space\n•Sistema Operativo: und Card:  N/A",
     "pr": 100,
     "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "01831",
+    "n": "CRISIS CORE FINAL FANTASY VII REUNION",
+    "t": "14.3 Gb",
+    "p": "N Switch",
+    "img": "01831.webp",
+    "g": "Acción, Rol",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
     "e": ""
   },
   {
@@ -3732,6 +4008,18 @@
     "e": ""
   },
   {
+    "id": "01768",
+    "n": "Crysis 3 Remastered",
+    "t": "11.0 Gb",
+    "p": "N Switch",
+    "img": "01768.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "00205",
     "n": "Crysis Remastered",
     "t": "21.8 Gb",
@@ -3740,6 +4028,18 @@
     "g": "Acción",
     "r": "•Sistema Operativo: Windows 10 64 bit\n•Procesador: Intel(R) Core(TM) i5-3450 / AMD Ryzen 3\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1050 TI /AMD Radeon 470\n•Almacenamiento: 20 GB available space",
     "pr": 150,
+    "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01769",
+    "n": "Crysis Remastered",
+    "t": "7.0 Gb",
+    "p": "N Switch",
+    "img": "01769.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
     "a": "2021",
     "e": ""
   },
@@ -3780,6 +4080,18 @@
     "e": ""
   },
   {
+    "id": "01770",
+    "n": "Cult of the Lamb",
+    "t": "1.6 Gb",
+    "p": "N Switch",
+    "img": "01770.webp",
+    "g": "Acción, Aventura, Indie, Estrategia",
+    "r": "",
+    "pr": 100,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "00210",
     "n": "Cuphead",
     "t": "4.7 Gb",
@@ -3788,6 +4100,18 @@
     "g": "Acción, Indie",
     "r": "•Sistema Operativo: Windows 7\n•Procesador: Intel Core2 Duo E8400, 3.0GHz or AMD Athlon 64 X2 6000+, 3.0GHz or higher\n•Memoria: 3 GB RAM\n•Gráficos: Geforce 9600 GT or AMD HD 3870 512MB or higher\n•DirectX: Version 11\n•Almacenamiento: 4 GB available space",
     "pr": 50,
+    "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01771",
+    "n": "Cuphead",
+    "t": "5.2 Gb",
+    "p": "N Switch",
+    "img": "01771.webp",
+    "g": "Acción, Indie",
+    "r": "",
+    "pr": 100,
     "a": "2017",
     "e": ""
   },
@@ -3900,6 +4224,18 @@
     "e": ""
   },
   {
+    "id": "01774",
+    "n": "Dark Souls Remastered",
+    "t": "4.1 Gb",
+    "p": "N Switch",
+    "img": "01774.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2018",
+    "e": ""
+  },
+  {
     "id": "00215",
     "n": "Darkest Dungeon",
     "t": "2.4 Gb",
@@ -3960,6 +4296,18 @@
     "e": ""
   },
   {
+    "id": "01775",
+    "n": "Darksiders Genesis",
+    "t": "10.0 Gb",
+    "p": "N Switch",
+    "img": "01775.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
+    "e": ""
+  },
+  {
     "id": "00217",
     "n": "Darksiders II Deathinitive Edition",
     "t": "12.5 Gb",
@@ -3968,6 +4316,18 @@
     "g": "Acción, Aventura, Rol",
     "r": "•Sistema Operativo: Windows XP, Windows Vista SP1, Windows 7, Windows 8 or Windows 10 (64bit)\n•Procesador: 2.0Ghz Intel® Core™2 Duo Processor or AMD equivalent\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA 9800 GT 512 MB Video Card or AMD equivalent\n•DirectX: Version 9.0c\n•Almacenamiento: 13 GB available space\n•Sistema Operativo: und Card:  DirectX compatible Sound card",
     "pr": 100,
+    "a": "2015",
+    "e": ""
+  },
+  {
+    "id": "01776",
+    "n": "Darksiders II Deathinitive Edition",
+    "t": "14.2 Gb",
+    "p": "N Switch",
+    "img": "01776.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "",
+    "pr": 150,
     "a": "2015",
     "e": ""
   },
@@ -4137,6 +4497,18 @@
     "r": "",
     "pr": 500,
     "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01777",
+    "n": "Dead Cells",
+    "t": "2.5 Gb",
+    "p": "N Switch",
+    "img": "01777.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "",
+    "pr": 100,
+    "a": "2018",
     "e": ""
   },
   {
@@ -4368,6 +4740,18 @@
     "e": ""
   },
   {
+    "id": "01836",
+    "n": "Demon Slayer Kimetsu No Yaiba – the Hinokami Chronicles",
+    "t": "8.9 Gb",
+    "p": "N Switch",
+    "img": "01836.webp",
+    "g": "Acción, Fighting",
+    "r": "",
+    "pr": 100,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "01547",
     "n": "Demon Slayer the Hinokami Chronicles 2 [HV]",
     "t": "15.2 Gb",
@@ -4560,6 +4944,18 @@
     "e": ""
   },
   {
+    "id": "01837",
+    "n": "Diablo II Resurrected",
+    "t": "8.6 Gb",
+    "p": "N Switch",
+    "img": "01837.webp",
+    "g": "Action RPG",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
     "id": "00278",
     "n": "Diablo II resurrected infernal edition",
     "t": "37.8 Gb",
@@ -4581,6 +4977,18 @@
     "r": "•Sistema Operativo: Windows XP, Windows Vista, Windows 7.\n•RAM: Al menos 1 GB.\n•Gráfica: Tarjeta gráfica mínima como GeForce 7800 GT; recomendada GeForce GTX 260.\n•Procesador: Un Athlon 64 X2 4400+ es el mínimo; se recomienda un Athlon 64 X2 5600+ o mejor.\n•Espacio en Disco: 8 GB de espacio libre en disco.",
     "pr": 100,
     "a": "2012",
+    "e": ""
+  },
+  {
+    "id": "01838",
+    "n": "Diablo III Eternal Collection",
+    "t": "15.4 Gb",
+    "p": "N Switch",
+    "img": "01838.webp",
+    "g": "Action RPG",
+    "r": "",
+    "pr": 150,
+    "a": "2018",
     "e": ""
   },
   {
@@ -4848,6 +5256,18 @@
     "e": ""
   },
   {
+    "id": "01839",
+    "n": "Divinity Original Sin II",
+    "t": "12.0 Gb",
+    "p": "N Switch",
+    "img": "01839.webp",
+    "g": "Rol, Estrategia",
+    "r": "",
+    "pr": 150,
+    "a": "2017",
+    "e": ""
+  },
+  {
     "id": "01329",
     "n": "Dmc Devil May Cry",
     "t": "7.6 Gb",
@@ -4872,6 +5292,18 @@
     "e": ""
   },
   {
+    "id": "01840",
+    "n": "Donkey Kong Country Tropical Freeze",
+    "t": "6.7 Gb",
+    "p": "N Switch",
+    "img": "01840.webp",
+    "g": "Plataformas",
+    "r": "",
+    "pr": 100,
+    "a": "2018",
+    "e": ""
+  },
+  {
     "id": "00249",
     "n": "Dont Starve",
     "t": "1.8 Gb",
@@ -4892,6 +5324,18 @@
     "g": "Acción",
     "r": "•Sistema Operativo: Windows 7/8.1/10 (64-bit versions)\n•Procesador: Intel Core i5-2400/AMD FX-8320 or better\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better\n•Almacenamiento: 55 GB available space",
     "pr": 250,
+    "a": "2016",
+    "e": ""
+  },
+  {
+    "id": "01845",
+    "n": "DOOM",
+    "t": "21.7 Gb",
+    "p": "N Switch",
+    "img": "01845.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 150,
     "a": "2016",
     "e": ""
   },
@@ -4929,6 +5373,18 @@
     "r": "•Sistema Operativo: 64-bit Windows 7 / 64-Bit Windows 10\n•Procesador: Intel Core i5 @ 3.3 GHz or better, or AMD Ryzen 3 @ 3.1 GHz or better\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1050Ti (4GB), GTX 1060 (3GB), GTX 1650 (4GB) or AMD Radeon R9 280(3GB), AMD Radeon R9 290 (4GB), RX 470 (4GB)\n•Almacenamiento: 80 GB available space",
     "pr": 250,
     "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01772",
+    "n": "Doom Eternal",
+    "t": "33.0 Gb",
+    "p": "N Switch",
+    "img": "01772.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 150,
+    "a": "2020",
     "e": ""
   },
   {
@@ -5076,6 +5532,18 @@
     "e": ""
   },
   {
+    "id": "01778",
+    "n": "Dragon Ball Xenoverse 2",
+    "t": "10.5 Gb",
+    "p": "N Switch",
+    "img": "01778.webp",
+    "g": "Acción, Aventura, Casual, Massively Multiplayer",
+    "r": "",
+    "pr": 150,
+    "a": "2016",
+    "e": ""
+  },
+  {
     "id": "00258",
     "n": "Dragon Ball Z Kakarot",
     "t": "40.1 Gb",
@@ -5096,6 +5564,18 @@
     "g": "Rol, Estrategia",
     "r": "•Sistema Operativo: Windows 10 version 64-bit\n•Procesador: Intel Core 2 duo E8500, AMD Phenom II X3 720\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GT 440, AMD Radeon HD 5670, Intel HD\n•DirectX: Version 12\n•Almacenamiento: 5 GB available space",
     "pr": 50,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01773",
+    "n": "Dragon Quest III Hd 2d Remake",
+    "t": "6.9 Gb",
+    "p": "N Switch",
+    "img": "01773.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 100,
     "a": "2024",
     "e": ""
   },
@@ -5169,6 +5649,18 @@
     "r": "•Sistema Operativo: Windows Vista or newer (32 or 64 bit)\n•Procesador: Intel Core i5 660 CPU or equivalent\n•Memoria: 4 GB RAM\n•Gráficos: Radeon HD 5870 or equivalent\n•DirectX: Version 9.0c\n•Almacenamiento: 20 GB available space\n•Sistema Operativo: und Card:  DirectX-compatible sound card or onboard audio chip",
     "pr": 100,
     "a": "2016",
+    "e": ""
+  },
+  {
+    "id": "01841",
+    "n": "Dragon’s Dogma Dark Arisen",
+    "t": "12.1 Gb",
+    "p": "N Switch",
+    "img": "01841.webp",
+    "g": "Action RPG",
+    "r": "",
+    "pr": 150,
+    "a": "2019",
     "e": ""
   },
   {
@@ -5412,6 +5904,18 @@
     "e": ""
   },
   {
+    "id": "01842",
+    "n": "Dying Light Platinum Edition",
+    "t": "17.7 Gb",
+    "p": "N Switch",
+    "img": "01842.webp",
+    "g": "Acción, Survival, Open World",
+    "r": "",
+    "pr": 150,
+    "a": "2021",
+    "e": ""
+  },
+  {
     "id": "00733",
     "n": "Dying Light The Beast",
     "t": "41.5 Gb",
@@ -5433,6 +5937,18 @@
     "r": "•Sistema Operativo: Windows® 10/11 64-bit\n•Procesador: Intel Core i5-8400 or higher, AMD Ryzen 5 2600 or higher\n•Memoria: 12 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060 (VRAM 6GB) or better, AMD Radeon RX 590 (VRAM 8GB) or better\n•DirectX: Version 12\n•Almacenamiento: 50 GB available space",
     "pr": 200,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01843",
+    "n": "EA Sports FC 25 Ultimate Edition",
+    "t": "28.9 Gb",
+    "p": "N Switch",
+    "img": "01843.webp",
+    "g": "Deportes",
+    "r": "",
+    "pr": 150,
+    "a": "2024",
     "e": ""
   },
   {
@@ -5648,6 +6164,18 @@
     "g": "Acción, Indie, Rol",
     "r": "•Sistema Operativo: Windows 7, 8 y 10 (64-bits)\n•Procesador: Dual Core @ 2.00 Ghz\n•Memoria: 2 Gigas de RAM\n•Gráficos: 1 Giga de video RAM\n•DirectX: Versión 11\n•Almacenamiento: 2 Gigas de espacio disponible",
     "pr": 50,
+    "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01779",
+    "n": "Ender Lilies Quietus of the Knights",
+    "t": "0.9 Gb",
+    "p": "N Switch",
+    "img": "01779.webp",
+    "g": "Acción, Indie, Rol",
+    "r": "",
+    "pr": 100,
     "a": "2021",
     "e": ""
   },
@@ -5985,7 +6513,7 @@
     "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5-4590 or AMD FX-8370\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GeForce GTX 960 or AMD R9 280x (3GB VRAM)\n•Almacenamiento: 30 GB available space",
     "pr": 150,
     "a": "2023",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00322",
@@ -7003,7 +7531,7 @@
     "img": "01586.webp",
     "g": "Racing, Open World, Simulation",
     "r": "•OS: Windows 10/11\n•Processor: Intel Core i5-8400 / AMD Ryzen 5 1600\n•Memory: 16 GB RAM\n•Graphics: NVIDIA GeForce GTX 1650 / AMD Radeon RX 6500 XT\n•DirectX: Version 12\n•Storage: 160 GB available space\n•Additional Notes: The game must be installed on a SSD",
-    "pr": 500,
+    "pr": 300,
     "a": "2026",
     "e": "true"
   },
@@ -7092,6 +7620,18 @@
     "e": ""
   },
   {
+    "id": "01780",
+    "n": "Fuga Melodies of Steel 3",
+    "t": "4.9 Gb",
+    "p": "N Switch",
+    "img": "01780.webp",
+    "g": "Rol, Simulación, Estrategia",
+    "r": "",
+    "pr": 100,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "01336",
     "n": "Full Metal Schoolgirl",
     "t": "6.6 Gb",
@@ -7149,6 +7689,18 @@
     "r": "",
     "pr": 500,
     "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01781",
+    "n": "Gang Beasts",
+    "t": "2.3 Gb",
+    "p": "N Switch",
+    "img": "01781.webp",
+    "g": "Acción, Aventura, Casual, Indie, Simulación",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
     "e": ""
   },
   {
@@ -7536,6 +8088,18 @@
     "e": ""
   },
   {
+    "id": "01844",
+    "n": "Grand Theft Auto III",
+    "t": "2.2 Gb",
+    "p": "N Switch",
+    "img": "01844.webp",
+    "g": "Acción, Open World",
+    "r": "",
+    "pr": 100,
+    "a": "2001",
+    "e": ""
+  },
+  {
     "id": "01645",
     "n": "Grand Theft Auto V",
     "t": "85.2 Gb",
@@ -7663,6 +8227,18 @@
     "img": "00462.webp",
     "g": "Adventure Games, Acción, Aventura",
     "r": "•Sistema Operativo: Windows 10 64bit\n•Procesador: Intel Core i3-3225\n•Memoria: 4 GB RAM\n•Gráficos: Nvidia GTX 650 Ti\n•Almacenamiento: 8 GB available space\n•Sistema Operativo: Windows 11 64bit",
+    "pr": 100,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01782",
+    "n": "Grounded",
+    "t": "4.1 Gb",
+    "p": "N Switch",
+    "img": "01782.webp",
+    "g": "Acción, Aventura",
+    "r": "",
     "pr": 100,
     "a": "2022",
     "e": ""
@@ -7915,6 +8491,18 @@
     "img": "00480.webp",
     "g": "Acción, Indie, Rol",
     "r": "•Sistema Operativo: Windows 7 SP1\n•Procesador: Dual Core 3,0 GHz\n•Memoria: 4 Gigas\n•Gráficos: 1 Gigas de VRAM y compatibilidad con OpenGL 2.1 o superior\n•Disco Duro: 10 Gigas de espacio libre",
+    "pr": 100,
+    "a": "2020",
+    "e": ""
+  },
+  {
+    "id": "01783",
+    "n": "Hades",
+    "t": "5.8 Gb",
+    "p": "N Switch",
+    "img": "01783.webp",
+    "g": "Acción, Indie, Rol",
+    "r": "",
     "pr": 100,
     "a": "2020",
     "e": ""
@@ -8472,6 +9060,18 @@
     "e": ""
   },
   {
+    "id": "01784",
+    "n": "Hogwarts Legacy",
+    "t": "15.6 Gb",
+    "p": "N Switch",
+    "img": "01784.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "",
+    "pr": 150,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "00482",
     "n": "Hollow Knight",
     "t": "2.4 Gb",
@@ -8484,6 +9084,18 @@
     "e": ""
   },
   {
+    "id": "01902",
+    "n": "Hollow Knight",
+    "t": "5.3 Gb",
+    "p": "N Switch",
+    "img": "01902.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
+    "e": ""
+  },
+  {
     "id": "00437",
     "n": "Hollow Knight Silksong",
     "t": "2.2 Gb",
@@ -8492,6 +9104,18 @@
     "g": "Acción, Aventura, Indie",
     "r": "•Sistema Operativo: Windows 10 version 21H1 (build 19043) or newer\n•Procesador: Intel Core i3-3240, AMD FX-4300\n•Memoria: 4 GB RAM\n•Gráficos: GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB)\n•DirectX: Version 10\n•Almacenamiento: 8 GB available space",
     "pr": 50,
+    "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01785",
+    "n": "Hollow Knight Silksong",
+    "t": "2.9 Gb",
+    "p": "N Switch",
+    "img": "01785.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "",
+    "pr": 100,
     "a": "2025",
     "e": ""
   },
@@ -8863,6 +9487,18 @@
     "img": "00447.webp",
     "g": "Acción, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10 (64-bit versions)\n•Procesador: AMD FX 6300 @ 3.5 Ghz or Intel Core i5-2400 @ 3.1 Ghz.\n•Memoria: 8 GB RAM\n•Gráficos: AMD R9 280x (3 GB) or NVIDIA GeForce GTX 660 (2 GB)\n•DirectX: Version 11\n•Almacenamiento: 33 GB available space\n•Sistema Operativo: und Card:  DirectX 9.0c compatible sound card with latest drivers",
+    "pr": 150,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01786",
+    "n": "Immortals Fenyx Rising",
+    "t": "27.6 Gb",
+    "p": "N Switch",
+    "img": "01786.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "",
     "pr": 150,
     "a": "2022",
     "e": ""
@@ -9432,6 +10068,18 @@
     "e": ""
   },
   {
+    "id": "01846",
+    "n": "Kingdom Come Deliverance Royal Edition",
+    "t": "14.8 Gb",
+    "p": "N Switch",
+    "img": "01846.webp",
+    "g": "Rol, Open World",
+    "r": "",
+    "pr": 150,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "00565",
     "n": "Kingdom Hearts Hd II.8 Final Chapter Prologue",
     "t": "26.2 Gb",
@@ -9525,6 +10173,18 @@
     "r": "•Sistema Operativo: Windows 7, Windows, 8, Windows 10 (64 bit)\n•Procesador: Intel or AMD Dual Core CPU 2.5 GHz\n•Memoria: 4 GB RAM\n•Gráficos: DirectX 10 Feature Level AMD or NVIDIA Card with 1 GB VRAM\n•DirectX: Version 11\n•Almacenamiento: 40 GB available space",
     "pr": 150,
     "a": "2020",
+    "e": ""
+  },
+  {
+    "id": "01847",
+    "n": "Kirby’s Dream Buffet",
+    "t": "1.2 Gb",
+    "p": "N Switch",
+    "img": "01847.webp",
+    "g": "Party, Plataformas",
+    "r": "",
+    "pr": 100,
+    "a": "2022",
     "e": ""
   },
   {
@@ -9710,7 +10370,7 @@
   {
     "id": "01758",
     "n": "Lego Batman Legacy of the Dark Knight",
-    "t": "28.5 Gb",
+    "t": "39.2 Gb",
     "p": "PC",
     "img": "01758.webp",
     "g": "Action, Adventure",
@@ -9752,6 +10412,18 @@
     "g": "Acción-aventura, plataformas",
     "r": "",
     "pr": 1500,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01787",
+    "n": "Lego Horizon Adventures",
+    "t": "7.2 Gb",
+    "p": "N Switch",
+    "img": "01787.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
     "a": "2024",
     "e": ""
   },
@@ -10008,6 +10680,18 @@
     "e": ""
   },
   {
+    "id": "01788",
+    "n": "Little Nightmares",
+    "t": "2.8 Gb",
+    "p": "N Switch",
+    "img": "01788.webp",
+    "g": "Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
+    "e": ""
+  },
+  {
     "id": "00528",
     "n": "Little Nightmares II",
     "t": "5.2 Gb",
@@ -10015,6 +10699,18 @@
     "img": "00528.webp",
     "g": "Aventura",
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-2300 | AMD FX-4350\n•Memoria: 4 GB RAM\n•Gráficos: Nvidia GeForce GTX 570, 1 GB | AMD Radeon HD 7850, 2 GB\n•DirectX: Version 11",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01789",
+    "n": "Little Nightmares II",
+    "t": "5.6 Gb",
+    "p": "N Switch",
+    "img": "01789.webp",
+    "g": "Aventura",
+    "r": "",
     "pr": 100,
     "a": "2021",
     "e": ""
@@ -10245,7 +10941,7 @@
     "r": "•Sistema Operativo: Window 10 1903 (OS Build 18362) or Later\n•Procesador: Intel Core i5-3470, 3.2 GHz or AMD Ryzen 3 1200, 3.1 GHz\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 960, 2 GB or AMD Radeon RX 460, 2 GB\n•DirectX: Version 12\n•Almacenamiento: 60 GB available space",
     "pr": 150,
     "a": "2022",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00533",
@@ -10317,6 +11013,30 @@
     "r": "•Sistema Operativo: Windows 10, Windows 11\n•Procesador: Intel Core i5 3rd Generation\n•Memoria: 4 GB RAM\n•Gráficos: Nvidia GTX 720 Ti or Intel Dedicated Graphics\n•DirectX: Version 12\n•Almacenamiento: 2 GB available space",
     "pr": 50,
     "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "01848",
+    "n": "Luigi’s Mansion 2 HD",
+    "t": "6.1 Gb",
+    "p": "N Switch",
+    "img": "01848.webp",
+    "g": "Aventura, Puzle",
+    "r": "",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01849",
+    "n": "Luigi’s Mansion 3",
+    "t": "6.4 Gb",
+    "p": "N Switch",
+    "img": "01849.webp",
+    "g": "Aventura, Puzle",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
     "e": ""
   },
   {
@@ -10536,6 +11256,30 @@
     "e": ""
   },
   {
+    "id": "01856",
+    "n": "Mario & Luigi Brothership",
+    "t": "9.8 Gb",
+    "p": "N Switch",
+    "img": "01856.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01853",
+    "n": "Mario + Rabbids Sparks of Hope",
+    "t": "6.0 Gb",
+    "p": "N Switch",
+    "img": "01853.webp",
+    "g": "Estrategia, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "01379",
     "n": "Mario Forever",
     "t": "0.0 Gb",
@@ -10545,6 +11289,66 @@
     "r": "•Sistema Operativo: Windows XP / Vista / 7\n•Procesador: 1.0 GHz\n•Memoria: 256 MB RAM\n•Gráficos: GPU compatible DirectX 8\n•Almacenamiento: 50 MB available space",
     "pr": 50,
     "a": "2004",
+    "e": ""
+  },
+  {
+    "id": "01851",
+    "n": "Mario Golf Super Rush",
+    "t": "3.2 Gb",
+    "p": "N Switch",
+    "img": "01851.webp",
+    "g": "Deportes",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01852",
+    "n": "Mario Kart 8 Deluxe",
+    "t": "11.2 Gb",
+    "p": "N Switch",
+    "img": "01852.webp",
+    "g": "Carreras",
+    "r": "",
+    "pr": 150,
+    "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01854",
+    "n": "Mario Strikers Battle League",
+    "t": "1.9 Gb",
+    "p": "N Switch",
+    "img": "01854.webp",
+    "g": "Deportes",
+    "r": "",
+    "pr": 100,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01855",
+    "n": "Mario Tennis Aces",
+    "t": "2.4 Gb",
+    "p": "N Switch",
+    "img": "01855.webp",
+    "g": "Deportes",
+    "r": "",
+    "pr": 100,
+    "a": "2018",
+    "e": ""
+  },
+  {
+    "id": "01857",
+    "n": "Mario vs Donkey Kong",
+    "t": "1.3 Gb",
+    "p": "N Switch",
+    "img": "01857.webp",
+    "g": "Puzle, Plataformas",
+    "r": "",
+    "pr": 100,
+    "a": "2024",
     "e": ""
   },
   {
@@ -11052,6 +11856,18 @@
     "e": ""
   },
   {
+    "id": "01790",
+    "n": "Metal Gear Solid Master Collection Version",
+    "t": "7.7 Gb",
+    "p": "N Switch",
+    "img": "01790.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "00687",
     "n": "Metal Gear Solid Master Collection Vol.1",
     "t": "42.4 Gb",
@@ -11124,6 +11940,18 @@
     "e": ""
   },
   {
+    "id": "01791",
+    "n": "Metro 2033 Redux",
+    "t": "6.3 Gb",
+    "p": "N Switch",
+    "img": "01791.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2014",
+    "e": ""
+  },
+  {
     "id": "00641",
     "n": "Metro Exodus",
     "t": "50.8 Gb",
@@ -11145,6 +11973,42 @@
     "r": "•Sistema Operativo: Windows Vista, 7 or 8 (64-bit only)\n•Procesador: Dual Core CPU (2.2+ GHz Dual Core CPU or better)\n•Memoria: 2 GB RAM\n•Gráficos: DirectX 10, Shader Model 4 compliant graphics cards (GeForce 8800 GT 512 MB, GeForce GTS 250, etc)\n•DirectX: Version 10\n•Almacenamiento: 10 GB available space",
     "pr": 100,
     "a": "2014",
+    "e": ""
+  },
+  {
+    "id": "01858",
+    "n": "Metroid Dread",
+    "t": "4.1 Gb",
+    "p": "N Switch",
+    "img": "01858.webp",
+    "g": "Acción, Metroidvania",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01859",
+    "n": "Metroid Prime 4 Beyond",
+    "t": "19.0 Gb",
+    "p": "N Switch",
+    "img": "01859.webp",
+    "g": "Acción, Aventura, FPS",
+    "r": "",
+    "pr": 150,
+    "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01860",
+    "n": "Metroid Prime Remastered",
+    "t": "6.8 Gb",
+    "p": "N Switch",
+    "img": "01860.webp",
+    "g": "Acción, Aventura, FPS",
+    "r": "",
+    "pr": 100,
+    "a": "2023",
     "e": ""
   },
   {
@@ -11304,6 +12168,18 @@
     "e": ""
   },
   {
+    "id": "01861",
+    "n": "Minecraft",
+    "t": "2.7 Gb",
+    "p": "N Switch",
+    "img": "01861.webp",
+    "g": "Sandbox, Survival",
+    "r": "",
+    "pr": 100,
+    "a": "2011",
+    "e": ""
+  },
+  {
     "id": "01486",
     "n": "Minecraft Bedrock",
     "t": "0.7 Gb",
@@ -11400,6 +12276,18 @@
     "e": ""
   },
   {
+    "id": "01850",
+    "n": "MLB the Show 26",
+    "t": "27.9 Gb",
+    "p": "N Switch",
+    "img": "01850.webp",
+    "g": "Deportes",
+    "r": "",
+    "pr": 150,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "00887",
     "n": "Monopoly Plus",
     "t": "0.6 Gb",
@@ -11448,6 +12336,18 @@
     "e": ""
   },
   {
+    "id": "01792",
+    "n": "Monster Hunter Rise",
+    "t": "30.0 Gb",
+    "p": "N Switch",
+    "img": "01792.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "00615",
     "n": "Monster Hunter Rise Sunbreak",
     "t": "33.0 Gb",
@@ -11468,6 +12368,18 @@
     "g": "Rol",
     "r": "•Sistema Operativo: WINDOWS® 10,11 (64-BIT Required)\n•Procesador: Intel® Core™ i5-3470 3.20 GHz or AMD FX™-6300\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA®GeForce® GTX 960 or AMD Radeon RX 560\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space\n•Sistema Operativo: und Card:  DirectSound compatible (must support DirectX® 9.0c or higher)",
     "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01793",
+    "n": "Monster Hunter Stories",
+    "t": "10.5 Gb",
+    "p": "N Switch",
+    "img": "01793.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 150,
     "a": "2024",
     "e": ""
   },
@@ -11628,6 +12540,18 @@
     "e": ""
   },
   {
+    "id": "01862",
+    "n": "Mortal Kombat 1 Khaos Reigns Kollection",
+    "t": "42.4 Gb",
+    "p": "N Switch",
+    "img": "01862.webp",
+    "g": "Fighting",
+    "r": "",
+    "pr": 150,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "00621",
     "n": "Mortal Kombat 11",
     "t": "97.6 Gb",
@@ -11636,6 +12560,18 @@
     "g": "Acción",
     "r": "•Sistema Operativo: 64-bit Windows 7 / Windows 10\n•Procesador: Intel Core i5-750, 2.66 GHz / AMD Phenom II X4 965, 3.4 GHz or AMD Ryzen™ 3 1200, 3.1 GHz\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA® GeForce™ GTX 670 or NVIDIA® GeForce™ GTX 1050 / AMD® Radeon™ HD 7950 or AMD® Radeon™ R9 270\n•DirectX: Version 11",
     "pr": 250,
+    "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01794",
+    "n": "Mortal Kombat 11",
+    "t": "32.5 Gb",
+    "p": "N Switch",
+    "img": "01794.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 150,
     "a": "2019",
     "e": ""
   },
@@ -11770,6 +12706,18 @@
     "pr": 1500,
     "a": "2024",
     "e": ""
+  },
+  {
+    "id": "01903",
+    "n": "MotoGP 26",
+    "t": "17.2 Gb",
+    "p": "PC",
+    "img": "01903.webp",
+    "g": "Carreras, Simuladores, Deportes",
+    "r": "•Sistema Operativo: Windows 11\n•Procesador: Core i5-9600K | Ryzen 5 2600X\n•Memoria: 16 Gigas de RAM\n•Gráficos: GeForce GTX 1660 | Radeon RX 580\n•DirectX: Versión 12\n•Almacenamiento: 30 Gigas de espacio disponible",
+    "pr": 150,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00624",
@@ -12117,6 +13065,18 @@
     "r": "•Sistema Operativo: Windows (64bit) 7 or higher up to date\n•Procesador: Intel Core2 Duo, 3.0GHz - AMD Athlon 64 X2 Dual Core 6400+ 3.2GHz\n•Memoria: 2 GB RAM\n•Gráficos: 1024 MB video card\n•DirectX: Version 11\n•Almacenamiento: 40 GB available space",
     "pr": 150,
     "a": "2016",
+    "e": ""
+  },
+  {
+    "id": "01863",
+    "n": "Naruto Shippuden Ultimate Ninja Storm 4 Road to Boruto",
+    "t": "13.2 Gb",
+    "p": "N Switch",
+    "img": "01863.webp",
+    "g": "Fighting, Acción",
+    "r": "",
+    "pr": 150,
+    "a": "2020",
     "e": ""
   },
   {
@@ -12528,6 +13488,18 @@
     "e": ""
   },
   {
+    "id": "01864",
+    "n": "New Super Mario Bros U Deluxe",
+    "t": "2.5 Gb",
+    "p": "N Switch",
+    "img": "01864.webp",
+    "g": "Plataformas",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
+    "e": ""
+  },
+  {
     "id": "00814",
     "n": "New Tales From The Borderlands",
     "t": "27.6 Gb",
@@ -12549,6 +13521,18 @@
     "r": "•Sistema Operativo: Windows XP / Vista\n•Procesador: Pentium 4 2.4 GHz\n•Memoria: 1 GB RAM\n•Gráficos: GeForce 6600",
     "pr": 50,
     "a": "2008",
+    "e": ""
+  },
+  {
+    "id": "01865",
+    "n": "Ni No Kuni Wrath of the White Witch Remastered",
+    "t": "5.7 Gb",
+    "p": "N Switch",
+    "img": "01865.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
     "e": ""
   },
   {
@@ -12609,6 +13593,18 @@
     "r": "•Sistema Operativo: Windows 7 /8.1 /10 64bit\n•Procesador: Intel Core i3 2100 or AMD A8-6500\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce GTX 770 VRAM 2GB or AMD Radeon R9 270X VRAM 2GB\n•DirectX: Version 11\n•Almacenamiento: 50 GB available space\n•Sistema Operativo: und Card:  DirectX® 11 supported",
     "pr": 150,
     "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01866",
+    "n": "Nier Automata – the End of Yorha Edition",
+    "t": "10.9 Gb",
+    "p": "N Switch",
+    "img": "01866.webp",
+    "g": "Action RPG",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
     "e": ""
   },
   {
@@ -12775,6 +13771,18 @@
     "img": "00822.webp",
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 10/11 (64-bit versions)\n•Procesador: Intel Core i3\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GTX 1060 3GB, AMD RX 470 4GB, Intel UHD graphics 630\n•Almacenamiento: 15 GB available space",
+    "pr": 150,
+    "a": "2016",
+    "e": ""
+  },
+  {
+    "id": "01795",
+    "n": "No Mans Sky",
+    "t": "12.6 Gb",
+    "p": "N Switch",
+    "img": "01795.webp",
+    "g": "Acción, Aventura",
+    "r": "",
     "pr": 150,
     "a": "2016",
     "e": ""
@@ -13116,6 +14124,18 @@
     "e": ""
   },
   {
+    "id": "01796",
+    "n": "Ori and the Blind Forest",
+    "t": "3.5 Gb",
+    "p": "N Switch",
+    "img": "01796.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2015",
+    "e": ""
+  },
+  {
     "id": "00840",
     "n": "Ori And The Will Of The Wisps",
     "t": "15.4 Gb",
@@ -13124,6 +14144,18 @@
     "g": "Acción",
     "r": "•Sistema Operativo: Windows 10 Version 18362.0 or higher\n•Procesador: AMD Athlon X4 | Intel Core i5 4460\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GTX 950 | AMD R7 370\n•DirectX: Version 11\n•Almacenamiento: 20 GB available space",
     "pr": 150,
+    "a": "2020",
+    "e": ""
+  },
+  {
+    "id": "01797",
+    "n": "Ori and the Will of the Wisps",
+    "t": "4.3 Gb",
+    "p": "N Switch",
+    "img": "01797.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
     "a": "2020",
     "e": ""
   },
@@ -13236,6 +14268,18 @@
     "e": ""
   },
   {
+    "id": "01798",
+    "n": "Outlast 2",
+    "t": "9.7 Gb",
+    "p": "N Switch",
+    "img": "01798.webp",
+    "g": "Acción, Aventura, Indie",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
+    "e": ""
+  },
+  {
     "id": "01748",
     "n": "Outlive 25",
     "t": "2.6 Gb",
@@ -13248,6 +14292,18 @@
     "e": ""
   },
   {
+    "id": "01867",
+    "n": "Overcooked 2",
+    "t": "1.7 Gb",
+    "p": "N Switch",
+    "img": "01867.webp",
+    "g": "Party, Cooking, Co‑op",
+    "r": "",
+    "pr": 100,
+    "a": "2018",
+    "e": ""
+  },
+  {
     "id": "00847",
     "n": "Overcooked 2 Night Of The Hangry Horde",
     "t": "4.4 Gb",
@@ -13257,6 +14313,18 @@
     "r": "•Sistema Operativo: WIN7-64 bit\n•Procesador: Intel i3-2100 / AMD A8-5600k\n•Memoria: 4 GB RAM\n•Gráficos: GeForce GTX 630 / Radeon HD 6570\n•DirectX: Version 11\n•Almacenamiento: 3 GB available space\n•Sistema Operativo: und Card:  DirectX Compatible Sound Card",
     "pr": 50,
     "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01868",
+    "n": "Overcooked! All You Can Eat",
+    "t": "15.4 Gb",
+    "p": "N Switch",
+    "img": "01868.webp",
+    "g": "Party, Cooking, Co‑op",
+    "r": "",
+    "pr": 150,
+    "a": "2021",
     "e": ""
   },
   {
@@ -13352,6 +14420,18 @@
     "g": "Acción, Aventura, Indie, Rol, Early Access",
     "r": "•Sistema Operativo: Windows 10 or later (64-Bit)\n•Procesador: i5-3570K 3.4 GHz 4 Core\n•Memoria: 16 GB RAM\n•Gráficos: GeForce GTX 1050 (2GB)\n•DirectX: Version 11\n•Almacenamiento: 40 GB available space",
     "pr": 150,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01869",
+    "n": "Paper Mario the Thousand-year Door",
+    "t": "5.4 Gb",
+    "p": "N Switch",
+    "img": "01869.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 100,
     "a": "2024",
     "e": ""
   },
@@ -13548,6 +14628,18 @@
     "e": ""
   },
   {
+    "id": "01799",
+    "n": "Persona 5 Tactica",
+    "t": "6.9 Gb",
+    "p": "N Switch",
+    "img": "01799.webp",
+    "g": "Rol, Estrategia",
+    "r": "",
+    "pr": 100,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "01543",
     "n": "Persona 5 Tactica [HV]",
     "t": "14.7 Gb",
@@ -13740,6 +14832,18 @@
     "e": ""
   },
   {
+    "id": "01870",
+    "n": "Plants vs Zombies Battle for Neighborville",
+    "t": "6.4 Gb",
+    "p": "N Switch",
+    "img": "01870.webp",
+    "g": "Disparos, Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
     "id": "00861",
     "n": "Plants Vs Zombies Replanted",
     "t": "1.3 Gb",
@@ -13761,6 +14865,90 @@
     "r": "",
     "pr": 1500,
     "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01874",
+    "n": "Pokémon Escarlata",
+    "t": "11.1 Gb",
+    "p": "N Switch",
+    "img": "01874.webp",
+    "g": "Rol, Open World",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01871",
+    "n": "Pokémon Legends Arceus",
+    "t": "6.1 Gb",
+    "p": "N Switch",
+    "img": "01871.webp",
+    "g": "Action RPG",
+    "r": "",
+    "pr": 100,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01875",
+    "n": "Pokémon Legends Z-a",
+    "t": "4.1 Gb",
+    "p": "N Switch",
+    "img": "01875.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 100,
+    "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01876",
+    "n": "Pokémon Let’s Go Eevee",
+    "t": "4.2 Gb",
+    "p": "N Switch",
+    "img": "01876.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 100,
+    "a": "2018",
+    "e": ""
+  },
+  {
+    "id": "01872",
+    "n": "Pokémon Shield",
+    "t": "12.5 Gb",
+    "p": "N Switch",
+    "img": "01872.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 150,
+    "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01873",
+    "n": "Pokémon Shining Pearl",
+    "t": "7.0 Gb",
+    "p": "N Switch",
+    "img": "01873.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01877",
+    "n": "Pokémon Violet",
+    "t": "10.1 Gb",
+    "p": "N Switch",
+    "img": "01877.webp",
+    "g": "Rol, Open World",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
     "e": ""
   },
   {
@@ -13944,6 +15132,18 @@
     "e": ""
   },
   {
+    "id": "01800",
+    "n": "Prince of Persia the Lost Crown",
+    "t": "6.0 Gb",
+    "p": "N Switch",
+    "img": "01800.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "01545",
     "n": "Prince Of Persia The Lost Crown [HV]",
     "t": "22.8 Gb",
@@ -13965,6 +15165,18 @@
     "r": "•Sistema Operativo: Windows XP SP3 / W. Vista (SP2) / W7\n•Procesador: Intel Pentium D Dual core a 2.6 GHz o AMD Athlon 64 X2 3800 (Intel Core 2 Duo a 2.2 GHz o AMD Athlon 64 X2 4400+ o superior recomendado)\n•Memoria RAM: 1 Giga para XP / 2 Gigas para Vista y 7 (Se Recomienda 4 Gigas)\n•Gráficos: Compatible con DirectX 9.0c con 256 MB y Shader Model 3.0 o superior (512 MB recomendado)\n•DirectX: DirectX 9.0c\n•Disco Duro: 8 GB",
     "pr": 100,
     "a": "2010",
+    "e": ""
+  },
+  {
+    "id": "01878",
+    "n": "Princess Peach Showtime!",
+    "t": "4.7 Gb",
+    "p": "N Switch",
+    "img": "01878.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2024",
     "e": ""
   },
   {
@@ -14340,6 +15552,18 @@
     "e": ""
   },
   {
+    "id": "01802",
+    "n": "Rayman Legends",
+    "t": "2.9 Gb",
+    "p": "N Switch",
+    "img": "01802.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2013",
+    "e": ""
+  },
+  {
     "id": "00912",
     "n": "Rayman Origins",
     "t": "2.2 Gb",
@@ -14424,6 +15648,30 @@
     "e": ""
   },
   {
+    "id": "01803",
+    "n": "Red Dead Redemption",
+    "t": "11.5 Gb",
+    "p": "N Switch",
+    "img": "01803.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 150,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01904",
+    "n": "Red Dead Redemption",
+    "t": "8.9 Gb",
+    "p": "PS5",
+    "img": "01904.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 500,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "00915",
     "n": "Red Dead Redemption 2",
     "t": "109.0 Gb",
@@ -14433,6 +15681,18 @@
     "r": "•Sistema Operativo: Windows 10 - 64-bit\n•Procesador: Intel® Core™ i5-2500K / AMD FX-6300\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB\n•Almacenamiento: 150 GB available space\n•Sistema Operativo: und Card:  Direct X Compatible",
     "pr": 300,
     "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01804",
+    "n": "Red Faction Guerrilla Re Mars Tered",
+    "t": "13.8 Gb",
+    "p": "N Switch",
+    "img": "01804.webp",
+    "g": "",
+    "r": "",
+    "pr": 150,
+    "a": "2018",
     "e": ""
   },
   {
@@ -14628,6 +15888,18 @@
     "e": ""
   },
   {
+    "id": "01805",
+    "n": "Resident Evil 4",
+    "t": "12.1 Gb",
+    "p": "N Switch",
+    "img": "01805.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 150,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "00986",
     "n": "Resident Evil 4 Remake",
     "t": "56.5 Gb",
@@ -14664,6 +15936,18 @@
     "e": ""
   },
   {
+    "id": "01806",
+    "n": "Resident Evil 5",
+    "t": "18.7 Gb",
+    "p": "N Switch",
+    "img": "01806.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 150,
+    "a": "2009",
+    "e": ""
+  },
+  {
     "id": "00935",
     "n": "Resident Evil 6",
     "t": "15.8 Gb",
@@ -14671,6 +15955,18 @@
     "img": "00935.webp",
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows®10\n•Procesador: : Intel® CoreTM2 Duo 2.4 Ghz or better, AMD AthlonTM X2 2.8 Ghz or better\n•Memoria: 2 GB RAM\n•Gráficos: NVIDIA® GeForce® 8800GTS or better\n•DirectX: ®: 9.0c\n•Sistema Operativo: und: Standard audio device",
+    "pr": 150,
+    "a": "2013",
+    "e": ""
+  },
+  {
+    "id": "01801",
+    "n": "Resident Evil 6",
+    "t": "17.6 Gb",
+    "p": "N Switch",
+    "img": "01801.webp",
+    "g": "Acción, Aventura",
+    "r": "",
     "pr": 150,
     "a": "2013",
     "e": ""
@@ -15264,6 +16560,18 @@
     "e": ""
   },
   {
+    "id": "01880",
+    "n": "Saints Row the Third – the Full Package",
+    "t": "7.1 Gb",
+    "p": "N Switch",
+    "img": "01880.webp",
+    "g": "Acción, Open World",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
+    "e": ""
+  },
+  {
     "id": "00989",
     "n": "Saints Row V Reboot",
     "t": "27.7 Gb",
@@ -15334,6 +16642,18 @@
     "pr": 150,
     "a": "2023",
     "e": ""
+  },
+  {
+    "id": "01905",
+    "n": "SAROS",
+    "t": "120 Gb",
+    "p": "PS5",
+    "img": "01905.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 1500,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00956",
@@ -15609,6 +16929,18 @@
     "r": "•Sistema Operativo: Windows 10 / 11 - 64 bit\n•Procesador: Intel Core i3 / AMD Ryzen 3\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1050 Ti / Radeon RX 570\n•DirectX: Version 12\n•Almacenamiento: 8 GB available space",
     "pr": 100,
     "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "01808",
+    "n": "Shin Megami Tensei V Vengeance",
+    "t": "13.7 Gb",
+    "p": "N Switch",
+    "img": "01808.webp",
+    "g": "Aventura, Rol",
+    "r": "",
+    "pr": 150,
+    "a": "2024",
     "e": ""
   },
   {
@@ -15936,6 +17268,18 @@
     "e": ""
   },
   {
+    "id": "01881",
+    "n": "Slime Rancher Plortable Edition",
+    "t": "0.9 Gb",
+    "p": "N Switch",
+    "img": "01881.webp",
+    "g": "Simulación, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "01007",
     "n": "Smalland Survive The Wilds",
     "t": "7.6 Gb",
@@ -15992,6 +17336,18 @@
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: 64-bit Windows 7, 64-bit Windows 8.1 or 64-bit Windows 10\n•Procesador: Intel CPU Core i3-2100 or AMD equivalent\n•Memoria: 4 GB RAM\n•Gráficos: AMD Radeon HD 7870 (2GB) or NVIDIA GeForce GTX 660 (2GB)",
     "pr": 200,
+    "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01809",
+    "n": "Sniper Elite 4",
+    "t": "9.0 Gb",
+    "p": "N Switch",
+    "img": "01809.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
     "a": "2017",
     "e": ""
   },
@@ -16116,6 +17472,18 @@
     "e": ""
   },
   {
+    "id": "01882",
+    "n": "Snipperclips",
+    "t": "1.8 Gb",
+    "p": "N Switch",
+    "img": "01882.webp",
+    "g": "Puzle, Co‑op",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
+    "e": ""
+  },
+  {
     "id": "01474",
     "n": "Snoopy And The Great Mystery Club",
     "t": "3.2 Gb",
@@ -16236,6 +17604,18 @@
     "e": ""
   },
   {
+    "id": "01883",
+    "n": "Sonic 2 SMS Remake",
+    "t": "0.1 Gb",
+    "p": "N Switch",
+    "img": "01883.webp",
+    "g": "Plataformas, Fan Remake",
+    "r": "",
+    "pr": 100,
+    "a": "2020",
+    "e": ""
+  },
+  {
     "id": "01014",
     "n": "Sonic And All Stars Racing Transformed",
     "t": "7.1 Gb",
@@ -16260,6 +17640,30 @@
     "e": ""
   },
   {
+    "id": "01810",
+    "n": "Sonic Colors Ultimate",
+    "t": "6.9 Gb",
+    "p": "N Switch",
+    "img": "01810.webp",
+    "g": "Acción, Casual",
+    "r": "",
+    "pr": 100,
+    "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01807",
+    "n": "Sonic Forces",
+    "t": "6.6 Gb",
+    "p": "N Switch",
+    "img": "01807.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
+    "e": ""
+  },
+  {
     "id": "01441",
     "n": "Sonic Frontiers",
     "t": "21.1 Gb",
@@ -16267,6 +17671,18 @@
     "img": "01441.webp",
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-3470 or AMD Ryzen 5 1400\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 660, 2 GB or AMD Radeon HD 7870, 2 GB\n•DirectX: Version 11\n•Almacenamiento: 30 GB available space",
+    "pr": 150,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01811",
+    "n": "Sonic Frontiers",
+    "t": "10.5 Gb",
+    "p": "N Switch",
+    "img": "01811.webp",
+    "g": "Acción, Aventura",
+    "r": "",
     "pr": 150,
     "a": "2022",
     "e": ""
@@ -16377,6 +17793,18 @@
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: AMD Ryzen 3 1300X / Intel i3-8100\n•Memoria: 12 GB RAM\n•Gráficos: AMD RX 580 / Nvidia GTX 1060\n•DirectX: Version 12\n•Almacenamiento: 60 GB available space",
     "pr": 150,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01884",
+    "n": "South Park La Vara De La Verdad",
+    "t": "5.5 Gb",
+    "p": "N Switch",
+    "img": "01884.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 100,
+    "a": "2014",
     "e": ""
   },
   {
@@ -16524,6 +17952,18 @@
     "e": ""
   },
   {
+    "id": "01879",
+    "n": "Splatoon 3",
+    "t": "12.5 Gb",
+    "p": "N Switch",
+    "img": "01879.webp",
+    "g": "Disparos, Multiplayer",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "01021",
     "n": "Split Fiction",
     "t": "76.6 Gb",
@@ -16533,6 +17973,18 @@
     "r": "•Sistema Operativo: 64 bit Windows 10/11\n•Procesador: Intel Core i5-6600K or AMD Ryzen 5 2600X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 970 - 4GB or Radeon RX 470 - 4GB\n•DirectX: Version 12\n•Almacenamiento: 85 GB available space",
     "pr": 250,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01885",
+    "n": "Spongebob Squarepants Battle for Bikini Bottom – Rehydrated",
+    "t": "11.3 Gb",
+    "p": "N Switch",
+    "img": "01885.webp",
+    "g": "Plataformas, Aventura",
+    "r": "",
+    "pr": 150,
+    "a": "2020",
     "e": ""
   },
   {
@@ -16788,6 +18240,18 @@
     "e": ""
   },
   {
+    "id": "01812",
+    "n": "Stardew Valley",
+    "t": "1.5 Gb",
+    "p": "N Switch",
+    "img": "01812.webp",
+    "g": "Indie, Rol, Simulación",
+    "r": "",
+    "pr": 100,
+    "a": "2016",
+    "e": ""
+  },
+  {
     "id": "01026",
     "n": "Stardiver",
     "t": "4.0 Gb",
@@ -17016,6 +18480,18 @@
     "e": ""
   },
   {
+    "id": "01813",
+    "n": "Stray",
+    "t": "5.7 Gb",
+    "p": "N Switch",
+    "img": "01813.webp",
+    "g": "Aventura, Indie",
+    "r": "",
+    "pr": 100,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "01033",
     "n": "Strayed Lights",
     "t": "7.4 Gb",
@@ -17124,6 +18600,18 @@
     "e": ""
   },
   {
+    "id": "01814",
+    "n": "Subnautica",
+    "t": "6.0 Gb",
+    "p": "N Switch",
+    "img": "01814.webp",
+    "g": "Aventura, Indie",
+    "r": "",
+    "pr": 100,
+    "a": "2018",
+    "e": ""
+  },
+  {
     "id": "01735",
     "n": "Subnautica 2",
     "t": "14.6 Gb",
@@ -17184,6 +18672,54 @@
     "e": ""
   },
   {
+    "id": "01886",
+    "n": "Super Mario Bros Wonder",
+    "t": "3.5 Gb",
+    "p": "N Switch",
+    "img": "01886.webp",
+    "g": "Plataformas",
+    "r": "",
+    "pr": 100,
+    "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01887",
+    "n": "Super Mario Odyssey",
+    "t": "5.8 Gb",
+    "p": "N Switch",
+    "img": "01887.webp",
+    "g": "Plataformas, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01888",
+    "n": "Super Mario Party Jamboree",
+    "t": "7.5 Gb",
+    "p": "N Switch",
+    "img": "01888.webp",
+    "g": "Party",
+    "r": "",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01889",
+    "n": "Super Mario Party Superstars",
+    "t": "2.7 Gb",
+    "p": "N Switch",
+    "img": "01889.webp",
+    "g": "Party",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
     "id": "01095",
     "n": "Super Market Simulator 2",
     "t": "1.7 Gb",
@@ -17217,6 +18753,18 @@
     "r": "•Sistema Operativo: Windows 10 / Windows 11\n•Procesador: Intel Core i3-8100 / AMD Ryzen 3 3100\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GeForce GTX 650 Ti [1 GB] / AMD Radeon HD 7770 [2 GB] / Intel Arc A310 [4 GB]\n•DirectX: Version 12\n•Almacenamiento: 17 GB available space",
     "pr": 150,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01890",
+    "n": "Super Smash Bros Ultimate",
+    "t": "17.3 Gb",
+    "p": "N Switch",
+    "img": "01890.webp",
+    "g": "Fighting",
+    "r": "",
+    "pr": 150,
+    "a": "2018",
     "e": ""
   },
   {
@@ -17505,42 +19053,6 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel i5-6500 / Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: GTX 970 / RX 570\n•DirectX: Version 11\n•Almacenamiento: 10 GB",
     "pr": 100,
     "a": "2023",
-    "e": ""
-  },
-  {
-    "id": "01751",
-    "n": "TMNT Turtles Empire City",
-    "t": "2.3 Gb",
-    "p": "PC",
-    "img": "01751.webp",
-    "g": "Acción, Aventura",
-    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5-4590 / AMD FX 8350\n•Memoria: 6 GB RAM\n•Almacenamiento: 6 GB available space",
-    "pr": 50,
-    "a": "2026",
-    "e": ""
-  },
-  {
-    "id": "01695",
-    "n": "TMNT Turtles Shredders Revenge",
-    "t": "9.3 Gb",
-    "p": "PS5",
-    "img": "01695.webp",
-    "g": "Beat ‘em up retro",
-    "r": "",
-    "pr": 500,
-    "a": "2022",
-    "e": ""
-  },
-  {
-    "id": "01686",
-    "n": "TMNT Turtles The Last Mutation",
-    "t": "2.9 Gb",
-    "p": "PS5",
-    "img": "01686.webp",
-    "g": "Beat ‘em up, acción",
-    "r": "",
-    "pr": 500,
-    "a": "2024",
     "e": ""
   },
   {
@@ -18300,6 +19812,66 @@
     "e": ""
   },
   {
+    "id": "01892",
+    "n": "The Legend of Zelda Breath of the Wild",
+    "t": "18.0 Gb",
+    "p": "N Switch",
+    "img": "01892.webp",
+    "g": "Acción, Aventura, Open World",
+    "r": "",
+    "pr": 150,
+    "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01893",
+    "n": "The Legend of Zelda Echoes of Wisdom",
+    "t": "7.5 Gb",
+    "p": "N Switch",
+    "img": "01893.webp",
+    "g": "Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01894",
+    "n": "The Legend of Zelda Link’s Awakening",
+    "t": "5.8 Gb",
+    "p": "N Switch",
+    "img": "01894.webp",
+    "g": "Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01895",
+    "n": "The Legend of Zelda Skyward Sword HD",
+    "t": "7.1 Gb",
+    "p": "N Switch",
+    "img": "01895.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01891",
+    "n": "The Legend of Zelda Tears of the Kingdom",
+    "t": "30.2 Gb",
+    "p": "N Switch",
+    "img": "01891.webp",
+    "g": "Acción, Aventura, Open World",
+    "r": "",
+    "pr": 150,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "01458",
     "n": "The Lonesome Guild",
     "t": "9.9 Gb",
@@ -18624,6 +20196,18 @@
     "e": ""
   },
   {
+    "id": "01815",
+    "n": "The Witcher 3 Wild Hunt",
+    "t": "39.3 Gb",
+    "p": "N Switch",
+    "img": "01815.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 150,
+    "a": "2015",
+    "e": ""
+  },
+  {
     "id": "01482",
     "n": "The Witcher Enhanced Edition",
     "t": "9.0 Gb",
@@ -18912,6 +20496,42 @@
     "e": ""
   },
   {
+    "id": "01751",
+    "n": "TMNT Turtles Empire City",
+    "t": "2.3 Gb",
+    "p": "PC",
+    "img": "01751.webp",
+    "g": "Acción, Aventura",
+    "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5-4590 / AMD FX 8350\n•Memoria: 6 GB RAM\n•Almacenamiento: 6 GB available space",
+    "pr": 50,
+    "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "01695",
+    "n": "TMNT Turtles Shredders Revenge",
+    "t": "9.3 Gb",
+    "p": "PS5",
+    "img": "01695.webp",
+    "g": "Beat ‘em up retro",
+    "r": "",
+    "pr": 500,
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01686",
+    "n": "TMNT Turtles The Last Mutation",
+    "t": "2.9 Gb",
+    "p": "PS5",
+    "img": "01686.webp",
+    "g": "Beat ‘em up, acción",
+    "r": "",
+    "pr": 500,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "01186",
     "n": "Tom Clancy's Ghost Recon Future Soldier",
     "t": "12.0 Gb",
@@ -19068,6 +20688,18 @@
     "e": ""
   },
   {
+    "id": "01896",
+    "n": "Tomodachi Life Living the Dream",
+    "t": "7.4 Gb",
+    "p": "N Switch",
+    "img": "01896.webp",
+    "g": "Simulación, Life",
+    "r": "",
+    "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "01198",
     "n": "Tony Hawks Pro Skater 3+4",
     "t": "49.6 Gb",
@@ -19124,6 +20756,18 @@
     "g": "Action RPG",
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel i5-4570\n•Memoria: 6 GB RAM\n•Gráficos: GTX 470 / Radeon HD 6870\n•DirectX: Version 11\n•Almacenamiento: 10 GB",
     "pr": 100,
+    "a": "2020",
+    "e": ""
+  },
+  {
+    "id": "01816",
+    "n": "Torchlight III",
+    "t": "10.4 Gb",
+    "p": "N Switch",
+    "img": "01816.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "",
+    "pr": 150,
     "a": "2020",
     "e": ""
   },
@@ -19440,6 +21084,18 @@
     "e": ""
   },
   {
+    "id": "01817",
+    "n": "Trials of Mana",
+    "t": "10.7 Gb",
+    "p": "N Switch",
+    "img": "01817.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 150,
+    "a": "2020",
+    "e": ""
+  },
+  {
     "id": "01227",
     "n": "Trials Rising",
     "t": "27.5 Gb",
@@ -19617,6 +21273,30 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel i5-2500K\n•Memoria: 8 GB RAM\n•Gráficos: GTX 660 / Radeon HD 7850\n•DirectX: Version 11\n•Almacenamiento: 3 GB",
     "pr": 50,
     "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01897",
+    "n": "Turok 2 Seeds of Evil",
+    "t": "0.5 Gb",
+    "p": "N Switch",
+    "img": "01897.webp",
+    "g": "FPS, Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2017",
+    "e": ""
+  },
+  {
+    "id": "01898",
+    "n": "Turok 3 Shadow of Oblivion",
+    "t": "1.0 Gb",
+    "p": "N Switch",
+    "img": "01898.webp",
+    "g": "FPS, Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2023",
     "e": ""
   },
   {
@@ -20604,6 +22284,18 @@
     "e": ""
   },
   {
+    "id": "01818",
+    "n": "Wolfenstein II the New Colossus",
+    "t": "21.9 Gb",
+    "p": "N Switch",
+    "img": "01818.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 150,
+    "a": "2017",
+    "e": ""
+  },
+  {
     "id": "01302",
     "n": "Wolfenstein The New Order",
     "t": "44.1 Gb",
@@ -20709,6 +22401,18 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-1135G7\n•Memoria: 8 GB RAM\n•Gráficos: GPU Intel Iris Xe\n•Almacenamiento: 2 GB available space",
     "pr": 50,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01819",
+    "n": "World War Z",
+    "t": "10.5 Gb",
+    "p": "N Switch",
+    "img": "01819.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 150,
+    "a": "2021",
     "e": ""
   },
   {
@@ -20880,6 +22584,18 @@
     "e": ""
   },
   {
+    "id": "01899",
+    "n": "Xenoblade Chronicles 3",
+    "t": "18.8 Gb",
+    "p": "N Switch",
+    "img": "01899.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "01368",
     "n": "Yakuza 0",
     "t": "25.3 Gb",
@@ -20976,6 +22692,18 @@
     "e": ""
   },
   {
+    "id": "01900",
+    "n": "Yoshi’s Crafted World",
+    "t": "5.8 Gb",
+    "p": "N Switch",
+    "img": "01900.webp",
+    "g": "Plataformas",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
+    "e": ""
+  },
+  {
     "id": "01351",
     "n": "Youtubers Life 2",
     "t": "1.9 Gb",
@@ -21024,6 +22752,18 @@
     "e": ""
   },
   {
+    "id": "01901",
+    "n": "Yugioh! Legacy of the Duelist Link Evolution",
+    "t": "1.7 Gb",
+    "p": "N Switch",
+    "img": "01901.webp",
+    "g": "Card Game, Estrategia",
+    "r": "",
+    "pr": 100,
+    "a": "2019",
+    "e": ""
+  },
+  {
     "id": "01320",
     "n": "Zed Zone",
     "t": "0.7 Gb",
@@ -21033,6 +22773,18 @@
     "r": "•Sistema Operativo: Win XP\n•Procesador: INTEL i3/ AMD R3\n•Memoria: 2 GB RAM\n•Gráficos: Nvidia GTX 660\n•DirectX: Version 10\n•Almacenamiento: 300 MB available space",
     "pr": 50,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01820",
+    "n": "Zombie Army 4 Dead War",
+    "t": "7.6 Gb",
+    "p": "N Switch",
+    "img": "01820.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 100,
+    "a": "2021",
     "e": ""
   },
   {
