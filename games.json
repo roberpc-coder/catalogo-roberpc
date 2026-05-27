@@ -1,5 +1,17 @@
 [
   {
+    "id": "01906",
+    "n": "007 First Light [HV]",
+    "t": "53.2 Gb",
+    "p": "PC",
+    "img": "01906.webp",
+    "g": "Action, Adventure",
+    "r": "•OS: MICROSOFT WINDOWS 10/11, 64-BIT\n•Processor: INTEL CORE i5 9500, AMD RYZEN 5 3500\n•Memory: 16 GB RAM\n•Graphics: NVIDIA GFORCE GTX 1660, AMD RX 5700, INTEL DISCRETE GPU EQUIVALENT\n•Storage: 80 GB available space\n•Additional Notes: SSD required",
+    "pr": 200,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00001",
     "n": "171",
     "t": "11.7 Gb",
@@ -31,7 +43,7 @@
     "img": "00002.webp",
     "g": "Deportes, Cubano, Simulacion",
     "r": "•Sistema Operativo: Windows 10/11 64-bit\n•Memoria: 16 GB RAM\n•DirectX: Version 9\n•Almacenamiento: 5.7 GB available space",
-    "pr": 250,
+    "pr": 50,
     "a": "2025",
     "e": ""
   },
@@ -511,7 +523,7 @@
     "img": "01821.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2021",
     "e": ""
   },
@@ -727,7 +739,7 @@
     "img": "01822.webp",
     "g": "Simulación, Social, Life",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2020",
     "e": ""
   },
@@ -1058,12 +1070,12 @@
   {
     "id": "00053",
     "n": "Assassin's  Creed IV Black Flag",
-    "t": "3.6 Gb",
+    "t": "18.3 Gb",
     "p": "PC",
     "img": "00053.webp",
     "g": "Acción, Aventura",
     "r": "•Procesador: Intel Core2Quad Q8400 @ 2.6 GHz or AMD Athlon II X4 620 @ 2.6 GHz\n•Memoria: 2 GB RAM\n•Gráficos: Nvidia Geforce GTX 260 or AMD Radeon HD 4870 (512MB VRAM with shader Model 4.0 or higher)\n•Almacenamiento: 30 GB available space",
-    "pr": 50,
+    "pr": 150,
     "a": "2013",
     "e": ""
   },
@@ -1231,7 +1243,7 @@
     "img": "01824.webp",
     "g": "Acción, Aventura, Open World",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2013",
     "e": ""
   },
@@ -1255,7 +1267,7 @@
     "img": "01826.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2016",
     "e": ""
   },
@@ -1699,7 +1711,7 @@
     "img": "01761.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2015",
     "e": ""
   },
@@ -1867,7 +1879,7 @@
     "img": "01827.webp",
     "g": "Acción, Hack and Slash",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -2059,7 +2071,7 @@
     "img": "01828.webp",
     "g": "Acción, FPS, Story Rich",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2016",
     "e": ""
   },
@@ -2311,7 +2323,7 @@
     "img": "01830.webp",
     "g": "Acción, FPS, Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2009",
     "e": ""
   },
@@ -3871,7 +3883,7 @@
     "img": "01831.webp",
     "g": "Acción, Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -4015,7 +4027,7 @@
     "img": "01768.webp",
     "g": "Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -4327,7 +4339,7 @@
     "img": "01776.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2015",
     "e": ""
   },
@@ -4987,7 +4999,7 @@
     "img": "01838.webp",
     "g": "Action RPG",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2018",
     "e": ""
   },
@@ -5263,7 +5275,7 @@
     "img": "01839.webp",
     "g": "Rol, Estrategia",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2017",
     "e": ""
   },
@@ -5335,7 +5347,7 @@
     "img": "01845.webp",
     "g": "Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2016",
     "e": ""
   },
@@ -5383,7 +5395,7 @@
     "img": "01772.webp",
     "g": "Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2020",
     "e": ""
   },
@@ -5539,7 +5551,7 @@
     "img": "01778.webp",
     "g": "Acción, Aventura, Casual, Massively Multiplayer",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2016",
     "e": ""
   },
@@ -5659,7 +5671,7 @@
     "img": "01841.webp",
     "g": "Action RPG",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2019",
     "e": ""
   },
@@ -5911,7 +5923,7 @@
     "img": "01842.webp",
     "g": "Acción, Survival, Open World",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2021",
     "e": ""
   },
@@ -5947,7 +5959,7 @@
     "img": "01843.webp",
     "g": "Deportes",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2024",
     "e": ""
   },
@@ -9067,7 +9079,7 @@
     "img": "01784.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2023",
     "e": ""
   },
@@ -9499,7 +9511,7 @@
     "img": "01786.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -9609,7 +9621,7 @@
     "r": "•SO: Windows 10\n•Procesador: Intel Core i5-9700F | Ryzen 5 2600\n•Memoria: 16 Gigas de RAM\n•Gráficos: GeForce RTX 2070 (VRAM 8GB) | Radeon RX 7800 (VRAM 8GB)\n•DirectX: Versión 12\n•Almacenamiento: 15 Gigas de espacio disponible",
     "pr": 100,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00760",
@@ -10075,7 +10087,7 @@
     "img": "01846.webp",
     "g": "Rol, Open World",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2024",
     "e": ""
   },
@@ -11311,7 +11323,7 @@
     "img": "01852.webp",
     "g": "Carreras",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2017",
     "e": ""
   },
@@ -11995,7 +12007,7 @@
     "img": "01859.webp",
     "g": "Acción, Aventura, FPS",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2025",
     "e": ""
   },
@@ -12283,7 +12295,7 @@
     "img": "01850.webp",
     "g": "Deportes",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2026",
     "e": ""
   },
@@ -12343,7 +12355,7 @@
     "img": "01792.webp",
     "g": "Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -12379,7 +12391,7 @@
     "img": "01793.webp",
     "g": "Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2024",
     "e": ""
   },
@@ -12547,7 +12559,7 @@
     "img": "01862.webp",
     "g": "Fighting",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2023",
     "e": ""
   },
@@ -12571,7 +12583,7 @@
     "img": "01794.webp",
     "g": "Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2019",
     "e": ""
   },
@@ -13075,7 +13087,7 @@
     "img": "01863.webp",
     "g": "Fighting, Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2020",
     "e": ""
   },
@@ -13603,7 +13615,7 @@
     "img": "01866.webp",
     "g": "Action RPG",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -13783,7 +13795,7 @@
     "img": "01795.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2016",
     "e": ""
   },
@@ -14323,7 +14335,7 @@
     "img": "01868.webp",
     "g": "Party, Cooking, Co‑op",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2021",
     "e": ""
   },
@@ -14875,7 +14887,7 @@
     "img": "01874.webp",
     "g": "Rol, Open World",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -14923,7 +14935,7 @@
     "img": "01872.webp",
     "g": "Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2019",
     "e": ""
   },
@@ -14947,7 +14959,7 @@
     "img": "01877.webp",
     "g": "Rol, Open World",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -15636,6 +15648,18 @@
     "e": ""
   },
   {
+    "id": "01907",
+    "n": "Reanimal",
+    "t": "20 Gb",
+    "p": "PS5",
+    "img": "01907.webp",
+    "g": "Aventura",
+    "r": "",
+    "pr": 1500,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00914",
     "n": "Red Dead Redemption",
     "t": "8.0 Gb",
@@ -15655,7 +15679,7 @@
     "img": "01803.webp",
     "g": "Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2024",
     "e": ""
   },
@@ -15691,7 +15715,7 @@
     "img": "01804.webp",
     "g": "",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2018",
     "e": ""
   },
@@ -15895,7 +15919,7 @@
     "img": "01805.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2023",
     "e": ""
   },
@@ -15943,7 +15967,7 @@
     "img": "01806.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2009",
     "e": ""
   },
@@ -15967,7 +15991,7 @@
     "img": "01801.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2013",
     "e": ""
   },
@@ -16939,7 +16963,7 @@
     "img": "01808.webp",
     "g": "Aventura, Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2024",
     "e": ""
   },
@@ -17683,7 +17707,7 @@
     "img": "01811.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -17959,7 +17983,7 @@
     "img": "01879.webp",
     "g": "Disparos, Multiplayer",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
@@ -17983,7 +18007,7 @@
     "img": "01885.webp",
     "g": "Plataformas, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2020",
     "e": ""
   },
@@ -18381,7 +18405,7 @@
     "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel® Core™ i5-7600k Processor / AMD Ryzen™ 5 1600X Processor\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1060 6GB or AMD Radeon RX 580 8GB\n•DirectX: Version 12\n•Almacenamiento: 62 GB available space",
     "pr": 200,
     "a": "2025",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01029",
@@ -18763,7 +18787,7 @@
     "img": "01890.webp",
     "g": "Fighting",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2018",
     "e": ""
   },
@@ -19819,7 +19843,7 @@
     "img": "01892.webp",
     "g": "Acción, Aventura, Open World",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2017",
     "e": ""
   },
@@ -19867,7 +19891,7 @@
     "img": "01891.webp",
     "g": "Acción, Aventura, Open World",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2023",
     "e": ""
   },
@@ -20203,7 +20227,7 @@
     "img": "01815.webp",
     "g": "Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2015",
     "e": ""
   },
@@ -20767,7 +20791,7 @@
     "img": "01816.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2020",
     "e": ""
   },
@@ -21091,7 +21115,7 @@
     "img": "01817.webp",
     "g": "Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2020",
     "e": ""
   },
@@ -22291,7 +22315,7 @@
     "img": "01818.webp",
     "g": "Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2017",
     "e": ""
   },
@@ -22411,7 +22435,7 @@
     "img": "01819.webp",
     "g": "Acción",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2021",
     "e": ""
   },
@@ -22591,7 +22615,7 @@
     "img": "01899.webp",
     "g": "Rol",
     "r": "",
-    "pr": 150,
+    "pr": 100,
     "a": "2022",
     "e": ""
   },
