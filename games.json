@@ -43,7 +43,7 @@
     "img": "00002.webp",
     "g": "Deportes, Cubano, Simulacion",
     "r": "•Sistema Operativo: Windows 10/11 64-bit\n•Memoria: 16 GB RAM\n•DirectX: Version 9\n•Almacenamiento: 5.7 GB available space",
-    "pr": 50,
+    "pr": 250,
     "a": "2025",
     "e": ""
   },
@@ -2350,6 +2350,18 @@
     "pr": 300,
     "a": "2020",
     "e": ""
+  },
+  {
+    "id": "01909",
+    "n": "Borderlands 4",
+    "t": "90 Gb",
+    "p": "PS5",
+    "img": "01909.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 10 / Windows 11\n•Procesador: Intel Core i7-9700 / AMD Ryzen 7 2700X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce RTX 2070 / AMD Radeon RX 5700 XT / Intel Arc A580\n•Almacenamiento: 100 GB available space",
+    "pr": 1500,
+    "a": "2025",
+    "e": "true"
   },
   {
     "id": "01504",
@@ -5064,6 +5076,18 @@
     "e": ""
   },
   {
+    "id": "01908",
+    "n": "Directive 8020",
+    "t": "27 Gb",
+    "p": "PC",
+    "img": "01908.webp",
+    "g": "Acción, Aventura",
+    "r": "•SO: Windows 10 | 11 64-bit\n•Procesador: Intel Core i5-8500 | AMD Ryzen 5 3500\n•Memoria: 16 Gigas de RAM\n•Gráficos: NVIDIA GeForce RTX 2060 | AMD Radeon RX 5700\n•Almacenamiento: 40 Gigas de espacio disponible",
+    "pr": 150,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00299",
     "n": "Dirt 4",
     "t": "31.7 Gb",
@@ -7534,6 +7558,18 @@
     "pr": 300,
     "a": "2021",
     "e": ""
+  },
+  {
+    "id": "01910",
+    "n": "Forza Horizon 5",
+    "t": "220 Gb",
+    "p": "PS5",
+    "img": "01910.webp",
+    "g": "Acción, Aventura, Carreras, Simulación, Deportes",
+    "r": "•Sistema Operativo: Windows 10 version 18362.0 or higher\n•Procesador: Intel i5-4460 or AMD Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: NVidia GTX 970, AMD RX 470, OR Intel Arc A380\n•DirectX: Version 12\n•Almacenamiento: 110 GB available space",
+    "pr": 1500,
+    "a": "2021",
+    "e": "true"
   },
   {
     "id": "01586",
@@ -11193,7 +11229,7 @@
     "r": "•Sistema Operativo: Windows 10 / 11\n•Procesador: AMD Ryzen 7 2700X / Intel Core i7-9700K\n•Memoria: 16 GB RAM\n•Gráficos: AMD Radeon RX 5700 XT / NVIDIA RTX 2070\n•DirectX: Version 12\n•Almacenamiento: 55 GB available space",
     "pr": 200,
     "a": "2025",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00545",
@@ -15093,7 +15129,7 @@
     "r": "•Sistema Operativo: Windows 11 (64 bit)\n•Procesador: Intel Core i5-8500 / AMD Ryzen 5 3500\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660 6 GB / Radeon RX 5500 XT 8 GB\n•DirectX: Version 12\n•Almacenamiento: 40 GB available space",
     "pr": 150,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01759",
@@ -16065,7 +16101,7 @@
     "r": "",
     "pr": 1500,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00994",
