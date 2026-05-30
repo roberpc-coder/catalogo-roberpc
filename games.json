@@ -480,18 +480,6 @@
     "e": ""
   },
   {
-    "id": "01704",
-    "n": "Alan Wake",
-    "t": "27.2 Gb",
-    "p": "PS5",
-    "img": "01704.webp",
-    "g": "Acción-aventura, survival horror",
-    "r": "",
-    "pr": 1500,
-    "a": "2021",
-    "e": ""
-  },
-  {
     "id": "00090",
     "n": "Alan Wake 2",
     "t": "93.1 Gb",
@@ -501,6 +489,18 @@
     "r": "•Sistema operativo: Windows 10/11 de 64 bits\n•Procesador: Intel i5-7600K o AMD equivalente\n•Memoria RAM: 16 Gigas\n•Almacenamiento: SSD con 90 Gigas de espacio disponible\n•Tarjeta gráfica: GeForce RTX 2060, Radeon RX 6600",
     "pr": 250,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01704",
+    "n": "Alan Wake Remastered",
+    "t": "27.2 Gb",
+    "p": "PS5",
+    "img": "01704.webp",
+    "g": "Acción-aventura, survival horror",
+    "r": "",
+    "pr": 1500,
+    "a": "2021",
     "e": ""
   },
   {
@@ -1557,18 +1557,6 @@
     "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Quad-core Intel or AMD, 2.7 GHz or higher\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX1050 or higher\n•DirectX: Version 11\n•Almacenamiento: 16 GB available space",
     "pr": 100,
     "a": "2023",
-    "e": ""
-  },
-  {
-    "id": "01614",
-    "n": "Aventuras De Conducción En Matchbox",
-    "t": "2.4 Gb",
-    "p": "PS5",
-    "img": "01614.webp",
-    "g": "Conducción/arcade",
-    "r": "",
-    "pr": 500,
-    "a": "2024",
     "e": ""
   },
   {
@@ -2769,6 +2757,18 @@
     "r": "•Sistema Operativo: Windows Vista SP2 or Windows 7.   Windows XP is not supported\n•Procesador: Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz\n•Memoria: 2 GB for 32-bit OS or 4 GB for 64-bit OS\n•Gráficos: Nvidia GeForce 8800GT 512 MB or ATI Radeon HD 3870 512 MB\n•DirectX: Version 9.0c",
     "pr": 150,
     "a": "2012",
+    "e": ""
+  },
+  {
+    "id": "01911",
+    "n": "Call of Duty Black Ops III",
+    "t": "99.5 Gb",
+    "p": "PS4",
+    "img": "01911.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 250,
+    "a": "2015",
     "e": ""
   },
   {
@@ -5996,6 +5996,18 @@
     "g": "Deportes, fútbol",
     "r": "",
     "pr": 1500,
+    "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01912",
+    "n": "Ea Sports Fc 26",
+    "t": "75.4 Gb",
+    "p": "PS4",
+    "img": "01912.webp",
+    "g": "Simulación, Deportes",
+    "r": "",
+    "pr": 250,
     "a": "2025",
     "e": ""
   },
@@ -11580,6 +11592,18 @@
     "e": ""
   },
   {
+    "id": "01614",
+    "n": "Matchbox Driving Adventures",
+    "t": "2.4 Gb",
+    "p": "PS5",
+    "img": "01614.webp",
+    "g": "Conducción/arcade",
+    "r": "",
+    "pr": 500,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "00572",
     "n": "Max Payne",
     "t": "1.4 Gb",
@@ -15693,7 +15717,7 @@
     "r": "",
     "pr": 1500,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00914",
@@ -15740,6 +15764,18 @@
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 10 - 64-bit\n•Procesador: Intel® Core™ i5-2500K / AMD FX-6300\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB\n•Almacenamiento: 150 GB available space\n•Sistema Operativo: und Card:  Direct X Compatible",
     "pr": 300,
+    "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01913",
+    "n": "Red Dead Redemption 2",
+    "t": "79.6 Gb",
+    "p": "PS4",
+    "img": "01913.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 250,
     "a": "2019",
     "e": ""
   },
@@ -18036,6 +18072,18 @@
     "e": ""
   },
   {
+    "id": "01916",
+    "n": "Split Fiction",
+    "t": "151 Gb",
+    "p": "PS5",
+    "img": "01916.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 1500,
+    "a": "2025",
+    "e": "true"
+  },
+  {
     "id": "01885",
     "n": "Spongebob Squarepants Battle for Bikini Bottom – Rehydrated",
     "t": "11.3 Gb",
@@ -18188,6 +18236,18 @@
     "g": "Acción-aventura, Soulslike",
     "r": "",
     "pr": 1500,
+    "a": "2019",
+    "e": ""
+  },
+  {
+    "id": "01914",
+    "n": "Star Wars Jedi Fallen Order",
+    "t": "48.9 Gb",
+    "p": "PS4",
+    "img": "01914.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 200,
     "a": "2019",
     "e": ""
   },
@@ -20145,6 +20205,18 @@
     "r": "•Sistema Operativo: Windows 10 (x64 bit only)\n•Procesador: Intel i3-6100 / AMD Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GeForce GTX 950 2GB VRAM / AMD Radeon 550 2GB VRAM\n•DirectX: Version 11\n•Almacenamiento: 16 GB available space",
     "pr": 100,
     "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01915",
+    "n": "The Sims 4",
+    "t": "41.1 Gb",
+    "p": "PS4",
+    "img": "01915.webp",
+    "g": "Aventura, Casual, Simulación, Free To Play",
+    "r": "",
+    "pr": 200,
+    "a": "2020",
     "e": ""
   },
   {
