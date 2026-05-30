@@ -127,7 +127,7 @@
     "img": "01703.webp",
     "g": "Acción-aventura, sigilo",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -499,7 +499,7 @@
     "img": "01704.webp",
     "g": "Acción-aventura, survival horror",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -571,7 +571,7 @@
     "img": "01611.webp",
     "g": "Plataformas",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -883,7 +883,7 @@
     "img": "01612.webp",
     "g": "Arcade, minijuegos",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -1351,7 +1351,7 @@
     "img": "01602.webp",
     "g": "Plataforma, acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -1447,7 +1447,7 @@
     "img": "01613.webp",
     "g": "Shooter en primera persona",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -1531,7 +1531,7 @@
     "img": "01603.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -1879,7 +1879,7 @@
     "img": "01615.webp",
     "g": "Ritmo, VR",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -2083,7 +2083,7 @@
     "img": "01604.webp",
     "g": "RPG de acción (Soulslike)",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -2143,7 +2143,7 @@
     "img": "01616.webp",
     "g": "Metroidvania, acción-plataformas",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -2167,7 +2167,7 @@
     "img": "01617.webp",
     "g": "RPG de acción, Soulslike, mundo abierto",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -2179,7 +2179,7 @@
     "img": "01618.webp",
     "g": "Deportes, estrategia por turnos",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -2217,6 +2217,18 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel i3-540、AMD Athlon 200GE\n•Memoria: 4 GB RAM\n•Gráficos: Intel HD 4000、AMD Radeon R5 220\n•DirectX: Version 11\n•Almacenamiento: 30 GB available space",
     "pr": 500,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01923",
+    "n": "Bloodborne the Hold Hunters",
+    "t": "30.1 Gb",
+    "p": "PS4",
+    "img": "01923.webp",
+    "g": "",
+    "r": "",
+    "pr": 150,
+    "a": "",
     "e": ""
   },
   {
@@ -2347,7 +2359,7 @@
     "img": "01909.webp",
     "g": "Acción, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10 / Windows 11\n•Procesador: Intel Core i7-9700 / AMD Ryzen 7 2700X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce RTX 2070 / AMD Radeon RX 5700 XT / Intel Arc A580\n•Almacenamiento: 100 GB available space",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": "true"
   },
@@ -2383,7 +2395,7 @@
     "img": "01619.webp",
     "g": "Rol, aventura con combates por turnos",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -2503,7 +2515,7 @@
     "img": "01620.webp",
     "g": "Aventura, exploración",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2020",
     "e": ""
   },
@@ -2971,7 +2983,7 @@
     "img": "01621.webp",
     "g": "Carreras arcade, party co-op",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -3331,7 +3343,7 @@
     "img": "01607.webp",
     "g": "RPG por turnos, fantasía oscura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": ""
   },
@@ -3655,7 +3667,7 @@
     "img": "01605.webp",
     "g": "Acción-aventura, shooter en tercera persona",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -3811,7 +3823,7 @@
     "img": "01622.webp",
     "g": "Shooter arcade casual",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -3859,7 +3871,7 @@
     "img": "01736.webp",
     "g": "Acción, Aventura",
     "r": "•Tener la Consola Liberada",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2026",
     "e": "true"
   },
@@ -3931,7 +3943,7 @@
     "img": "01699.webp",
     "g": "Survival horror, aventura de acción",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": ""
   },
@@ -4147,7 +4159,7 @@
     "img": "01623.webp",
     "g": "Shooter arcade twin-stick",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -4171,7 +4183,7 @@
     "img": "01705.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -4279,7 +4291,7 @@
     "img": "01624.webp",
     "g": "RPG roguelike, estrategia",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -4519,7 +4531,7 @@
     "img": "01706.webp",
     "g": "Roguelike, metroidvania, acción-plataformas",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -4555,7 +4567,7 @@
     "img": "01625.webp",
     "g": "Acción, survival horror, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -4663,7 +4675,7 @@
     "img": "01707.webp",
     "g": "Survival horror, acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -4735,7 +4747,7 @@
     "img": "01627.webp",
     "g": "Shooter cooperativo, exploración",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -4759,7 +4771,7 @@
     "img": "01628.webp",
     "g": "Lucha, anime",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -4819,19 +4831,19 @@
     "img": "01626.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2020",
     "e": ""
   },
   {
     "id": "01629",
-    "n": "Demons Souls Versión Clásica",
+    "n": "z",
     "t": "50.5 Gb",
     "p": "PS5",
     "img": "01629.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2020",
     "e": ""
   },
@@ -5239,7 +5251,7 @@
     "img": "01630.webp",
     "g": "Plataformas 3D",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "1999",
     "e": ""
   },
@@ -5323,7 +5335,7 @@
     "img": "01631.webp",
     "g": "RPG de acción, ciencia ficción",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -5671,7 +5683,7 @@
     "img": "01708.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -5731,7 +5743,7 @@
     "img": "01632.webp",
     "g": "Carreras arcade, kart",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -5899,7 +5911,7 @@
     "img": "01633.webp",
     "g": "RPG de acción, hack and slash",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -5989,19 +6001,19 @@
   },
   {
     "id": "01606",
-    "n": "Ea Sports Fc 26",
+    "n": "EA Sports Fc 26",
     "t": "167.6 Gb",
     "p": "PS5",
     "img": "01606.webp",
     "g": "Deportes, fútbol",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": ""
   },
   {
     "id": "01912",
-    "n": "Ea Sports Fc 26",
+    "n": "EA Sports Fc 26",
     "t": "75.4 Gb",
     "p": "PS4",
     "img": "01912.webp",
@@ -6037,13 +6049,13 @@
   },
   {
     "id": "01635",
-    "n": "Ea Sports Wr",
+    "n": "EA Sports WRC",
     "t": "67.8 Gb",
     "p": "PS5",
     "img": "01635.webp",
     "g": "Deportes, fútbol americano",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": ""
   },
@@ -6259,7 +6271,7 @@
     "img": "01709.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -6391,7 +6403,7 @@
     "img": "01636.webp",
     "g": "Puzle, aventura narrativa",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -6451,7 +6463,7 @@
     "img": "01710.webp",
     "g": "Shooter en tercera persona, acción",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -7579,7 +7591,7 @@
     "img": "01910.webp",
     "g": "Acción, Aventura, Carreras, Simulación, Deportes",
     "r": "•Sistema Operativo: Windows 10 version 18362.0 or higher\n•Procesador: Intel i5-4460 or AMD Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: NVidia GTX 970, AMD RX 470, OR Intel Arc A380\n•DirectX: Version 12\n•Almacenamiento: 110 GB available space",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": "true"
   },
@@ -7723,7 +7735,7 @@
     "img": "01637.webp",
     "g": "Acción, hack and slash, boss rush",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -7747,7 +7759,7 @@
     "img": "01639.webp",
     "g": "RPG isométrico, narrativa",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -7771,7 +7783,7 @@
     "img": "01640.webp",
     "g": "Acción cooperativa, hack and slash",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -7903,7 +7915,7 @@
     "img": "01610.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": ""
   },
@@ -7927,7 +7939,7 @@
     "img": "01642.webp",
     "g": "Acción en primera persona, parkour ciberpunk",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -7969,13 +7981,13 @@
   },
   {
     "id": "01643",
-    "n": "Goat Simulator",
+    "n": "Goat Simulator 3",
     "t": "2.6 Gb",
     "p": "PS5",
     "img": "01643.webp",
     "g": "Simulación humorística, sandbox",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2014",
     "e": ""
   },
@@ -8065,13 +8077,13 @@
   },
   {
     "id": "01644",
-    "n": "God Of War Ragnarök",
+    "n": "God Of War Ragnarok",
     "t": "92.5 Gb",
     "p": "PS5",
     "img": "01644.webp",
     "g": "Acción-aventura, mitología nórdica",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -8137,13 +8149,13 @@
   },
   {
     "id": "01646",
-    "n": "Grand Theft Auto Clásico",
+    "n": "Grand Theft Auto San Andreas - The Definitive Edition",
     "t": "22.2 Gb",
     "p": "PS5",
     "img": "01646.webp",
     "g": "Acción, mundo abierto retro",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "1997",
     "e": ""
   },
@@ -8167,7 +8179,7 @@
     "img": "01645.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2013",
     "e": ""
   },
@@ -8179,7 +8191,7 @@
     "img": "01647.webp",
     "g": "Shooter retro, fantasía oscura",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -8424,6 +8436,18 @@
     "e": ""
   },
   {
+    "id": "01917",
+    "n": "GTA 5",
+    "t": "56.3 Gb",
+    "p": "PS4",
+    "img": "01917.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 200,
+    "a": "2015",
+    "e": ""
+  },
+  {
     "id": "00402",
     "n": "GTFO",
     "t": "14.3 Gb",
@@ -8527,7 +8551,7 @@
     "img": "01638.webp",
     "g": "Aventura, terror ligero",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -8731,7 +8755,7 @@
     "img": "01634.webp",
     "g": "Simulación agrícola, indie",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -8887,7 +8911,7 @@
     "img": "01711.webp",
     "g": "Sigilo, terror ligero",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -9115,7 +9139,7 @@
     "img": "01712.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -9295,7 +9319,7 @@
     "img": "01648.webp",
     "g": "Terror psicológico, aventura",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -9319,7 +9343,7 @@
     "img": "01649.webp",
     "g": "Carreras arcade",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -9523,7 +9547,7 @@
     "img": "01650.webp",
     "g": "Acción indie, aventura",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -9643,7 +9667,7 @@
     "img": "01652.webp",
     "g": "Deportes, minijuegos",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -9823,7 +9847,7 @@
     "img": "01653.webp",
     "g": "Plataformas 3D",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "1995",
     "e": ""
   },
@@ -9841,13 +9865,13 @@
   },
   {
     "id": "01654",
-    "n": "Jurassic Park",
+    "n": "Jurassic Park Classic Games Collection",
     "t": "1.5 Gb",
     "p": "PS5",
     "img": "01654.webp",
     "g": "Acción-aventura retro",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "1993",
     "e": ""
   },
@@ -10027,7 +10051,7 @@
     "img": "01700.webp",
     "g": "Acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -10471,7 +10495,7 @@
     "img": "01713.webp",
     "g": "Acción-aventura, plataformas",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -10615,7 +10639,7 @@
     "img": "01701.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -10699,7 +10723,7 @@
     "img": "01655.webp",
     "g": "RPG de acción, samuráis",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -10843,7 +10867,7 @@
     "img": "01714.webp",
     "g": "Deportes arcade",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -10879,7 +10903,7 @@
     "img": "01715.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -11143,7 +11167,7 @@
     "img": "01656.webp",
     "g": "Terror psicológico",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -11227,7 +11251,7 @@
     "img": "01608.webp",
     "g": "Acción-aventura, narrativa",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": ""
   },
@@ -11599,7 +11623,7 @@
     "img": "01614.webp",
     "g": "Conducción/arcade",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -11659,7 +11683,7 @@
     "img": "01657.webp",
     "g": "Beat ‘em up, acción",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -11917,13 +11941,13 @@
   },
   {
     "id": "01658",
-    "n": "Metal Gear Solid",
+    "n": "Metal Gear Solid Master Collection Vol 1 Bonus Content",
     "t": "0.2 Gb",
     "p": "PS5",
     "img": "01658.webp",
     "g": "Acción sigilo",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "1998",
     "e": ""
   },
@@ -12235,7 +12259,7 @@
     "img": "01716.webp",
     "g": "Sandbox, supervivencia",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2011",
     "e": ""
   },
@@ -12379,19 +12403,19 @@
     "img": "01659.webp",
     "g": "Plataformas, aventura",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2018",
     "e": ""
   },
   {
     "id": "01660",
-    "n": "Monster Energy Supercross",
+    "n": "zz",
     "t": "13.6 Gb",
     "p": "PS5",
     "img": "01660.webp",
     "g": "Carreras, motocross",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -12403,7 +12427,7 @@
     "img": "01683.webp",
     "g": "Carreras, motocross",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -12517,13 +12541,13 @@
   },
   {
     "id": "01661",
-    "n": "Monster Jam Duelo",
+    "n": "Monster Jam Showdown",
     "t": "9.9 Gb",
     "p": "PS5",
     "img": "01661.webp",
     "g": "Carreras arcade, camiones monstruo",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -12595,7 +12619,7 @@
     "img": "01662.webp",
     "g": "Lucha",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -12775,7 +12799,7 @@
     "img": "01663.webp",
     "g": "Carreras, simulación deportiva",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -13219,7 +13243,7 @@
     "img": "01664.webp",
     "g": "Shooter en primera persona",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -13411,7 +13435,7 @@
     "img": "01665.webp",
     "g": "Carreras, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -13495,7 +13519,7 @@
     "img": "01666.webp",
     "g": "Shooter arcade",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -13627,7 +13651,7 @@
     "img": "01667.webp",
     "g": "Lucha, plataformas",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -13651,7 +13675,7 @@
     "img": "01717.webp",
     "g": "Carreras arcade, kart",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -14041,13 +14065,13 @@
   },
   {
     "id": "01668",
-    "n": "On The Road",
+    "n": "On The Road The Truck Simulator",
     "t": "3.6 Gb",
     "p": "PS5",
     "img": "01668.webp",
     "g": "Simulación de camiones",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -14083,7 +14107,7 @@
     "img": "01718.webp",
     "g": "JRPG, aventura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -14311,7 +14335,7 @@
     "img": "01719.webp",
     "g": "Aventura, exploración espacial",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2019",
     "e": ""
   },
@@ -14407,7 +14431,7 @@
     "img": "01669.webp",
     "g": "Lucha, mechas",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2020",
     "e": ""
   },
@@ -14539,7 +14563,7 @@
     "img": "01670.webp",
     "g": "Carreras arcade, infantil",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -14935,7 +14959,7 @@
     "img": "01671.webp",
     "g": "Survival horror, psicológico",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -15055,7 +15079,7 @@
     "img": "01672.webp",
     "g": "Estrategia, simulación económica",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2020",
     "e": ""
   },
@@ -15127,7 +15151,7 @@
     "img": "01673.webp",
     "g": "Simulación, casual",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -15163,7 +15187,7 @@
     "img": "01759.webp",
     "g": "Acción, Aventura",
     "r": "•Tener la Consola Liberada",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2026",
     "e": "true"
   },
@@ -15199,7 +15223,7 @@
     "img": "01674.webp",
     "g": "Metroidvania, acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -15685,13 +15709,13 @@
   },
   {
     "id": "01675",
-    "n": "Real Farm",
+    "n": "Real Farm Premium Edition",
     "t": "1.7 Gb",
     "p": "PS5",
     "img": "01675.webp",
     "g": "Simulación agrícola",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -15715,7 +15739,7 @@
     "img": "01907.webp",
     "g": "Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2026",
     "e": ""
   },
@@ -15751,7 +15775,7 @@
     "img": "01904.webp",
     "g": "Acción",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -15967,7 +15991,7 @@
     "img": "01720.webp",
     "g": "Survival horror",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2020",
     "e": ""
   },
@@ -16015,7 +16039,19 @@
     "img": "01702.webp",
     "g": "Survival horror, acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
+    "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01918",
+    "n": "Resident Evil 4 Remake",
+    "t": "28.4 Gb",
+    "p": "PS4",
+    "img": "01918.webp",
+    "g": "Acción y Survival Horror",
+    "r": "",
+    "pr": 150,
     "a": "2023",
     "e": ""
   },
@@ -16081,13 +16117,13 @@
   },
   {
     "id": "01721",
-    "n": "Resident Evil 7 Biohazard",
+    "n": "Resident Evil 7 Biohazard Gold Edition",
     "t": "28.5 Gb",
     "p": "PS5",
     "img": "01721.webp",
     "g": "Survival horror",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2017",
     "e": ""
   },
@@ -16135,7 +16171,7 @@
     "img": "01734.webp",
     "g": "Acción, Aventura, terror",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2026",
     "e": ""
   },
@@ -16231,7 +16267,7 @@
     "img": "01722.webp",
     "g": "Roguelike, shooter en tercera persona",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -16747,7 +16783,7 @@
     "img": "01905.webp",
     "g": "Acción",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2026",
     "e": "true"
   },
@@ -16891,7 +16927,7 @@
     "img": "01723.webp",
     "g": "Aventura narrativa, acción indie",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -16980,6 +17016,18 @@
     "e": ""
   },
   {
+    "id": "01919",
+    "n": "Shadow of the Tomb Raider",
+    "t": "30.7 Gb",
+    "p": "PS4",
+    "img": "01919.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 150,
+    "a": "2018",
+    "e": ""
+  },
+  {
     "id": "00990",
     "n": "Shadow Warrior 3",
     "t": "16.2 Gb",
@@ -16993,13 +17041,13 @@
   },
   {
     "id": "01724",
-    "n": "Shadow Warrior 3",
+    "n": "Shadow Warrior 3 Definitive Edition",
     "t": "19.8 Gb",
     "p": "PS5",
     "img": "01724.webp",
     "g": "Shooter en primera persona, acción",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -17167,7 +17215,7 @@
     "img": "01725.webp",
     "g": "Survival horror, terror psicológico",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -17227,7 +17275,7 @@
     "img": "01676.webp",
     "g": "Terror psicológico",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -17263,7 +17311,7 @@
     "img": "01677.webp",
     "g": "Shooter cooperativo, survival horror",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -17275,7 +17323,7 @@
     "img": "01678.webp",
     "g": "Hack and slash, acción retro",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -17395,7 +17443,7 @@
     "img": "01726.webp",
     "g": "Supervivencia, mundo abierto",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -17551,7 +17599,7 @@
     "img": "01641.webp",
     "g": "Shooter táctico, sigilo",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -17959,7 +18007,7 @@
     "img": "01679.webp",
     "g": "Estrategia, simulación espacial",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -18079,7 +18127,7 @@
     "img": "01916.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": "true"
   },
@@ -18163,7 +18211,7 @@
     "img": "01680.webp",
     "g": "Aventura, acción",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -18235,7 +18283,7 @@
     "img": "01727.webp",
     "g": "Acción-aventura, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2019",
     "e": ""
   },
@@ -18487,7 +18535,7 @@
     "img": "01728.webp",
     "g": "RPG de acción",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -18595,7 +18643,7 @@
     "img": "01729.webp",
     "g": "Aventura, exploración",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -18667,7 +18715,7 @@
     "img": "01681.webp",
     "g": "Carreras arcade",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -18907,7 +18955,7 @@
     "img": "01682.webp",
     "g": "Carreras retro, arcade",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -18991,7 +19039,7 @@
     "img": "01684.webp",
     "g": "Ritmo, musical",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -19147,7 +19195,7 @@
     "img": "01685.webp",
     "g": "Sandbox, destrucción, simulación",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -19219,7 +19267,7 @@
     "img": "01730.webp",
     "g": "Lucha",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -19375,7 +19423,7 @@
     "img": "01687.webp",
     "g": "RPG de acción, shooter isométrico",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -19447,7 +19495,7 @@
     "img": "01688.webp",
     "g": "JRPG",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -19747,7 +19795,7 @@
     "img": "01689.webp",
     "g": "Shooter sobre raíles, terror",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -19795,7 +19843,7 @@
     "img": "01690.webp",
     "g": "Lucha, beat ‘em up retro",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -19843,7 +19891,7 @@
     "img": "01731.webp",
     "g": "Metroidvania, acción oscura",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -19879,7 +19927,7 @@
     "img": "01732.webp",
     "g": "Acción-aventura, survival",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -19891,7 +19939,7 @@
     "img": "01692.webp",
     "g": "Acción-aventura, survival",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2020",
     "e": ""
   },
@@ -19915,7 +19963,7 @@
     "img": "01691.webp",
     "g": "Survival, acción roguelike",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -20125,13 +20173,13 @@
   },
   {
     "id": "01693",
-    "n": "The Persistence",
+    "n": "The Persistence Enhanced",
     "t": "5.2 Gb",
     "p": "PS5",
     "img": "01693.webp",
     "g": "Survival horror, roguelike",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2021",
     "e": ""
   },
@@ -20336,6 +20384,18 @@
     "g": "Rol",
     "r": "",
     "pr": 100,
+    "a": "2015",
+    "e": ""
+  },
+  {
+    "id": "01920",
+    "n": "The Witcher 3 Wild Hunt",
+    "t": "46.4 Gb",
+    "p": "PS4",
+    "img": "01920.webp",
+    "g": "Rol, Mundo abierto",
+    "r": "",
+    "pr": 200,
     "a": "2015",
     "e": ""
   },
@@ -20647,7 +20707,7 @@
     "img": "01695.webp",
     "g": "Beat ‘em up retro",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
@@ -20659,7 +20719,7 @@
     "img": "01686.webp",
     "g": "Beat ‘em up, acción",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -20791,7 +20851,7 @@
     "img": "01694.webp",
     "g": "Plataformas, acción-aventura",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -21456,6 +21516,18 @@
     "e": ""
   },
   {
+    "id": "01921",
+    "n": "UFC 4",
+    "t": "30.2 Gb",
+    "p": "PS4",
+    "img": "01921.webp",
+    "g": "Deportes",
+    "r": "",
+    "pr": 150,
+    "a": "",
+    "e": ""
+  },
+  {
     "id": "01754",
     "n": "Ufo 50",
     "t": "0.4 Gb",
@@ -21475,7 +21547,7 @@
     "img": "01696.webp",
     "g": "Acción-aventura, mechas",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -21559,7 +21631,19 @@
     "img": "01609.webp",
     "g": "Acción-aventura, plataformas 3D",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
+    "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01922",
+    "n": "Uncharted 4 Legacy of Thieves Collection",
+    "t": "58.0 Gb",
+    "p": "PS4",
+    "img": "01922.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 200,
     "a": "2022",
     "e": ""
   },
@@ -21583,7 +21667,7 @@
     "img": "01697.webp",
     "g": "Acción superhéroes, indie",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2024",
     "e": ""
   },
@@ -21643,7 +21727,7 @@
     "img": "01651.webp",
     "g": "Deportes, boxeo",
     "r": "",
-    "pr": 1500,
+    "pr": "N/D",
     "a": "2025",
     "e": ""
   },
@@ -21943,7 +22027,7 @@
     "img": "01698.webp",
     "g": "Shooter en primera persona, VR",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2023",
     "e": ""
   },
@@ -22219,7 +22303,7 @@
     "img": "01733.webp",
     "g": "Simulación de caza, mundo abierto",
     "r": "",
-    "pr": 500,
+    "pr": "N/D",
     "a": "2022",
     "e": ""
   },
