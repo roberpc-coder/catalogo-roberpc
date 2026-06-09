@@ -1776,6 +1776,18 @@
     "e": ""
   },
   {
+    "id": "01924",
+    "n": "Battlefield 3 Online [Zolemu y Fairplay]",
+    "t": "36 Gb",
+    "p": "PC Online",
+    "img": "01924.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows 7 64-bit\n•Procesador: 2 GHz Dual Core (Core 2 Duo 2.4 GHz or Althon X2 2.7 GHz)\n•Memoria: 2 GB RAM\n•Gráficos: Graphics card (AMD): 512 MB RAM (ATI Radeon 3000, 4000, 5000 or 6000 series, with ATI Radeon 3870 or higher performance) Graphics card (NVIDIA): 512 MB RAM (NVIDIA GeForce 8, 9, 200, 300, 400 or 500 series with NVIDIA GeForce 8800 GT or higher performance)DirectX: Version 10",
+    "pr": 250,
+    "a": "2020",
+    "e": ""
+  },
+  {
     "id": "00105",
     "n": "Battlefield 4",
     "t": "24.8 Gb",
@@ -1784,6 +1796,18 @@
     "g": "Acción",
     "r": "•Sistema Operativo: Windows 8 32-bit\n•Procesador: Processor (AMD): Athlon X2 2.8 GHz Processor (Intel): Core 2 Duo 2.4 GHz\n•Memoria: 4 GB RAM\n•Gráficos: Graphics card (AMD): AMD Radeon HD 3870 Graphics card (NVIDIA): Nvidia GeForce 8800 GT\n•Almacenamiento: 30 GB available space",
     "pr": 150,
+    "a": "2020",
+    "e": ""
+  },
+  {
+    "id": "01925",
+    "n": "Battlefield 4 Online Zolemu",
+    "t": "40 Gb",
+    "p": "PC Online",
+    "img": "01925.webp",
+    "g": "Acción",
+    "r": "•Procesador: Processor (AMD): Athlon X2 2.8 GHz Processor (Intel): Core 2 Duo 2.4 GHz\n•Memoria: 4 GB RAM\n•Gráficos: Graphics card (AMD): AMD Radeon HD 3870 Graphics card (NVIDIA): Nvidia GeForce 8800 GT\n•Almacenamiento: 30 GB available space",
+    "pr": 250,
     "a": "2020",
     "e": ""
   },
@@ -2227,7 +2251,7 @@
     "img": "01923.webp",
     "g": "",
     "r": "",
-    "pr": 150,
+    "pr": 200,
     "a": "",
     "e": ""
   },
@@ -2709,6 +2733,30 @@
     "r": "•CPU: Intel(R) Pentium(R) 4 2.4 GHz / AMD(R) Athlon(TM) 64 2800+ / Dual Core 1.8Ghz\n•RAM: 512MB RAM;768MB para Windows Vista\n•HD: 8GB de espacio libre\n•Video : NVIDIA(R) Geforce(TM), 6600 / ATI(R) Radeon(R) 9800Pro 6600 o superior",
     "pr": 100,
     "a": "2007",
+    "e": ""
+  },
+  {
+    "id": "01927",
+    "n": "Call of Duty 8 Modern Warfare 3MP [Offline Lan]",
+    "t": "15 Gb",
+    "p": "PC Online",
+    "img": "01927.webp",
+    "g": "Acción, Primera persona (FPS) (Bélico)",
+    "r": "•Sistemas Operativos: Windows XP, Windows Vista or Windows 7\n•Procesador: Intel Core 2 Duo E6600 o AMD Phenom X3 8750 procesador o mejores\n•Memoria RAM: 2 Gigas\n•GFX: Shader 3.0 or better 256 Megas NVIDIA GeForce 8600GT / ATI Radeon X1950 o mejores\n•DX: 9.0c o superior\n•Disco Duro: 16 Gigas de Espacio Libre",
+    "pr": 1000,
+    "a": "2011",
+    "e": ""
+  },
+  {
+    "id": "01926",
+    "n": "Call of Duty 9 Black Ops II [Offline Lan]",
+    "t": "20 Gb",
+    "p": "PC Online",
+    "img": "01926.webp",
+    "g": "Acción",
+    "r": "•Sistema Operativo: Windows Vista SP2 or Windows 7. Windows XP is not supported\n•Procesador: Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz\n•Memoria: 2 GB for 32-bit OS or 4 GB for 64-bit OS\n•Gráficos: Nvidia GeForce 8800GT 512 MB or ATI Radeon HD 3870 512 MB\n•DirectX: Version 9.0c",
+    "pr": 1000,
+    "a": "2012",
     "e": ""
   },
   {
@@ -3537,6 +3585,18 @@
     "r": "•Sistema Operativo: Windows 10 64bit\n•Procesador: AMD Ryzen 5 3600 or Intel Core i5-10400F\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1650 or Radeon RX 580\n•DirectX: Version 11\n•Almacenamiento: 115 GB available space",
     "pr": 200,
     "a": "2018",
+    "e": ""
+  },
+  {
+    "id": "01928",
+    "n": "Conf Asus Prime z790 Corei3 13100 16gb ram Fuente Evga 1000 W",
+    "t": "1 Gb",
+    "p": "Ventas",
+    "img": "01928.webp",
+    "g": "Piezas de PC",
+    "r": "",
+    "pr": 50,
+    "a": "",
     "e": ""
   },
   {
@@ -4813,7 +4873,7 @@
   },
   {
     "id": "00293",
-    "n": "Demon's Souls Black Phantom Edition",
+    "n": "Demon's Souls Black Phantom Edition [Emulado Ps3]",
     "t": "3.4 Gb",
     "p": "PC",
     "img": "00293.webp",
@@ -4829,18 +4889,6 @@
     "t": "87.5 Gb",
     "p": "PS5",
     "img": "01626.webp",
-    "g": "RPG de acción, Soulslike",
-    "r": "",
-    "pr": "N/D",
-    "a": "2020",
-    "e": ""
-  },
-  {
-    "id": "01629",
-    "n": "z",
-    "t": "50.5 Gb",
-    "p": "PS5",
-    "img": "01629.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
     "pr": "N/D",
@@ -8148,18 +8196,6 @@
     "e": ""
   },
   {
-    "id": "01646",
-    "n": "Grand Theft Auto San Andreas - The Definitive Edition",
-    "t": "22.2 Gb",
-    "p": "PS5",
-    "img": "01646.webp",
-    "g": "Acción, mundo abierto retro",
-    "r": "",
-    "pr": "N/D",
-    "a": "1997",
-    "e": ""
-  },
-  {
     "id": "01844",
     "n": "Grand Theft Auto III",
     "t": "2.2 Gb",
@@ -8169,6 +8205,18 @@
     "r": "",
     "pr": 100,
     "a": "2001",
+    "e": ""
+  },
+  {
+    "id": "01646",
+    "n": "Grand Theft Auto San Andreas - The Definitive Edition",
+    "t": "22.2 Gb",
+    "p": "PS5",
+    "img": "01646.webp",
+    "g": "Acción, mundo abierto retro",
+    "r": "",
+    "pr": "N/D",
+    "a": "1997",
     "e": ""
   },
   {
@@ -8340,6 +8388,18 @@
     "e": ""
   },
   {
+    "id": "01917",
+    "n": "GTA 5",
+    "t": "56.3 Gb",
+    "p": "PS4",
+    "img": "01917.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 250,
+    "a": "2015",
+    "e": ""
+  },
+  {
     "id": "00472",
     "n": "GTA IV",
     "t": "18.9 Gb",
@@ -8433,18 +8493,6 @@
     "r": "•SO: Microsoft® Windows® 2000 / XP\n•Procesador: Procesador Intel Pentium III a 800 MHz AMD Athlon a 800 MHz / Intel Celeron a 1.2 GHz / AMD Duron a 1.2 GHz\n•Memoria: 512 de RAM\n•Gráficos: Dispositivo de 32 MB con controladores compatibles\n•con DirectX 9.0 (\"GeForce\" o superior)\n•DirectX: Microsoft DirectX® 9.0",
     "pr": 50,
     "a": "2003",
-    "e": ""
-  },
-  {
-    "id": "01917",
-    "n": "GTA 5",
-    "t": "56.3 Gb",
-    "p": "PS4",
-    "img": "01917.webp",
-    "g": "Acción, Aventura",
-    "r": "",
-    "pr": 200,
-    "a": "2015",
     "e": ""
   },
   {
@@ -11940,18 +11988,6 @@
     "e": ""
   },
   {
-    "id": "01658",
-    "n": "Metal Gear Solid Master Collection Vol 1 Bonus Content",
-    "t": "0.2 Gb",
-    "p": "PS5",
-    "img": "01658.webp",
-    "g": "Acción sigilo",
-    "r": "",
-    "pr": "N/D",
-    "a": "1998",
-    "e": ""
-  },
-  {
     "id": "01790",
     "n": "Metal Gear Solid Master Collection Version",
     "t": "7.7 Gb",
@@ -11961,6 +11997,18 @@
     "r": "",
     "pr": 100,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01658",
+    "n": "Metal Gear Solid Master Collection Vol 1 Bonus Content",
+    "t": "0.2 Gb",
+    "p": "PS5",
+    "img": "01658.webp",
+    "g": "Acción sigilo",
+    "r": "",
+    "pr": "N/D",
+    "a": "1998",
     "e": ""
   },
   {
@@ -12405,18 +12453,6 @@
     "r": "",
     "pr": "N/D",
     "a": "2018",
-    "e": ""
-  },
-  {
-    "id": "01660",
-    "n": "zz",
-    "t": "13.6 Gb",
-    "p": "PS5",
-    "img": "01660.webp",
-    "g": "Carreras, motocross",
-    "r": "",
-    "pr": "N/D",
-    "a": "2021",
     "e": ""
   },
   {
@@ -13993,8 +14029,8 @@
   },
   {
     "id": "01521",
-    "n": "Octopath Traveler 0 [HV]",
-    "t": "5.2 Gb",
+    "n": "Octopath Traveler 0",
+    "t": "4.7 Gb",
     "p": "PC",
     "img": "01521.webp",
     "g": "Rol",
@@ -16051,7 +16087,7 @@
     "img": "01918.webp",
     "g": "Acción y Survival Horror",
     "r": "",
-    "pr": 150,
+    "pr": 200,
     "a": "2023",
     "e": ""
   },
@@ -16778,7 +16814,7 @@
   {
     "id": "01905",
     "n": "SAROS",
-    "t": "120 Gb",
+    "t": "150 Gb",
     "p": "PS5",
     "img": "01905.webp",
     "g": "Acción",
@@ -17023,7 +17059,7 @@
     "img": "01919.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 150,
+    "pr": 200,
     "a": "2018",
     "e": ""
   },
@@ -21523,7 +21559,7 @@
     "img": "01921.webp",
     "g": "Deportes",
     "r": "",
-    "pr": 150,
+    "pr": 200,
     "a": "",
     "e": ""
   },
@@ -21643,7 +21679,7 @@
     "img": "01922.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 200,
+    "pr": 250,
     "a": "2022",
     "e": ""
   },
@@ -22980,6 +23016,18 @@
     "e": ""
   },
   {
+    "id": "01629",
+    "n": "z",
+    "t": "50.5 Gb",
+    "p": "PS5",
+    "img": "01629.webp",
+    "g": "RPG de acción, Soulslike",
+    "r": "",
+    "pr": "N/D",
+    "a": "2020",
+    "e": ""
+  },
+  {
     "id": "01320",
     "n": "Zed Zone",
     "t": "0.7 Gb",
@@ -23073,6 +23121,18 @@
     "r": "•Sistema Operativo: Window 7 or higher  64-Bit\n•Procesador: Intel Core i3-3210 @ 3.2 GHz   ||   AMD FX-4150 @ 4 GHz\n•Memoria: 4 GB RAM\n•Gráficos: Nvidia GT GTX 650   ||   AMD R7 260\n•DirectX: Version 11\n•Almacenamiento: 10 GB available space",
     "pr": 100,
     "a": "2018",
+    "e": ""
+  },
+  {
+    "id": "01660",
+    "n": "zz",
+    "t": "13.6 Gb",
+    "p": "PS5",
+    "img": "01660.webp",
+    "g": "Carreras, motocross",
+    "r": "",
+    "pr": "N/D",
+    "a": "2021",
     "e": ""
   }
 ]
