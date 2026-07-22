@@ -1543,7 +1543,7 @@
     "img": "01502.webp",
     "g": "Acción, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10 (20H1 version or newer, 64-bit versions)\n•Procesador: AMD Ryzen 3 1200 or Intel Core i5-2500\n•Memoria: 8 GB RAM\n•Gráficos: 4 GB VRAM, AMD Radeon R9 380 or NVIDIA GeForce GTX 960\n•DirectX: Version 12\n•Almacenamiento: 90 GB available space",
-    "pr": 200,
+    "pr": 500,
     "a": "2023",
     "e": "true"
   },
