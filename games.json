@@ -122,7 +122,7 @@
   {
     "id": "01703",
     "n": "A Plague Tale Requiem",
-    "t": "46.3 Gb",
+    "t": "47.9 Gb",
     "p": "PS5",
     "img": "01703.webp",
     "g": "Acción-aventura, sigilo",
@@ -535,7 +535,7 @@
     "img": "01821.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2021",
     "e": ""
   },
@@ -571,14 +571,14 @@
     "img": "01596.webp",
     "g": "Massively Multiplayer, Rol, Free To Play",
     "r": "•Sistema Operativo: Windows 10 or 11 (64-bit)\n•Procesador: Intel/AMD CPU with SSE2\n•Memoria: 4 GB RAM\n•Gráficos: Graphics card with DirectX 10 support or better\n•DirectX: Version 10\n•Almacenamiento: 2 GB available space",
-    "pr": 1000,
+    "pr": 500,
     "a": "2018",
     "e": ""
   },
   {
     "id": "01611",
     "n": "Alex Kidd In Miracle World Dx",
-    "t": "0.3 Gb",
+    "t": "0.4 Gb",
     "p": "PS5",
     "img": "01611.webp",
     "g": "Plataformas",
@@ -763,7 +763,7 @@
     "img": "01822.webp",
     "g": "Simulación, Social, Life",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2020",
     "e": ""
   },
@@ -1272,18 +1272,6 @@
     "e": ""
   },
   {
-    "id": "01501",
-    "n": "Assassins Creed Shadows Premium Edition",
-    "t": "100.1 Gb",
-    "p": "PC",
-    "img": "01501.webp",
-    "g": "Acción, Aventura, Rol",
-    "r": "•Sistema Operativo: Windows 10/11\n•Procesador: INTEL® Core TM i7 8700K AMD RYZEN 5 3600\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA® GEFORCE GTX 1650 4GB / AMD RX-5500 XT 8GB / INTEL® ARC TM A380 6GB (REBAR ON)\"\n•DirectX: Version 12\n•Almacenamiento: 115 GB available space",
-    "pr": 500,
-    "a": "2025",
-    "e": "true"
-  },
-  {
     "id": "01946",
     "n": "Assassins Creed Shadows ",
     "t": "141.6 Gb",
@@ -1294,6 +1282,18 @@
     "pr": 1500,
     "a": "2025",
     "e": ""
+  },
+  {
+    "id": "01501",
+    "n": "Assassins Creed Shadows Premium Edition",
+    "t": "100.1 Gb",
+    "p": "PC",
+    "img": "01501.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 10/11\n•Procesador: INTEL® Core TM i7 8700K AMD RYZEN 5 3600\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA® GEFORCE GTX 1650 4GB / AMD RX-5500 XT 8GB / INTEL® ARC TM A380 6GB (REBAR ON)\"\n•DirectX: Version 12\n•Almacenamiento: 115 GB available space",
+    "pr": 500,
+    "a": "2025",
+    "e": "true"
   },
   {
     "id": "01934",
@@ -1315,7 +1315,7 @@
     "img": "01824.webp",
     "g": "Acción, Aventura, Open World",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2013",
     "e": ""
   },
@@ -1339,7 +1339,7 @@
     "img": "01826.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2016",
     "e": ""
   },
@@ -1370,7 +1370,7 @@
   {
     "id": "01928",
     "n": "Assetto Corsa Competizione",
-    "t": "25 Gb",
+    "t": "12.0 Gb",
     "p": "PS5",
     "img": "01928.webp",
     "g": "Carreras, Simulación, Deportes",
@@ -1430,7 +1430,7 @@
   {
     "id": "01602",
     "n": "Astro Bot",
-    "t": "37.2 Gb",
+    "t": "48.3 Gb",
     "p": "PS5",
     "img": "01602.webp",
     "g": "Plataforma, acción-aventura",
@@ -1543,7 +1543,7 @@
     "img": "01502.webp",
     "g": "Acción, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10 (20H1 version or newer, 64-bit versions)\n•Procesador: AMD Ryzen 3 1200 or Intel Core i5-2500\n•Memoria: 8 GB RAM\n•Gráficos: 4 GB VRAM, AMD Radeon R9 380 or NVIDIA GeForce GTX 960\n•DirectX: Version 12\n•Almacenamiento: 90 GB available space",
-    "pr": 500,
+    "pr": 200,
     "a": "2023",
     "e": "true"
   },
@@ -1610,7 +1610,7 @@
   {
     "id": "01603",
     "n": "Avatar Frontiers Of Pandora",
-    "t": "94.7 Gb",
+    "t": "94.8 Gb",
     "p": "PS5",
     "img": "01603.webp",
     "g": "Acción-aventura, mundo abierto",
@@ -1621,15 +1621,15 @@
   },
   {
     "id": "01503",
-    "n": "Avatar Frontiers Of Pandora [HV]",
-    "t": "81.2 Gb",
+    "n": "Avatar Frontiers of Pandora Complete Edition",
+    "t": "122.2 Gb",
     "p": "PC",
     "img": "01503.webp",
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 10/11 (64-bit versions)\n•Procesador: AMD Ryzen 5 3600 @ 3.6 GHz, Intel Core i7-8700K @ 3.70 GHz, or better\n•Memoria: 16 GB RAM\n•Gráficos: AMD RX 5700 (8 GB), Intel Arc A750 (8 GB, with ReBAR on), NVIDIA GeForce GTX 1070 (8 GB), or better\n•DirectX: Version 12\n•Almacenamiento: 90 GB available space",
-    "pr": 300,
+    "pr": 500,
     "a": "2024",
-    "e": ""
+    "e": "true"
   },
   {
     "id": "00075",
@@ -1706,7 +1706,7 @@
   {
     "id": "01947",
     "n": "Baldurs Gate 3",
-    "t": "100.1 Gb",
+    "t": "194.1 Gb",
     "p": "PS5",
     "img": "01947.webp",
     "g": "Aventura, Rol, Estrategia",
@@ -1795,7 +1795,7 @@
     "img": "01761.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2015",
     "e": ""
   },
@@ -1879,7 +1879,7 @@
     "img": "01924.webp",
     "g": "Acción",
     "r": "•Sistema Operativo: Windows 7 64-bit\n•Procesador: 2 GHz Dual Core (Core 2 Duo 2.4 GHz or Althon X2 2.7 GHz)\n•Memoria: 2 GB RAM\n•Gráficos: Graphics card (AMD): 512 MB RAM (ATI Radeon 3000, 4000, 5000 or 6000 series, with ATI Radeon 3870 or higher performance) Graphics card (NVIDIA): 512 MB RAM (NVIDIA GeForce 8, 9, 200, 300, 400 or 500 series with NVIDIA GeForce 8800 GT or higher performance)DirectX: Version 10",
-    "pr": 1000,
+    "pr": 500,
     "a": "2020",
     "e": ""
   },
@@ -1903,7 +1903,7 @@
     "img": "01925.webp",
     "g": "Acción",
     "r": "•Procesador: Processor (AMD): Athlon X2 2.8 GHz Processor (Intel): Core 2 Duo 2.4 GHz\n•Memoria: 4 GB RAM\n•Gráficos: Graphics card (AMD): AMD Radeon HD 3870 Graphics card (NVIDIA): Nvidia GeForce 8800 GT\n•Almacenamiento: 30 GB available space",
-    "pr": 1000,
+    "pr": 500,
     "a": "2020",
     "e": ""
   },
@@ -1968,8 +1968,20 @@
     "e": ""
   },
   {
+    "id": "01827",
+    "n": "Bayonetta 3",
+    "t": "25.7 Gb",
+    "p": "N Switch",
+    "img": "01827.webp",
+    "g": "Acción, Hack and Slash",
+    "r": "",
+    "pr": 150,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "00701",
-    "n": "Bayonetta",
+    "n": "Bayonetta Digital Deluxe Edition",
     "t": "9.7 Gb",
     "p": "PC",
     "img": "00701.webp",
@@ -1980,16 +1992,28 @@
     "e": ""
   },
   {
-    "id": "01827",
-    "n": "Bayonetta 3",
-    "t": "25.7 Gb",
-    "p": "N Switch",
-    "img": "01827.webp",
-    "g": "Acción, Hack and Slash",
+    "id": "01961",
+    "n": "Beast of Reincarnation Digital Deluxe Edition",
+    "t": "50 Gb",
+    "p": "PS5",
+    "img": "01961.webp",
+    "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 100,
-    "a": "2022",
-    "e": ""
+    "pr": 1500,
+    "a": "2026",
+    "e": "true"
+  },
+  {
+    "id": "01960",
+    "n": "Beast of Reincarnation Deluxe Edition",
+    "t": "28 Gb",
+    "p": "PC",
+    "img": "01960.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "•Sistema Operativo: Windows 10 | 11\n•Procesador: Intel Core i5-8400 o AMD Ryzen 5 3600\n•Memoria: 16 Gigas de RAM\n•Gráficos: NVIDIA GeForce GTX 1070 (8 Gigas) o AMD Radeon RX 580 (8 Gigas)\n•DirectX: Versión 12\n•Almacenamiento: 45 Gigas de espacio disponible",
+    "pr": 200,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "01615",
@@ -2179,7 +2203,7 @@
     "img": "01828.webp",
     "g": "Acción, FPS, Story Rich",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2016",
     "e": ""
   },
@@ -2198,7 +2222,7 @@
   {
     "id": "01604",
     "n": "Black Myth Wukong",
-    "t": "82.6 Gb",
+    "t": "95.1 Gb",
     "p": "PS5",
     "img": "01604.webp",
     "g": "RPG de acción (Soulslike)",
@@ -2443,7 +2467,7 @@
     "img": "01830.webp",
     "g": "Acción, FPS, Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2009",
     "e": ""
   },
@@ -2474,7 +2498,7 @@
   {
     "id": "01909",
     "n": "Borderlands 4",
-    "t": "90 Gb",
+    "t": "50.5 Gb",
     "p": "PS5",
     "img": "01909.webp",
     "g": "Acción, Aventura, Rol",
@@ -2839,7 +2863,7 @@
     "img": "01927.webp",
     "g": "Acción, Primera persona (FPS) (Bélico)",
     "r": "•Sistemas Operativos: Windows XP, Windows Vista or Windows 7\n•Procesador: Intel Core 2 Duo E6600 o AMD Phenom X3 8750 procesador o mejores\n•Memoria RAM: 2 Gigas\n•GFX: Shader 3.0 or better 256 Megas NVIDIA GeForce 8600GT / ATI Radeon X1950 o mejores\n•DX: 9.0c o superior\n•Disco Duro: 16 Gigas de Espacio Libre",
-    "pr": 1000,
+    "pr": 250,
     "a": "2011",
     "e": ""
   },
@@ -2851,7 +2875,7 @@
     "img": "01926.webp",
     "g": "Acción",
     "r": "•Sistema Operativo: Windows Vista SP2 or Windows 7. Windows XP is not supported\n•Procesador: Intel Core2 Duo E8200 2.66 GHz or AMD Phenom X3 8750 2.4 GHz\n•Memoria: 2 GB for 32-bit OS or 4 GB for 64-bit OS\n•Gráficos: Nvidia GeForce 8800GT 512 MB or ATI Radeon HD 3870 512 MB\n•DirectX: Version 9.0c",
-    "pr": 1000,
+    "pr": 250,
     "a": "2012",
     "e": ""
   },
@@ -3482,7 +3506,7 @@
   {
     "id": "01607",
     "n": "Clair Obscur Expedition 33",
-    "t": "66.6 Gb",
+    "t": "41.3 Gb",
     "p": "PS5",
     "img": "01607.webp",
     "g": "RPG por turnos, fantasía oscura",
@@ -3806,7 +3830,7 @@
   {
     "id": "01605",
     "n": "Control",
-    "t": "24.1 Gb",
+    "t": "27.3 Gb",
     "p": "PS5",
     "img": "01605.webp",
     "g": "Acción-aventura, shooter en tercera persona",
@@ -4010,26 +4034,26 @@
   {
     "id": "01736",
     "n": "Crimson Desert",
-    "t": "135 Gb",
+    "t": "88.7 Gb",
     "p": "PS5",
     "img": "01736.webp",
     "g": "Acción, Aventura",
     "r": "•Tener la Consola Liberada",
     "pr": 1500,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01506",
-    "n": "Crimson Desert [HV]",
-    "t": "69.3 Gb",
+    "n": "Crimson Desert Deluxe Edition",
+    "t": "81.3 Gb",
     "p": "PC",
     "img": "01506.webp",
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Ryzen 5 2600X / i5-8500\n•Memoria: 16 GB RAM\n•Gráficos: RX 5500 XT / GTX 1060\n•DirectX: Version 12\n•Almacenamiento: 150 GB available space\n•Sistema Operativo: und Card:  Windows Compatible Audio Device",
-    "pr": 200,
+    "pr": 300,
     "a": "2026",
-    "e": ""
+    "e": "true"
   },
   {
     "id": "01739",
@@ -4051,7 +4075,7 @@
     "img": "01831.webp",
     "g": "Acción, Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -4207,7 +4231,7 @@
     "img": "01768.webp",
     "g": "Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -4519,7 +4543,7 @@
     "img": "01776.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2015",
     "e": ""
   },
@@ -5191,7 +5215,7 @@
     "img": "01838.webp",
     "g": "Action RPG",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2018",
     "e": ""
   },
@@ -5479,7 +5503,7 @@
     "img": "01839.webp",
     "g": "Rol, Estrategia",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2017",
     "e": ""
   },
@@ -5551,7 +5575,7 @@
     "img": "01845.webp",
     "g": "Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2016",
     "e": ""
   },
@@ -5599,7 +5623,7 @@
     "img": "01772.webp",
     "g": "Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2020",
     "e": ""
   },
@@ -5755,7 +5779,7 @@
     "img": "01778.webp",
     "g": "Acción, Aventura, Casual, Massively Multiplayer",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2016",
     "e": ""
   },
@@ -5887,7 +5911,7 @@
     "img": "01841.webp",
     "g": "Action RPG",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2019",
     "e": ""
   },
@@ -6151,7 +6175,7 @@
     "img": "01842.webp",
     "g": "Acción, Survival, Open World",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2021",
     "e": ""
   },
@@ -6187,14 +6211,14 @@
     "img": "01843.webp",
     "g": "Deportes",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2024",
     "e": ""
   },
   {
     "id": "01606",
     "n": "EA SPORTS FC 26",
-    "t": "167.6 Gb",
+    "t": "75.1 Gb",
     "p": "PS5",
     "img": "01606.webp",
     "g": "Deportes, fútbol",
@@ -6223,7 +6247,7 @@
     "img": "01508.webp",
     "g": "Simulación, Deportes",
     "r": "•Sistema Operativo: Windows 10/11 - 64-Bit (Latest Update).\n•Procesador: AMD Ryzen 5 1600 or Intel Core i5 6600k\n•Memoria: 8 GB RAM\n•Gráficos: AMD RX 570 or Nvidia GTX 1050 Ti\n•DirectX: Version 12\n•Almacenamiento: 100 GB available space\n•Sistema Operativo: und Card:  DirectX: 12 Compatible video card or equivalent (feature level 12_0)",
-    "pr": 500,
+    "pr": 200,
     "a": "2025",
     "e": ""
   },
@@ -6262,6 +6286,18 @@
     "pr": 100,
     "a": "2026",
     "e": ""
+  },
+  {
+    "id": "01959",
+    "n": "eBaseball PRO SPIRIT",
+    "t": "44 Gb",
+    "p": "PC",
+    "img": "01959.webp",
+    "g": "Deportes",
+    "r": "",
+    "pr": 500,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "01331",
@@ -7934,7 +7970,7 @@
   {
     "id": "01637",
     "n": "Furi",
-    "t": "1.9 Gb",
+    "t": "2.1 Gb",
     "p": "PS5",
     "img": "01637.webp",
     "g": "Acción, hack and slash, boss rush",
@@ -8114,7 +8150,7 @@
   {
     "id": "01610",
     "n": "Ghost Of Yōtei",
-    "t": "154.2 Gb",
+    "t": "95.9 Gb",
     "p": "PS5",
     "img": "01610.webp",
     "g": "Acción-aventura, mundo abierto",
@@ -8282,7 +8318,7 @@
   {
     "id": "01644",
     "n": "God Of War Ragnarok",
-    "t": "92.5 Gb",
+    "t": "100.3 Gb",
     "p": "PS5",
     "img": "01644.webp",
     "g": "Acción-aventura, mitología nórdica",
@@ -8378,7 +8414,7 @@
   {
     "id": "01646",
     "n": "Grand Theft Auto San Andreas - The Definitive Edition",
-    "t": "22.2 Gb",
+    "t": "23.8 Gb",
     "p": "PS5",
     "img": "01646.webp",
     "g": "Acción, mundo abierto retro",
@@ -8390,7 +8426,7 @@
   {
     "id": "01645",
     "n": "Grand Theft Auto V",
-    "t": "85.2 Gb",
+    "t": "87.3 Gb",
     "p": "PS5",
     "img": "01645.webp",
     "g": "Acción-aventura, mundo abierto",
@@ -9134,12 +9170,12 @@
   {
     "id": "01711",
     "n": "Hello Neighbor 2",
-    "t": "4.8 Gb",
+    "t": "5.6 Gb",
     "p": "PS5",
     "img": "01711.webp",
     "g": "Sigilo, terror ligero",
     "r": "",
-    "pr": 500,
+    "pr": 1500,
     "a": "2022",
     "e": ""
   },
@@ -9362,7 +9398,7 @@
   {
     "id": "01712",
     "n": "Hogwarts Legacy",
-    "t": "77.6 Gb",
+    "t": "90.0 Gb",
     "p": "PS5",
     "img": "01712.webp",
     "g": "RPG de acción, mundo abierto",
@@ -9379,7 +9415,7 @@
     "img": "01784.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2023",
     "e": ""
   },
@@ -9811,7 +9847,7 @@
     "img": "01786.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -10417,8 +10453,8 @@
   },
   {
     "id": "01930",
-    "n": "Kingdom Come Deliverance 2",
-    "t": "108.6 Gb",
+    "n": "Kingdom Come Deliverance II",
+    "t": "108.7 Gb",
     "p": "PS5",
     "img": "01930.webp",
     "g": "Acción, Aventura, Rol",
@@ -10447,7 +10483,7 @@
     "img": "01846.webp",
     "g": "Rol, Open World",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2024",
     "e": ""
   },
@@ -10749,7 +10785,7 @@
     "r": "•OS:  Windows 11\n•Processor:  Intel Core i5-10600K or AMD Ryzen 5 1600\n•Memory:  16 GB RAM\n•Graphics:  NVIDIA GeForce GTX 960, 4 GB or AMD Radeon RX 6400, 4 GB or Intel Arc A580, 8 GB\n•Storage:  50 GB available space",
     "pr": 200,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00767",
@@ -10778,7 +10814,7 @@
   {
     "id": "01713",
     "n": "Lego Horizon Adventures",
-    "t": "12.8 Gb",
+    "t": "14.2 Gb",
     "p": "PS5",
     "img": "01713.webp",
     "g": "Acción-aventura, plataformas",
@@ -10934,7 +10970,7 @@
   {
     "id": "01701",
     "n": "Lies Of P",
-    "t": "32.1 Gb",
+    "t": "34.9 Gb",
     "p": "PS5",
     "img": "01701.webp",
     "g": "RPG de acción, Soulslike",
@@ -11546,7 +11582,7 @@
   {
     "id": "01608",
     "n": "Mafia The Old Country",
-    "t": "70.1 Gb",
+    "t": "40.2 Gb",
     "p": "PS5",
     "img": "01608.webp",
     "g": "Acción-aventura, narrativa",
@@ -11695,7 +11731,7 @@
     "img": "01852.webp",
     "g": "Carreras",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2017",
     "e": ""
   },
@@ -12326,7 +12362,7 @@
   {
     "id": "01957",
     "n": "Metal Gear Solid Δ Snake Eater",
-    "t": "85.5 Gb",
+    "t": "92.9 Gb",
     "p": "PS5",
     "img": "01957.webp",
     "g": "Acción, Aventura",
@@ -12415,7 +12451,7 @@
     "img": "01859.webp",
     "g": "Acción, Aventura, FPS",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2025",
     "e": ""
   },
@@ -12703,14 +12739,14 @@
     "img": "01850.webp",
     "g": "Deportes",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2026",
     "e": ""
   },
   {
     "id": "01660",
     "n": "MLB The Show 26",
-    "t": "100.0 Gb",
+    "t": "100.8 Gb",
     "p": "PS5",
     "img": "01660.webp",
     "g": "Deportes",
@@ -12763,7 +12799,7 @@
     "img": "01792.webp",
     "g": "Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -12799,7 +12835,7 @@
     "img": "01793.webp",
     "g": "Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2024",
     "e": ""
   },
@@ -12938,7 +12974,7 @@
   {
     "id": "01662",
     "n": "Mortal Kombat 1",
-    "t": "115.3 Gb",
+    "t": "126.7 Gb",
     "p": "PS5",
     "img": "01662.webp",
     "g": "Lucha",
@@ -12967,7 +13003,7 @@
     "img": "01862.webp",
     "g": "Fighting",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2023",
     "e": ""
   },
@@ -12991,7 +13027,7 @@
     "img": "01794.webp",
     "g": "Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2019",
     "e": ""
   },
@@ -13495,7 +13531,7 @@
     "img": "01863.webp",
     "g": "Fighting, Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2020",
     "e": ""
   },
@@ -14023,7 +14059,7 @@
     "img": "01866.webp",
     "g": "Action RPG",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -14203,7 +14239,7 @@
     "img": "01795.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2016",
     "e": ""
   },
@@ -14654,7 +14690,7 @@
   {
     "id": "01719",
     "n": "Outer Wilds",
-    "t": "3.8 Gb",
+    "t": "4.9 Gb",
     "p": "PS5",
     "img": "01719.webp",
     "g": "Aventura, exploración espacial",
@@ -14743,7 +14779,7 @@
     "img": "01868.webp",
     "g": "Party, Cooking, Co‑op",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2021",
     "e": ""
   },
@@ -15307,7 +15343,7 @@
     "img": "01874.webp",
     "g": "Rol, Open World",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -15355,7 +15391,7 @@
     "img": "01872.webp",
     "g": "Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2019",
     "e": ""
   },
@@ -15379,7 +15415,7 @@
     "img": "01877.webp",
     "g": "Rol, Open World",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -15518,14 +15554,14 @@
   {
     "id": "01759",
     "n": "Pragmata",
-    "t": "60 Gb",
+    "t": "35.9 Gb",
     "p": "PS5",
     "img": "01759.webp",
     "g": "Acción, Aventura",
     "r": "•Tener la Consola Liberada",
     "pr": 1500,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01427",
@@ -15554,7 +15590,7 @@
   {
     "id": "01674",
     "n": "Prince Of Persia The Lost Crown",
-    "t": "21.3 Gb",
+    "t": "24.0 Gb",
     "p": "PS5",
     "img": "01674.webp",
     "g": "Metroidvania, acción-aventura",
@@ -15926,14 +15962,14 @@
   {
     "id": "01929",
     "n": "Ratchet and Clank Rift Apart",
-    "t": "35 Gb",
+    "t": "35.7 Gb",
     "p": "PS5",
     "img": "01929.webp",
     "g": "Acción, Aventura",
     "r": "",
     "pr": 1500,
     "a": "2023",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00909",
@@ -16082,7 +16118,7 @@
   {
     "id": "01907",
     "n": "Reanimal",
-    "t": "20 Gb",
+    "t": "12.1 Gb",
     "p": "PS5",
     "img": "01907.webp",
     "g": "Aventura",
@@ -16111,14 +16147,14 @@
     "img": "01803.webp",
     "g": "Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2024",
     "e": ""
   },
   {
     "id": "01904",
     "n": "Red Dead Redemption",
-    "t": "8.9 Gb",
+    "t": "9.0 Gb",
     "p": "PS5",
     "img": "01904.webp",
     "g": "Acción",
@@ -16159,7 +16195,7 @@
     "img": "01804.webp",
     "g": "",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2018",
     "e": ""
   },
@@ -16363,7 +16399,7 @@
     "img": "01805.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2023",
     "e": ""
   },
@@ -16423,7 +16459,7 @@
     "img": "01806.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2009",
     "e": ""
   },
@@ -16447,7 +16483,7 @@
     "img": "01801.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2013",
     "e": ""
   },
@@ -16514,7 +16550,7 @@
   {
     "id": "01734",
     "n": "Resident Evil Requiem",
-    "t": "122.0 Gb",
+    "t": "77.5 Gb",
     "p": "PS5",
     "img": "01734.webp",
     "g": "Acción, Aventura, terror",
@@ -17126,14 +17162,14 @@
   {
     "id": "01905",
     "n": "SAROS",
-    "t": "150 Gb",
+    "t": "82.5 Gb",
     "p": "PS5",
     "img": "01905.webp",
     "g": "Acción",
     "r": "",
     "pr": 1500,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00956",
@@ -17431,7 +17467,7 @@
     "img": "01808.webp",
     "g": "Aventura, Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2024",
     "e": ""
   },
@@ -18175,7 +18211,7 @@
     "img": "01811.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -18451,7 +18487,7 @@
     "img": "01879.webp",
     "g": "Disparos, Multiplayer",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },
@@ -18487,7 +18523,7 @@
     "img": "01885.webp",
     "g": "Plataformas, Aventura",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2020",
     "e": ""
   },
@@ -19291,7 +19327,7 @@
     "img": "01890.webp",
     "g": "Fighting",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2018",
     "e": ""
   },
@@ -19634,7 +19670,7 @@
   {
     "id": "01730",
     "n": "Tekken 8",
-    "t": "86.3 Gb",
+    "t": "93.2 Gb",
     "p": "PS5",
     "img": "01730.webp",
     "g": "Lucha",
@@ -20294,7 +20330,7 @@
   {
     "id": "01732",
     "n": "The Last Of Us Part I",
-    "t": "68.3 Gb",
+    "t": "76.4 Gb",
     "p": "PS5",
     "img": "01732.webp",
     "g": "Acción-aventura, survival",
@@ -20306,7 +20342,7 @@
   {
     "id": "01692",
     "n": "The Last Of Us Parte II Remastered",
-    "t": "81.6 Gb",
+    "t": "90.3 Gb",
     "p": "PS5",
     "img": "01692.webp",
     "g": "Acción-aventura, survival",
@@ -20359,7 +20395,7 @@
     "img": "01892.webp",
     "g": "Acción, Aventura, Open World",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2017",
     "e": ""
   },
@@ -20407,7 +20443,7 @@
     "img": "01891.webp",
     "g": "Acción, Aventura, Open World",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2023",
     "e": ""
   },
@@ -20767,7 +20803,7 @@
     "img": "01815.webp",
     "g": "Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2015",
     "e": ""
   },
@@ -21343,7 +21379,7 @@
     "img": "01816.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2020",
     "e": ""
   },
@@ -21667,7 +21703,7 @@
     "img": "01817.webp",
     "g": "Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2020",
     "e": ""
   },
@@ -21914,7 +21950,7 @@
   {
     "id": "01629",
     "n": "UFC 5",
-    "t": "35.5 Gb",
+    "t": "35.7 Gb",
     "p": "PS5",
     "img": "01629.webp",
     "g": "Deportes",
@@ -22022,7 +22058,7 @@
   {
     "id": "01609",
     "n": "Uncharted 4 Legacy of Thieves Collection",
-    "t": "78.8 Gb",
+    "t": "86.9 Gb",
     "p": "PS5",
     "img": "01609.webp",
     "g": "Acción-aventura, plataformas 3D",
@@ -22058,12 +22094,12 @@
   {
     "id": "01697",
     "n": "Undefeated",
-    "t": "2.2 Gb",
+    "t": "6.0 Gb",
     "p": "PS5",
     "img": "01697.webp",
     "g": "Acción superhéroes, indie",
     "r": "",
-    "pr": 500,
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -22915,7 +22951,7 @@
     "img": "01818.webp",
     "g": "Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2017",
     "e": ""
   },
@@ -23035,7 +23071,7 @@
     "img": "01819.webp",
     "g": "Acción",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2021",
     "e": ""
   },
@@ -23047,7 +23083,7 @@
     "img": "01588.webp",
     "g": "MMORPG, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i5-3450 / AMD FX 8300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 760 / AMD Radeon RX 560\n•DirectX: Version 12\n•Almacenamiento: 15 GB available space",
-    "pr": 1000,
+    "pr": 250,
     "a": "2024",
     "e": ""
   },
@@ -23059,7 +23095,7 @@
     "img": "01590.webp",
     "g": "MMORPG, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i5-3450 / AMD FX 8300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 970 / AMD Radeon RX 570\n•DirectX: Version 12\n•Almacenamiento: 120 GB available space",
-    "pr": 1000,
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
@@ -23071,7 +23107,7 @@
     "img": "01591.webp",
     "g": "MMORPG, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 7/8/10\n•Procesador: Intel Core i5-3330 / AMD FX-6300\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce GTX 750 Ti / AMD Radeon R7 260X\n•DirectX: Version 11\n•Almacenamiento: 55 GB available space",
-    "pr": 1000,
+    "pr": 250,
     "a": "2016",
     "e": ""
   },
@@ -23083,7 +23119,7 @@
     "img": "01589.webp",
     "g": "MMORPG, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i5-3450 / AMD FX 8300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 760 / AMD Radeon RX 560\n•DirectX: Version 12\n•Almacenamiento: 30 GB available space",
-    "pr": 1000,
+    "pr": 250,
     "a": "2024",
     "e": ""
   },
@@ -23095,7 +23131,7 @@
     "img": "01587.webp",
     "g": "MMORPG, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i7-7600K / AMD Ryzen 5 2600X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1070 / AMD Radeon RX 5500 XT\n•DirectX: Version 12\n•Almacenamiento: 128 GB available space",
-    "pr": 1000,
+    "pr": 500,
     "a": "2024",
     "e": ""
   },
@@ -23107,7 +23143,7 @@
     "img": "01592.webp",
     "g": "MMORPG, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel Core i5-3450 / AMD FX 8300\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 760 / AMD Radeon RX 560\n•DirectX: Version 12\n•Almacenamiento: 25 GB available space",
-    "pr": 1000,
+    "pr": 250,
     "a": "2022",
     "e": ""
   },
@@ -23148,6 +23184,18 @@
     "e": ""
   },
   {
+    "id": "01958",
+    "n": "WWE 2k22",
+    "t": "43.9 Gb",
+    "p": "PS5",
+    "img": "01958.webp",
+    "g": "Deportes, Lucha libre",
+    "r": "",
+    "pr": 1500,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "01268",
     "n": "WWE 2K24",
     "t": "89.2 Gb",
@@ -23168,18 +23216,6 @@
     "g": "Deportes, Lucha libre",
     "r": "•Sistema Operativo: Windows 10/11\n•Procesador: Intel i5-8400 / Ryzen 5 2600\n•Memoria: 16 GB RAM\n•Gráficos: GTX 1070 / RX 590\n•DirectX: Version 12\n•Almacenamiento: 90 GB",
     "pr": 300,
-    "a": "2025",
-    "e": ""
-  },
-  {
-    "id": "01958",
-    "n": "WWE 2k22",
-    "t": "43.9 Gb",
-    "p": "PS5",
-    "img": "01958.webp",
-    "g": "Deportes, Lucha libre",
-    "r": "",
-    "pr": 1500,
     "a": "2025",
     "e": ""
   },
@@ -23227,7 +23263,7 @@
     "img": "01899.webp",
     "g": "Rol",
     "r": "",
-    "pr": 100,
+    "pr": 150,
     "a": "2022",
     "e": ""
   },

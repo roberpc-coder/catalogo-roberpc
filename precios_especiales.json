@@ -1,0 +1,72 @@
+{
+  "00002": {
+    "nombre": "2kCuba 25",
+    "plataforma": "PC",
+    "precio": 250
+  },
+  "01931": {
+    "nombre": "Assassins Creed Black Flag Resynced [HV]",
+    "plataforma": "PC",
+    "precio": 500
+  },
+  "01596": {
+    "nombre": "Albion Online",
+    "plataforma": "PC Online",
+    "precio": 500
+  },
+  "01926": {
+    "nombre": "Call of Duty 9 Black Ops II [Offline Lan]",
+    "plataforma": "PC Online",
+    "precio": 250
+  },
+  "01927": {
+    "nombre": "Call of Duty 8 Modern Warfare 3MP [Offline Lan]",
+    "plataforma": "PC Online",
+    "precio": 250
+  },
+  "01924": {
+    "nombre": "Battlefield 3 Online [Zolemu y Fairplay]",
+    "plataforma": "PC Online",
+    "precio": 500
+  },
+  "01925": {
+    "nombre": "Battlefield 4 Online Zolemu",
+    "plataforma": "PC Online",
+    "precio": 500
+  },
+  "01591": {
+    "nombre": "Wow Legion",
+    "plataforma": "PC Online",
+    "precio": 250
+  },
+  "01588": {
+    "nombre": "Wow Cataclysm",
+    "plataforma": "PC Online",
+    "precio": 250
+  },
+  "01590": {
+    "nombre": "Wow Dragon Flight",
+    "plataforma": "PC Online",
+    "precio": 500
+  },
+  "01589": {
+    "nombre": "Wow Pandaria",
+    "plataforma": "PC Online",
+    "precio": 250
+  },
+  "01587": {
+    "nombre": "Wow The War Within",
+    "plataforma": "PC Online",
+    "precio": 500
+  },
+  "01592": {
+    "nombre": "Wow Wrath Of The Lich King",
+    "plataforma": "PC Online",
+    "precio": 250
+  },
+  "01959": {
+    "nombre": "eBaseball PRO SPIRIT",
+    "plataforma": "PC",
+    "precio": 500
+  }
+}
