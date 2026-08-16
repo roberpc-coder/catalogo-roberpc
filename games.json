@@ -1212,6 +1212,18 @@
     "e": ""
   },
   {
+    "id": "01931",
+    "n": "Assassin's Creed Black Flag Resynced",
+    "t": "68 Gb",
+    "p": "PC",
+    "img": "01931.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "•GPU: NVIDIA GeForce GTX 1660 (6 GB), AMD Radeon RX 5500 XT (8 GB) o Intel ARC A580 (8 GB)\n•CPU: AMD Ryzen 5 3600 @ 3.6 GHz o Intel Core i7‑8700K @ 3.7 GHz\n•RAM: 16 GB (doble canal)\n•SSD: 65 GB\n•SO: Windows 10 o Windows 11 (64 bits)\n•DirectX: 12",
+    "pr": 500,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00092",
     "n": "Assassin's Creed Chronicles Trilogy",
     "t": "8.3 Gb",
@@ -1246,18 +1258,6 @@
     "pr": 100,
     "a": "2019",
     "e": ""
-  },
-  {
-    "id": "01931",
-    "n": "Assassins Creed Black Flag Resynced [HV]",
-    "t": "66 Gb",
-    "p": "PC",
-    "img": "01931.webp",
-    "g": "Acción, Aventura, Rol",
-    "r": "•GPU: NVIDIA GeForce GTX 1660 (6 GB), AMD Radeon RX 5500 XT (8 GB) o Intel ARC A580 (8 GB)\n•CPU: AMD Ryzen 5 3600 @ 3.6 GHz o Intel Core i7‑8700K @ 3.7 GHz\n•RAM: 16 GB (doble canal)\n•SSD: 65 GB\n•SO: Windows 10 o Windows 11 (64 bits)\n•DirectX: 12",
-    "pr": 500,
-    "a": "2026",
-    "e": "true"
   },
   {
     "id": "01933",
@@ -1992,18 +1992,6 @@
     "e": ""
   },
   {
-    "id": "01961",
-    "n": "Beast of Reincarnation Digital Deluxe Edition",
-    "t": "50 Gb",
-    "p": "PS5",
-    "img": "01961.webp",
-    "g": "Acción, Aventura, Rol",
-    "r": "",
-    "pr": 1500,
-    "a": "2026",
-    "e": "true"
-  },
-  {
     "id": "01960",
     "n": "Beast of Reincarnation Deluxe Edition",
     "t": "28 Gb",
@@ -2012,6 +2000,18 @@
     "g": "Acción, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10 | 11\n•Procesador: Intel Core i5-8400 o AMD Ryzen 5 3600\n•Memoria: 16 Gigas de RAM\n•Gráficos: NVIDIA GeForce GTX 1070 (8 Gigas) o AMD Radeon RX 580 (8 Gigas)\n•DirectX: Versión 12\n•Almacenamiento: 45 Gigas de espacio disponible",
     "pr": 200,
+    "a": "2026",
+    "e": "true"
+  },
+  {
+    "id": "01961",
+    "n": "Beast of Reincarnation Digital Deluxe Edition",
+    "t": "50 Gb",
+    "p": "PS5",
+    "img": "01961.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "",
+    "pr": 1500,
     "a": "2026",
     "e": "true"
   },
@@ -2624,6 +2624,18 @@
     "g": "Aventura, Casual",
     "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i7-6700 (4 * 3400), AMD Ryzen 5 1500X (4 * 3500)\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GTX1650 GPU with 8 GB Dedicated RAM\n•DirectX: Version 11\n•Almacenamiento: 35 GB available space",
     "pr": 100,
+    "a": "2024",
+    "e": ""
+  },
+  {
+    "id": "01962",
+    "n": "Brothers A Tale Of Two Sons Remake",
+    "t": "17.8 Gb",
+    "p": "PS5",
+    "img": "01962.webp",
+    "g": "Aventura, Casual",
+    "r": "",
+    "pr": 1500,
     "a": "2024",
     "e": ""
   },
@@ -4560,6 +4572,18 @@
     "e": ""
   },
   {
+    "id": "01649",
+    "n": "Darksiders Warmastered Edition",
+    "t": "26.6 Gb",
+    "p": "PS5",
+    "img": "01649.webp",
+    "g": "Violencia, Acción, Aventura, Rol",
+    "r": "",
+    "pr": 500,
+    "a": "2016",
+    "e": ""
+  },
+  {
     "id": "00218",
     "n": "Darkwood",
     "t": "2.4 Gb",
@@ -5073,6 +5097,18 @@
     "r": "•Sistema Operativo: Windows 10 (64 bit)\n•Procesador: AMD / Intel CPU running at 3.0 GHz or higher: AMD Kaveri A10-7850K or Intel Pentium DualCore G3220 or newer is recommended / Ryzen 5 2400G (for systems using an integrated GPU)\n•Memoria: 8 GB RAM\n•Gráficos: AMD/NVIDIA dedicated graphics card, with at least 4GB of dedicated VRAM and with at least DirectX 11.0 and Shader Model 5.1 support\n•DirectX: Version 11\n•Almacenamiento: 50 GB available space\n•Sistema Operativo: und Card:  Integrated or dedicated DirectX 9 compatible soundcard",
     "pr": 200,
     "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01973",
+    "n": "Destruction Allstars",
+    "t": "27.0 Gb",
+    "p": "PS5",
+    "img": "01973.webp",
+    "g": "Acción, Vehículos, Multijugador",
+    "r": "",
+    "pr": 1500,
+    "a": "2021",
     "e": ""
   },
   {
@@ -6157,7 +6193,7 @@
   },
   {
     "id": "01949",
-    "n": "Dying Light 2 Stay Human Rais Bundle",
+    "n": "Dying Light 2 Stay Human",
     "t": "49.8 Gb",
     "p": "PS5",
     "img": "01949.webp",
@@ -6295,7 +6331,7 @@
     "img": "01959.webp",
     "g": "Deportes",
     "r": "",
-    "pr": 500,
+    "pr": 200,
     "a": "2026",
     "e": "true"
   },
@@ -6672,6 +6708,18 @@
     "e": ""
   },
   {
+    "id": "01974",
+    "n": "Evil Dead The Game",
+    "t": "5.2 Gb",
+    "p": "PS5",
+    "img": "01974.webp",
+    "g": "Terror, Acción, Cooperativo",
+    "r": "",
+    "pr": 1500,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "00318",
     "n": "Evil West",
     "t": "27.3 Gb",
@@ -6789,6 +6837,18 @@
     "r": "•Sistemas Operativos: Windows 10 64-bit (Versión 1909)\n•Procesador: Intel Core i3-2130 o AMD FX 4300\n•Memoria: 8 Gigas de RAM\n•Gráficos: NVIDIA GTX 1050 Ti o AMD RX 470\n•DirectX: Versión 12\n•Almacenamiento: 80 Gigas de espacio disponible",
     "pr": 200,
     "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01975",
+    "n": "F1 23",
+    "t": "60.9 Gb",
+    "p": "PS5",
+    "img": "01975.webp",
+    "g": "Carreras, Simulación",
+    "r": "",
+    "pr": 1500,
+    "a": "2023",
     "e": ""
   },
   {
@@ -7788,6 +7848,18 @@
     "e": ""
   },
   {
+    "id": "01963",
+    "n": "Forspoken",
+    "t": "93.9 Gb",
+    "p": "PS5",
+    "img": "01963.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "",
+    "pr": 1500,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "00780",
     "n": "Forza Horizon 3 Ultimate Edition",
     "t": "43.6 Gb",
@@ -7845,7 +7917,7 @@
     "r": "•OS: Windows 10/11\n•Processor: Intel Core i5-8400 / AMD Ryzen 5 1600\n•Memory: 16 GB RAM\n•Graphics: NVIDIA GeForce GTX 1650 / AMD Radeon RX 6500 XT\n•DirectX: Version 12\n•Storage: 160 GB available space\n•Additional Notes: The game must be installed on a SSD",
     "pr": 500,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00397",
@@ -7993,7 +8065,7 @@
   },
   {
     "id": "01639",
-    "n": "Gamedec",
+    "n": "Gamedec Definitive Edition",
     "t": "6.1 Gb",
     "p": "PS5",
     "img": "01639.webp",
@@ -8172,6 +8244,18 @@
     "e": ""
   },
   {
+    "id": "01977",
+    "n": "Ghostbusters Spirits Unleashed",
+    "t": "10.0 Gb",
+    "p": "PS5",
+    "img": "01977.webp",
+    "g": "Acción, Multijugador Asimétrico",
+    "r": "",
+    "pr": 1500,
+    "a": "2022",
+    "e": ""
+  },
+  {
     "id": "01642",
     "n": "Ghostrunner 2",
     "t": "10.6 Gb",
@@ -8325,6 +8409,18 @@
     "r": "",
     "pr": 1500,
     "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "01978",
+    "n": "Godfall",
+    "t": "22.8 Gb",
+    "p": "PS5",
+    "img": "01978.webp",
+    "g": "RPG de Acción, Looter-Slasher",
+    "r": "",
+    "pr": 1500,
+    "a": "2020",
     "e": ""
   },
   {
@@ -8880,6 +8976,18 @@
     "e": ""
   },
   {
+    "id": "01982",
+    "n": "Halo Campaign Evolved",
+    "t": "74 Gb",
+    "p": "PC",
+    "img": "01982.webp",
+    "g": "Acción, Aventura",
+    "r": "•Sistema Operativo: Windows 11\n•Procesador: AMD Ryzen 5 3600 o Intel Core i7-10700K\n•Memoria: 16 Gigas de RAM\n•Gráficos: AMD Radeon RX 6600, Intel Arc A580 o Nvidia Ge-Force RTX 2060 Super\n•Almacenamiento: 100 Gigas de espacio disponible",
+    "pr": 300,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00486",
     "n": "Halo Combat Evolved",
     "t": "0.6 Gb",
@@ -9013,7 +9121,7 @@
   },
   {
     "id": "01634",
-    "n": "Harvest Day",
+    "n": "Harvest Days",
     "t": "0.8 Gb",
     "p": "PS5",
     "img": "01634.webp",
@@ -9092,6 +9200,18 @@
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 10/11 64-bit\n•Procesador: Intel Core i7-7700K or AMD Ryzen 3 3300X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1070, 8GB or AMD Radeon RX 5600 XT, 6GB or Intel Arc A750, 8GB\n•DirectX: Version 12\n•Almacenamiento: 30 GB available space\n•Sistema Operativo: und Card:  Windows Compatible Audio Device",
     "pr": 200,
+    "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01964",
+    "n": "Hell Is Us",
+    "t": "22.9 Gb",
+    "p": "PS5",
+    "img": "01964.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 1500,
     "a": "2025",
     "e": ""
   },
@@ -9600,12 +9720,12 @@
     "e": ""
   },
   {
-    "id": "01649",
-    "n": "Hot Wheels Monster Trucks",
-    "t": "2.6 Gb",
+    "id": "01979",
+    "n": "Hot Wheels Monster Trucks Stunt Mayhem",
+    "t": "3.2 Gb",
     "p": "PS5",
-    "img": "01649.webp",
-    "g": "Carreras arcade",
+    "img": "01979.webp",
+    "g": "Carreras Arcade, Infantil",
     "r": "",
     "pr": 500,
     "a": "2024",
@@ -10849,7 +10969,7 @@
   },
   {
     "id": "00550",
-    "n": "Lego Marvels Avengers",
+    "n": "Lego Marvel Avengers",
     "t": "64.9 Gb",
     "p": "PC",
     "img": "00550.webp",
@@ -10861,7 +10981,7 @@
   },
   {
     "id": "01952",
-    "n": "Lego Marvels Avengers",
+    "n": "Lego Marvel Avengers",
     "t": "65.6 Gb",
     "p": "PS5",
     "img": "01952.webp",
@@ -11133,6 +11253,18 @@
     "r": "",
     "pr": 100,
     "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01965",
+    "n": "Little Nightmares III",
+    "t": "16.3 Gb",
+    "p": "PS5",
+    "img": "01965.webp",
+    "g": "Aventura",
+    "r": "",
+    "pr": 1500,
+    "a": "2017",
     "e": ""
   },
   {
@@ -11820,6 +11952,18 @@
     "e": ""
   },
   {
+    "id": "01980",
+    "n": "Marvel Avengers",
+    "t": "65.6 Gb",
+    "p": "PS5",
+    "img": "01980.webp",
+    "g": "Acción, Aventura, Cooperativo",
+    "r": "",
+    "pr": 1500,
+    "a": "2020",
+    "e": ""
+  },
+  {
     "id": "01408",
     "n": "Marvel Cosmic Invasion",
     "t": "0.4 Gb",
@@ -12288,6 +12432,18 @@
     "e": ""
   },
   {
+    "id": "00864",
+    "n": "Metal Gear Solid Delta Snake Eater",
+    "t": "73.7 Gb",
+    "p": "PC",
+    "img": "00864.webp",
+    "g": "Acción, Aventura",
+    "r": "•Sistema Operativo: Windows® 10, Windows® 11 (64-bit OS required)\n•Procesador: Intel i5-8600 or AMD Ryzen 5 3600\n•Memoria: 16 GB RAM\n•Gráficos: RTX 2060 Super (8GB)\n•DirectX: Version 12\n•Almacenamiento: 118 GB available space",
+    "pr": 300,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "01790",
     "n": "Metal Gear Solid Master Collection Version",
     "t": "7.7 Gb",
@@ -12345,18 +12501,6 @@
     "r": "•Sistema Operativo: Windows 7x64, Windows 8x64, Windows 10x64 (64-bit OS Required)\n•Procesador: Intel Core i5-4460 (3.40 GHz) or better; Quad-core or better\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce GTX 650 (2GB) or better (DirectX 11 card Required)\n•DirectX: Version 11\n•Almacenamiento: 28 GB available space\n•Sistema Operativo: und Card:  DirectX 9.0c compatible sound card",
     "pr": 200,
     "a": "2015",
-    "e": ""
-  },
-  {
-    "id": "00864",
-    "n": "Metal Gear Solid Δ Snake Eater",
-    "t": "73.7 Gb",
-    "p": "PC",
-    "img": "00864.webp",
-    "g": "Acción, Aventura",
-    "r": "•Sistema Operativo: Windows® 10, Windows® 11 (64-bit OS required)\n•Procesador: Intel i5-8600 or AMD Ryzen 5 3600\n•Memoria: 16 GB RAM\n•Gráficos: RTX 2060 Super (8GB)\n•DirectX: Version 12\n•Almacenamiento: 118 GB available space",
-    "pr": 300,
-    "a": "2025",
     "e": ""
   },
   {
@@ -12861,6 +13005,18 @@
     "r": "•Sistema Operativo: Windows®11 (64-bit Required)\n•Procesador: Intel® Core™ i3-9100 or AMD Ryzen™ 3 3200G\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce GTX 1660(VRAM 6GB) or AMD Radeon RX 5500 XT(VRAM 8GB)\n•DirectX: Version 12\n•Almacenamiento: 50 GB available space",
     "pr": 200,
     "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "01966",
+    "n": "Monster Hunter Wilds",
+    "t": "66.5 Gb",
+    "p": "PS5",
+    "img": "01966.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "",
+    "pr": 1500,
+    "a": "2025",
     "e": ""
   },
   {
@@ -13584,6 +13740,18 @@
     "e": ""
   },
   {
+    "id": "01967",
+    "n": "Nba 2k26",
+    "t": "116.5 Gb",
+    "p": "PS5",
+    "img": "01967.webp",
+    "g": "Simuladores, Deportes",
+    "r": "",
+    "pr": 1500,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "01519",
     "n": "Nba 2k26 [HV]",
     "t": "68.0 Gb",
@@ -14240,6 +14408,18 @@
     "g": "Acción, Aventura",
     "r": "",
     "pr": 150,
+    "a": "2016",
+    "e": ""
+  },
+  {
+    "id": "01968",
+    "n": "No Mans Sky",
+    "t": "24.2 Gb",
+    "p": "PS5",
+    "img": "01968.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 1500,
     "a": "2016",
     "e": ""
   },
@@ -17568,6 +17748,18 @@
     "e": ""
   },
   {
+    "id": "01969",
+    "n": "Sifu",
+    "t": "7.6 Gb",
+    "p": "PS5",
+    "img": "01969.webp",
+    "g": "Acción, Indie",
+    "r": "",
+    "pr": 1500,
+    "a": "2023",
+    "e": ""
+  },
+  {
     "id": "01002",
     "n": "Silent Hill 2",
     "t": "1.8 Gb",
@@ -17636,6 +17828,18 @@
     "g": "Acción, Aventura",
     "r": "•Sistema Operativo: Windows 11 x64\n•Procesador: Intel Core i5-8400 / AMD Ryzen 5 2600\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA® GeForce® GTX 1070 Ti or AMD Radeon™ RX 5700\n•DirectX: Version 12\n•Almacenamiento: 50 GB available space\n•Sistema Operativo: und Card:  Windows Compatible Audio Device.",
     "pr": 200,
+    "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "01970",
+    "n": "Silent Hill F",
+    "t": "37.6 Gb",
+    "p": "PS5",
+    "img": "01970.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 1500,
     "a": "2025",
     "e": ""
   },
@@ -18216,6 +18420,18 @@
     "e": ""
   },
   {
+    "id": "01981",
+    "n": "Sonic Racing Crossworlds",
+    "t": "13.0 Gb",
+    "p": "PS5",
+    "img": "01981.webp",
+    "g": "Carreras Arcade",
+    "r": "",
+    "pr": 1500,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "01530",
     "n": "Sonic Superstars [HV]",
     "t": "3.6 Gb",
@@ -18708,6 +18924,18 @@
     "e": ""
   },
   {
+    "id": "01971",
+    "n": "Star Wars Outlaws",
+    "t": "66.8 Gb",
+    "p": "PS5",
+    "img": "01971.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 1500,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "01531",
     "n": "Star Wars Outlaws [HV]",
     "t": "42.7 Gb",
@@ -19017,6 +19245,18 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: AMD Ryzen 1600\n•Memoria: 10 GB RAM\n•Gráficos: GTX 1050 Ti\n•Almacenamiento: 5 GB available space",
     "pr": 100,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01976",
+    "n": "Stranger Of Paradise Final Fantasy Origin",
+    "t": "71.2 Gb",
+    "p": "PS5",
+    "img": "01976.webp",
+    "g": "RPG de Acción",
+    "r": "",
+    "pr": 1500,
+    "a": "2022",
     "e": ""
   },
   {
@@ -20016,6 +20256,18 @@
     "e": ""
   },
   {
+    "id": "01972",
+    "n": "The Elder Scrolls IV Oblivion Remastered",
+    "t": "119.5 Gb",
+    "p": "PS5",
+    "img": "01972.webp",
+    "g": "Rol, Mundo abierto",
+    "r": "",
+    "pr": 1500,
+    "a": "2024",
+    "e": ""
+  },
+  {
     "id": "01130",
     "n": "The Elder Scrolls IV Oblivion Remastered",
     "t": "113.1 Gb",
@@ -20089,8 +20341,8 @@
   },
   {
     "id": "01536",
-    "n": "The First Berserker Khazan [HV]",
-    "t": "19.2 Gb",
+    "n": "The First Berserker Khazan",
+    "t": "52.9 Gb",
     "p": "PC",
     "img": "01536.webp",
     "g": "Acción, Aventura, Rol",
@@ -22045,7 +22297,7 @@
   },
   {
     "id": "01242",
-    "n": "Uncharted 4 Legacy of Thieves Collection",
+    "n": "Uncharted Legacy of Thieves Collection",
     "t": "63.8 Gb",
     "p": "PC",
     "img": "01242.webp",
@@ -22057,7 +22309,7 @@
   },
   {
     "id": "01609",
-    "n": "Uncharted 4 Legacy of Thieves Collection",
+    "n": "Uncharted Legacy of Thieves Collection",
     "t": "86.9 Gb",
     "p": "PS5",
     "img": "01609.webp",
@@ -22069,7 +22321,7 @@
   },
   {
     "id": "01922",
-    "n": "Uncharted 4 Legacy of Thieves Collection",
+    "n": "Uncharted Legacy of Thieves Collection",
     "t": "58.0 Gb",
     "p": "PS4",
     "img": "01922.webp",

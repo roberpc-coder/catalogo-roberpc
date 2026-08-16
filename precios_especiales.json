@@ -4,11 +4,6 @@
     "plataforma": "PC",
     "precio": 250
   },
-  "01931": {
-    "nombre": "Assassins Creed Black Flag Resynced [HV]",
-    "plataforma": "PC",
-    "precio": 500
-  },
   "01596": {
     "nombre": "Albion Online",
     "plataforma": "PC Online",
@@ -63,10 +58,5 @@
     "nombre": "Wow Wrath Of The Lich King",
     "plataforma": "PC Online",
     "precio": 250
-  },
-  "01959": {
-    "nombre": "eBaseball PRO SPIRIT",
-    "plataforma": "PC",
-    "precio": 500
   }
 }
