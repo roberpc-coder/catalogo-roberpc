@@ -2371,7 +2371,7 @@
     "img": "01923.webp",
     "g": "",
     "r": "",
-    "pr": 200,
+    "pr": 500,
     "a": "",
     "e": ""
   },
@@ -2959,7 +2959,7 @@
     "img": "01911.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 300,
+    "pr": 500,
     "a": "2015",
     "e": ""
   },
@@ -5702,7 +5702,7 @@
   {
     "id": "01594",
     "n": "Dota 2",
-    "t": "60.0 Gb",
+    "t": "71.4 Gb",
     "p": "PC Online",
     "img": "01594.webp",
     "g": "Acción, Estrategia, Free To Play",
@@ -6271,7 +6271,7 @@
     "img": "01912.webp",
     "g": "Simulación, Deportes",
     "r": "",
-    "pr": 300,
+    "pr": 500,
     "a": "2025",
     "e": ""
   },
@@ -6286,6 +6286,18 @@
     "pr": 200,
     "a": "2025",
     "e": ""
+  },
+  {
+    "id": "01523",
+    "n": "EA SPORTS FC 27",
+    "t": "61.2 Gb",
+    "p": "PC",
+    "img": "01523.webp",
+    "g": "Simulation, Sports",
+    "r": "•OS:  Windows 10/11 - 64-Bit (Latest Update).\n•Processor:  AMD Ryzen 5 1600 or Intel Core i5 6600k\n•Memory:  DDR4 Dual Channel 8 GB RAM\n•Graphics:  AMD RX 570 or Nvidia GTX 1050 Ti\n•DirectX:  Version 12\n•Network:  Broadband Internet connection\n•Storage:  100 GB available space\n•Additional Notes:  Estimated performance when set to \"\"Low\"\" preset: 1280x720 @ 60 FPS SSD Recommended",
+    "pr": 500,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "01548",
@@ -8695,7 +8707,7 @@
     "img": "01917.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 300,
+    "pr": 500,
     "a": "2015",
     "e": ""
   },
@@ -10968,18 +10980,6 @@
     "e": ""
   },
   {
-    "id": "00550",
-    "n": "Lego Marvel Avengers",
-    "t": "64.9 Gb",
-    "p": "PC",
-    "img": "00550.webp",
-    "g": "Acción, Aventura",
-    "r": "•Sistema Operativo: Windows XP/Vista/7/8/10\n•Procesador: Intel Core 2 Quad Q6600 (2.4 GHz) / AMD Phenom x4 9850 (2.5 GHz)\n•Memoria: 4 GB RAM\n•Gráficos: GeForce GT 430 (1024 MB)/ Radeon HD 6850 (1024 MB)\n•DirectX: Version 9.0c\n•Almacenamiento: 14 GB available space\n•Sistema Operativo: und Card:  DirectX compatible",
-    "pr": 200,
-    "a": "2016",
-    "e": ""
-  },
-  {
     "id": "01952",
     "n": "Lego Marvel Avengers",
     "t": "65.6 Gb",
@@ -11949,6 +11949,18 @@
     "r": "•Sistema Operativo: Windows 10 64bit\n•Procesador: Intel Core i5 or equivalent AMD\n•Memoria: 8 GB RAM\n•Gráficos: Nvidia GTX 670 or AMD R9 270X\n•DirectX: Version 11\n•Almacenamiento: 30 GB available space",
     "pr": 200,
     "a": "2022",
+    "e": ""
+  },
+  {
+    "id": "00550",
+    "n": "Marvel Avengers",
+    "t": "64.9 Gb",
+    "p": "PC",
+    "img": "00550.webp",
+    "g": "Acción, Aventura",
+    "r": "•Sistema Operativo: Windows XP/Vista/7/8/10\n•Procesador: Intel Core 2 Quad Q6600 (2.4 GHz) / AMD Phenom x4 9850 (2.5 GHz)\n•Memoria: 4 GB RAM\n•Gráficos: GeForce GT 430 (1024 MB)/ Radeon HD 6850 (1024 MB)\n•DirectX: Version 9.0c\n•Almacenamiento: 14 GB available space\n•Sistema Operativo: und Card:  DirectX compatible",
+    "pr": 200,
+    "a": "2016",
     "e": ""
   },
   {
@@ -15264,18 +15276,6 @@
     "e": ""
   },
   {
-    "id": "01523",
-    "n": "Persona 3 Reload [HV]",
-    "t": "11.5 Gb",
-    "p": "PC",
-    "img": "01523.webp",
-    "g": "Aventura, Rol, Estrategia",
-    "r": "•Sistema Operativo: Windows 10\n•Procesador: Intel Core i5-2300, AMD FX-4350\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 650 Ti, 2 GB; AMD Radeon HD 7850, 2 GB\n•DirectX: Version 12\n•Almacenamiento: 30 GB available space",
-    "pr": 100,
-    "a": "2024",
-    "e": ""
-  },
-  {
     "id": "01987",
     "n": "Persona 3 Reload Premium Edition",
     "t": "19.0 Gb",
@@ -15285,7 +15285,7 @@
     "r": "",
     "pr": 200,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01524",
@@ -15853,8 +15853,8 @@
   },
   {
     "id": "01545",
-    "n": "Prince Of Persia The Lost Crown [HV]",
-    "t": "22.8 Gb",
+    "n": "Prince Of Persia The Lost Crown",
+    "t": "24.8 Gb",
     "p": "PC",
     "img": "01545.webp",
     "g": "Acción, Aventura",
@@ -16423,7 +16423,7 @@
     "img": "01913.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 300,
+    "pr": 500,
     "a": "2019",
     "e": ""
   },
@@ -16675,7 +16675,7 @@
     "img": "01918.webp",
     "g": "Acción y Survival Horror",
     "r": "",
-    "pr": 200,
+    "pr": 500,
     "a": "2023",
     "e": ""
   },
@@ -17647,7 +17647,7 @@
     "img": "01919.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 200,
+    "pr": 500,
     "a": "2018",
     "e": ""
   },
@@ -18955,7 +18955,7 @@
     "img": "01914.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 200,
+    "pr": 500,
     "a": "2019",
     "e": ""
   },
@@ -20995,7 +20995,7 @@
     "img": "01915.webp",
     "g": "Aventura, Casual, Simulación, Free To Play",
     "r": "",
-    "pr": 200,
+    "pr": 500,
     "a": "2020",
     "e": ""
   },
@@ -21139,7 +21139,7 @@
     "img": "01920.webp",
     "g": "Rol, Mundo abierto",
     "r": "",
-    "pr": 200,
+    "pr": 500,
     "a": "2015",
     "e": ""
   },
@@ -22267,7 +22267,7 @@
     "img": "01921.webp",
     "g": "Deportes",
     "r": "",
-    "pr": 200,
+    "pr": 500,
     "a": "",
     "e": ""
   },
@@ -22399,7 +22399,7 @@
     "img": "01922.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 300,
+    "pr": 500,
     "a": "2022",
     "e": ""
   },
