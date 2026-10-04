@@ -12,6 +12,18 @@
     "e": ""
   },
   {
+    "id": "01994",
+    "n": "007 First Light",
+    "t": "50 Gb",
+    "p": "PS5",
+    "img": "01994.webp",
+    "g": "Action, Adventure",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "00001",
     "n": "171",
     "t": "11.7 Gb",
@@ -127,7 +139,7 @@
     "img": "01703.webp",
     "g": "Acción-aventura, sigilo",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -190,6 +202,18 @@
     "pr": 200,
     "a": "2019",
     "e": ""
+  },
+  {
+    "id": "01995",
+    "n": "Ace Combat 8 Wings of Theve",
+    "t": "60 Gb",
+    "p": "PS5",
+    "img": "01995.webp",
+    "g": "simulacion",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00083",
@@ -499,7 +523,7 @@
     "img": "01954.webp",
     "g": "Acción, Aventura, Terror",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -511,7 +535,7 @@
     "img": "01704.webp",
     "g": "Acción-aventura, survival horror",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -631,7 +655,7 @@
     "img": "01932.webp",
     "g": "Acción, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -1257,7 +1281,7 @@
     "r": "•GPU: NVIDIA GeForce GTX 1660 (6 GB), AMD Radeon RX 5500 XT (8 GB) o Intel ARC A580 (8 GB)\n•CPU: AMD Ryzen 5 3600 @ 3.6 GHz o Intel Core i7‑8700K @ 3.7 GHz\n•RAM: 16 GB (doble canal)\n•SSD: 65 GB\n•SO: Windows 10 o Windows 11 (64 bits)\n•DirectX: 12",
     "pr": 200,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01933",
@@ -1267,7 +1291,7 @@
     "img": "01933.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -1279,7 +1303,7 @@
     "img": "01946.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -1303,7 +1327,7 @@
     "img": "01934.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -1375,7 +1399,7 @@
     "img": "01928.webp",
     "g": "Carreras, Simulación, Deportes",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2019",
     "e": ""
   },
@@ -1435,7 +1459,7 @@
     "img": "01602.webp",
     "g": "Plataforma, acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -1531,7 +1555,7 @@
     "img": "01613.webp",
     "g": "Shooter en primera persona",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -1615,7 +1639,7 @@
     "img": "01603.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -1629,7 +1653,7 @@
     "r": "•Sistema Operativo: Windows 10/11 (64-bit versions)\n•Procesador: AMD Ryzen 5 3600 @ 3.6 GHz, Intel Core i7-8700K @ 3.70 GHz, or better\n•Memoria: 16 GB RAM\n•Gráficos: AMD RX 5700 (8 GB), Intel Arc A750 (8 GB, with ReBAR on), NVIDIA GeForce GTX 1070 (8 GB), or better\n•DirectX: Version 12\n•Almacenamiento: 90 GB available space",
     "pr": 500,
     "a": "2024",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00075",
@@ -1654,6 +1678,18 @@
     "pr": 300,
     "a": "2025",
     "e": ""
+  },
+  {
+    "id": "01996",
+    "n": "Avowed",
+    "t": "60 Gb",
+    "p": "PS5",
+    "img": "01996.webp",
+    "g": "Rol",
+    "r": "",
+    "pr": 2000,
+    "a": "2025",
+    "e": "true"
   },
   {
     "id": "00077",
@@ -1711,7 +1747,7 @@
     "img": "01947.webp",
     "g": "Aventura, Rol, Estrategia",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -1920,6 +1956,18 @@
     "e": ""
   },
   {
+    "id": "01991",
+    "n": "Battlefield 6",
+    "t": "129 Gb",
+    "p": "PS5",
+    "img": "01991.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 2000,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "01600",
     "n": "Battlefield 6 REDSEC",
     "t": "55.0 Gb",
@@ -2001,7 +2049,7 @@
     "r": "•Sistema Operativo: Windows 10 | 11\n•Procesador: Intel Core i5-8400 o AMD Ryzen 5 3600\n•Memoria: 16 Gigas de RAM\n•Gráficos: NVIDIA GeForce GTX 1070 (8 Gigas) o AMD Radeon RX 580 (8 Gigas)\n•DirectX: Versión 12\n•Almacenamiento: 45 Gigas de espacio disponible",
     "pr": 200,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01961",
@@ -2011,7 +2059,7 @@
     "img": "01961.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2026",
     "e": ""
   },
@@ -2023,7 +2071,7 @@
     "img": "01615.webp",
     "g": "Ritmo, VR",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2023",
     "e": ""
   },
@@ -2227,7 +2275,7 @@
     "img": "01604.webp",
     "g": "RPG de acción (Soulslike)",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -2311,7 +2359,7 @@
     "img": "01617.webp",
     "g": "RPG de acción, Soulslike, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2024",
     "e": ""
   },
@@ -2323,7 +2371,7 @@
     "img": "01618.webp",
     "g": "Deportes, estrategia por turnos",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2023",
     "e": ""
   },
@@ -2503,7 +2551,7 @@
     "img": "01909.webp",
     "g": "Acción, Aventura, Rol",
     "r": "•Sistema Operativo: Windows 10 / Windows 11\n•Procesador: Intel Core i7-9700 / AMD Ryzen 7 2700X\n•Memoria: 16 GB RAM\n•Gráficos: NVIDIA GeForce RTX 2070 / AMD Radeon RX 5700 XT / Intel Arc A580\n•Almacenamiento: 100 GB available space",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -2635,7 +2683,7 @@
     "img": "01962.webp",
     "g": "Aventura, Casual",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -2671,7 +2719,7 @@
     "img": "01620.webp",
     "g": "Aventura, exploración",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2020",
     "e": ""
   },
@@ -3523,7 +3571,7 @@
     "img": "01607.webp",
     "g": "RPG por turnos, fantasía oscura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -3847,9 +3895,21 @@
     "img": "01605.webp",
     "g": "Acción-aventura, shooter en tercera persona",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
+  },
+  {
+    "id": "01997",
+    "n": "CONTROL Resonant",
+    "t": "60 Gb",
+    "p": "PS5",
+    "img": "01997.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00156",
@@ -4051,7 +4111,7 @@
     "img": "01736.webp",
     "g": "Acción, Aventura",
     "r": "•Tener la Consola Liberada",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2026",
     "e": ""
   },
@@ -4099,7 +4159,7 @@
     "img": "01948.webp",
     "g": "Acción, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -4135,7 +4195,7 @@
     "img": "01699.webp",
     "g": "Survival horror, aventura de acción",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -4375,7 +4435,7 @@
     "img": "01705.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -4579,7 +4639,7 @@
     "img": "01649.webp",
     "g": "Violencia, Acción, Aventura, Rol",
     "r": "",
-    "pr": 500,
+    "pr": 2000,
     "a": "2016",
     "e": ""
   },
@@ -4663,7 +4723,7 @@
     "img": "01955.webp",
     "g": "Disparos, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -4783,7 +4843,7 @@
     "img": "01625.webp",
     "g": "Acción, survival horror, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -4891,7 +4951,7 @@
     "img": "01707.webp",
     "g": "Survival horror, acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -4951,7 +5011,7 @@
     "img": "01935.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2026",
     "e": ""
   },
@@ -5059,7 +5119,7 @@
     "img": "01626.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2020",
     "e": ""
   },
@@ -5107,7 +5167,7 @@
     "img": "01973.webp",
     "g": "Acción, Vehículos, Multijugador",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -5544,6 +5604,18 @@
     "e": ""
   },
   {
+    "id": "02005",
+    "n": "Diying Light the Beast",
+    "t": "60 Gb",
+    "p": "PS5",
+    "img": "02005.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "01329",
     "n": "Dmc Devil May Cry",
     "t": "7.6 Gb",
@@ -5563,7 +5635,7 @@
     "img": "01631.webp",
     "g": "RPG de acción, ciencia ficción",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -5839,7 +5911,7 @@
     "img": "01936.webp",
     "g": "Acción, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2020",
     "e": ""
   },
@@ -5923,7 +5995,7 @@
     "img": "01708.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -5983,7 +6055,7 @@
     "img": "01632.webp",
     "g": "Carreras arcade, kart",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2023",
     "e": ""
   },
@@ -6199,7 +6271,7 @@
     "img": "01949.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -6259,7 +6331,7 @@
     "img": "01606.webp",
     "g": "Deportes, fútbol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -6288,8 +6360,20 @@
     "e": ""
   },
   {
-    "id": "01523",
+    "id": "01989",
     "n": "EA SPORTS FC 27",
+    "t": "70 Gb",
+    "p": "PS5",
+    "img": "01989.webp",
+    "g": "Simulation, Sports",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
+  },
+  {
+    "id": "01523",
+    "n": "EA SPORTS FC 27 [HV]",
     "t": "61.2 Gb",
     "p": "PC",
     "img": "01523.webp",
@@ -6319,7 +6403,7 @@
     "img": "01635.webp",
     "g": "Deportes, fútbol americano",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -6547,7 +6631,7 @@
     "img": "01709.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2024",
     "e": ""
   },
@@ -6727,7 +6811,7 @@
     "img": "01974.webp",
     "g": "Terror, Acción, Cooperativo",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -6751,7 +6835,7 @@
     "img": "01710.webp",
     "g": "Shooter en tercera persona, acción",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -6859,7 +6943,7 @@
     "img": "01975.webp",
     "g": "Carreras, Simulación",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -7099,7 +7183,7 @@
     "img": "01950.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -7867,7 +7951,7 @@
     "img": "01963.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -7915,7 +7999,7 @@
     "img": "01910.webp",
     "g": "Acción, Aventura, Carreras, Simulación, Deportes",
     "r": "•Sistema Operativo: Windows 10 version 18362.0 or higher\n•Procesador: Intel i5-4460 or AMD Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: NVidia GTX 970, AMD RX 470, OR Intel Arc A380\n•DirectX: Version 12\n•Almacenamiento: 110 GB available space",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -8083,7 +8167,7 @@
     "img": "01639.webp",
     "g": "RPG isométrico, narrativa",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -8107,7 +8191,7 @@
     "img": "01640.webp",
     "g": "Acción cooperativa, hack and slash",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -8239,7 +8323,7 @@
     "img": "01610.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -8263,7 +8347,7 @@
     "img": "01977.webp",
     "g": "Acción, Multijugador Asimétrico",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -8275,7 +8359,7 @@
     "img": "01642.webp",
     "g": "Acción en primera persona, parkour ciberpunk",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -8419,7 +8503,7 @@
     "img": "01644.webp",
     "g": "Acción-aventura, mitología nórdica",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -8431,7 +8515,7 @@
     "img": "01978.webp",
     "g": "RPG de Acción, Looter-Slasher",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2020",
     "e": ""
   },
@@ -8443,7 +8527,7 @@
     "img": "01951.webp",
     "g": "Acción",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -8527,7 +8611,7 @@
     "img": "01646.webp",
     "g": "Acción, mundo abierto retro",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "1997",
     "e": ""
   },
@@ -8539,7 +8623,7 @@
     "img": "01645.webp",
     "g": "Acción-aventura, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2013",
     "e": ""
   },
@@ -8959,7 +9043,7 @@
     "img": "01937.webp",
     "g": "Acción, Indie, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2020",
     "e": ""
   },
@@ -8997,7 +9081,7 @@
     "r": "•Sistema Operativo: Windows 11\n•Procesador: AMD Ryzen 5 3600 o Intel Core i7-10700K\n•Memoria: 16 Gigas de RAM\n•Gráficos: AMD Radeon RX 6600, Intel Arc A580 o Nvidia Ge-Force RTX 2060 Super\n•Almacenamiento: 100 Gigas de espacio disponible",
     "pr": 300,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00486",
@@ -9223,7 +9307,7 @@
     "img": "01964.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -9307,7 +9391,7 @@
     "img": "01711.webp",
     "g": "Sigilo, terror ligero",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -9356,6 +9440,18 @@
     "g": "Acción",
     "r": "•Sistema Operativo: Windows 10 64-bit\n•Procesador: Intel Core i5-6500,  Ryzen 3 1200\n•Memoria: 8 GB RAM\n•Gráficos: GTX 1050, RX 560\n•DirectX: Version 12\n•Almacenamiento: 20 GB available space",
     "pr": 200,
+    "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01990",
+    "n": "Hi Fi RUSH Deluxe Edition",
+    "t": "16 Gb",
+    "p": "PS5",
+    "img": "01990.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -9535,7 +9631,7 @@
     "img": "01712.webp",
     "g": "RPG de acción, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -9991,7 +10087,7 @@
     "img": "01938.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -10183,7 +10279,7 @@
     "img": "01940.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -10327,7 +10423,7 @@
     "img": "01941.webp",
     "g": "Simulación, Estrategia",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -10495,7 +10591,7 @@
     "img": "01700.webp",
     "g": "Acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -10591,7 +10687,7 @@
     "img": "01930.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -10951,7 +11047,7 @@
     "img": "01713.webp",
     "g": "Acción-aventura, plataformas",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -10987,7 +11083,7 @@
     "img": "01952.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2016",
     "e": ""
   },
@@ -11095,7 +11191,7 @@
     "img": "01701.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -11179,7 +11275,7 @@
     "img": "01655.webp",
     "g": "RPG de acción, samuráis",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -11263,7 +11359,7 @@
     "img": "01965.webp",
     "g": "Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2017",
     "e": ""
   },
@@ -11371,7 +11467,7 @@
     "img": "01715.webp",
     "g": "RPG de acción, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -11719,7 +11815,7 @@
     "img": "01608.webp",
     "g": "Acción-aventura, narrativa",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -11971,7 +12067,7 @@
     "img": "01980.webp",
     "g": "Acción, Aventura, Cooperativo",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2020",
     "e": ""
   },
@@ -11997,7 +12093,7 @@
     "r": "•Requiere un procesador y un sistema operativo de 64 bits\n•Sistema Operativo: Windows 11\n•Procesador: Intel Core i5-8400 o AMD Ryzen 5 1600X\n•Memoria: 16 Gigas de RAM\n•Gráficos: NVIDIA GeForce RTX 2060 6GB o AMD Radeon RX 6600 XT 8GB\n•Almacenamiento: 27 Gigas de espacio disponible",
     "pr": 200,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00552",
@@ -12048,6 +12144,18 @@
     "e": ""
   },
   {
+    "id": "01992",
+    "n": "Marvels Spider Man 2 Deluxe Edition",
+    "t": "115 Gb",
+    "p": "PS5",
+    "img": "01992.webp",
+    "g": "116",
+    "r": "",
+    "pr": 2000,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "00563",
     "n": "Marvels Spider Man Miles Morales",
     "t": "40.2 Gb",
@@ -12067,7 +12175,7 @@
     "img": "01956.webp",
     "g": "Action Games, Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -12309,7 +12417,7 @@
     "r": "",
     "pr": 100,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00556",
@@ -12537,7 +12645,7 @@
     "r": "•Sistema Operativo: Windows 7x64, Windows 8x64, Windows 10x64 (64-bit OS Required)\n•Procesador: Intel Core i5-4460 (3.40 GHz) or better; Quad-core or better\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA GeForce GTX 650 (2GB) or better (DirectX 11 card Required)\n•DirectX: Version 11\n•Almacenamiento: 28 GB available space\n•Sistema Operativo: und Card:  DirectX 9.0c compatible sound card",
     "pr": 200,
     "a": "2015",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01957",
@@ -12547,7 +12655,7 @@
     "img": "01957.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -12931,9 +13039,9 @@
     "img": "01660.webp",
     "g": "Deportes",
     "r": "•Tener la Consola Liberada",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00887",
@@ -12967,7 +13075,7 @@
     "img": "01683.webp",
     "g": "Carreras, motocross",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -13051,7 +13159,7 @@
     "img": "01966.webp",
     "g": "Acción, Aventura, Rol",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -13099,7 +13207,7 @@
     "img": "01661.webp",
     "g": "Carreras arcade, camiones monstruo",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2024",
     "e": ""
   },
@@ -13171,7 +13279,7 @@
     "img": "01662.webp",
     "g": "Lucha",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -13308,6 +13416,18 @@
     "e": ""
   },
   {
+    "id": "01998",
+    "n": "Mortal Shell 2",
+    "t": "30 Gb",
+    "p": "PS5",
+    "img": "01998.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "01986",
     "n": "Mortal Shell II Devout Edition",
     "t": "65.3 Gb",
@@ -13317,7 +13437,7 @@
     "r": "",
     "pr": 200,
     "a": "2026",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00647",
@@ -13363,7 +13483,7 @@
     "img": "01663.webp",
     "g": "Carreras, simulación deportiva",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -13795,7 +13915,7 @@
     "img": "01967.webp",
     "g": "Simuladores, Deportes",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -13819,7 +13939,7 @@
     "img": "01664.webp",
     "g": "Shooter en primera persona",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -14011,7 +14131,7 @@
     "img": "01665.webp",
     "g": "Carreras, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -14095,7 +14215,7 @@
     "img": "01666.webp",
     "g": "Shooter arcade",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2021",
     "e": ""
   },
@@ -14227,7 +14347,7 @@
     "img": "01667.webp",
     "g": "Lucha, plataformas",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2023",
     "e": ""
   },
@@ -14251,7 +14371,7 @@
     "img": "01717.webp",
     "g": "Carreras arcade, kart",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -14467,7 +14587,7 @@
     "img": "01968.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2016",
     "e": ""
   },
@@ -14695,7 +14815,7 @@
     "img": "01718.webp",
     "g": "JRPG, aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -14721,6 +14841,18 @@
     "r": "•Sistema Operativo: Windows 10, 64bits\n•Procesador: Intel Core i5 3450 / AMD Ryzen 3 1300X\n•Memoria: 8 GB RAM\n•Gráficos: NVIDIA GeForce GTX 660 (2GB)  / AMD Radeon HD 7870 (2GB)\n•DirectX: Version 11\n•Almacenamiento: 25 GB available space",
     "pr": 200,
     "a": "2023",
+    "e": ""
+  },
+  {
+    "id": "01999",
+    "n": "Onimucha",
+    "t": "44 Gb",
+    "p": "PS5",
+    "img": "01999.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
     "e": ""
   },
   {
@@ -15571,7 +15703,7 @@
     "img": "01671.webp",
     "g": "Survival horror, psicológico",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -15691,7 +15823,7 @@
     "img": "01672.webp",
     "g": "Estrategia, simulación económica",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2020",
     "e": ""
   },
@@ -15799,7 +15931,7 @@
     "img": "01759.webp",
     "g": "Acción, Aventura",
     "r": "•Tener la Consola Liberada",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2026",
     "e": ""
   },
@@ -15813,6 +15945,18 @@
     "r": "•Sistema Operativo: Windows 10\n•Procesador: 4x 2.8 GHz Core\n•Memoria: 16 GB RAM\n•Gráficos: GeForce GTX 960 4GB\n•DirectX: Version 11\n•Almacenamiento: 8 GB available space",
     "pr": 100,
     "a": "2021",
+    "e": ""
+  },
+  {
+    "id": "01993",
+    "n": "Predator Hunting Grounds",
+    "t": "49 Gb",
+    "p": "PS5",
+    "img": "01993.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
     "e": ""
   },
   {
@@ -15835,7 +15979,7 @@
     "img": "01674.webp",
     "g": "Metroidvania, acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -16207,7 +16351,7 @@
     "img": "01929.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -16296,6 +16440,18 @@
     "e": ""
   },
   {
+    "id": "02000",
+    "n": "Ready or Not",
+    "t": "30 Gb",
+    "p": "PS5",
+    "img": "02000.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "00931",
     "n": "Ready or Not Dark Waters",
     "t": "53.8 Gb",
@@ -16363,7 +16519,7 @@
     "img": "01907.webp",
     "g": "Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2026",
     "e": ""
   },
@@ -16399,7 +16555,7 @@
     "img": "01904.webp",
     "g": "Acción",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2024",
     "e": ""
   },
@@ -16615,7 +16771,7 @@
     "img": "01720.webp",
     "g": "Survival horror",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2020",
     "e": ""
   },
@@ -16663,7 +16819,7 @@
     "img": "01702.webp",
     "g": "Survival horror, acción-aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -16747,7 +16903,7 @@
     "img": "01721.webp",
     "g": "Survival horror",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2017",
     "e": ""
   },
@@ -16795,7 +16951,7 @@
     "img": "01734.webp",
     "g": "Acción, Aventura, terror",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2026",
     "e": ""
   },
@@ -16834,6 +16990,18 @@
     "pr": 200,
     "a": "2021",
     "e": ""
+  },
+  {
+    "id": "02001",
+    "n": "Resonance A Plague Tale Legacy",
+    "t": "60 Gb",
+    "p": "PS5",
+    "img": "02001.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "00924",
@@ -16891,7 +17059,7 @@
     "img": "01722.webp",
     "g": "Roguelike, shooter en tercera persona",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -17407,7 +17575,7 @@
     "img": "01905.webp",
     "g": "Acción",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2026",
     "e": ""
   },
@@ -17568,6 +17736,18 @@
     "e": ""
   },
   {
+    "id": "02002",
+    "n": "Senuas Saga Hellblade 2",
+    "t": "13 Gb",
+    "p": "PS5",
+    "img": "02002.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "00474",
     "n": "Senuas Saga Hellblade II",
     "t": "44.8 Gb",
@@ -17671,7 +17851,7 @@
     "img": "01724.webp",
     "g": "Shooter en primera persona, acción",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -17815,7 +17995,7 @@
     "img": "01969.webp",
     "g": "Acción, Indie",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2023",
     "e": ""
   },
@@ -17851,7 +18031,7 @@
     "img": "01725.webp",
     "g": "Survival horror, terror psicológico",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -17899,7 +18079,7 @@
     "img": "01970.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -17923,9 +18103,21 @@
     "img": "01676.webp",
     "g": "Terror psicológico",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
+  },
+  {
+    "id": "02003",
+    "n": "Silent Hill Townfall",
+    "t": "30 Gb",
+    "p": "PS5",
+    "img": "02003.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
   },
   {
     "id": "01062",
@@ -17959,7 +18151,7 @@
     "img": "01677.webp",
     "g": "Shooter cooperativo, survival horror",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2023",
     "e": ""
   },
@@ -18247,7 +18439,7 @@
     "img": "01641.webp",
     "g": "Shooter táctico, sigilo",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -18487,7 +18679,7 @@
     "img": "01981.webp",
     "g": "Carreras Arcade",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -18667,7 +18859,7 @@
     "img": "01679.webp",
     "g": "Estrategia, simulación espacial",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2021",
     "e": ""
   },
@@ -18787,7 +18979,7 @@
     "img": "01916.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -18871,7 +19063,7 @@
     "img": "01680.webp",
     "g": "Aventura, acción",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -18943,7 +19135,7 @@
     "img": "01727.webp",
     "g": "Acción-aventura, Soulslike",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2019",
     "e": ""
   },
@@ -18979,7 +19171,7 @@
     "img": "01943.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -18991,7 +19183,7 @@
     "img": "01971.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -19219,7 +19411,7 @@
     "img": "01728.webp",
     "g": "RPG de acción",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -19315,7 +19507,7 @@
     "img": "01976.webp",
     "g": "RPG de Acción",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -19339,7 +19531,7 @@
     "img": "01729.webp",
     "g": "Aventura, exploración",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -19411,7 +19603,7 @@
     "img": "01681.webp",
     "g": "Carreras arcade",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2021",
     "e": ""
   },
@@ -19927,7 +20119,7 @@
     "img": "01944.webp",
     "g": "Acción",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -19975,7 +20167,7 @@
     "img": "01730.webp",
     "g": "Lucha",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -20131,7 +20323,7 @@
     "img": "01687.webp",
     "g": "RPG de acción, shooter isométrico",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2021",
     "e": ""
   },
@@ -20193,6 +20385,18 @@
     "r": "",
     "pr": 200,
     "a": "2026",
+    "e": ""
+  },
+  {
+    "id": "02006",
+    "n": "The Blood of Dawnwalker",
+    "t": "60 Gb",
+    "p": "PS5",
+    "img": "02006.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
     "e": "true"
   },
   {
@@ -20215,7 +20419,7 @@
     "img": "01688.webp",
     "g": "JRPG",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2021",
     "e": ""
   },
@@ -20335,7 +20539,7 @@
     "img": "01972.webp",
     "g": "Rol, Mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2024",
     "e": ""
   },
@@ -20659,7 +20863,7 @@
     "img": "01732.webp",
     "g": "Acción-aventura, survival",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -20671,7 +20875,7 @@
     "img": "01692.webp",
     "g": "Acción-aventura, survival",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2020",
     "e": ""
   },
@@ -20911,7 +21115,7 @@
     "img": "01693.webp",
     "g": "Survival horror, roguelike",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2021",
     "e": ""
   },
@@ -21103,7 +21307,7 @@
     "img": "01953.webp",
     "g": "Rol, Mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2015",
     "e": ""
   },
@@ -21451,7 +21655,7 @@
     "img": "01695.webp",
     "g": "Beat ‘em up retro",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -22279,9 +22483,9 @@
     "img": "01629.webp",
     "g": "Deportes",
     "r": "•Tener la Consola Liberada",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "01754",
@@ -22387,7 +22591,7 @@
     "img": "01609.webp",
     "g": "Acción-aventura, plataformas 3D",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2022",
     "e": ""
   },
@@ -22423,7 +22627,7 @@
     "img": "01697.webp",
     "g": "Acción superhéroes, indie",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2024",
     "e": ""
   },
@@ -22483,7 +22687,7 @@
     "img": "01651.webp",
     "g": "Deportes, boxeo",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
@@ -23035,7 +23239,7 @@
     "img": "01945.webp",
     "g": "Acción, Aventura",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2023",
     "e": ""
   },
@@ -23071,7 +23275,7 @@
     "img": "01733.webp",
     "g": "Simulación de caza, mundo abierto",
     "r": "",
-    "pr": 1500,
+    "pr": 1000,
     "a": "2022",
     "e": ""
   },
@@ -23316,6 +23520,18 @@
     "e": ""
   },
   {
+    "id": "02004",
+    "n": "Wolverine",
+    "t": "104 Gb",
+    "p": "PS5",
+    "img": "02004.webp",
+    "g": "",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "01304",
     "n": "Woolfe The Red Hood Diaries",
     "t": "2.4 Gb",
@@ -23515,7 +23731,7 @@
     "img": "01958.webp",
     "g": "Deportes, Lucha libre",
     "r": "",
-    "pr": 1500,
+    "pr": 2000,
     "a": "2025",
     "e": ""
   },
