@@ -1272,6 +1272,18 @@
     "e": ""
   },
   {
+    "id": "02007",
+    "n": "Assassins Creed Black Flag Resynced",
+    "t": "68 Gb",
+    "p": "PS5",
+    "img": "02007.webp",
+    "g": "Acción, Aventura, Rol",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": "true"
+  },
+  {
     "id": "01931",
     "n": "Assassins Creed Black Flag Resynced Deluxe Edition",
     "t": "68 Gb",
@@ -1689,7 +1701,7 @@
     "r": "",
     "pr": 2000,
     "a": "2025",
-    "e": "true"
+    "e": ""
   },
   {
     "id": "00077",
@@ -3000,6 +3012,18 @@
     "e": ""
   },
   {
+    "id": "02008",
+    "n": "Call of Duty Black Ops II",
+    "t": "30 Gb",
+    "p": "PS5",
+    "img": "02008.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
+    "e": ""
+  },
+  {
     "id": "01911",
     "n": "Call of Duty Black Ops III",
     "t": "99.5 Gb",
@@ -3237,6 +3261,18 @@
     "r": "•Sistema Operativo: Windows10 (64-BIT Required) / Windows11 (64-BIT Required)\n•Procesador: IntelⓇ Core™ i5-4460, AMD FX-8300\n•Memoria: 4 GB RAM\n•Gráficos: NVIDIA®: GeForce® GTX 760 with 2GB Video RAM, AMD: Radeon™ R9 290x with 4GB Video RAM\n•DirectX: Version 11\n•Almacenamiento: 4 GB available space\n•Sistema Operativo: und Card:  DirectSound (DirectX® 9.0c or later)",
     "pr": 100,
     "a": "2025",
+    "e": ""
+  },
+  {
+    "id": "02009",
+    "n": "Captain Tsubasa 2 World Fighters",
+    "t": "17 Gb",
+    "p": "PS5",
+    "img": "02009.webp",
+    "g": "Acción, Casual, Rol, Deportes",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
     "e": ""
   },
   {
@@ -18792,6 +18828,18 @@
     "e": ""
   },
   {
+    "id": "02010",
+    "n": "South of Midnight",
+    "t": "44 Gb",
+    "p": "PS5",
+    "img": "02010.webp",
+    "g": "Acción, Aventura",
+    "r": "",
+    "pr": 2000,
+    "a": "2025",
+    "e": ""
+  },
+  {
     "id": "01884",
     "n": "South Park La Vara De La Verdad",
     "t": "5.5 Gb",
@@ -19221,6 +19269,18 @@
     "r": "•Sistema Operativo: Windows XP SP3, Windows Vista® SP2, or Windows 7\n•Procesador: Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 5200+\n•Memoria: 2 GB RAM (XP, Vista, or 7)\n•Gráficos: 256 MB Video Memory with Shader 3.0 support; ATI Radeon HD 2600 / NVIDIA GeForce 8600 GT\n•Sistema Operativo: und:  100% DirectX 9.0c compatible Audio Device\n•Procesador: Intel Core 2 Duo 2.8 GHz or AMD Athlon X2 6000+",
     "pr": 200,
     "a": "2010",
+    "e": ""
+  },
+  {
+    "id": "02011",
+    "n": "Star Wars Zero Company",
+    "t": "40 Gb",
+    "p": "PS5",
+    "img": "02011.webp",
+    "g": "Acción",
+    "r": "",
+    "pr": 2000,
+    "a": "2026",
     "e": ""
   },
   {
